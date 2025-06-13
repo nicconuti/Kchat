@@ -71,14 +71,27 @@ logger = get_logger("retrieval_log")
 def run(context: AgentContext, query: Optional[str] = None) -> AgentContext:
     if context.role == "guest":
         context.error_flag = True
-        logger.info("permission denied")
+        logger.info(
+            "permission denied",
+            extra={
+                "confidence_score": context.confidence,
+                "source_reliability": context.source_reliability,
+                "clarification_attempted": context.clarification_attempted,
+                "error_flag": context.error_flag,
+            },
+        )
         return context
 
     docs = _retrieve(query or context.input, context.role)
     context.documents = docs
     context.source_reliability = 0.9 if docs else 0.5
-    logger.info(f"retrieved {len(context.documents)} docs")
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        f"retrieved {len(context.documents)} docs",
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context

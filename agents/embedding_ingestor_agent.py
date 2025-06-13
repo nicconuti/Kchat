@@ -19,8 +19,13 @@ def run(context: AgentContext, path: str | Path) -> AgentContext:
     embeddings = [hash(c) % 1000 for c in chunks]
     context.documents = [f"{path.name}-{i}" for i, _ in enumerate(embeddings)]
     context.source_reliability = 1.0
-    logger.info(f"ingested {len(chunks)} chunks from {path.name}")
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        f"ingested {len(chunks)} chunks from {path.name}",
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context

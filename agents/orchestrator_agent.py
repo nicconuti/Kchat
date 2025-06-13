@@ -39,12 +39,13 @@ def _fallback_sequence(context: AgentContext):
 
 def choose_agent_sequence(context: AgentContext):
     prompt = (
-        "You are an orchestrator deciding which agents to run."\
-        " Available agents: language, intent, retrieve, respond."\
-        " Based on the user message, output a JSON object with keys"\
-        " 'reasoning' (string) and 'sequence' (list of agent names)."\
+        "You are an orchestrator deciding which agents to run."
+        " Available agents: language, intent, retrieve, respond."
+        " Based on the user message, output a JSON object with keys"
+        " 'reasoning' (string) and 'sequence' (list of agent names)."
         f" User message: {context.input!r}\nJSON:"
     )
+
     try:
         raw = call_mistral(prompt)
         data = json.loads(raw)
@@ -55,8 +56,19 @@ def choose_agent_sequence(context: AgentContext):
             raise ValueError("empty sequence")
     except Exception:
         context.reasoning_trace, seq = _fallback_sequence(context)
-    logger.info(context.reasoning_trace)
+
+    logger.info(
+        context.reasoning_trace,
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
+    )
+
     return seq
+
 
 
 def run(context: AgentContext) -> AgentContext:
@@ -71,8 +83,13 @@ def run(context: AgentContext) -> AgentContext:
         clarify(context)
 
     translate(context, context.language)
-    logger.info("orchestration complete")
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        "orchestration complete",
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context

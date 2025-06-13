@@ -121,8 +121,13 @@ def run(context: AgentContext) -> AgentContext:
     context.intent = intent
     context.confidence = confidence
     context.source_reliability = confidence
-    logger.info(intent if intent else "unclear")
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        intent if intent else "unclear",
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context
