@@ -1,30 +1,63 @@
-"""Intent routing utilities."""
+"""Intent routing utilities with confidence fallback and expanded intent taxonomy."""
 
 from models.mistral import call_mistral
 
-
 ALLOWED_INTENTS = {
-    "estimate_costs_and_fees",
-    "retrieve_document",
+    "technical_support_request",
+    "product_information_request",
+    "quote_request",
+    "order_status",
+    "booking_or_schedule",
+    "document_request",
     "open_ticket",
-    "schedule_service",
-    "generic",
+    "complaint",
+    "generic_smalltalk"
 }
 
+def detect_intent(user_input: str) -> str | None:
+    """
+    Detect the user's intent using Mistral via Ollama.
 
-def detect_intent(user_input: str) -> str:
-    """Detect the user's intent using Mistral via Ollama."""
+    Returns:
+        - A valid intent string from ALLOWED_INTENTS if confident.
+        - None if the model is unsure or the output is invalid, to trigger a clarification step.
+    """
 
     prompt = (
         "Classify the intent of the following user sentence:\n"
         f"Sentence: \"{user_input}\"\n"
-        "Choose and return ONLY ONE of the following values with no extra text:"
-        " estimate_costs_and_fees, retrieve_document, open_ticket, schedule_service, generic."
+        "Choose and return ONLY ONE of the following categories (no explanation, no punctuation):\n"
+        "- technical_support_request → User reports a malfunction and requests help or resolution.\n"
+        "- product_information_request → Questions about product features, compatibility, usage.\n"
+        "- quote_request → Request for pricing or quotation.\n"
+        "- order_status → Asking about the shipping or order status.\n"
+        "- booking_or_schedule → Request to schedule appointment, demo, installation.\n"
+        "- document_request → Need for manuals, certificates, specs.\n"
+        "- open_ticket → User explicitly requests to open a ticket.\n"
+        "- complaint → User expresses dissatisfaction, frustration, or criticism without necessarily asking for help.\n"
+        "- generic_smalltalk → Greeting or general talk.\n"
+        "\n"
+        "Use 'technical_support_request' if the message contains a clear request for assistance.\n"
+        "Use 'complaint' if the message is primarily a complaint or criticism, even if it mentions a problem.\n"
+        "If unclear, return: unclear"
     )
 
-    raw = call_mistral(prompt).strip().lower()
-    # Ensure only a valid intent is returned
-    for intent in ALLOWED_INTENTS:
-        if intent == raw:
-            return intent
-    return "generic"
+    try:
+        response = call_mistral(prompt).strip().lower()
+        normalized = response.replace(".", "").replace(",", "").strip()
+
+        if normalized in ALLOWED_INTENTS:
+            return normalized
+        elif normalized == "unclear":
+            return None
+        else:
+            if (
+                " " in normalized
+                or "," in normalized
+                or normalized not in ALLOWED_INTENTS
+            ):
+                return None
+            return "generic_smalltalk"
+
+    except Exception as e:
+        return None
