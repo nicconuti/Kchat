@@ -1,22 +1,22 @@
-from pipeline import run_pipeline_stream
+from agents.context import AgentContext
+from agents.orchestrator_agent import run as orchestrate
 
-RED = "\033[91m"
-GREEN = "\033[92m"
-RESET = "\033[0m"
+# ANSI terminal color codes
+RED = "\x1b[31m"
+GREEN = "\x1b[32m"
+RESET = "\x1b[0m"
+
+def main():
+    print("💬 Kchat\n")
+
+    while True:
+        user_input = input(f"{RED}User:{RESET} ")
+        if user_input.strip().lower() in ["exit", "quit"]:
+            break
+
+        context = AgentContext(session_id='qwerty',user_id="power_user", input=user_input)
+        context = orchestrate(context)
+        print(f"{GREEN}Bot:{RESET} {context.response}\n")
 
 if __name__ == "__main__":
-    while True:
-        user_input = input(f"{RED}[User]{RESET}: ")
-        if user_input.lower() in ["quit", "exit"]:
-            break
-        stream = run_pipeline_stream(user_input)
-        try:
-            first = next(stream)
-        except StopIteration:
-            first = ""
-        print(f"{GREEN}[Bot] ", end="", flush=True)
-        if first:
-            print(first, end="", flush=True)
-        for token in stream:
-            print(token, end="", flush=True)
-        print(RESET)
+    main()
