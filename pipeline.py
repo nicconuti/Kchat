@@ -1,6 +1,6 @@
 """Main orchestration pipeline using modular agents."""
 
-from agents import (
+from pipeline_agents import (
     ClarificationAgent,
     IntentDetectionAgent,
     LanguageDetectionAgent,
