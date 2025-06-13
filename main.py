@@ -6,11 +6,17 @@ RESET = "\033[0m"
 
 if __name__ == "__main__":
     while True:
-        user_input = input(f"{RED}User{RESET}: ")
+        user_input = input(f"{RED}[User]{RESET}: ")
         if user_input.lower() in ["quit", "exit"]:
             break
-
+        stream = run_pipeline_stream(user_input)
+        try:
+            first = next(stream)
+        except StopIteration:
+            first = ""
         print(f"{GREEN}[Bot] ", end="", flush=True)
-        for token in run_pipeline_stream(user_input):
+        if first:
+            print(first, end="", flush=True)
+        for token in stream:
             print(token, end="", flush=True)
         print(RESET)
