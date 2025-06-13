@@ -20,6 +20,8 @@ def test_language_agent_speech(monkeypatch):
 
 def test_language_agent_mixed(monkeypatch):
     monkeypatch.setattr("agents.language_agent.detect_language", lambda text: "en")
-    ctx = AgentContext(user_id="u", session_id="s", input="hello ciao")
-    run(ctx)
-    assert ctx.mixed_language is True
+    samples = ["hello ciao", "hola bonjour", "hello hola"]
+    for text in samples:
+        ctx = AgentContext(user_id="u", session_id="s", input=text)
+        run(ctx)
+        assert ctx.mixed_language is True

@@ -3,6 +3,7 @@
 from agents.context import AgentContext
 from language_detector import detect_language
 from utils.logger import get_logger
+import re
 
 FORMAL_WORDS = ["gentile", "salve", "buongiorno", "distinti"]
 INFORMAL_WORDS = ["ciao", "hey", "hola"]
@@ -25,10 +26,19 @@ def _detect_formality(text: str) -> str:
     return "neutral"
 
 
+LANGUAGE_KEYWORDS = {
+    "en": {"hello", "thanks", "please"},
+    "it": {"ciao", "grazie", "buongiorno"},
+    "es": {"hola", "gracias", "buenos"},
+    "fr": {"bonjour", "merci"},
+    "de": {"hallo", "danke"},
+}
+
+
 def _mixed_language(text: str) -> bool:
-    return any(word in text.lower() for word in ["hello", "ciao", "hola"]) and (
-        "ciao" in text.lower() and "hello" in text.lower()
-    )
+    tokens = set(re.findall(r"\b\w+\b", text.lower()))
+    detected = {lang for lang, words in LANGUAGE_KEYWORDS.items() if tokens & words}
+    return len(detected) > 1
 
 
 def run(context: AgentContext) -> AgentContext:
