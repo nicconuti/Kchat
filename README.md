@@ -13,4 +13,3 @@ K-Customer care
 | `open_ticket`                 | L’utente chiede esplicitamente di aprire un ticket di supporto                                         | *"Aprite un ticket per favore, non riesco a risolvere"*           |
 | `complaint`                   | L’utente esprime un reclamo formale o insoddisfazione                                                  | *"Il prodotto è arrivato danneggiato, sono molto deluso"*         |
 | `generic_smalltalk`           | L’input non è classificabile (saluti, frasi casuali, test, ecc.)                                       | *"Ciao, è previsto qualche evento in k-hall?"*                    |
-| ----------------------------- | 
