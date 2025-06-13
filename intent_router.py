@@ -1,20 +1,10 @@
 """Intent routing utilities with confidence fallback and expanded intent taxonomy."""
 
 from models.mistral import call_mistral
+from config.intents_config import ALLOWED_INTENTS
+from typing import Optional
 
-ALLOWED_INTENTS = {
-    "technical_support_request",
-    "product_information_request",
-    "quote_request",
-    "order_status",
-    "booking_or_schedule",
-    "document_request",
-    "open_ticket",
-    "complaint",
-    "generic_smalltalk"
-}
-
-def detect_intent(user_input: str) -> str | None:
+def detect_intent(user_input: str) -> Optional[str]:
     """
     Detect the user's intent using Mistral via Ollama.
 
