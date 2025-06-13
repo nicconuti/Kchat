@@ -8,19 +8,55 @@ from agents.response_agent import run as generate_response
 from agents.clarification_agent import run as clarify
 from agents.translation_agent import run as translate
 from agents.verification_agent import run as verify
+from models.mistral import call_mistral
 from utils.logger import get_logger
+import json
 
 
 logger = get_logger("orchestration_trace")
 
 
-def choose_agent_sequence(context: AgentContext):
+_STEP_MAP = {
+    "language": detect_language,
+    "intent": detect_intent,
+    "retrieve": retrieve,
+    "respond": generate_response,
+    "clarify": clarify,
+}
+
+
+def _fallback_sequence(context: AgentContext):
     if "quote" in context.input.lower():
-        context.reasoning_trace = "quote request detected"
-        seq = [detect_language, detect_intent, retrieve, generate_response]
+        seq = ["language", "intent", "retrieve", "respond"]
+        reasoning = "fallback: quote request"
     else:
-        context.reasoning_trace = "default flow"
-        seq = [detect_language, detect_intent, generate_response]
+        seq = ["language", "intent", "respond"]
+        reasoning = "fallback: default"
+    return reasoning, [
+        _STEP_MAP[name] for name in seq if name in _STEP_MAP
+    ]
+
+
+def choose_agent_sequence(context: AgentContext):
+    prompt = (
+        "You are an orchestrator deciding which agents to run."
+        " Available agents: language, intent, retrieve, respond."
+        " Based on the user message, output a JSON object with keys"
+        " 'reasoning' (string) and 'sequence' (list of agent names)."
+        f" User message: {context.input!r}\nJSON:"
+    )
+
+    try:
+        raw = call_mistral(prompt)
+        data = json.loads(raw)
+        context.reasoning_trace = data.get("reasoning", "")
+        seq_names = data.get("sequence", [])
+        seq = [_STEP_MAP.get(n) for n in seq_names if n in _STEP_MAP]
+        if not seq:
+            raise ValueError("empty sequence")
+    except Exception:
+        context.reasoning_trace, seq = _fallback_sequence(context)
+
     logger.info(
         context.reasoning_trace,
         extra={
@@ -30,7 +66,9 @@ def choose_agent_sequence(context: AgentContext):
             "error_flag": context.error_flag,
         },
     )
+
     return seq
+
 
 
 def run(context: AgentContext) -> AgentContext:
