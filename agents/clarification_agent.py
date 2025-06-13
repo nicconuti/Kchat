@@ -5,13 +5,14 @@ from pathlib import Path
 from agents.context import AgentContext
 from clarification_prompt import generate_fallback_question
 from utils.logger import get_logger
+from typing import Optional
 
 
 logger = get_logger("clarification_log")
 HISTORY_FILE = Path("logs") / "clarification_log.log"
 
 
-def _most_common_question() -> str | None:
+def _most_common_question() -> Optional[str]:
     if not HISTORY_FILE.exists():
         return None
     counts: dict[str, int] = {}

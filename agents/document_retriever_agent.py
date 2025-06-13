@@ -2,6 +2,7 @@
 
 from agents.context import AgentContext
 from utils.logger import get_logger
+from typing import Optional
 
 DOCS = {
     "manual": ["manual section 1", "manual section 2"],
@@ -19,7 +20,7 @@ def _retrieve(query: str) -> list[str]:
 logger = get_logger("retrieval_log")
 
 
-def run(context: AgentContext, query: str | None = None) -> AgentContext:
+def run(context: AgentContext, query: Optional[str] = None) -> AgentContext:
     if context.user_id == "guest":
         context.error_flag = True
         logger.info("permission denied")
