@@ -14,3 +14,16 @@ K-Customer care
 | `complaint`                   | L’utente esprime un reclamo formale o insoddisfazione                                                  | *"Il prodotto è arrivato danneggiato, sono molto deluso"*         |
 | `generic_smalltalk`           | L’input non è classificabile (saluti, frasi casuali, test, ecc.)                                       | *"Ciao, è previsto qualche evento in k-hall?"*                    |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+
+## Pipeline a Agenti
+
+La logica della chat segue una serie di "agenti" specializzati:
+
+1. **LanguageDetectionAgent** – rileva la lingua del messaggio.
+2. **IntentDetectionAgent** – classifica l'intento dell'utente.
+3. **ClarificationAgent** – formula una domanda di chiarimento quando l'intento non è chiaro.
+4. **ResponseGenerationAgent** – genera una risposta con il modello OpenChat.
+5. **TranslationAgent** – traduce la risposta se necessario.
+6. **VerificationAgent** – verifica che la risposta sia pertinente.
+
+Questi agenti vengono orchestrati nel file `pipeline.py` e permettono di gestire la conversazione in modo modulare.
