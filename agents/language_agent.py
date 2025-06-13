@@ -52,8 +52,13 @@ def run(context: AgentContext) -> AgentContext:
     context.formality = _detect_formality(text)
     context.mixed_language = _mixed_language(text)
     context.source_reliability = 0.7
-    logger.info(f"{lang} {context.formality} mixed={context.mixed_language}")
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        f"{lang} {context.formality} mixed={context.mixed_language}",
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context

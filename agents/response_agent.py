@@ -28,8 +28,13 @@ def run(context: AgentContext) -> AgentContext:
         )
         context.source_reliability = 0.5
         mode = "simple"
-    logger.info(f"{mode}:{context.response}")
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        f"{mode}:{context.response}",
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context

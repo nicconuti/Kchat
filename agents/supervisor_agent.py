@@ -23,8 +23,13 @@ def run(context: AgentContext) -> AgentContext:
         if errors:
             suggestions.append(f"Review {path.name}: {errors} issues")
     context.response = "; ".join(suggestions) if suggestions else "No issues"
-    logger.info(context.response)
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        context.response,
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context
