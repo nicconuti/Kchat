@@ -49,5 +49,5 @@ def detect_intent(user_input: str) -> Optional[str]:
                 return None
             return "generic_smalltalk"
 
-    except Exception as e:
+    except Exception:
         return None
