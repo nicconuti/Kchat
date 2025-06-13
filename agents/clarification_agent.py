@@ -30,8 +30,13 @@ def run(context: AgentContext) -> AgentContext:
         question = f"Gentile utente, {question}"
     context.response = question
     context.clarification_attempted = True
-    logger.info(question)
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        question,
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context

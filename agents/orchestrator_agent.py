@@ -21,7 +21,15 @@ def choose_agent_sequence(context: AgentContext):
     else:
         context.reasoning_trace = "default flow"
         seq = [detect_language, detect_intent, generate_response]
-    logger.info(context.reasoning_trace)
+    logger.info(
+        context.reasoning_trace,
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
+    )
     return seq
 
 
@@ -37,8 +45,13 @@ def run(context: AgentContext) -> AgentContext:
         clarify(context)
 
     translate(context, context.language)
-    logger.info("orchestration complete")
     logger.info(
-        f"reliability={context.source_reliability} error={context.error_flag}"
+        "orchestration complete",
+        extra={
+            "confidence_score": context.confidence,
+            "source_reliability": context.source_reliability,
+            "clarification_attempted": context.clarification_attempted,
+            "error_flag": context.error_flag,
+        },
     )
     return context
