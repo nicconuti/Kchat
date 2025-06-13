@@ -17,10 +17,10 @@ logger = get_logger("orchestration_trace")
 def choose_agent_sequence(context: AgentContext):
     if "quote" in context.input.lower():
         context.reasoning_trace = "quote request detected"
-        seq = [detect_language, detect_intent, retrieve, generate_response, verify]
+        seq = [detect_language, detect_intent, retrieve, generate_response]
     else:
         context.reasoning_trace = "default flow"
-        seq = [detect_language, detect_intent, generate_response, verify]
+        seq = [detect_language, detect_intent, generate_response]
     logger.info(context.reasoning_trace)
     return seq
 

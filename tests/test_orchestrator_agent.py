@@ -21,7 +21,13 @@ def test_orchestrator_agent(monkeypatch):
     monkeypatch.setattr(
         "agents.orchestrator_agent.translate", lambda ctx, lang, style="neutral": ctx
     )
-    monkeypatch.setattr("agents.orchestrator_agent.verify", lambda ctx: True)
+    calls = {"n": 0}
+
+    def fake_verify(ctx):
+        calls["n"] += 1
+        return True
+
+    monkeypatch.setattr("agents.orchestrator_agent.verify", fake_verify)
     monkeypatch.setattr(
         "agents.orchestrator_agent.choose_agent_sequence",
         lambda ctx: (
@@ -29,7 +35,6 @@ def test_orchestrator_agent(monkeypatch):
             or [
                 orchestrator.detect_language,
                 orchestrator.detect_intent,
-                orchestrator.retrieve,
                 orchestrator.generate_response,
             ]
         ),
@@ -38,4 +43,5 @@ def test_orchestrator_agent(monkeypatch):
     run(ctx)
     assert ctx.response == "ok"
     assert ctx.reasoning_trace
+    assert calls["n"] == 1
 
