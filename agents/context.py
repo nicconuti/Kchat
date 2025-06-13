@@ -9,6 +9,7 @@ class AgentContext:
     user_id: str
     session_id: str
     input: str
+    role: str = "user"
     language: str = "en"
     intent: Optional[str] = None
     confidence: Optional[float] = None

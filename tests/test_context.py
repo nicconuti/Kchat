@@ -4,6 +4,7 @@ from agents.context import AgentContext
 def test_defaults():
     ctx = AgentContext(user_id="u", session_id="s", input="hi")
     assert ctx.language == "en"
+    assert ctx.role == "user"
     assert ctx.intent is None
     assert ctx.documents == []
     assert ctx.source_reliability == 0.0
