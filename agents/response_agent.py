@@ -21,8 +21,9 @@ def run(context: AgentContext) -> AgentContext:
         context.source_reliability = 0.8
         mode = "action"
     else:
-        history = getattr(context, "history", "")
-        prompt_input = context.input + " " + history
+        history_lines = [f"{role}:{msg}" for role, msg in context.conversation_history[-4:]]
+        history = " ".join(history_lines)
+        prompt_input = context.input + (" " + history if history else "")
         context.response = generate_response(
             prompt_input, context.intent or "", context.language
         )
