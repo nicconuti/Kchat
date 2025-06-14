@@ -6,6 +6,7 @@ from datetime import datetime
 from .scanner import scan
 from .extractor import extract_text
 from .classifier import classify
+from .entity_extractor import extract_entities
 from .validator import confirm
 
 from utils.logger import get_json_logger
@@ -29,12 +30,14 @@ class Categorizer:
             mode=self.mode,
             confidence=conf,
         )
+        entities = extract_entities(text)
         metadata = {
             "filename": path.name,
             "extension": path.suffix.lower(),
             "file_size_kb": path.stat().st_size // 1024,
             "word_count": len(text.split()),
             "processed_at": datetime.utcnow().isoformat(),
+            "entities": entities,
         }
         logger.info(
             "processed",

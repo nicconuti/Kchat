@@ -2,6 +2,8 @@
 
 from pathlib import Path
 
+from typing import Any, Mapping
+
 from agents.context import AgentContext
 from utils.logger import get_logger
 
@@ -9,7 +11,7 @@ from utils.logger import get_logger
 logger = get_logger("ingest_log")
 
 
-def run(context: AgentContext, path: str | Path) -> AgentContext:
+def run(context: AgentContext, path: str | Path, metadata: Mapping[str, Any] | None = None) -> AgentContext:
     path = Path(path)
     if path.exists():
         text = path.read_text()
@@ -19,6 +21,8 @@ def run(context: AgentContext, path: str | Path) -> AgentContext:
     embeddings = [hash(c) % 1000 for c in chunks]
     context.documents = [f"{path.name}-{i}" for i, _ in enumerate(embeddings)]
     context.source_reliability = 1.0
+    if metadata:
+        context.reasoning_trace = str(metadata.get("entities", []))
     logger.info(
         f"ingested {len(chunks)} chunks from {path.name}",
         extra={
