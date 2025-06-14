@@ -4,3 +4,4 @@ python-docx
 beautifulsoup4
 qdrant-client
 openai
+openpyxl

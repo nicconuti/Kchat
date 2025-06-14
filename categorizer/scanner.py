@@ -4,7 +4,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import zipfile
 
-EXTS = {".pdf", ".docx", ".txt", ".html", ".htm"}
+EXTS = {".pdf", ".docx", ".xlsx", ".txt", ".html", ".htm"}
 
 
 def scan(path: Path) -> tuple[list[Path], TemporaryDirectory | None]:

@@ -3,9 +3,11 @@ from categorizer import (
     extract_subcategories,
     classify,
     score,
+    extract_text,
     Categorizer,
 )
 from categorizer.validator import confirm
+from openpyxl import Workbook  # type: ignore
 
 
 def test_score():
@@ -51,3 +53,15 @@ def test_categorizer_run(tmp_path: Path):
     results = cat.run(tmp_path)
     assert results[0]["category"] == "tech_assistance"
     assert "speaker" in results[0]["subcategories"]
+
+
+def test_extract_xlsx(tmp_path: Path):
+    sample = tmp_path / "data.xlsx"
+    wb = Workbook()
+    ws = wb.active
+    ws["A1"] = "hello"
+    ws["A2"] = "world"
+    wb.save(sample)
+    text = extract_text(sample)
+    assert "hello" in text
+    assert "world" in text
