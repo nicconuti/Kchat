@@ -10,6 +10,10 @@ def test_supervisor_agent(tmp_path, monkeypatch):
         "agents.supervisor_agent.LOG_FILES",
         [log_dir / "intent_log.log", log_dir / "validation_log.log"],
     )
+    monkeypatch.setattr(
+        "agents.supervisor_agent.call_mistral",
+        lambda prompt: "Improve intent detection; Refine response verification",
+    )
     ctx = AgentContext(user_id="u", session_id="s", input="")
     run(ctx)
     assert "intent" in ctx.response
@@ -24,6 +28,7 @@ def test_supervisor_no_issues(tmp_path, monkeypatch):
         "agents.supervisor_agent.LOG_FILES",
         [log_dir / "intent_log.log", log_dir / "validation_log.log"],
     )
+    monkeypatch.setattr("agents.supervisor_agent.call_mistral", lambda prompt: "")
     ctx = AgentContext(user_id="u", session_id="s", input="")
     run(ctx)
     assert ctx.response == "No issues"
