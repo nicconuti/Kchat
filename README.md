@@ -103,7 +103,7 @@ Ogni record include campi aggiuntivi come `confidence_score`, `source_reliabilit
 
 ## Strumento di categorizzazione documenti
 
-Il pacchetto `categorizer` permette di analizzare file testuali (PDF, DOCX, TXT,
+Il pacchetto `categorizer` permette di analizzare file testuali (PDF, DOCX, **XLSX**, TXT,
 HTML o archivi ZIP) e assegnare una categoria e delle sotto-categorie in base al
 contenuto. I log generati durante la procedura vengono salvati in `logs/` nei
 file `categorizer_log.json`, `extract_log.json` e `validator_log.json`.
