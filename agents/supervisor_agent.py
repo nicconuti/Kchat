@@ -4,6 +4,7 @@ from pathlib import Path
 
 from agents.context import AgentContext
 from utils.logger import get_logger
+from models.mistral import call_mistral
 
 logger = get_logger("supervisor_log")
 
@@ -27,21 +28,44 @@ def _analyze_validation_log(text: str) -> str | None:
     return None
 
 
-def run(context: AgentContext) -> AgentContext:
-    suggestions = []
+def _collect_snippets() -> str:
+    snippets = []
     for path in LOG_FILES:
         if not path.exists():
             continue
         text = path.read_text()
-        if "intent" in path.name:
-            result = _analyze_intent_log(text)
-        elif "validation" in path.name:
-            result = _analyze_validation_log(text)
-        else:
-            result = None
-        if result:
-            suggestions.append(result)
-    context.response = "; ".join(suggestions) if suggestions else "No issues"
+        snippets.append(f"## {path.name}\n{text[-500:]}")
+    return "\n\n".join(snippets)
+
+
+def run(context: AgentContext) -> AgentContext:
+    prompts = _collect_snippets()
+    prompt = (
+        "You are a supervisor agent analyzing logs to suggest improvements. "
+        "Provide short, actionable recommendations.\n" + prompts + "\nSuggestions:"
+    )
+    try:
+        suggestion = call_mistral(prompt).strip()
+    except Exception:
+        suggestion = ""
+
+    if not suggestion:
+        suggestions = []
+        for path in LOG_FILES:
+            if not path.exists():
+                continue
+            text = path.read_text()
+            if "intent" in path.name:
+                result = _analyze_intent_log(text)
+            elif "validation" in path.name:
+                result = _analyze_validation_log(text)
+            else:
+                result = None
+            if result:
+                suggestions.append(result)
+        suggestion = "; ".join(suggestions) if suggestions else "No issues"
+
+    context.response = suggestion
     logger.info(
         context.response,
         extra={
