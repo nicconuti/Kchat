@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, List, Optional
+from typing import Any, List, Optional, Tuple
 
 
 @dataclass
@@ -21,3 +21,4 @@ class AgentContext:
     reasoning_trace: str = ""
     source_reliability: float = 0.0
     error_flag: bool = False
+    conversation_history: List[Tuple[str, str]] = field(default_factory=list)

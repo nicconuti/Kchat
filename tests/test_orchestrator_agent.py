@@ -36,6 +36,7 @@ def test_orchestrator_sequence_quote(monkeypatch):
     assert ctx.reasoning_trace == "quote"
     assert called["r"] == 1
     assert ctx.response == "ok"
+    assert ctx.conversation_history == [("user", "price?"), ("assistant", "ok")]
 
 
 def test_orchestrator_sequence_smalltalk(monkeypatch):
@@ -55,6 +56,7 @@ def test_orchestrator_sequence_smalltalk(monkeypatch):
     assert ctx.reasoning_trace == "chat"
     assert called["r"] == 0
     assert ctx.response == "ok"
+    assert ctx.conversation_history == [("user", "hello"), ("assistant", "ok")]
 
 
 def test_translation_before_intent(monkeypatch):
@@ -80,3 +82,19 @@ def test_translation_before_intent(monkeypatch):
     ctx = AgentContext(user_id="u", session_id="s", input="bonjour")
     run(ctx)
     assert called["intent_input"] == "bonjour-en"
+    assert ctx.conversation_history == [("user", "bonjour"), ("assistant", "ok")]
+
+
+def test_conversation_history_grows(monkeypatch):
+    _common_patches(monkeypatch)
+    monkeypatch.setattr("agents.orchestrator_agent.verify", lambda ctx: True)
+    ctx = AgentContext(user_id="u", session_id="s", input="hi")
+    run(ctx)
+    ctx.input = "again"
+    run(ctx)
+    assert ctx.conversation_history == [
+        ("user", "hi"),
+        ("assistant", "ok"),
+        ("user", "again"),
+        ("assistant", "ok"),
+    ]

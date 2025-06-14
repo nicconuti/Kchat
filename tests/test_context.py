@@ -12,3 +12,4 @@ def test_defaults():
     assert ctx.formality is None
     assert ctx.mixed_language is False
     assert ctx.reasoning_trace == ""
+    assert ctx.conversation_history == []
