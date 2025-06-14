@@ -108,6 +108,12 @@ HTML o archivi ZIP) e assegnare una categoria e delle sotto-categorie in base al
 contenuto. I log generati durante la procedura vengono salvati in `logs/` nei
 file `categorizer_log.json`, `extract_log.json` e `validator_log.json`.
 
+La versione attuale include anche un modulo di **Named Entity Recognition (NER)** basato su spaCy che
+riconosce nomi di prodotti e software all'interno dei testi. Le entità estratte
+vengono combinate con i token più frequenti per calcolare le sotto-categorie e
+sono salvate nei metadati dell'output, così da poter essere indicizzate nel
+sistema di embedding.
+
 Per utilizzare il tool da linea di comando:
 
 ```bash

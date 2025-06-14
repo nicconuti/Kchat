@@ -53,6 +53,7 @@ def test_categorizer_run(tmp_path: Path):
     results = cat.run(tmp_path)
     assert results[0]["category"] == "tech_assistance"
     assert "speaker" in results[0]["subcategories"]
+    assert "entities" in results[0]["metadata"]
 
 
 def test_extract_xlsx(tmp_path: Path):

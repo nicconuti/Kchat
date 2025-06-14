@@ -4,6 +4,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
+from .entity_extractor import extract_entities
+
 CATEGORIES = {
     "tech_assistance": ["errore", "problema", "supporto", "assistenza"],
     "software_assistance": ["software", "installazione", "aggiornamento"],
@@ -47,7 +49,22 @@ def extract_subcategories(text: str, max_terms: int = 5) -> list[str]:
     tokens = re.findall(r"[\w'-]{3,}", text.lower())
     filtered = [t for t in tokens if t not in STOPWORDS and not t.isdigit()]
     counts = Counter(filtered)
-    return [w for w, _ in counts.most_common(max_terms)]
+    frequent = [w for w, _ in counts.most_common(max_terms)]
+    try:
+        entities = extract_entities(text)
+    except Exception:
+        entities = []
+    combined = frequent + entities
+    dedup: list[str] = []
+    seen: set[str] = set()
+    for token in combined:
+        norm = token.lower()
+        if norm not in seen:
+            seen.add(norm)
+            dedup.append(token)
+        if len(dedup) >= max_terms:
+            break
+    return dedup
 
 
 def classify(text: str, filename: str) -> tuple[str | None, list[str], float, bool]:
