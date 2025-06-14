@@ -1,6 +1,7 @@
 import logging
 from pathlib import Path
 import sys
+from pythonjsonlogger import jsonlogger
 
 EXTRA_FIELDS = (
     "confidence_score",
@@ -52,4 +53,19 @@ def get_logger(name: str) -> logging.Logger:
     )
     console_handler.addFilter(_ContextFilter())
     logger.addHandler(console_handler)
+    return logger
+
+
+def get_json_logger(name: str) -> logging.Logger:
+    """Return logger writing JSON lines to logs/<name>.json."""
+    logger = logging.getLogger(f"{name}_json")
+    if logger.handlers:
+        return logger
+    logger.setLevel(logging.INFO)
+    log_dir = Path("logs")
+    log_dir.mkdir(exist_ok=True)
+    handler = logging.FileHandler(log_dir / f"{name}.json")
+    handler.setFormatter(jsonlogger.JsonFormatter())
+    handler.addFilter(_ContextFilter())
+    logger.addHandler(handler)
     return logger
