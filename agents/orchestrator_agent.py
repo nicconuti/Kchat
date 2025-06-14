@@ -7,6 +7,7 @@ from agents.document_retriever_agent import run as retrieve
 from agents.response_agent import run as generate_response
 from agents.clarification_agent import run as clarify
 from agents.translation_agent import run as translate
+from translator import translate as translate_text
 from agents.verification_agent import run as verify
 from models.mistral import call_mistral
 from utils.logger import get_logger
@@ -72,8 +73,19 @@ def choose_agent_sequence(context: AgentContext):
 
 
 def run(context: AgentContext) -> AgentContext:
+    original_input = context.input
     for step in choose_agent_sequence(context):
-        step(context)
+        if step is detect_intent:
+            pivot_text = (
+                translate_text(context.input, "en")
+                if context.language != "en"
+                else context.input
+            )
+            context.input = pivot_text
+            step(context)
+            context.input = original_input
+        else:
+            step(context)
         if context.error_flag:
             break
 
