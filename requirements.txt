@@ -1,0 +1,6 @@
+python-json-logger
+pdfminer.six
+python-docx
+beautifulsoup4
+qdrant-client
+openai
