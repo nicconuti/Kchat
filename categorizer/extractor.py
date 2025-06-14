@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import docx
+import docx  # type: ignore
 from openpyxl import load_workbook  # type: ignore
 from bs4 import BeautifulSoup
 from pathlib import Path
