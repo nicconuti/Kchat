@@ -60,6 +60,7 @@ def test_extract_xlsx(tmp_path: Path):
     sample = tmp_path / "data.xlsx"
     wb = Workbook()
     ws = wb.active
+    assert ws is not None
     ws["A1"] = "hello"
     ws["A2"] = "world"
     wb.save(sample)
