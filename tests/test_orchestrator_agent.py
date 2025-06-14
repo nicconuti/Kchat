@@ -12,8 +12,11 @@ def _common_patches(monkeypatch):
     )
     monkeypatch.setattr("agents.orchestrator_agent.generate_response", lambda ctx: setattr(ctx, "response", "ok") or ctx)
     monkeypatch.setattr("agents.orchestrator_agent.translate", lambda ctx, lang, style="neutral": ctx)
+    monkeypatch.setattr("agents.orchestrator_agent.translate_text", lambda text, target_lang="en": text)
     monkeypatch.setattr("agents.orchestrator_agent.clarify", lambda ctx: ctx)
     orchestrator._STEP_MAP["respond"] = orchestrator.generate_response
+    orchestrator._STEP_MAP["language"] = orchestrator.detect_language
+    orchestrator._STEP_MAP["intent"] = orchestrator.detect_intent
 
 
 def test_orchestrator_sequence_quote(monkeypatch):
@@ -52,3 +55,28 @@ def test_orchestrator_sequence_smalltalk(monkeypatch):
     assert ctx.reasoning_trace == "chat"
     assert called["r"] == 0
     assert ctx.response == "ok"
+
+
+def test_translation_before_intent(monkeypatch):
+    called = {"text": None}
+
+    def fake_translate(text: str, target_lang: str = "en"):
+        called["text"] = text + "-en"
+        return called["text"]
+
+    def fake_detect_intent(ctx):
+        called["intent_input"] = ctx.input
+        ctx.intent = "ok"
+        return ctx
+
+    _common_patches(monkeypatch)
+    monkeypatch.setattr("agents.orchestrator_agent.translate_text", fake_translate)
+    monkeypatch.setattr("agents.orchestrator_agent.detect_language", lambda ctx: setattr(ctx, "language", "fr") or ctx)
+    orchestrator._STEP_MAP["language"] = orchestrator.detect_language
+    monkeypatch.setattr("agents.orchestrator_agent.detect_intent", fake_detect_intent)
+    orchestrator._STEP_MAP["intent"] = orchestrator.detect_intent
+    monkeypatch.setattr("agents.orchestrator_agent.verify", lambda ctx: True)
+
+    ctx = AgentContext(user_id="u", session_id="s", input="bonjour")
+    run(ctx)
+    assert called["intent_input"] == "bonjour-en"

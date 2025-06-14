@@ -20,7 +20,8 @@ def run_pipeline(user_input: str):
     lang = lang_detector.run(user_input)
     print(f"[Detected language]: {lang}")
 
-    intent = intent_detector.run(user_input)
+    pivot_text = translator.run(user_input, "en") if lang != "en" else user_input
+    intent = intent_detector.run(pivot_text)
     print(f"[Detected intent]: {intent}")
 
     if intent is None:
@@ -56,7 +57,8 @@ def run_pipeline_stream(user_input: str):
     lang = lang_detector.run(user_input)
     print(f"[Detected language]: {lang}")
 
-    intent = intent_detector.run(user_input)
+    pivot_text = translator.run(user_input, "en") if lang != "en" else user_input
+    intent = intent_detector.run(pivot_text)
     print(f"[Detected intent]: {intent}")
 
     if intent is None:
