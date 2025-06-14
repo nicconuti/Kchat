@@ -20,6 +20,12 @@ Chatbot agentico per l'assistenza clienti. Il progetto fornisce una serie di age
 
 Kchat è concepito per funzionare interamente in locale senza dipendenze da servizi cloud. Ogni messaggio utente viene analizzato e gestito da più agenti specializzati che cooperano tramite il contesto condiviso `AgentContext` (`agents/context.py`). I modelli LLM sono serviti da Ollama e permettono l’elaborazione in più lingue.
 
+### Installazione rapida
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Architettura ad Agenti
 
 Gli agenti principali sono:
