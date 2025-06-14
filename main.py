@@ -9,12 +9,14 @@ RESET = "\x1b[0m"
 def main():
     print("💬 Kchat\n")
 
+    context = AgentContext(session_id='qwerty', user_id="power_user", input="")
+
     while True:
         user_input = input(f"{RED}User:{RESET} ")
         if user_input.strip().lower() in ["exit", "quit"]:
             break
 
-        context = AgentContext(session_id='qwerty',user_id="power_user", input=user_input)
+        context.input = user_input
         context = orchestrate(context)
         print(f"{GREEN}Bot:{RESET} {context.response}\n")
 

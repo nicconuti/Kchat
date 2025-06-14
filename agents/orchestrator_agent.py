@@ -73,6 +73,7 @@ def choose_agent_sequence(context: AgentContext):
 
 
 def run(context: AgentContext) -> AgentContext:
+    context.conversation_history.append(("user", context.input))
     original_input = context.input
     for step in choose_agent_sequence(context):
         if step is detect_intent:
@@ -95,6 +96,7 @@ def run(context: AgentContext) -> AgentContext:
         clarify(context)
 
     translate(context, context.language)
+    context.conversation_history.append(("assistant", context.response or ""))
     logger.info(
         "orchestration complete",
         extra={

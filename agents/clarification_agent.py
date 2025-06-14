@@ -3,7 +3,7 @@
 from pathlib import Path
 
 from agents.context import AgentContext
-from clarification_prompt import generate_fallback_question
+from clarification_prompt import generate_fallback_question, generate_contextual_question
 from utils.logger import get_logger
 from typing import Optional
 
@@ -25,7 +25,24 @@ def _most_common_question() -> Optional[str]:
 
 
 def run(context: AgentContext) -> AgentContext:
-    question = _most_common_question() or generate_fallback_question(context.input)
+    """Populate ``context.response`` with a context-aware clarification question."""
+
+    # Generate a new question using all available context
+    try:
+        question = generate_contextual_question(context)
+    except Exception:
+        question = None
+
+    # Fall back to simpler question generation
+    if not question:
+        try:
+            question = generate_fallback_question(context.input)
+        except Exception:
+            question = None
+
+    # If everything fails, use a historical or default message
+    if not question:
+        question = _most_common_question() or "Could you clarify your request?"
     if context.formality == "formal":
         question = f"Gentile utente, {question}"
     context.response = question
