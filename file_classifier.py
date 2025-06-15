@@ -36,7 +36,22 @@ def main() -> None:
     args = parser.parse_args()
     cat = Categorizer(mode=args.mode, main_category=args.category)
     data = cat.run(Path(args.input_path))
-    Path(args.output).write_text(json.dumps(data, ensure_ascii=False, indent=2))
+
+    output_path = Path(args.output)
+    if args.category == "product_price":
+        output_path = Path("prices.json")
+        try:
+            existing = json.loads(output_path.read_text())
+            if not isinstance(existing, list):
+                existing = []
+        except FileNotFoundError:
+            existing = []
+        except json.JSONDecodeError:
+            existing = []
+        existing.extend(data)
+        output_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2))
+    else:
+        output_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
 
 
 app = FastAPI()

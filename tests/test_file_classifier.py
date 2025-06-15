@@ -10,6 +10,10 @@ from categorizer.validator import confirm
 from openpyxl import Workbook  # type: ignore
 from fastapi.testclient import TestClient
 from file_classifier import app
+import file_classifier
+import sys
+import json
+import os
 
 
 def test_score():
@@ -90,3 +94,33 @@ def test_extract_xlsx(tmp_path: Path):
     text = extract_text(sample)
     assert "hello" in text
     assert "world" in text
+
+
+def test_main_product_price_creates_prices(tmp_path: Path, monkeypatch):
+    sample = tmp_path / "doc.txt"
+    sample.write_text("test")
+
+    sample_data = [{"file": str(sample), "category": "product_price"}]
+    monkeypatch.setattr(
+        "file_classifier.Categorizer.run", lambda self, path: sample_data
+    )
+
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "file_classifier.py",
+            str(tmp_path),
+            "--category",
+            "product_price",
+        ],
+    )
+    cwd = os.getcwd()
+    os.chdir(tmp_path)
+    try:
+        file_classifier.main()
+    finally:
+        os.chdir(cwd)
+
+    data = json.loads((tmp_path / "prices.json").read_text())
+    assert data == sample_data

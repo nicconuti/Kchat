@@ -138,7 +138,9 @@ L'opzione `--mode` può assumere i valori:
 * `silent` – nessuna validazione interattiva.
 
 L'output verrà scritto in `output.json` con i campi `category`, `subcategories`,
-`validated`, `category_source`, `chunks` e metadati sul file processato.
+`validated`, `category_source`, `chunks` e metadati sul file processato`. Se la
+categoria scelta è `product_price`, il risultato verrà aggiunto (o creato) nel
+file `prices.json` al posto di `output.json`.
 
 Il campo `chunks` rappresenta le porzioni di testo da usare nel retrieval (RAG) e varia in base alla categoria:
 - `product_price`: la tabella può essere in formato `a | b | c` oppure con i valori su linee consecutive (come da estrazione XLSX). Ogni riga viene convertita in un dizionario `{serial, subcategory, description, price}`;
@@ -159,6 +161,16 @@ curl -X POST http://localhost:8000/classify \
   -H "Content-Type: application/json" \
   -d '{"input_path": "cartella/", "category": "product_guide"}'
 ```
+
+## Gestione CSV
+
+Per analizzare file CSV dalla struttura non prevedibile è disponibile il modulo
+`utils/csv_utils.py` che offre due funzioni principali:
+
+- `load_csv(path)`: carica il file tramite Pandas restituendo una lista di
+  dizionari, generando nomi di colonna automatici se mancanti.
+- `summarize_csv(path)`: usa `call_mistral` per produrre una breve descrizione
+  delle colonne presenti.
 
 ## Come eseguire il debug
 
