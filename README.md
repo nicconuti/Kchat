@@ -22,6 +22,12 @@ Kchat è concepito per funzionare interamente in locale senza dipendenze da serv
 
 ### Installazione rapida
 
+Per poter eseguire correttamente i test (`pytest`, `ruff .`, `mypy .`) è
+necessario installare prima tutte le dipendenze elencate in
+`requirements.txt` (ad esempio `python-json-logger`, `python-docx`,
+`openpyxl`, `qdrant-client`). L'esecuzione dei test senza questi pacchetti
+fallirà.
+
 ```bash
 pip install -r requirements.txt
 ```
