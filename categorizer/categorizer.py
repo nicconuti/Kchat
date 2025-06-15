@@ -6,6 +6,7 @@ from datetime import datetime
 from .scanner import scan
 from .extractor import extract_text
 from .classifier import classify
+from .chunk_builders import build_chunks
 from .entity_extractor import extract_entities
 from .validator import confirm
 
@@ -45,6 +46,7 @@ class Categorizer:
             "processed_at": datetime.utcnow().isoformat(),
             "entities": entities,
         }
+        chunks = build_chunks(text, category) if category else []
         logger.info(
             "processed",
             extra={
@@ -62,6 +64,7 @@ class Categorizer:
             "metadata": metadata,
             "category_source": source,
             "confidence": conf,
+            "chunks": chunks,
         }
 
     def run(self, root: Path) -> list[dict]:
