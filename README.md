@@ -141,7 +141,7 @@ L'output verrà scritto in `output.json` con i campi `category`, `subcategories`
 `validated`, `category_source`, `chunks` e metadati sul file processato.
 
 Il campo `chunks` rappresenta le porzioni di testo da usare nel retrieval (RAG) e varia in base alla categoria:
-- `product_price`: ogni riga di tabella viene convertita in un dizionario `{serial, subcategory, description, price}`;
+- `product_price`: la tabella può essere in formato `a | b | c` oppure con i valori su linee consecutive (come da estrazione XLSX). Ogni riga viene convertita in un dizionario `{serial, subcategory, description, price}`;
 - `product_guide`: il documento è diviso in paragrafi;
 - altre categorie: suddivisione standard per paragrafi.
 
