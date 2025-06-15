@@ -1,7 +1,18 @@
 import logging
-from pathlib import Path
 import sys
-from pythonjsonlogger import jsonlogger
+from pathlib import Path
+
+try:  # optional dependency for JSON logging
+    from pythonjsonlogger import jsonlogger
+except Exception:  # pragma: no cover - fallback for environments without the package
+    class _DummyJsonFormatter(logging.Formatter):
+        """Fallback formatter if python-json-logger is missing."""
+
+        def __init__(self, *args, **kwargs) -> None:  # ignore arguments
+            super().__init__("%(message)s")
+
+    class jsonlogger:  # type: ignore
+        JsonFormatter = _DummyJsonFormatter
 
 EXTRA_FIELDS = (
     "confidence_score",
