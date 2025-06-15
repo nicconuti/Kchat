@@ -138,7 +138,12 @@ L'opzione `--mode` può assumere i valori:
 * `silent` – nessuna validazione interattiva.
 
 L'output verrà scritto in `output.json` con i campi `category`, `subcategories`,
-`validated`, `category_source` e metadati sul file processato.
+`validated`, `category_source`, `chunks` e metadati sul file processato.
+
+Il campo `chunks` rappresenta le porzioni di testo da usare nel retrieval (RAG) e varia in base alla categoria:
+- `product_price`: ogni riga di tabella viene convertita in un dizionario `{serial, subcategory, description, price}`;
+- `product_guide`: il documento è diviso in paragrafi;
+- altre categorie: suddivisione standard per paragrafi.
 
 È disponibile anche un endpoint REST per classificare file tramite HTTP.
 Avviare il server con:
