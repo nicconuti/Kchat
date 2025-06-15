@@ -131,8 +131,21 @@ python main.py
 Per classificare documenti in automatico:
 
 ```bash
-python file_classifier.py <cartella_o_zip> --mode auto
+python file_classifier.py <cartella_o_zip> \
+  --category tech_assistance --mode auto
 ```
+
+Le categorie valide sono `tech_assistance`, `software_assistance`,
+`product_price` e `product_guide`.
+
+È inoltre possibile avviare un piccolo server REST:
+
+```bash
+uvicorn file_classifier:app --reload
+```
+
+ed effettuare una richiesta POST a `/classify` specificando `input_path` e
+`category` nel corpo JSON.
 
 La cartella `tests/` contiene suite PyTest che coprono le funzioni principali. Prima di mettere in produzione il progetto è consigliato eseguire:
 

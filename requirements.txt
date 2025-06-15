@@ -6,3 +6,5 @@ qdrant-client
 openai
 openpyxl
 spacy
+fastapi
+uvicorn

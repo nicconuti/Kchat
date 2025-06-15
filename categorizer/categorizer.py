@@ -15,21 +15,27 @@ logger = get_json_logger("categorizer_log")
 
 
 class Categorizer:
-    def __init__(self, mode: str = "interactive", threshold: float = 0.9) -> None:
+    def __init__(self, mode: str = "interactive", threshold: float = 0.9, main_category: str | None = None) -> None:
         self.mode = mode
         self.threshold = threshold
+        self.main_category = main_category
 
     def process_file(self, path: Path) -> dict:
         text = extract_text(path)
         category, subcats, conf, ambiguous = classify(text, path.name)
-        category, subcats, validated, source, conf = confirm(
-            category,
-            subcats,
-            text,
-            path.name,
-            mode=self.mode,
-            confidence=conf,
-        )
+        if self.main_category:
+            category = self.main_category
+            validated = True
+            source = "forced"
+        else:
+            category, subcats, validated, source, conf = confirm(
+                category,
+                subcats,
+                text,
+                path.name,
+                mode=self.mode,
+                confidence=conf,
+            )
         entities = extract_entities(text)
         metadata = {
             "filename": path.name,

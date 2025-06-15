@@ -119,10 +119,16 @@ vengono combinate con i token più frequenti per calcolare le sotto-categorie e
 sono salvate nei metadati dell'output, così da poter essere indicizzate nel
 sistema di embedding.
 
-Per utilizzare il tool da linea di comando:
+Per utilizzare il tool da linea di comando è ora obbligatorio specificare la
+categoria principale del documento. Le categorie ammesse sono:
+
+- `tech_assistance`
+- `software_assistance`
+- `product_price`
+- `product_guide`
 
 ```bash
-python file_classifier.py <cartella_o_zip> --mode auto
+python file_classifier.py <cartella_o_zip> --category tech_assistance --mode auto
 ```
 
 L'opzione `--mode` può assumere i valori:
@@ -133,6 +139,21 @@ L'opzione `--mode` può assumere i valori:
 
 L'output verrà scritto in `output.json` con i campi `category`, `subcategories`,
 `validated`, `category_source` e metadati sul file processato.
+
+È disponibile anche un endpoint REST per classificare file tramite HTTP.
+Avviare il server con:
+
+```bash
+uvicorn file_classifier:app --reload
+```
+
+Una volta in esecuzione si può inviare una richiesta POST a `/classify`:
+
+```bash
+curl -X POST http://localhost:8000/classify \
+  -H "Content-Type: application/json" \
+  -d '{"input_path": "cartella/", "category": "product_guide"}'
+```
 
 ## Come eseguire il debug
 

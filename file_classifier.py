@@ -5,6 +5,16 @@ import json
 from pathlib import Path
 
 from categorizer import Categorizer
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List
+
+VALID_CATEGORIES = [
+    "tech_assistance",
+    "software_assistance",
+    "product_price",
+    "product_guide",
+]
 
 
 def main() -> None:
@@ -17,10 +27,34 @@ def main() -> None:
         default="interactive",
         help="Confirmation mode",
     )
+    parser.add_argument(
+        "--category",
+        required=True,
+        choices=VALID_CATEGORIES,
+        help="Forced main category",
+    )
     args = parser.parse_args()
-    cat = Categorizer(mode=args.mode)
+    cat = Categorizer(mode=args.mode, main_category=args.category)
     data = cat.run(Path(args.input_path))
     Path(args.output).write_text(json.dumps(data, ensure_ascii=False, indent=2))
+
+
+app = FastAPI()
+
+
+class ClassifyRequest(BaseModel):
+    input_path: str
+    category: str
+    mode: str = "interactive"
+
+
+@app.post("/classify")
+def classify_endpoint(req: ClassifyRequest) -> List[dict]:
+    if req.category not in VALID_CATEGORIES:
+        raise HTTPException(status_code=400, detail="Invalid category")
+    cat = Categorizer(mode=req.mode, main_category=req.category)
+    data = cat.run(Path(req.input_path))
+    return data
 
 
 if __name__ == "__main__":
