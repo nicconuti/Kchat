@@ -108,6 +108,11 @@ Tutte le chiamate agli agenti ricevono e restituiscono un `AgentContext` aggiorn
 
 ### `file_classifier.py`
 - **`main()`**: utility CLI per classificare file in una cartella o archivio ZIP sfruttando la classe `Categorizer`.
+- Salva il risultato in `output.json`; se la categoria impostata è `product_price`, il file viene creato o aggiornato in `prices.json`.
+
+### `csv_utils.py`
+- **`load_csv(path)`**: carica file CSV di struttura variabile usando Pandas restituendo una lista di dizionari.
+- **`summarize_csv(path)`**: impiega `call_mistral` per riassumere in una frase il significato delle colonne.
 
 ## Strumenti di categorizzazione
 
