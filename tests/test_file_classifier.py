@@ -8,6 +8,8 @@ from categorizer import (
 )
 from categorizer.validator import confirm
 from openpyxl import Workbook  # type: ignore
+from fastapi.testclient import TestClient
+from file_classifier import app
 
 
 def test_score():
@@ -54,6 +56,27 @@ def test_categorizer_run(tmp_path: Path):
     assert results[0]["category"] == "tech_assistance"
     assert "speaker" in results[0]["subcategories"]
     assert "entities" in results[0]["metadata"]
+
+
+def test_forced_category(tmp_path: Path):
+    sample = tmp_path / "doc.txt"
+    sample.write_text("Preventivo per il nuovo software")
+    cat = Categorizer(mode="silent", main_category="product_price")
+    results = cat.run(tmp_path)
+    assert results[0]["category"] == "product_price"
+
+
+def test_api_classify(tmp_path: Path):
+    sample = tmp_path / "doc.txt"
+    sample.write_text("Manuale di installazione")
+    client = TestClient(app)
+    resp = client.post(
+        "/classify",
+        json={"input_path": str(tmp_path), "category": "product_guide"},
+    )
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data[0]["category"] == "product_guide"
 
 
 def test_extract_xlsx(tmp_path: Path):
