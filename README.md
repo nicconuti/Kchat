@@ -8,8 +8,7 @@ Chatbot agentico per l'assistenza clienti. Il progetto fornisce una serie di age
 | ----------------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
 | `technical_support_request`   | L’utente ha un problema tecnico con un prodotto o servizio esistente | *"Il mio dispositivo non si accende più, potete aiutarmi?"* |
 | `product_information_request` | L’utente chiede informazioni dettagliate su un prodotto o servizio   | *"Questo modello supporta il Bluetooth?"*               |
-| `quote_request`               | L’utente vuole un preventivo o informazioni su prezzi                | *"Mi potete fare un preventivo per XXX modello?"*       |
-| `order_status`                | L’utente chiede lo stato di un ordine esistente                     | *"A che punto è la spedizione dell’ordine #12345?"*     |
+| `cost_estimation`               | L’utente vuole un preventivo o informazioni su prezzi                | *"Mi potete fare un preventivo per XXX modello?"*       |
 | `booking_or_schedule`         | Richiesta di fissare un appuntamento o una demo                       | *"Vorrei fissare un incontro con un tecnico"*           |
 | `document_request`            | L’utente chiede un documento o un manuale                             | *"Potrei avere il manuale in PDF?"*                     |
 | `open_ticket`                 | L’utente chiede esplicitamente di aprire un ticket                   | *"Aprite un ticket per favore"*                         |
@@ -75,7 +74,7 @@ Tutti gli agenti leggono e scrivono dati nel medesimo `AgentContext`:
   "session_id": "sess-456",
   "input": "User message here",
   "language": "it",
-  "intent": "quote_request",
+  "intent": "cost_estimation",
   "confidence": 0.84,
   "documents": [...],
   "response": "Final LLM response",

@@ -121,7 +121,7 @@ Each functional unit is modularized as a **single-responsibility agent**. These 
 #### 🧾 QuotationAgent
 
 * **Goal**: Generate a PDF quote and send it to the user
-* **Triggers**: `quote_request` intent
+* **Triggers**: `cost_estimation` intent
 * **Extensions**:
 
   * CRM/ERP integration
@@ -207,7 +207,7 @@ All agents receive and emit data through a shared `AgentContext`:
   "session_id": "sess-456",
   "input": "User message here",
   "language": "it",
-  "intent": "quote_request",
+  "intent": "cost_estimation",
   "confidence": 0.84,
   "documents": [...],
   "response": "Final LLM response",

@@ -33,14 +33,13 @@ KEYWORDS: Dict[str, List[str]] = {
         "information",
         "detail",
     ],
-    "quote_request": [
+    "cost_estimation": [
         "quote",
         "pricing",
         "price",
         "cost",
         "preventivo",
     ],
-    "order_status": ["order", "shipping", "status", "tracking"],
     "booking_or_schedule": [
         "schedule",
         "appointment",

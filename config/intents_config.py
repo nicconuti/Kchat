@@ -3,10 +3,9 @@
 ALLOWED_INTENTS = {
     "technical_support_request",
     "product_information_request",
-    "quote_request",
-    "order_status",
-    "booking_or_schedule",
+    "cost_estimation",
     "document_request",
+    "booking_or_schedule",
     "open_ticket",
     "complaint",
     "generic_smalltalk",

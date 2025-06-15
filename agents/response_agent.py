@@ -15,7 +15,7 @@ def run(context: AgentContext) -> AgentContext:
         context.response = f"[{style}] Doc info: {context.documents[0]}"
         context.source_reliability = 0.9
         mode = "doc"
-    elif context.intent in {"open_ticket", "quote_request"}:
+    elif context.intent in {"open_ticket", "cost_estimation"}:
         action_run(context)
         context.response = f"[{style}] Action taken for {context.intent}"
         context.source_reliability = 0.8
