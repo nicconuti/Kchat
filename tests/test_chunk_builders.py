@@ -39,6 +39,14 @@ def test_parse_price_table_newline_format():
     ]
 
 
+def test_parse_price_table_with_parent():
+    rows = parse_price_table(PRICE_TABLE, parent_category="Main")
+    assert rows == [
+        {"serial": "1", "subcategory": "Main, Hardware", "description": "Base kit", "price": "50"},
+        {"serial": "2", "subcategory": "Main, Software", "description": "Pro kit", "price": "100"},
+    ]
+
+
 def test_build_chunks_dispatch():
     chunks = build_chunks(PRICE_TABLE, "product_price")
     assert len(chunks) == 2
