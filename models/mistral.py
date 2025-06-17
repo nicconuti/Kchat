@@ -1,8 +1,8 @@
 import subprocess
 from typing import Iterator
 
-def call_mistral(prompt: str) -> str:
-    cmd = ["ollama", "run", "mistral"]
+def call_mistral(prompt: str, model: str = "mistral") -> str:
+    cmd = ["ollama", "run", model]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     out, _ = proc.communicate(prompt)
     return out.strip()

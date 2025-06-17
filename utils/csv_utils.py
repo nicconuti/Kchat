@@ -17,10 +17,12 @@ def load_csv(path: str | Path) -> list[dict[str, Any]]:
     p = Path(path)
     try:
         df = pd.read_csv(p)
+        if all(str(c).isdigit() for c in df.columns):
+            raise ValueError("numeric_header")
     except Exception:
         df = pd.read_csv(p, header=None)
-        df.columns = [f"col_{i}" for i in range(len(df.columns))]
-    return df.fillna("").to_dict(orient="records")
+        df.columns = [f"col_{i}" for i in range(len(df.columns))]  # type: ignore[assignment]
+    return df.fillna("").to_dict(orient="records")  # type: ignore[return-value]
 
 
 def summarize_csv(path: str | Path, sample_rows: int = 3) -> str:
