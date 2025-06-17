@@ -1,6 +1,6 @@
 """Fallback question generator using Mistral for clarification when intent is unclear."""
 
-from models.mistral import call_mistral
+from models.call_local_llm import call_mistral
 from config.intents_config import ALLOWED_INTENTS
 from language_detector import detect_language
 from agents.context import AgentContext

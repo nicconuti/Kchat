@@ -68,15 +68,27 @@ def get_logger(name: str) -> logging.Logger:
 
 
 def get_json_logger(name: str) -> logging.Logger:
-    """Return logger writing JSON lines to logs/<name>.json."""
+    """Return logger writing JSON lines to file and pretty logs to stdout."""
     logger = logging.getLogger(f"{name}_json")
     if logger.handlers:
         return logger
+
     logger.setLevel(logging.INFO)
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)
-    handler = logging.FileHandler(log_dir / f"{name}.json")
-    handler.setFormatter(jsonlogger.JsonFormatter())
-    handler.addFilter(_ContextFilter())
-    logger.addHandler(handler)
+
+    # File JSON
+    file_handler = logging.FileHandler(log_dir / f"{name}.json")
+    file_handler.setFormatter(jsonlogger.JsonFormatter())
+    file_handler.addFilter(_ContextFilter())
+    logger.addHandler(file_handler)
+
+    # Console (colorized)
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(
+        logging.Formatter(f"{YELLOW}[{name}]{WHITE} %(message)s{RESET}")
+    )
+    console_handler.addFilter(_ContextFilter())
+    logger.addHandler(console_handler)
+
     return logger

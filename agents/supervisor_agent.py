@@ -4,7 +4,7 @@ from pathlib import Path
 
 from agents.context import AgentContext
 from utils.logger import get_logger
-from models.mistral import call_mistral
+from models.call_local_llm import call_mistral
 
 logger = get_logger("supervisor_log")
 

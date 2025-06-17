@@ -9,7 +9,7 @@ from agents.clarification_agent import run as clarify
 from agents.translation_agent import run as translate
 from translator import translate as translate_text
 from agents.verification_agent import run as verify
-from models.mistral import call_mistral
+from models.call_local_llm import call_mistral
 from utils.logger import get_logger
 import json
 

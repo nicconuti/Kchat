@@ -3,7 +3,7 @@ from __future__ import annotations
 import os
 from typing import Tuple, List
 from utils.logger import get_json_logger
-from models.mistral import call_mistral
+from models.call_local_llm import call_mistral
 
 logger = get_json_logger("validator_log")
 

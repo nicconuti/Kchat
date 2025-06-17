@@ -2,7 +2,7 @@
 
 from typing import Iterator
 
-from models.mistral import call_mistral, stream_mistral
+from models.call_local_llm import call_mistral, stream_mistral
 
 
 def translate(text: str, target_lang: str = "en") -> str:

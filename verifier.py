@@ -1,4 +1,4 @@
-from models.mistral import call_mistral
+from models.call_local_llm import call_mistral
 
 
 def verify_response(user_input: str, response: str) -> bool:

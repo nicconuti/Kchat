@@ -1,6 +1,6 @@
 """Intent routing utilities with confidence fallback and expanded intent taxonomy."""
 
-from models.mistral import call_mistral
+from models.call_local_llm import call_mistral
 from config.intents_config import ALLOWED_INTENTS
 from typing import Optional
 

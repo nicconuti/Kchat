@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 from datetime import datetime
+import pandas as pd
 
 from .scanner import scan
 from .extractor import extract_text
@@ -9,6 +10,7 @@ from .classifier import classify
 from .chunk_builders import build_chunks
 from .entity_extractor import extract_entities
 from .validator import confirm
+from .price_chunk_builder import parse_price_table, normalize_prices
 
 from utils.logger import get_json_logger
 
@@ -22,8 +24,12 @@ class Categorizer:
         self.main_category = main_category
 
     def process_file(self, path: Path) -> dict:
+        ext = path.suffix.lower()
+
+        # Estrazione testo (fallback) per classificazione iniziale
         text = extract_text(path)
         category, subcats, conf, ambiguous = classify(text, path.name)
+
         if self.main_category:
             category = self.main_category
             validated = True
@@ -37,16 +43,30 @@ class Categorizer:
                 mode=self.mode,
                 confidence=conf,
             )
+
         entities = extract_entities(text)
+
+        # Parsing chunks (caso specializzato per xlsx e categoria 'product_price')
+        try:
+            if ext == ".xlsx" and category == "product_price":
+                xls = pd.ExcelFile(path)
+                raw_chunks = parse_price_table(xls)
+                chunks = normalize_prices(raw_chunks)
+            else:
+                chunks = build_chunks(text, category)
+        except Exception as e:
+            logger.error("chunk_error", extra={"file": str(path), "error": repr(e)})
+            chunks = []
+
         metadata = {
             "filename": path.name,
-            "extension": path.suffix.lower(),
+            "extension": ext,
             "file_size_kb": path.stat().st_size // 1024,
             "word_count": len(text.split()),
             "processed_at": datetime.utcnow().isoformat(),
             "entities": entities,
         }
-        chunks = build_chunks(text, category) if category else []
+
         logger.info(
             "processed",
             extra={
@@ -56,6 +76,7 @@ class Categorizer:
                 "clarification_attempted": ambiguous,
             },
         )
+
         return {
             "file": str(path),
             "category": category,

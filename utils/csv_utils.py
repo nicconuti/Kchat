@@ -5,7 +5,7 @@ from typing import Any
 
 import pandas as pd
 
-from models.mistral import call_mistral
+from models.call_local_llm import call_mistral
 
 
 def load_csv(path: str | Path) -> list[dict[str, Any]]:

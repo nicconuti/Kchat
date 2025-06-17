@@ -1,6 +1,6 @@
 from typing import Iterator
 
-from models.openchat import call_openchat, stream_openchat
+from models.call_local_llm import call_openchat, stream_openchat
 
 
 def generate_response(user_input: str, intent: str, lang: str) -> str:
