@@ -52,36 +52,24 @@ def parse_price_table_from_excel(df: pd.DataFrame) -> List[Dict[str, str]]:
     description_col = column_map["description"]
     price_col = column_map["price"]
 
-    rows = []
-    current_subcategory = None
-
     df = df.fillna("").astype(str)
 
+    lines = ["serial\tdescription\tprice"]
     for _, row in df.iterrows():
         serial = row.get(serial_col, "").strip()
         description = row.get(description_col, "").strip()
-        price_raw = row.get(price_col, "").strip()
+        price = row.get(price_col, "").strip()
 
-        if not serial and not price_raw and not description:
+        if not serial and not price and not description:
             continue
 
-        # Heuristic per subcategoria (solo se è una sigla tecnica senza price/desc)
-        if serial and not price_raw and not description and re.match(r"^[A-Z]{2,}\d{2,}[A-Z]?$", serial):
-            current_subcategory = serial
-            continue
+        if serial and not price and not description:
+            lines.append(serial)
+        else:
+            lines.append(f"{serial}\t{description}\t{price}")
 
-        price = re.sub(r"[^\d,\.]", "", price_raw).replace(",", ".")
-        if not re.match(r"^\d+(\.\d+)?$", price):
-            continue
-
-        rows.append({
-            "serial": serial,
-            "subcategory": [current_subcategory] if current_subcategory else [],
-            "description": description,
-            "price": price,
-        })
-
-    return rows
+    text = "\n".join(lines)
+    return parse_price_table(text)
 
 
 def parse_price_table(
@@ -100,9 +88,12 @@ def parse_price_table(
         "serial": ["serial", "sku", "id", "code"],
         "price": ["price", "prezzo", "importo", "€", "cost"],
         "description": ["description", "descrizione", "name", "product"],
+        "subcategory": ["subcategory", "category", "group"],
     }
 
-    is_subcategory = is_subcategory or (lambda line: re.match(r"^[A-Z]{2,}\d{2,}[A-Z]?$", line))
+    if is_subcategory is None:
+        def is_subcategory(line: str) -> bool:
+            return bool(re.match(r"^[A-Z]{2,}\d{2,}[A-Z]?$", line))
 
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     subcat_map = {idx: line for idx, line in enumerate(lines) if is_subcategory(line)}
@@ -111,13 +102,35 @@ def parse_price_table(
     header_index = -1
 
     for i, line in enumerate(lines):
-        if any(alias.lower() in line.lower() for aliases in field_aliases.values() for alias in aliases):
-            header_row = re.split(r"\t+| {2,}", line)
+        parts = re.split(r"\s*\|\s*|\t+| {2,}", line)
+        alias_hits = sum(
+            1
+            for p in parts
+            for aliases in field_aliases.values()
+            for alias in aliases
+            if p.lower() == alias.lower()
+        )
+        if alias_hits >= 2:
+            header_row = parts
             header_index = i
             break
 
     if not header_row:
-        raise ValueError("Impossibile trovare l’intestazione della tabella.")
+        potential = lines[:len(field_aliases)]
+        aliases = [a.lower() for aliases in field_aliases.values() for a in aliases]
+        if all(p.lower() in aliases for p in potential):
+            header_row = potential
+            header_index = 0
+            body = lines[len(header_row):]
+            new_lines = [" | ".join(header_row)]
+            step = len(header_row)
+            for j in range(0, len(body), step):
+                row = body[j:j + step]
+                if len(row) == step:
+                    new_lines.append(" | ".join(row))
+            lines = new_lines
+        else:
+            return []
 
     def detect_columns(header_row: List[str], field_aliases: Dict[str, List[str]]) -> Dict[str, int]:
         resolved = {}
@@ -134,6 +147,7 @@ def parse_price_table(
     required = {"serial", "price", "description"}
     if not required.issubset(column_map):
         raise ValueError(f"Colonne richieste non trovate: {required - set(column_map)}")
+    sub_idx = column_map.get("subcategory")
 
     current_sub = None
     output = []
@@ -143,7 +157,7 @@ def parse_price_table(
             current_sub = subcat_map[i]
             continue
 
-        parts = re.split(r"\t+| {2,}", line)
+        parts = re.split(r"\s*\|\s*|\t+| {2,}", line)
         if len(parts) < len(column_map):
             continue
 
@@ -156,9 +170,17 @@ def parse_price_table(
             if not re.match(r"^\d+(\.\d+)?$", price):
                 continue
 
+            sub_value = parts[sub_idx].strip() if sub_idx is not None else current_sub
+            subs = []
+            if sub_value:
+                subs.append(sub_value)
+            elif current_sub:
+                subs.append(current_sub)
+            if parent_category:
+                subs.append(parent_category)
             output.append({
                 "serial": serial,
-                "subcategory": [current_sub] if current_sub else [] + ([parent_category] if parent_category else []),
+                "subcategory": ", ".join(subs) if subs else "",
                 "description": description,
                 "price": price,
             })
