@@ -1,4 +1,4 @@
-from categorizer.chunk_builders import build_price_chunks, build_chunks
+from categorizer.chunk_builders import parse_price_table, build_chunks
 
 PRICE_TABLE = """
 Serial | Subcategory | Description | Price
@@ -21,16 +21,16 @@ Pro kit
 100
 """
 
-def test_build_price_chunks():
-    rows = build_price_chunks(PRICE_TABLE)
+def test_parse_price_table():
+    rows = parse_price_table(PRICE_TABLE)
     assert rows == [
         {"serial": "1", "subcategory": "Hardware", "description": "Base kit", "price": "50"},
         {"serial": "2", "subcategory": "Software", "description": "Pro kit", "price": "100"},
     ]
 
 
-def test_build_price_chunks_newline_format():
-    rows = build_price_chunks(PRICE_LINES)
+def test_parse_price_table_newline_format():
+    rows = parse_price_table(PRICE_LINES)
     assert rows == [
         {"serial": "1", "subcategory": "Hardware", "description": "Base kit", "price": "50"},
         {"serial": "2", "subcategory": "Software", "description": "Pro kit", "price": "100"},
