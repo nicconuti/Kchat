@@ -170,14 +170,15 @@ def parse_price_table(
             if not re.match(r"^\d+(\.\d+)?$", price):
                 continue
 
-            sub_value = parts[sub_idx].strip() if sub_idx is not None else current_sub
-            subs = []
+            sub_value = parts[sub_idx].strip() if sub_idx is not None else None
             if sub_value:
-                subs.append(sub_value)
-            elif current_sub:
-                subs.append(current_sub)
+                current_sub = sub_value
+
+            subs = []
             if parent_category:
                 subs.append(parent_category)
+            if current_sub:
+                subs.append(current_sub)
             output.append({
                 "serial": serial,
                 "subcategory": ", ".join(subs) if subs else "",
