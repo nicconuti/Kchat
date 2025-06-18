@@ -128,10 +128,10 @@ def validate_record_with_llm(record: Dict[str, Any], client: LLMClient = primary
     Valida un record strutturato tramite il LLM per correggere errori o incompletezze.
     """
     try:
-        prompt = prompt.PROMPT_VALIDATE_EXCEL_RECORD.format(**record)
+        prompt_text = LLMPrompts.PROMPT_VALIDATE_EXCEL_RECORD.format(**record)
 
         response = client.call(
-            prompt=prompt,
+            prompt=prompt_text,
             model="deepseek-r1:14b"
         )
 
