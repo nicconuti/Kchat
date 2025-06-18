@@ -1,5 +1,5 @@
 """Wrapper per l'esecuzione della knowledge pipeline modulare."""
-from pipeline import cli, KnowledgePipeline, PipelineConfig
+from knowledge_pipeline import cli, KnowledgePipeline, PipelineConfig
 
 __all__ = ["KnowledgePipeline", "PipelineConfig", "cli"]
 
