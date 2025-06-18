@@ -16,6 +16,7 @@ def test_supervisor_agent(tmp_path, monkeypatch):
     )
     ctx = AgentContext(user_id="u", session_id="s", input="")
     run(ctx)
+    assert ctx.response is not None
     assert "intent" in ctx.response
     assert "verification" in ctx.response
 

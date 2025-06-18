@@ -5,7 +5,6 @@ class LLMPrompts:
     """Centralized management of LLM prompt templates for clarity and maintainability."""
     
     @staticmethod
-    @lru_cache(maxsize=32)
     def get_classification_prompt(categories_with_desc: Dict, filename: str, text_preview: str) -> str:
         """Generates the prompt for document classification."""
         category_definitions = "\n".join([f'- "{name}": {desc}' for name, desc in categories_with_desc.items()])
@@ -25,38 +24,22 @@ class LLMPrompts:
         {{"category": "your_chosen_category", "confidence": 0.95}}
         ```
         """
+    
+    PROMPT_VALIDATE_EXCEL_RECORD = """
+    Hai il compito di validare e correggere un record estratto da un listino Excel tecnico.
 
-    @staticmethod
-    def get_structured_extraction_prompt(sheet_preview: str, sheet_name: str) -> str:
-        """Generates a dynamic prompt for extracting structured data from table-like text."""
-        return f"""
-        You are an exceptionally accurate and reliable data extraction engine. Your primary objective is to extract product data without hallucination from the provided text, which represents rows from a spreadsheet named '{sheet_name}'.
+    Record:
+    - Serial: {serial}
+    - Description: {description}
+    - Price: {price}
+    - Sheet name: {sheet_name}
 
-        Your output must be a strict JSON array. Each object in the array must represent a product and MUST contain the following keys:
-        
-        "serial": (Product identifier, mapped from column names like "serial", "SKU", "model", "SN", "S/N", "P/N", "product_code", "part_number")
-        "description": (Product description; can be null if missing. Never include any data not explicitly described in the source.)
-        "price": (Numeric value for the price, use null if missing; remove currency symbols and ensure all values are numeric, including decimals, e.g., 420.00).
+    Se uno dei campi è mancante, incompleto o incoerente, correggilo.
+    Restituisci un dizionario JSON nel formato:
+    {{"serial": "...", "description": "...", "price": ...}}
 
-        Important Instructions for the "serial" key:
-        The source data may use various headers for the product identifier. Be vigilant for columns like "serial", "SKU", "model", "SN", "S/N", "P/N", "product_code", "part_number", or similar variations.
-        If the "description" or "price" fields are missing or incomplete, set them to null. Do not make assumptions or invent missing data.
-        Prices should always be treated as numeric values (e.g., 450.00). If multiple columns contain price-related data, combine them appropriately and discard non-numeric characters.
-
-        If the spreadsheet contains headers or summary rows with product identifiers, treat these identifiers as part of the 'description' field if applicable.
-
-        Data Completeness and Accuracy:
-        If either the "price" or "description" value is not explicitly present in a row, you MUST use null for that field. Do not infer or hallucinate missing data.
-
-        Output ONLY the raw JSON array. Do not include any introductory text, explanations, markdown formatting (like code blocks), or other extraneous characters. Your response must begin directly with [ and end with ].        
-        Do not include any thinking or reasoning in the answer.
-
-        ---SHEET PREVIEW---
-        {sheet_preview}
-        ---END PREVIEW---
-
-        JSON:
-        """
+    Mantieni il serial se è corretto. Non aggiungere campi extra.
+    """
 
 
     @staticmethod

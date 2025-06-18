@@ -12,7 +12,7 @@ class PipelineConfig:
 
     MIN_EXTRACTED_TEXT_SIZE = 50
     FULL_TEXT_CLASSIFICATION_LIMIT = 8000
-    TABLE_PREVIEW_ROWS = 100
+    TABLE_PREVIEW_ROWS = 1000
 
     # Configurazione del chunking
     CHUNK_SIZE = 1024

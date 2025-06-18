@@ -16,7 +16,7 @@ except ImportError:  # Provide a minimal stub so other modules can run
 import logging
 import json
 from typing import Iterator, Literal, Dict, Any, Optional, List
-
+from agents.context import AgentContext
 # --- Configurazione e Tipi ---
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -25,17 +25,35 @@ logger = logging.getLogger(__name__)
 ModelName = Literal[
     "mistral",
     "openchat",
-    "deepseek-r1:8b",       # Versione standard
+    "deepseek-r1:8b",     # Versione standard
     "deepseek-r1:14b",    # Versione più potente
     "llama3:8b-instruct"
 ]
 
+#TODO verificare se viene tenuto contento del context.conversation_history 
 
 # --- Classe Client per Ollama ---
+#1.  [User Input] 
+#2.  [ContextManager] = aggiorna history, estrae contesto (lingua, topic, entità)
+#3.  [LanguageAgent] = rileva lingua
+#4.  [TranslationAgent] = input → lingua pivot (ENG), solo se necessario
+#5.  [IntentAgent] = rileva intento, entità e task
+#6.  [DocumentRetrieverAgent] = RAG con filtro lingua
+#      →   se top-k score basso → trigger fallback
+#7.  [LLM ClarificationAgent] = se ambiguo
+#8.  [ActionExecutor] = se serve crea_preventivo, trouble shouting, etc.
+#9.  [LLM Responder (openchat)] = genera risposta (ENG o originale)
+#10. [TranslationAgent] = ENG → lingua utente (se serve)
+#11. [LLM Verifier] = check grounding, tono, correttezza
+#12. [ContextManager] = aggiorna history assistente
+#13. [Logger] = scrive trace completa
+#14. [Frontend] = mostra output
+
+
 
 class LLMClient:
     """
-    Un client robusto per interagire con i modelli locali di Ollama.
+    Un client per interagire con i modelli locali di Ollama.
     Centralizza la logica di chiamata, streaming e gestione degli errori.
     """
     def __init__(self, default_model: ModelName = "mistral"):
@@ -51,7 +69,7 @@ class LLMClient:
     def call(
         self,
         prompt: str,
-        model: Optional[ModelName] = None,
+        model: Optional[ModelName]= "deepseek-r1:8b",
         system_prompt: Optional[str] = None,
         temperature: float = 0.8
     ) -> str:
@@ -79,10 +97,9 @@ class LLMClient:
     def stream(
         self,
         prompt: str,
-        model: Optional[ModelName] = None,
+        model: Optional[ModelName] = "deepseek-r1:8b",
         system_prompt: Optional[str] = None,
-        # Aggiungi un parametro per controllare la stampa live
-        print_live: bool = False
+        print_live: bool = True
     ) -> Iterator[str]:
         """
         Esegue una chiamata in streaming a un modello LLM, restituendo i chunk di testo.
@@ -91,11 +108,11 @@ class LLMClient:
         target_model = model if model else self.default_model
         logger.info(f"Avvio streaming dal modello: {target_model}")
 
-        messages = [{'role': 'user', 'content': prompt}]
+        messages = [AgentContext.conversation_history, {'role': 'user', 'content': prompt}]
         if system_prompt:
             messages.insert(0, {'role': 'system', 'content': system_prompt})
 
-        full_response_content = "" # Aggiunto per accumulare la risposta completa
+        full_response_content = "" 
         try:
             stream = ollama.chat(
                 model=target_model,
@@ -116,7 +133,6 @@ class LLMClient:
             # ma lo faremo nella pipeline per il "reasoning" specifico.
             pass
     
-
     def call_json(
         self,
         prompt: str,
@@ -157,15 +173,17 @@ class LLMClient:
             # Rimuovi aggressivamente qualsiasi potenziale blocco <think>
             json_string = json_string.split("</think>")[-1].strip() 
 
-            # Trova il primo '[' e l'ultimo ']' per estrarre l'array JSON puro
+            if json_string.startswith("{") and json_string.endswith("}"):
+                # Singolo oggetto → wrappalo in lista
+                return [json.loads(json_string)]
+
             start_index = json_string.find('[')
             end_index = json_string.rfind(']')
 
             if start_index == -1 or end_index == -1:
                 raise json.JSONDecodeError("Non è stato possibile trovare un array JSON valido nell'output del modello.", json_string, 0)
-            
+
             clean_json_string = json_string[start_index : end_index + 1]
-            
             return json.loads(clean_json_string)
         except json.JSONDecodeError as e:
             truncated = raw_content[:1000] if isinstance(raw_content, str) else str(raw_content)
@@ -199,7 +217,7 @@ if __name__ == "__main__":
         # print(f"Storia completa: {full_story}")
 
         print("\n--- Chiamata con Output JSON Garantito ---")
-        prompt_json = "Estrai le informazioni dall'email: 'Ciao, sono Mario Rossi, il mio ordine è #A42-B7. Potete spedirlo a Firenze?' Estrai nome, numero ordine e città."
+        prompt_json = "Estrai le informazioni dall'email: 'Ciao, sono Mario, la versione del kf3 3.4.2 non funziona. Non riesco a scrivere correttamente i FIR?' Estrai nome, software, e bug."
         dati_estratti = client.call_json(prompt_json, model="llama3:8b-instruct")
         
         if dati_estratti:

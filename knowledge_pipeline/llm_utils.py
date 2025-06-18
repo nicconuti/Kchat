@@ -123,53 +123,33 @@ def call_llm_for_classification(
 
 
 @resilient_llm_call()
-def call_llm_for_structured_extraction(
-    sheet_preview: str,
-    sheet_name: str,
-    client: LLMClient = primary_llm_client,
-) -> List[Dict[str, Any]]:
-    """Chiama 'deepseek' per estrarre dati strutturati da un foglio Excel."""
-    logger.info(f"Uso 'deepseek' per l'estrazione strutturata dal foglio '{sheet_name}'...")
-    prompt = LLMPrompts.get_structured_extraction_prompt(sheet_preview, sheet_name)
-    raw_parsed_data = client.call_json(prompt, model="deepseek-r1:14b")
-    if raw_parsed_data is None:
-        logger.warning(
-            f"llm_client.call_json ha restituito None per l'estrazione strutturata del foglio '{sheet_name}'."
-        )
-        return []
-    parsed_json: List[Dict[str, Any]] = []
-    if isinstance(raw_parsed_data, list):
-        parsed_json = raw_parsed_data
-    elif isinstance(raw_parsed_data, dict):
-        logger.warning(
-            f"LLM ha restituito un singolo oggetto JSON invece di un array per l'estrazione strutturata."
-        )
-        parsed_json = [raw_parsed_data]
-    else:
-        logger.warning(
-            f"LLM per l'estrazione strutturata ha restituito un tipo inatteso: {type(raw_parsed_data)}."
-        )
-        return []
+def validate_record_with_llm(record: Dict[str, Any], client: LLMClient = primary_llm_client) -> Dict[str, Any]:
+    """
+    Valida un record strutturato tramite il LLM per correggere errori o incompletezze.
+    """
+    try:
+        prompt = prompt.PROMPT_VALIDATE_EXCEL_RECORD.format(**record)
 
-    validated_list: List[Dict[str, Any]] = []
-    for item in parsed_json:
-        if isinstance(item, dict) and all(k in item for k in ["serial", "description", "price"]):
-            if item.get("price") is not None:
-                try:
-                    item["price"] = float(item["price"])
-                except (ValueError, TypeError):
-                    logger.warning(
-                        f"Valore prezzo non valido per seriale {item.get('serial', 'N/A')}: {item['price']}."
-                    )
-                    item["price"] = None
-            item["sheet_name"] = sheet_name
-            validated_list.append(item)
-        else:
-            logger.warning(
-                f"Elemento malformato saltato dall'output LLM di estrazione strutturata: {item}"
-            )
-    return validated_list
+        response = client.call(
+            prompt=prompt,
+            model="deepseek-r1:14b"
+        )
 
+        if not isinstance(response, dict):
+            logger.warning(f"Risposta LLM non valida: {response}")
+            return record
+
+        return {
+            "serial": response.get("serial", record.get("serial")),
+            "description": response.get("description", record.get("description")),
+            "price": response.get("price", record.get("price")),
+            "sheet_name": record.get("sheet_name"),
+            "product_status": record.get("product_status"),
+        }
+
+    except Exception as e:
+        logger.error("Errore nella validazione record con LLM", exc_info=True)
+        return record
 
 @resilient_llm_call()
 def call_llm_for_enrichment(

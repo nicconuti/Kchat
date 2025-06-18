@@ -4,9 +4,13 @@ from typing import Any, Dict, List, Optional, Protocol
 
 import pandas as pd
 
+from openpyxl import load_workbook
 from .config import PipelineConfig
 from .logging_config import setup_logging
-from .llm_utils import call_llm_for_structured_extraction, primary_llm_client
+from .llm_utils import (
+    validate_record_with_llm,
+    primary_llm_client,
+)
 
 logger = setup_logging()
 
@@ -87,38 +91,78 @@ class AdvancedSemanticChunker(ChunkingStrategy):
             )
         return chunk_list
 
-
 class StructuredDataExtractor(ChunkingStrategy):
     def chunk(self, file_path: Path, source_id: str, metadata: Dict) -> List[Dict[str, Any]]:
         try:
-            with pd.ExcelFile(file_path) as xls:
-                all_records: List[Dict[str, Any]] = []
-                for sheet_name in xls.sheet_names:
-                    df = xls.parse(sheet_name).head(PipelineConfig.TABLE_PREVIEW_ROWS)
-                    extracted_records_from_sheet = call_llm_for_structured_extraction(
-                        df.to_string(index=False),
-                        sheet_name,
-                        client=primary_llm_client,
-                    )
-                    for record in extracted_records_from_sheet:
-                        record["sheet_name"] = sheet_name
-                        if "discontinued" in sheet_name.lower():
-                            record[PipelineConfig.PRODUCT_STATUS_FIELD_NAME] = "discontinued"
-                        else:
-                            record[PipelineConfig.PRODUCT_STATUS_FIELD_NAME] = "active"
-                    all_records.extend(extracted_records_from_sheet)
+            wb = load_workbook(file_path, data_only=True)
+            all_records: List[Dict[str, Any]] = []
+
+            for sheet_name in wb.sheetnames:
+                if sheet_name.strip().upper() in {"INDEX", "COVER", "SOMMARIO", "SUMMARY"}:
+                    continue  # ignora fogli non rilevanti
+
+                ws = wb[sheet_name]
+
+                for row in ws.iter_rows(values_only=True):
+                    row_values = [v for v in row if v is not None]
+                    if not row_values:
+                        continue
+
+                    serial = None
+                    description = None
+                    price = None
+
+                    # Estrai serial
+                    for val in row_values:
+                        if isinstance(val, str) and val.upper().startswith("GSP-"):
+                            serial = val.strip()
+                            break
+                    if not serial:
+                        continue
+
+                    # Estrai il numero massimo plausibile come prezzo
+                    numeric_vals = [float(v) for v in row_values if isinstance(v, (int, float)) and 1 <= v <= 10000]
+                    price = max(numeric_vals) if numeric_vals else None
+
+                    # Estrai descrizione testuale coerente
+                    for val in row_values:
+                        if isinstance(val, str) and val != serial and len(val.strip().split()) >= 2:
+                            description = val.strip()
+                            break
+
+                    record = {
+                        "serial": serial,
+                        "description": description if description else None,
+                        "price": price if price else None,
+                        "sheet_name": sheet_name,
+                        PipelineConfig.PRODUCT_STATUS_FIELD_NAME: (
+                            "discontinued" if "discontinued" in sheet_name.lower() else "active"
+                        )
+                    }
+                    validated_record = validate_record_with_llm(record)
+                    all_records.append(validated_record)
+
+            # Conversione in chunk semantico RAG-ready
+            def render_as_text(rec: Dict[str, Any]) -> str:
+                return (
+                    f"Il componente {rec['serial']} è identificato come \"{rec['description']}\" "
+                    f"con un prezzo di {rec['price']} €. "
+                    f"È incluso nel foglio \"{rec['sheet_name']}\" ed è attualmente "
+                    f"{'disponibile' if rec[PipelineConfig.PRODUCT_STATUS_FIELD_NAME] == 'active' else 'fuori produzione'}."
+                )
+
             chunk_list = []
             for i, rec in enumerate(all_records):
                 chunk_metadata = dict(metadata)
-                chunk_list.append(
-                    {
-                        "chunk_id": f"{source_id}#row{i:04d}",
-                        "source_document_id": source_id,
-                        "content": json.dumps(rec, ensure_ascii=False),
-                        "metadata": chunk_metadata,
-                    }
-                )
+                chunk_list.append({
+                "chunk_id": f"{source_id}#row{i:04d}",
+                "source_document_id": source_id,
+                "content": render_as_text(rec), 
+                "metadata": chunk_metadata,
+                })
+
             return chunk_list
-        except Exception:  # pragma: no cover - log errors
-            logger.error(f"Errore durante il chunking dei dati strutturati da '{file_path.name}'.", exc_info=True)
+
+        except Exception:
+            logger.error(f"Errore durante l'estrazione strutturata da '{file_path.name}'", exc_info=True)
             return []

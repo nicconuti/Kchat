@@ -4,7 +4,7 @@ import hashlib
 import json
 import shutil
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Any
 
 import pandas as pd
 
@@ -52,7 +52,7 @@ class KnowledgePipeline:
             with open(self.quarantine_path / f"{quarantine_target.name}.reason.log", "w", encoding="utf-8") as f:
                 f.write(
                     f"File in quarantena a {pd.Timestamp.utcnow().isoformat()}\nMotivo: {reason}\nPercorso originale: {file_path}\n"
-                )
+                )   
             try:
                 snapshot_text = file_path.read_text(encoding="utf-8", errors="ignore")
                 with open(self.quarantine_path / f"{quarantine_target.name}.txt", "w", encoding="utf-8") as snap:
@@ -65,7 +65,7 @@ class KnowledgePipeline:
                 exc_info=True,
             )
 
-    def process_file(self, path: Path) -> List[Dict[str, any]]:
+    def process_file(self, path: Path) -> List[Dict[str, Any]]:
         logger.info(f"Avvio elaborazione per il file: {path.name}")
         document_id = hashlib.sha256(str(path.resolve()).encode("utf-8")).hexdigest()
         raw_text = self.text_extractor.extract(
@@ -124,8 +124,8 @@ class KnowledgePipeline:
 
         entities = self.entity_extractor.extract(raw_text)
         product_status = "active"
-        if category == "product_price" and "discontinued" in path.name.lower():
-            product_status = "discontinued"
+        if category == "product_price" and "available" in path.name.lower():
+            product_status = "available"
 
         file_stat = path.stat()
         base_metadata = {
@@ -148,7 +148,7 @@ class KnowledgePipeline:
         base_metadata[self.config.PRODUCT_STATUS_FIELD_NAME] = product_status
 
         chunker = self.chunker_map.get(category, self.chunker_map["default"])
-        content_for_chunking = path if isinstance(chunker, StructuredDataExtractor) else raw_text
+        content_for_chunking = path if isinstance(chunker, StructuredDataExtractor) else Path(raw_text)
         chunks = chunker.chunk(content_for_chunking, document_id, base_metadata)
 
         def enrich_chunk(chunk):
@@ -167,50 +167,100 @@ class KnowledgePipeline:
                 pass
 
             if is_json_content:
+                # Helper functions for safe value handling
+                def safe_get(obj, key, formatter=None):
+                    """Safely get and format a value from the object."""
+                    value = obj.get(key)
+                    if value is None or value == "":
+                        return None
+                    return formatter(value) if formatter else value
+
+                def format_price(price):
+                    """Format price with validation."""
+                    try:
+                        return f"{float(price):.2f}€"
+                    except (ValueError, TypeError):
+                        logger.warning(f"Prezzo non valido: {price}")
+                        return None
+
+                # Build summary parts
                 summary_parts = []
-                if content_obj.get("description"):
-                    summary_parts.append(content_obj["description"])
-                if content_obj.get("serial"):
-                    summary_parts.append(f"Seriale: {content_obj['serial']}")
-                if content_obj.get("price") is not None:
-                    summary_parts.append(f"Prezzo: {content_obj['price']:.2f}€")
-                if content_obj.get("sheet_name"):
-                    summary_parts.append(f"Foglio: {content_obj['sheet_name']}")
-                if (
-                    content_obj.get(PipelineConfig.PRODUCT_STATUS_FIELD_NAME) == "discontinued"
-                ):
+                
+                # Add description if available
+                if desc := safe_get(content_obj, "description"):
+                    summary_parts.append(desc)
+
+                # Add serial if available
+                if serial := safe_get(content_obj, "serial"):
+                    summary_parts.append(f"Seriale: {serial}")
+
+                # Add price if available and valid
+                if price := safe_get(content_obj, "price", format_price):
+                    summary_parts.append(f"Prezzo: {price}")
+
+                # Add sheet name if available
+                if sheet := safe_get(content_obj, "sheet_name"):
+                    summary_parts.append(f"Foglio: {sheet}")
+                # Add status if discontinued
+                if content_obj and content_obj.get(PipelineConfig.PRODUCT_STATUS_FIELD_NAME) == "discontinued":
                     summary_parts.append("Stato: Discontinuato")
-                chunk["metadata"]["chunk_summary"] = ", ".join(summary_parts) if summary_parts else "Nessun dato significativo"
-                chunk["metadata"]["hypothetical_questions"] = []
-                if content_obj.get("description"):
-                    chunk["metadata"]["hypothetical_questions"].append(
-                        f"Qual è il prezzo di {content_obj['description']}?"
+
+                # Set summary
+                chunk["metadata"]["chunk_summary"] = (
+                    ", ".join(summary_parts) if summary_parts else "Nessun dato significativo"
+                )
+
+                # Generate hypothetical questions
+                hypothetical_questions = []
+
+                def add_product_questions(identifier):
+                    """Add standard product-related questions."""
+                    if identifier:
+                        hypothetical_questions.extend([
+                            f"Qual è il prezzo di {identifier}?",
+                            f"Qual è il seriale di {identifier}?",
+                            f"È {identifier} discontinuato?",
+                            f"Ci sono alternative per {identifier}?"
+                        ])
+
+                # Add questions based on available data
+                if desc := safe_get(content_obj, "description"):
+                    add_product_questions(desc)
+                elif serial := safe_get(content_obj, "serial"):
+                    add_product_questions(serial)
+                    hypothetical_questions.extend([
+                        f"Qual è la descrizione del prodotto con seriale {serial}?",
+                        f"Quanto costa il prodotto {serial}?"
+                    ])
+
+                # Add sheet-specific question
+                if sheet := safe_get(content_obj, "sheet_name"):
+                    product_ref = (
+                        safe_get(content_obj, "description") or 
+                        safe_get(content_obj, "serial") or 
+                        "questo prodotto"
                     )
-                    chunk["metadata"]["hypothetical_questions"].append(
-                        f"Qual è il seriale di {content_obj['description']}?"
+                    hypothetical_questions.append(
+                        f"A quale foglio appartiene {product_ref}?"
                     )
-                elif content_obj.get("serial"):
-                    chunk["metadata"]["hypothetical_questions"].append(
-                        f"Qual è la descrizione del prodotto con seriale {content_obj['serial']}?"
+                # Add status-specific questions
+                if content_obj and content_obj.get(PipelineConfig.PRODUCT_STATUS_FIELD_NAME) == "discontinued":
+                    product_ref = (
+                        safe_get(content_obj, "description") or 
+                        safe_get(content_obj, "serial") or 
+                        "questo prodotto"
                     )
-                    chunk["metadata"]["hypothetical_questions"].append(
-                        f"Quanto costa il prodotto {content_obj['serial']}?"
-                    )
-                if content_obj.get("sheet_name"):
-                    chunk["metadata"]["hypothetical_questions"].append(
-                        f"A quale foglio appartiene {content_obj.get('description', content_obj.get('serial', 'questo prodotto'))}?"
-                    )
-                if content_obj.get(PipelineConfig.PRODUCT_STATUS_FIELD_NAME) == "discontinued":
-                    chunk["metadata"]["hypothetical_questions"].append(
-                        f"È {content_obj.get('description', content_obj.get('serial', 'questo prodotto'))} discontinuato?"
-                    )
-                    chunk["metadata"]["hypothetical_questions"].append(
-                        f"Ci sono alternative per {content_obj.get('description', content_obj.get('serial', 'questo prodotto'))}?"
-                    )
-                if not chunk["metadata"]["hypothetical_questions"]:
-                    chunk["metadata"]["hypothetical_questions"].append(
+                    hypothetical_questions.extend([
+                        f"Ci sono alternative per {product_ref}?"
+                    ])
+
+                # Add fallback question if no specific questions were generated
+                if not hypothetical_questions:
+                    hypothetical_questions.append(
                         "Quali informazioni contiene questo record?"
                     )
+
+                chunk["metadata"]["hypothetical_questions"] = hypothetical_questions
                 return chunk
             enrichment_data = call_llm_for_enrichment(chunk["content"], client=primary_llm_client)
             if isinstance(enrichment_data, dict):
@@ -233,8 +283,8 @@ class KnowledgePipeline:
         logger.info(f"Creati e arricchiti con successo {len(enriched_chunks)} chunk per '{path.name}'.")
         return enriched_chunks
 
-    def run(self, input_path: Path) -> List[Dict[str, any]]:
-        all_chunks: List[Dict[str, any]] = []
+    def run(self, input_path: Path) -> List[Dict[str, Any]]:
+        all_chunks: List[Dict[str, Any]] = []
         files = self.scanner.scan(input_path)
         with concurrent.futures.ProcessPoolExecutor() as executor:
             future_to_file = {executor.submit(self.process_file, file): file for file in files}

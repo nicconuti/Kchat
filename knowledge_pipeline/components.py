@@ -2,12 +2,14 @@ import zipfile
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import List, Optional
+import re
 
 import docx
 import pandas as pd
 import pdfplumber
 import spacy
 from functools import lru_cache
+from spacy.cli.download import download
 
 from .logging_config import setup_logging
 
@@ -68,7 +70,7 @@ class TextExtractor:
                     all_text = [page.extract_text() for page in pdf.pages if page.extract_text()]
                 text = "\n".join(all_text)
             elif ext == ".docx":
-                doc = docx.Document(path)
+                doc = docx.Document(str(path))
                 all_text = [para.text for para in doc.paragraphs if para.text.strip()]
                 text = "\n".join(all_text)
             elif ext == ".xlsx":
@@ -76,7 +78,7 @@ class TextExtractor:
                     all_sheet_previews = []
                     for sheet_name in xls.sheet_names:
                         try:
-                            df = xls.parse(sheet_name).head(preview_rows)
+                            df = pd.read_excel(xls, sheet_name=sheet_name, nrows=preview_rows)
                             all_sheet_previews.append(
                                 f"--- Foglio: {sheet_name} ---\n{df.to_string(index=False)}"
                             )
@@ -104,7 +106,7 @@ class EntityExtractor:
             return spacy.load("xx_ent_wiki_sm")
         except OSError:  # pragma: no cover - attempt download
             logger.warning("Modello SpaCy 'xx_ent_wiki_sm' non trovato. Scarico...")
-            spacy.cli.download("xx_ent_wiki_sm")
+            download("xx_ent_wiki_sm")
             return spacy.load("xx_ent_wiki_sm")
 
     def extract(self, text: str) -> List[str]:

@@ -106,9 +106,7 @@ Tutte le chiamate agli agenti ricevono e restituiscono un `AgentContext` aggiorn
 ### `verifier.py`
 - **`verify_response(user_input, response)`**: chiede a Mistral di valutare se la risposta è pertinente; ritorna `True`/`False`.
 
-### `file_classifier.py`
-- **`main()`**: utility CLI per classificare file in una cartella o archivio ZIP sfruttando la classe `Categorizer`.
-- Salva il risultato in `output.json`; se la categoria impostata è `product_price`, il file viene creato o aggiornato in `prices.json`.
+
 
 ### `csv_utils.py`
 - **`load_csv(path)`**: carica file CSV di struttura variabile usando Pandas restituendo una lista di dizionari.
@@ -133,21 +131,10 @@ Per avviare una sessione interattiva del bot:
 python main.py
 ```
 
-Per classificare documenti in automatico:
-
-```bash
-python file_classifier.py <cartella_o_zip> \
-  --category tech_assistance --mode auto
-```
 
 Le categorie valide sono `tech_assistance`, `software_assistance`,
 `product_price` e `product_guide`.
 
-È inoltre possibile avviare un piccolo server REST:
-
-```bash
-uvicorn file_classifier:app --reload
-```
 
 ed effettuare una richiesta POST a `/classify` specificando `input_path` e
 `category` nel corpo JSON.

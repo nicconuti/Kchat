@@ -2,8 +2,7 @@
 
 from typing import Iterator
 
-from models.call_local_llm import call_mistral, stream_mistral
-
+from models.call_local_llm import call_mistral, _stream_ollama
 
 def translate(text: str, target_lang: str = "en") -> str:
     """Translate ``text`` to ``target_lang`` using Mistral.
@@ -39,6 +38,6 @@ def translate_stream(text: str, target_lang: str = "en") -> Iterator[str]:
         "Translated text:"
     )
     try:
-        yield from stream_mistral(prompt)
+        yield from _stream_ollama('mistral',prompt)
     except Exception:
         yield text

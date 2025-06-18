@@ -6,18 +6,18 @@ Chatbot agentico per l'assistenza clienti. Il progetto fornisce una serie di age
 
 | **Intent**                    | **Descrizione**                                              | **Esempio utente**                                      |
 | ----------------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
-| `technical_support_request`   | L’utente ha un problema tecnico con un prodotto o servizio esistente | *"Il mio dispositivo non si accende più, potete aiutarmi?"* |
-| `product_information_request` | L’utente chiede informazioni dettagliate su un prodotto o servizio   | *"Questo modello supporta il Bluetooth?"*               |
-| `cost_estimation`               | L’utente vuole un preventivo o informazioni su prezzi                | *"Mi potete fare un preventivo per XXX modello?"*       |
+| `technical_support_request`   | L'utente ha un problema tecnico con un prodotto o servizio esistente | *"Il mio dispositivo non si accende più, potete aiutarmi?"* |
+| `product_information_request` | L'utente chiede informazioni dettagliate su un prodotto o servizio   | *"Questo modello supporta il Bluetooth?"*               |
+| `cost_estimation`               | L'utente vuole un preventivo o informazioni su prezzi                | *"Mi potete fare un preventivo per XXX modello?"*       |
 | `booking_or_schedule`         | Richiesta di fissare un appuntamento o una demo                       | *"Vorrei fissare un incontro con un tecnico"*           |
-| `document_request`            | L’utente chiede un documento o un manuale                             | *"Potrei avere il manuale in PDF?"*                     |
-| `open_ticket`                 | L’utente chiede esplicitamente di aprire un ticket                   | *"Aprite un ticket per favore"*                         |
-| `complaint`                   | L’utente esprime un reclamo formale                                 | *"Il prodotto è arrivato danneggiato"*                  |
+| `document_request`            | L'utente chiede un documento o un manuale                             | *"Potrei avere il manuale in PDF?"*                     |
+| `open_ticket`                 | L'utente chiede esplicitamente di aprire un ticket                   | *"Aprite un ticket per favore"*                         |
+| `complaint`                   | L'utente esprime un reclamo formale                                 | *"Il prodotto è arrivato danneggiato"*                  |
 | `generic_smalltalk`           | Input non classificabile (saluti, test, ecc.)                        | *"Ciao, è previsto qualche evento?"*                    |
 
 ## Introduzione
 
-Kchat è concepito per funzionare interamente in locale senza dipendenze da servizi cloud. Ogni messaggio utente viene analizzato e gestito da più agenti specializzati che cooperano tramite il contesto condiviso `AgentContext` (`agents/context.py`). I modelli LLM sono serviti da Ollama e permettono l’elaborazione in più lingue.
+Kchat è concepito per funzionare interamente in locale senza dipendenze da servizi cloud. Ogni messaggio utente viene analizzato e gestito da più agenti specializzati che cooperano tramite il contesto condiviso `AgentContext` (`agents/context.py`). I modelli LLM sono serviti da Ollama e permettono l'elaborazione in più lingue.
 
 ### Installazione rapida
 
@@ -128,7 +128,6 @@ categoria principale del documento. Le categorie ammesse sono:
 - `product_guide`
 
 ```bash
-python file_classifier.py <cartella_o_zip> --category tech_assistance --mode auto
 ```
 
 L'opzione `--mode` può assumere i valori:
@@ -146,13 +145,6 @@ Il campo `chunks` rappresenta le porzioni di testo da usare nel retrieval (RAG) 
 - `product_price`: la tabella può essere in formato `a | b | c` oppure con i valori su linee consecutive (come da estrazione XLSX). Ogni riga viene convertita in un dizionario `{serial, subcategory, description, price}`;
 - `product_guide`: il documento è diviso in paragrafi;
 - altre categorie: suddivisione standard per paragrafi.
-
-È disponibile anche un endpoint REST per classificare file tramite HTTP.
-Avviare il server con:
-
-```bash
-uvicorn file_classifier:app --reload
-```
 
 Una volta in esecuzione si può inviare una richiesta POST a `/classify`:
 
@@ -188,3 +180,19 @@ pytest
 ```
 
 L'esecuzione di tali strumenti aiuta a intercettare errori di stile, problemi di tipizzazione e test falliti.
+
+## Requisiti di Sistema
+- Python >= 3.9
+
+## Setup Ambiente Virtuale
+```bash
+# Creare ambiente virtuale
+python -m venv venv
+
+# Attivare ambiente virtuale
+source venv/bin/activate  # Linux/Mac
+.\venv\Scripts\activate   # Windows
+
+# Installare dipendenze
+pip install -r requirements.txt
+```

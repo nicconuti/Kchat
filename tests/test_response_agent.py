@@ -15,8 +15,9 @@ def test_response_agent(monkeypatch):
 def test_response_doc_mode():
     ctx = AgentContext(
         user_id="u", session_id="s", input="hello", intent="info", documents=["d"], formality="formal"
-    )
+        )
     run(ctx)
+    assert ctx.response is not None
     assert ctx.response.startswith("[formal]")
 
 
@@ -28,6 +29,7 @@ def test_response_action_mode(monkeypatch):
     monkeypatch.setattr("agents.response_agent.action_run", lambda ctx: ctx)
     ctx = AgentContext(user_id="u", session_id="s", input="hello", intent="open_ticket", formality="informal")
     run(ctx)
+    assert ctx.response is not None
     assert "Action taken" in ctx.response
 
 
