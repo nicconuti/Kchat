@@ -1,4 +1,18 @@
-import ollama
+try:
+    import ollama
+except ImportError:  # Provide a minimal stub so other modules can run
+    class _OllamaStub:
+        def ps(self):
+            logger = logging.getLogger(__name__)
+            logger.warning("Ollama package not available; using stub client")
+
+        def chat(self, *args, **kwargs):
+            if kwargs.get("stream"):
+                # yield a single empty chunk to satisfy streaming interface
+                yield {"message": {"content": ""}}
+            return {"message": {"content": ""}}
+
+    ollama = _OllamaStub()
 import logging
 import json
 from typing import Iterator, Literal, Dict, Any, Optional, List
@@ -154,7 +168,10 @@ class LLMClient:
             
             return json.loads(clean_json_string)
         except json.JSONDecodeError as e:
-            logger.error(f"[Errore Decodifica JSON] Il modello non ha restituito un JSON valido. Errore: {e}. Output del modello: '{raw_content}' (Processato: '{clean_json_string if 'clean_json_string' in locals() else 'N/A'}')")
+            truncated = raw_content[:1000] if isinstance(raw_content, str) else str(raw_content)
+            logger.error(
+                f"[Errore Decodifica JSON] Il modello non ha restituito un JSON valido. Errore: {e}. Output: '{truncated}'"
+            )
             return None
         except Exception as e:
             logger.error(f"[Errore Chiamata JSON] Modello: {target_model} | {e}")

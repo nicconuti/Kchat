@@ -1,9 +1,11 @@
 from typing import Dict
+from functools import lru_cache
 
 class LLMPrompts:
     """Centralized management of LLM prompt templates for clarity and maintainability."""
     
     @staticmethod
+    @lru_cache(maxsize=32)
     def get_classification_prompt(categories_with_desc: Dict, filename: str, text_preview: str) -> str:
         """Generates the prompt for document classification."""
         category_definitions = "\n".join([f'- "{name}": {desc}' for name, desc in categories_with_desc.items()])
