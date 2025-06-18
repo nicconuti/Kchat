@@ -112,17 +112,6 @@ Tutte le chiamate agli agenti ricevono e restituiscono un `AgentContext` aggiorn
 - **`load_csv(path)`**: carica file CSV di struttura variabile usando Pandas restituendo una lista di dizionari.
 - **`summarize_csv(path)`**: impiega `call_mistral` per riassumere in una frase il significato delle colonne.
 
-## Strumenti di categorizzazione
-
-Il pacchetto `categorizer/` fornisce strumenti per catalogare documenti:
-
-- **`categorizer.py`**: classe `Categorizer` con `process_file()` e `run()` per analizzare file, estrarre testo, categorie e metadati.
-- **`classifier.py`**: funzioni `score()`, `extract_subcategories()` e `classify()` per una prima classificazione basata su parole chiave ed entità.
-- **`entity_extractor.py`**: `extract_entities()` estrae nomi di prodotti tramite spaCy.
-- **`extractor.py`**: `extract_text()` apre PDF, DOCX, XLSX, HTML e TXT restituendo il testo estratto con log degli errori.
-- **`scanner.py`**: `scan()` restituisce l'elenco di file supportati presenti in una cartella o in un archivio ZIP.
-- **`validator.py`**: funzione `confirm()` che permette la validazione interattiva o tramite LLM del risultato della classificazione.
-
 ## Esecuzione da riga di comando
 
 Per avviare una sessione interattiva del bot:
@@ -131,13 +120,6 @@ Per avviare una sessione interattiva del bot:
 python main.py
 ```
 
-
-Le categorie valide sono `tech_assistance`, `software_assistance`,
-`product_price` e `product_guide`.
-
-
-ed effettuare una richiesta POST a `/classify` specificando `input_path` e
-`category` nel corpo JSON.
 
 La cartella `tests/` contiene suite PyTest che coprono le funzioni principali. Prima di mettere in produzione il progetto è consigliato eseguire:
 
