@@ -100,60 +100,29 @@ Ogni agente scrive log dedicati nella cartella `logs/`:
 | `ingest_log.log`          | `agents/embedding_ingestor_agent.py` |
 | `action_log.log`          | `agents/action_agent.py`           |
 | `supervisor_log.log`      | `agents/supervisor_agent.py`       |
-| `categorizer_log.json`    | `categorizer/categorizer.py`       |
-| `extract_log.json`        | `categorizer/extractor.py`         |
-| `validator_log.json`      | `categorizer/validator.py`         |
+| `pipeline_<pid>.log`      | `knowledge_pipeline/logging_config.py` |
 
 Ogni record include campi aggiuntivi come `confidence_score`, `source_reliability`, `clarification_attempted` ed `error_flag` grazie al sistema di logging definito in `utils/logger.py`.
 
-## Strumento di categorizzazione documenti
 
-Il pacchetto `categorizer` permette di analizzare file testuali (PDF, DOCX, **XLSX**, TXT,
-HTML o archivi ZIP) e assegnare una categoria e delle sotto-categorie in base al
-contenuto. I log generati durante la procedura vengono salvati in `logs/` nei
-file `categorizer_log.json`, `extract_log.json` e `validator_log.json`.
+## Pipeline di ingestione della conoscenza
 
-La versione attuale include anche un modulo di **Named Entity Recognition (NER)** basato su spaCy che
-riconosce nomi di prodotti e software all'interno dei testi. Le entità estratte
-vengono combinate con i token più frequenti per calcolare le sotto-categorie e
-sono salvate nei metadati dell'output, così da poter essere indicizzate nel
-sistema di embedding.
+Il modulo `knowledge_pipeline` sostituisce il vecchio pacchetto di categorizzazione e permette di scansionare directory o archivi ZIP generando chunk arricchiti pronti per l'indicizzazione.
 
-Per utilizzare il tool da linea di comando è ora obbligatorio specificare la
-categoria principale del documento. Le categorie ammesse sono:
+### Utilizzo da riga di comando
 
+```bash
+python knowledge_pipeline.py percorso_documenti --output risultato.jsonl
+```
+La pipeline riconosce le seguenti categorie principali:
 - `tech_assistance`
 - `software_assistance`
 - `product_price`
 - `product_guide`
 
-```bash
-```
+Se non viene indicato `--output`, il file predefinito è `knowledge_base_reliable.jsonl`. I documenti vengono classificati tramite LLM, suddivisi in chunk e arricchiti con riassunti e possibili domande. I file problematici o con classificazioni poco affidabili vengono copiati nella cartella `quarantine/` insieme a un file con il motivo della quarantena.
 
-L'opzione `--mode` può assumere i valori:
-
-* `interactive` (default) – chiede conferma manuale in caso di ambiguità;
-* `auto` – accetta automaticamente la classificazione se la fiducia è elevata;
-* `silent` – nessuna validazione interattiva.
-
-L'output verrà scritto in `output.json` con i campi `category`, `subcategories`,
-`validated`, `category_source`, `chunks` e metadati sul file processato`. Se la
-categoria scelta è `product_price`, il risultato verrà aggiunto (o creato) nel
-file `prices.json` al posto di `output.json`.
-
-Il campo `chunks` rappresenta le porzioni di testo da usare nel retrieval (RAG) e varia in base alla categoria:
-- `product_price`: la tabella può essere in formato `a | b | c` oppure con i valori su linee consecutive (come da estrazione XLSX). Ogni riga viene convertita in un dizionario `{serial, subcategory, description, price}`;
-- `product_guide`: il documento è diviso in paragrafi;
-- altre categorie: suddivisione standard per paragrafi.
-
-Una volta in esecuzione si può inviare una richiesta POST a `/classify`:
-
-```bash
-curl -X POST http://localhost:8000/classify \
-  -H "Content-Type: application/json" \
-  -d '{"input_path": "cartella/", "category": "product_guide"}'
-```
-
+Il log dettagliato dell'esecuzione è scritto in `logs/pipeline_<pid>.log`. Ogni riga dell'output JSON Lines contiene `chunk_id`, `content` e `metadata` (es. `category`, `classification_confidence`, `chunk_summary`).
 ## Gestione CSV
 
 Per analizzare file CSV dalla struttura non prevedibile è disponibile il modulo
