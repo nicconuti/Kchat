@@ -43,7 +43,7 @@ Gli agenti principali sono:
 - **ClarificationAgent** – pone domande di chiarimento in caso di dubbio.
 - **OrchestratorAgent** – coordina la sequenza di agenti da eseguire.
 
-## Workflow
+## Workflow 
 
 Di seguito è riportato il flusso standard orchestrato da `OrchestratorAgent`.
 

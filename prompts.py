@@ -41,7 +41,6 @@ class LLMPrompts:
     Mantieni il serial se è corretto. Non aggiungere campi extra.
     """
 
-
     @staticmethod
     def get_enrichment_prompt(chunk_text: str) -> str:
         """Generates the prompt for enriching a text chunk with metadata."""

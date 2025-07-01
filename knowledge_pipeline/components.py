@@ -6,7 +6,7 @@ import re
 
 import docx
 import pandas as pd
-import pdfplumber
+import fitz  # PyMuPDF
 import spacy
 from functools import lru_cache
 from spacy.cli.download import download
@@ -66,7 +66,7 @@ class TextExtractor:
         try:
             ext = path.suffix.lower()
             if ext == ".pdf":
-                with pdfplumber.open(path) as pdf:
+                with fitz.open(path) as pdf:
                     all_text = [page.extract_text() for page in pdf.pages if page.extract_text()]
                 text = "\n".join(all_text)
             elif ext == ".docx":

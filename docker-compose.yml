@@ -1,0 +1,140 @@
+version: '3.8'
+
+services:
+  # Main Kchat application
+  kchat:
+    build:
+      context: .
+      target: production
+    container_name: kchat-app
+    restart: unless-stopped
+    environment:
+      - PYTHONPATH=/app
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - OLLAMA_HOST=ollama
+      - OLLAMA_PORT=11434
+    volumes:
+      - ./logs:/app/logs
+      - ./quotes:/app/quotes
+      - ./backend_data:/app/backend_data
+      - ./embeddings:/app/embeddings
+    ports:
+      - "8000:8000"
+    depends_on:
+      - qdrant
+      - ollama
+    networks:
+      - kchat-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "from agents.context import AgentContext; print('OK')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Qdrant vector database
+  qdrant:
+    image: qdrant/qdrant:v1.7.4
+    container_name: kchat-qdrant
+    restart: unless-stopped
+    environment:
+      - QDRANT__SERVICE__HTTP_PORT=6333
+      - QDRANT__SERVICE__GRPC_PORT=6334
+    volumes:
+      - qdrant_data:/qdrant/storage
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    networks:
+      - kchat-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  # Ollama for local LLM serving
+  ollama:
+    image: ollama/ollama:latest
+    container_name: kchat-ollama
+    restart: unless-stopped
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_ORIGINS=*
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    networks:
+      - kchat-network
+    # GPU support (uncomment if you have NVIDIA GPU)
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # Development environment
+  kchat-dev:
+    build:
+      context: .
+      target: development
+    container_name: kchat-dev
+    restart: "no"
+    environment:
+      - PYTHONPATH=/app
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - OLLAMA_HOST=ollama
+      - OLLAMA_PORT=11434
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+      - ./quotes:/app/quotes
+      - ./backend_data:/app/backend_data
+      - ./embeddings:/app/embeddings
+    ports:
+      - "8001:8000"
+    depends_on:
+      - qdrant
+      - ollama
+    networks:
+      - kchat-network
+    profiles:
+      - dev
+
+  # Testing environment
+  kchat-test:
+    build:
+      context: .
+      target: testing
+    container_name: kchat-test
+    restart: "no"
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - .:/app
+    networks:
+      - kchat-network
+    profiles:
+      - test
+
+networks:
+  kchat-network:
+    driver: bridge
+
+volumes:
+  qdrant_data:
+    driver: local
+  ollama_data:
+    driver: local
