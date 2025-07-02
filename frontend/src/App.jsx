@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, CssBaseline } from '@mui/material';
-import muiTheme from './theme/muiTheme';
+import getMuiTheme from './theme/muiTheme';
+import ColorModeContext from './theme/ColorModeContext';
 import Layout from './components/Layout';
 import ChatInterface from './components/ChatInterface';
 import StreamingChatInterface from './components/StreamingChatInterface';
@@ -15,9 +16,24 @@ import './styles/ModernUI.css';
 import './styles/MUIAnimations.css';
 
 function App() {
+  const [mode, setMode] = useState(() => localStorage.getItem('colorMode') || 'light');
+  const colorMode = useMemo(
+    () => ({
+      toggleColorMode: () => {
+        setMode(prev => {
+          const next = prev === 'light' ? 'dark' : 'light';
+          localStorage.setItem('colorMode', next);
+          return next;
+        });
+      }
+    }),
+    []
+  );
+  const theme = useMemo(() => getMuiTheme(mode), [mode]);
   return (
-    <ThemeProvider theme={muiTheme}>
-      <CssBaseline />
+    <ColorModeContext.Provider value={colorMode}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
       <Router>
         <Routes>
           {/* New MUI Interface as Default */}
@@ -58,7 +74,8 @@ function App() {
           } />
         </Routes>
       </Router>
-    </ThemeProvider>
+      </ThemeProvider>
+    </ColorModeContext.Provider>
   );
 }
 

@@ -44,24 +44,39 @@ const karrayColors = {
 };
 
 // Create MUI Theme
-const muiTheme = createTheme({
+const getMuiTheme = (mode = 'light') => createTheme({
   palette: {
-    mode: 'light',
+    mode,
     primary: karrayColors.primary,
     secondary: karrayColors.secondary,
     success: karrayColors.success,
     warning: karrayColors.warning,
     error: karrayColors.error,
-    background: {
-      default: '#f8fafc',
-      paper: '#ffffff',
-    },
-    text: {
-      primary: '#0f172a',
-      secondary: '#64748b',
-      disabled: '#94a3b8',
-    },
-    divider: '#e2e8f0',
+    ...(mode === 'light'
+      ? {
+          background: {
+            default: '#f8fafc',
+            paper: '#ffffff',
+          },
+          text: {
+            primary: '#0f172a',
+            secondary: '#64748b',
+            disabled: '#94a3b8',
+          },
+          divider: '#e2e8f0',
+        }
+      : {
+          background: {
+            default: '#121212',
+            paper: '#1e1e1e',
+          },
+          text: {
+            primary: '#ffffff',
+            secondary: '#cbd5e1',
+            disabled: '#94a3b8',
+          },
+          divider: 'rgba(255, 255, 255, 0.12)',
+        }),
     grey: {
       50: '#f8fafc',
       100: '#f1f5f9',
@@ -246,4 +261,4 @@ const muiTheme = createTheme({
   },
 });
 
-export default muiTheme;
+export default getMuiTheme;

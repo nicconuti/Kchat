@@ -32,10 +32,14 @@ import {
   Home as HomeIcon,
   Help as HelpIcon,
   Brightness4 as DarkModeIcon,
+  Brightness7 as LightModeIcon,
   Notifications as NotificationsIcon,
 } from '@mui/icons-material';
+import { useContext } from 'react';
+import ColorModeContext from '../theme/ColorModeContext';
 
 function MUIResponsiveLayout({ children }) {
+  const colorMode = useContext(ColorModeContext);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [bottomNavValue, setBottomNavValue] = useState(0);
   const theme = useTheme();
@@ -255,8 +259,8 @@ function MUIResponsiveLayout({ children }) {
             <IconButton color="inherit" size="large">
               <NotificationsIcon />
             </IconButton>
-            <IconButton color="inherit" size="large">
-              <DarkModeIcon />
+            <IconButton color="inherit" size="large" onClick={colorMode.toggleColorMode}>
+              {theme.palette.mode === 'light' ? <DarkModeIcon /> : <LightModeIcon />}
             </IconButton>
             <IconButton color="inherit" size="large">
               <SettingsIcon />
