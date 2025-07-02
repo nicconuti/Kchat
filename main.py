@@ -1,8 +1,13 @@
 import uuid
 import time
+import sys
 from agents.context import AgentContext
 from agents.orchestrator_agent import run as orchestrate
 from utils.input_validator import validate_user_input, ValidationError
+
+# Ensure correct Haystack-AI path is available for the main application
+if '/opt/homebrew/lib/python3.9/site-packages' not in sys.path:
+    sys.path.insert(0, '/opt/homebrew/lib/python3.9/site-packages')
 
 # ANSI terminal color codes
 RED = "\x1b[31m"

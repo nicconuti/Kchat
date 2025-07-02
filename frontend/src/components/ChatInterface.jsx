@@ -41,7 +41,6 @@ function ChatInterface() {
     setIsLoading(true);
 
     try {
-      // TODO: Replace with actual API call
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
@@ -63,21 +62,20 @@ function ChatInterface() {
       const botMessage = {
         id: Date.now() + 1,
         type: 'bot',
-        content: data.response || 'I apologize, but I encountered an issue processing your request.',
+        content: data?.response || 'Risposta non disponibile dal backend.',
         timestamp: new Date(),
-        sources: data.sources || [],
-        confidence: data.confidence
+        sources: data?.sources || [],
+        confidence: data?.confidence || null
       };
 
       setMessages(prev => [...prev, botMessage]);
     } catch (error) {
       console.error('Chat error:', error);
       
-      // Fallback response for demo purposes
       const errorMessage = {
         id: Date.now() + 1,
         type: 'bot',
-        content: 'I\'m currently in demo mode. The backend service is not yet connected. However, I can help you with information about K-Array products and services!',
+        content: `Errore nella comunicazione: ${error.message}`,
         timestamp: new Date(),
         sources: [],
         isError: true
@@ -299,7 +297,8 @@ function ChatInterface() {
                 flex: 1,
                 minHeight: '44px',
                 maxHeight: '120px',
-                resize: 'none'
+                resize: 'none',
+                color: "#000"
               }}
               disabled={isLoading}
             />

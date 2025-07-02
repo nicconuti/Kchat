@@ -1,7 +1,4 @@
-version: '3.8'
-
 services:
-  # Main Kchat application
   kchat:
     build:
       context: .
@@ -27,13 +24,12 @@ services:
     networks:
       - kchat-network
     healthcheck:
-      test: ["CMD", "python", "-c", "from agents.context import AgentContext; print('OK')"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/healthz"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
 
-  # Qdrant vector database
   qdrant:
     image: qdrant/qdrant:v1.7.4
     container_name: kchat-qdrant
@@ -55,7 +51,6 @@ services:
       retries: 5
       start_period: 30s
 
-  # Ollama for local LLM serving
   ollama:
     image: ollama/ollama:latest
     container_name: kchat-ollama
@@ -69,14 +64,6 @@ services:
       - "11434:11434"
     networks:
       - kchat-network
-    # GPU support (uncomment if you have NVIDIA GPU)
-    # deploy:
-    #   resources:
-    #     reservations:
-    #       devices:
-    #         - driver: nvidia
-    #           count: 1
-    #           capabilities: [gpu]
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
       interval: 30s
@@ -84,7 +71,6 @@ services:
       retries: 5
       start_period: 60s
 
-  # Development environment
   kchat-dev:
     build:
       context: .
@@ -113,7 +99,6 @@ services:
     profiles:
       - dev
 
-  # Testing environment
   kchat-test:
     build:
       context: .

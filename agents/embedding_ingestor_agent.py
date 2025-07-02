@@ -1,7 +1,6 @@
 """Background agent to ingest and embed documents with real embeddings."""
 
 import json
-import numpy as np
 from pathlib import Path
 from typing import Any, List, Mapping, Dict, Optional, Union
 from dataclasses import dataclass

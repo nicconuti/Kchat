@@ -29,11 +29,12 @@ INJECTION_PATTERNS = [
     re.compile(r'vbscript:', re.IGNORECASE),
 ]
 
-# SQL injection patterns
+# SQL injection patterns (more refined for chat messages)
 SQL_INJECTION_PATTERNS = [
-    re.compile(r'(\b(union|select|insert|update|delete|drop|create|alter)\b)', re.IGNORECASE),
-    re.compile(r'(--|#|/\*|\*/)', re.IGNORECASE),
-    re.compile(r"(';|'|\")", re.IGNORECASE),
+    re.compile(r'\b(union\s+select|insert\s+into|update\s+set|delete\s+from|drop\s+table|create\s+table|alter\s+table)\b', re.IGNORECASE),
+    re.compile(r'--\s*$', re.MULTILINE),  # SQL comments at end of line
+    re.compile(r'/\*.*\*/', re.DOTALL),   # Block comments
+    re.compile(r"';\s*(union|select|insert|update|delete|drop|create|alter)", re.IGNORECASE),  # SQL after semicolon
 ]
 
 class ValidationError(Exception):
@@ -53,13 +54,14 @@ class InputValidator:
         self.strict_mode = strict_mode
         self.logger = logging.getLogger(__name__)
     
-    def validate_user_input(self, text: str, allow_empty: bool = False) -> str:
+    def validate_user_input(self, text: str, allow_empty: bool = False, is_chat_message: bool = False) -> str:
         """
         Validate and sanitize user input text.
         
         Args:
             text: User input to validate
             allow_empty: Whether to allow empty input
+            is_chat_message: If True, applies more permissive validation for chat
             
         Returns:
             Sanitized text
@@ -78,15 +80,19 @@ class InputValidator:
             self.logger.warning(f"Input truncated from {len(text)} to {MAX_INPUT_LENGTH} characters")
             text = text[:MAX_INPUT_LENGTH]
         
-        # Check for injection attempts
-        self._check_for_injections(text)
+        # Check for injection attempts (more permissive for chat messages)
+        self._check_for_injections(text, is_chat_message=is_chat_message)
         
-        # Sanitize HTML entities
-        sanitized = html.escape(text, quote=True)
-        
-        # Additional sanitization in strict mode
-        if self.strict_mode:
-            sanitized = self._strict_sanitize(sanitized)
+        # For chat messages, only escape dangerous HTML, not quotes
+        if is_chat_message:
+            sanitized = self._sanitize_chat_message(text)
+        else:
+            # Sanitize HTML entities
+            sanitized = html.escape(text, quote=True)
+            
+            # Additional sanitization in strict mode
+            if self.strict_mode:
+                sanitized = self._strict_sanitize(sanitized)
         
         self.logger.debug(f"Input validated and sanitized: {len(sanitized)} chars")
         return sanitized.strip()
@@ -166,27 +172,58 @@ class InputValidator:
         
         return file_path
     
-    def _check_for_injections(self, text: str) -> None:
+    def _check_for_injections(self, text: str, is_chat_message: bool = False) -> None:
         """
         Check for various injection attack patterns.
         
         Args:
             text: Text to check
+            is_chat_message: If True, applies more permissive checking
             
         Raises:
             ValidationError: If injection patterns found
         """
-        # Check XSS patterns
+        # Always check XSS patterns
         for pattern in INJECTION_PATTERNS:
             if pattern.search(text):
                 self.logger.warning(f"XSS injection attempt detected: {pattern.pattern}")
                 raise ValidationError("Potential XSS injection detected")
         
-        # Check SQL injection patterns
-        for pattern in SQL_INJECTION_PATTERNS:
-            if pattern.search(text):
-                self.logger.warning(f"SQL injection attempt detected: {pattern.pattern}")
-                raise ValidationError("Potential SQL injection detected")
+        # For chat messages, only check severe SQL injection patterns
+        if not is_chat_message:
+            # Check all SQL injection patterns for non-chat inputs
+            for pattern in SQL_INJECTION_PATTERNS:
+                if pattern.search(text):
+                    self.logger.warning(f"SQL injection attempt detected: {pattern.pattern}")
+                    raise ValidationError("Potential SQL injection detected")
+        else:
+            # For chat messages, only check for obvious SQL injection attempts
+            severe_sql_patterns = [
+                re.compile(r'\b(union\s+select|insert\s+into|update\s+set|delete\s+from|drop\s+table)\b', re.IGNORECASE),
+                re.compile(r"';\s*(union|select|insert|update|delete|drop)", re.IGNORECASE),
+            ]
+            for pattern in severe_sql_patterns:
+                if pattern.search(text):
+                    self.logger.warning(f"Severe SQL injection attempt detected in chat: {pattern.pattern}")
+                    raise ValidationError("Potential SQL injection detected")
+    
+    def _sanitize_chat_message(self, text: str) -> str:
+        """
+        Sanitize chat message with minimal HTML escaping.
+        
+        Args:
+            text: Text to sanitize
+            
+        Returns:
+            Sanitized text
+        """
+        # Only escape script tags and dangerous HTML
+        text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.IGNORECASE | re.DOTALL)
+        text = re.sub(r'<\s*/?script[^>]*>', '', text, flags=re.IGNORECASE)
+        text = text.replace('<', '&lt;').replace('>', '&gt;')
+        
+        # Keep quotes and apostrophes for natural language
+        return text
     
     def _strict_sanitize(self, text: str) -> str:
         """
@@ -244,9 +281,9 @@ class InputValidator:
 _default_validator = InputValidator(strict_mode=True)
 
 # Convenience functions
-def validate_user_input(text: str, allow_empty: bool = False) -> str:
+def validate_user_input(text: str, allow_empty: bool = False, is_chat_message: bool = False) -> str:
     """Validate user input using default validator."""
-    return _default_validator.validate_user_input(text, allow_empty)
+    return _default_validator.validate_user_input(text, allow_empty, is_chat_message)
 
 def validate_session_id(session_id: str) -> str:
     """Validate session ID using default validator."""

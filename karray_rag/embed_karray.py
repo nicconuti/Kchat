@@ -14,11 +14,11 @@ from models._call_llm import LLMClient
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-INPUT_FILE = "data/karray_knowledge.jsonl"
-OUTPUT_FILE = "data/embedded_karray_documents.jsonl"
+INPUT_FILE = "karray_rag/data/karray_knowledge.jsonl"
+OUTPUT_FILE = "karray_rag/data/embedded_karray_documents.jsonl"
 MODEL_NAME = "mxbai-embed-large"
-CHUNK_MAX_CHARS = 500
-CHUNK_OVERLAP_CHARS = 100
+CHUNK_MAX_CHARS = 300
+CHUNK_OVERLAP_CHARS = 50
 
 def deduplicate_by_content(docs: List[Document]) -> List[Document]:
     seen_hashes = set()

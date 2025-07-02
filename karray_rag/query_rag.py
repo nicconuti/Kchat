@@ -223,12 +223,27 @@ class EnhancedRetriever:
                 scored_docs_detailed.append((doc, final_score, cross_encoder_score, cosine_sim, keyword_bonus, length_bonus))
                 
             except Exception as e:
-                logger.warning(f"⚠️ Errore processing documento nel reranking: {e}. Doc Source: {doc.meta.get('source', 'N/A')}")
+                logger.error(f"⚠️ Errore processing documento nel reranking: {e}. Doc Source: {doc.meta.get('source', 'N/A')}")
+                logger.error(f"Debug: Doc index {i}, has embedding: {hasattr(doc, 'embedding')}")
+                if hasattr(doc, 'embedding'):
+                    logger.error(f"Debug: Embedding is None: {doc.embedding is None}")
+                    if doc.embedding is not None:
+                        logger.error(f"Debug: Embedding shape: {np.array(doc.embedding).shape}")
                 continue
         
         if not scored_docs_detailed:
-            logger.warning("⚠️ Nessun documento valido dopo il re-ranking.")
-            return []
+            logger.warning(f"⚠️ Nessun documento valido dopo il re-ranking. Processati {len(initial_results)} documenti iniziali.")
+            # Debug: log why no documents passed
+            logger.warning(f"Debug: Query embedding shape: {query_embedding.shape if query_embedding is not None else 'None'}")
+            logger.warning(f"Debug: Cross scores length: {len(cross_scores) if cross_scores is not None else 'None'}")
+            
+            # Fallback: return initial results with basic scoring to avoid empty results
+            logger.info("Fallback: usando documenti iniziali con score di base")
+            fallback_results = []
+            for i, doc in enumerate(initial_results[:5]):  # Top 5 as fallback
+                fallback_score = 0.5 - (i * 0.1)  # Decreasing score
+                fallback_results.append((doc, fallback_score, 0.0, 0.0, 0.0, 0.0))
+            return fallback_results
         
         # Ordina per score finale (decrescente)
         scored_docs_detailed.sort(key=lambda x: x[1], reverse=True)

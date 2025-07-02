@@ -44,10 +44,10 @@ function SystemStatus() {
       const response = await fetch('/api/status');
       if (response.ok) {
         const data = await response.json();
-        setSystemStatus(prev => ({
+        setSystemStatus({
           ...data,
           lastUpdated: new Date()
-        }));
+        });
       } else {
         // Simulate status for demo
         setSystemStatus(prev => ({

@@ -5,6 +5,7 @@ Provides REST API endpoints for the React frontend.
 """
 
 import os
+import sys
 import logging
 import asyncio
 from typing import Dict, List, Optional, Any, Union
@@ -12,36 +13,44 @@ from datetime import datetime
 from pathlib import Path
 import json
 import uuid
+
+# Ensure correct Haystack-AI path is available for the API server
+if '/opt/homebrew/lib/python3.9/site-packages' not in sys.path:
+    sys.path.insert(0, '/opt/homebrew/lib/python3.9/site-packages')
 from fastapi import FastAPI, HTTPException, UploadFile, File, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, StreamingResponse
+from fastapi.responses import Response
 from pydantic import BaseModel, Field
+import asyncio
+from typing import AsyncGenerator
 import uvicorn
 logger = logging.getLogger("server")
 
-# Import Kchat components
+# Import Kchat components - import one by one for better error handling
+import_errors = []
+
+# Import session management
 try:
     from main import generate_session_id, generate_user_id
-    from agents.context import AgentContext
-    from agents.agent_manager import AgentManager
-    from models._call_llm import call_llm
-    from utils.input_validator import validate_user_input, ValidationError
-    from config.settings import config
-    from rag_manager import RAGManager
+    logger.info("Session management imported successfully")
 except ImportError as e:
-    logger.error(f"Import error: {e}")
-    # Fallback functions for testing
+    import_errors.append(f"Session management: {e}")
     def generate_session_id():
         return f"session_{uuid.uuid4().hex[:8]}"
     
     def generate_user_id():
         return f"user_{uuid.uuid4().hex[:8]}"
-    
-    def validate_user_input(text):
-        return text[:2000]  # Simple truncation
-    
-    class ValidationError(Exception):
-        pass
+
+# Import agent system
+try:
+    from agents.context import AgentContext
+    from agents.agent_manager import AgentManager
+    logger.info("Agent system imported successfully")
+    AGENT_SYSTEM_AVAILABLE = True
+except ImportError as e:
+    import_errors.append(f"Agent system: {e}")
+    AGENT_SYSTEM_AVAILABLE = False
     
     class AgentContext:
         def __init__(self, user_id, session_id, input):
@@ -55,24 +64,102 @@ except ImportError as e:
     
     class AgentManager:
         def process_request(self, context):
+            logger.warning("Using mock AgentManager - full system not available")
             return {
-                "response": f"Echo: {context.input}",
+                "response": f"Sistema in modalità demo - messaggio ricevuto: {context.input}",
                 "confidence": 0.5,
                 "sources": []
             }
+
+# Import LLM system
+try:
+    from models._call_llm import LLMClient
+    # Create a global LLM client instance
+    _llm_client = LLMClient(default_model="mistral")
     
-    class RAGManager:
-        def process_document(self, file_path):
-            return True
+    def call_llm(prompt, model=None):
+        """Wrapper function for LLM calls."""
+        try:
+            return _llm_client.call(prompt, model=model)
+        except Exception as e:
+            logger.error(f"LLM call failed: {e}")
+            return f"Mi dispiace, si è verificato un errore nel sistema LLM."
+    
+    logger.info("LLM system imported successfully")
+    LLM_SYSTEM_AVAILABLE = True
+except ImportError as e:
+    import_errors.append(f"LLM system: {e}")
+    LLM_SYSTEM_AVAILABLE = False
+    
+    def call_llm(prompt, model=None):
+        logger.warning("Using mock LLM - full system not available")
+        return f"Mock LLM response to: {prompt[:100]}..."
+
+# Import input validation
+try:
+    from utils.input_validator import validate_user_input, ValidationError
+    logger.info("Input validation imported successfully")
+except ImportError as e:
+    import_errors.append(f"Input validation: {e}")
+    
+    def validate_user_input(text):
+        return text[:2000]  # Simple truncation
+    
+    class ValidationError(Exception):
+        pass
+
+# Import configuration
+try:
+    from config.settings import config
+    logger.info("Configuration imported successfully")
+except ImportError as e:
+    import_errors.append(f"Configuration: {e}")
     
     class MockConfig:
         BACKEND_DATA_DIR = Path("backend_data")
         DEFAULT_LLM_MODEL = "mistral"
         
+        def _get_env(self, key, default):
+            return os.getenv(key, default)
+            
+        def _get_int_env(self, key, default):
+            try:
+                return int(os.getenv(key, str(default)))
+            except ValueError:
+                return default
+        
     config = MockConfig()
+
+# Import RAG system
+try:
+    from rag_manager import RAGManager
+    logger.info("RAG system imported successfully")
+    RAG_SYSTEM_AVAILABLE = True
+except ImportError as e:
+    import_errors.append(f"RAG system: {e}")
+    RAG_SYSTEM_AVAILABLE = False
     
-    def call_llm(prompt, model=None):
-        return f"Mock response to: {prompt[:50]}..."
+    class RAGManager:
+        def process_document(self, file_path):
+            logger.warning("Using mock RAG manager - full system not available")
+            return True
+
+# Log import status
+if import_errors:
+    logger.warning("Some Kchat components not available:")
+    for error in import_errors:
+        logger.warning(f"  - {error}")
+    logger.warning("API will run with limited functionality")
+else:
+    logger.info("All Kchat components imported successfully")
+
+# System availability flags
+SYSTEM_STATUS = {
+    "agent_system": AGENT_SYSTEM_AVAILABLE,
+    "llm_system": LLM_SYSTEM_AVAILABLE,
+    "rag_system": RAG_SYSTEM_AVAILABLE,
+    "import_errors": import_errors
+}
 
 # Configure logging
 logging.basicConfig(
@@ -91,7 +178,7 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173"],  # React dev servers
+    allow_origins=["http://localhost:3000", "http://localhost:3001", "http://localhost:5173"],  # React dev servers
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -127,6 +214,19 @@ class UploadResponse(BaseModel):
     status: str
     message: str
 
+class StreamMessage(BaseModel):
+    """Model for streaming chat messages."""
+    message: str
+    session_id: Optional[str] = None
+    user_id: Optional[str] = None
+    include_reasoning: bool = True
+
+class StreamEvent(BaseModel):
+    """Model for streaming events."""
+    type: str  # 'reasoning', 'progress', 'response', 'complete', 'error'
+    data: Dict[str, Any]
+    timestamp: Optional[str] = None
+
 # Active sessions storage
 active_sessions: Dict[str, Dict[str, Any]] = {}
 
@@ -153,9 +253,10 @@ async def chat_endpoint(chat_request: ChatMessage):
     Main chat endpoint.
     Processes user messages and returns AI responses.
     """
+    logger.info(f"Chat request received: {chat_request.message[:50]}...")
     try:
-        # Validate input
-        validated_message = validate_user_input(chat_request.message)
+        # Validate input (permissive mode for chat messages)
+        validated_message = validate_user_input(chat_request.message, is_chat_message=True)
         
         # Generate IDs if not provided
         session_id = chat_request.session_id or generate_session_id()
@@ -188,28 +289,41 @@ async def chat_endpoint(chat_request: ChatMessage):
         confidence = None
         
         try:
-            # Use agent manager to process the request
-            agent_response = await asyncio.to_thread(
-                agent_manager.process_request,
-                context
-            )
-            
-            if agent_response:
-                response_text = agent_response.get("response", "I apologize, but I couldn't process your request.")
-                sources = agent_response.get("sources", [])
-                confidence = agent_response.get("confidence", None)
-            else:
+            if AGENT_SYSTEM_AVAILABLE:
+                # Use the full agent system
+                agent_response = await asyncio.to_thread(
+                    agent_manager.process_request,
+                    context
+                )
+                
+                if agent_response:
+                    response_text = agent_response.get("response", "Mi dispiace, non sono riuscito a elaborare la tua richiesta.")
+                    sources = agent_response.get("sources", [])
+                    confidence = agent_response.get("confidence", None)
+                    logger.info(f"Agent system response generated (confidence: {confidence})")
+                else:
+                    response_text = "Mi dispiace, il sistema degli agenti non ha prodotto una risposta."
+                    
+            elif LLM_SYSTEM_AVAILABLE:
                 # Fallback to direct LLM call
+                logger.info("Using direct LLM fallback")
                 llm_response = await asyncio.to_thread(
                     call_llm,
-                    f"You are a helpful K-Array assistant. User question: {validated_message}",
-                    model="mistral"
+                    f"Sei un assistente esperto di K-Array. Rispondi in italiano. Domanda dell'utente: {validated_message}",
+                    model=config.DEFAULT_LLM_MODEL if hasattr(config, 'DEFAULT_LLM_MODEL') else "mistral"
                 )
-                response_text = llm_response or "I apologize, but I'm having trouble connecting to the AI service."
+                response_text = llm_response or "Mi dispiace, sto avendo problemi a connettermi al servizio AI."
+                confidence = 0.7
+                
+            else:
+                # Basic fallback response
+                logger.warning("No AI systems available, using basic response")
+                response_text = f"Sistema in modalità limitata. Ho ricevuto il tuo messaggio: '{validated_message}'. Per un'assistenza completa, consulta www.k-array.com"
+                confidence = 0.1
                 
         except Exception as e:
             logger.error(f"Error processing chat request: {e}")
-            response_text = "I apologize, but I encountered an error processing your request. Please try again."
+            response_text = "Mi dispiace, si è verificato un errore nell'elaborazione della tua richiesta. Riprova."
             sources = []
             confidence = None
         
@@ -232,6 +346,63 @@ async def chat_endpoint(chat_request: ChatMessage):
     except Exception as e:
         logger.error(f"Unexpected error in chat endpoint: {e}")
         raise HTTPException(status_code=500, detail="Internal server error")
+
+
+@app.post("/api/chat/stream")
+async def chat_stream_endpoint(stream_request: StreamMessage):
+    """
+    Streaming chat endpoint with reasoning process.
+    Returns Server-Sent Events for real-time updates.
+    """
+    logger.info(f"Stream chat request received: {stream_request.message[:50]}...")
+    
+    async def generate_stream() -> AsyncGenerator[str, None]:
+        try:
+            # Validate input
+            validated_message = validate_user_input(stream_request.message, is_chat_message=True)
+            
+            # Generate IDs if not provided
+            session_id = stream_request.session_id or generate_session_id()
+            user_id = stream_request.user_id or generate_user_id()
+            
+            # Send initial event
+            yield f"data: {json.dumps({'type': 'start', 'data': {'session_id': session_id, 'user_id': user_id}, 'timestamp': datetime.now().isoformat()})}\n\n"
+            
+            if AGENT_SYSTEM_AVAILABLE:
+                # Create context
+                context = AgentContext(
+                    user_id=user_id,
+                    session_id=session_id,
+                    input=validated_message
+                )
+                
+                # Process with streaming updates
+                async for event in process_with_streaming(context, stream_request.include_reasoning):
+                    yield f"data: {json.dumps(event)}\n\n"
+                    
+            else:
+                # Fallback response
+                yield f"data: {json.dumps({'type': 'response', 'data': {'text': 'Agent system not available'}, 'timestamp': datetime.now().isoformat()})}\n\n"
+                
+            # Send completion event
+            yield f"data: {json.dumps({'type': 'complete', 'data': {}, 'timestamp': datetime.now().isoformat()})}\n\n"
+            
+        except Exception as e:
+            logger.error(f"Error in streaming chat: {e}")
+            yield f"data: {json.dumps({'type': 'error', 'data': {'message': str(e)}, 'timestamp': datetime.now().isoformat()})}\n\n"
+    
+    return StreamingResponse(
+        generate_stream(),
+        media_type="text/plain",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "Content-Type": "text/event-stream",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "*"
+        }
+    )
+
 
 @app.post("/api/upload", response_model=UploadResponse)
 async def upload_document(
@@ -315,30 +486,40 @@ async def system_status():
     Returns current status of all system components.
     """
     try:
-        # Check service health
+        # Check service health based on actual system availability
         services = {
             "backend": {
                 "status": "healthy",
                 "responseTime": 45,
-                "lastCheck": datetime.now()
+                "lastCheck": datetime.now(),
+                "details": "API server running"
             },
             "llm": {
-                "status": "healthy",
-                "responseTime": 1200,
+                "status": "healthy" if LLM_SYSTEM_AVAILABLE else "warning",
+                "responseTime": 1200 if LLM_SYSTEM_AVAILABLE else None,
                 "lastCheck": datetime.now(),
-                "model": config.DEFAULT_LLM_MODEL
+                "model": getattr(config, 'DEFAULT_LLM_MODEL', 'unknown'),
+                "available": LLM_SYSTEM_AVAILABLE
+            },
+            "agent_system": {
+                "status": "healthy" if AGENT_SYSTEM_AVAILABLE else "warning", 
+                "responseTime": 500 if AGENT_SYSTEM_AVAILABLE else None,
+                "lastCheck": datetime.now(),
+                "available": AGENT_SYSTEM_AVAILABLE
             },
             "rag": {
-                "status": "healthy",
-                "responseTime": 300,
+                "status": "healthy" if RAG_SYSTEM_AVAILABLE else "warning",
+                "responseTime": 300 if RAG_SYSTEM_AVAILABLE else None,
                 "lastCheck": datetime.now(),
-                "documents": await get_document_count()
+                "documents": await get_document_count(),
+                "available": RAG_SYSTEM_AVAILABLE
             },
             "database": {
                 "status": "healthy",
                 "responseTime": 25,
                 "lastCheck": datetime.now(),
-                "connections": len(active_sessions)
+                "connections": len(active_sessions),
+                "active_sessions": len(active_sessions)
             }
         }
         
@@ -353,11 +534,16 @@ async def system_status():
             "diskUsage": get_disk_usage()
         }
         
-        return SystemStatusResponse(
-            services=services,
-            metrics=metrics,
-            lastUpdated=datetime.now()
-        )
+        # Add system status information
+        system_info = {
+            "services": services,
+            "metrics": metrics,
+            "lastUpdated": datetime.now(),
+            "system_status": SYSTEM_STATUS,
+            "import_errors": import_errors if import_errors else None
+        }
+        
+        return system_info
         
     except Exception as e:
         logger.error(f"Error getting system status: {e}")
@@ -442,6 +628,122 @@ def get_disk_usage() -> int:
         return int(psutil.disk_usage('/').percent)
     except ImportError:
         return 45  # Placeholder
+
+
+async def process_with_streaming(context: AgentContext, include_reasoning: bool = True) -> AsyncGenerator[Dict[str, Any], None]:
+    """
+    Simplified streaming processing with reasoning steps.
+    """
+    try:
+        # Step 1: Initial reasoning
+        if include_reasoning:
+            yield {
+                'type': 'reasoning',
+                'data': {
+                    'step': 'start', 
+                    'message': 'Iniziando elaborazione della richiesta...'
+                },
+                'timestamp': datetime.now().isoformat()
+            }
+            
+            await asyncio.sleep(0.1)  # Small delay for better UX
+        
+        # Step 2: Process using existing agent manager (synchronous)
+        if include_reasoning:
+            yield {
+                'type': 'progress',
+                'data': {
+                    'step': 'processing',
+                    'message': 'Elaborando con sistema agenti...'
+                },
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        # Use the existing agent manager to process the request
+        try:
+            agent_response = await asyncio.to_thread(
+                agent_manager.process_request,
+                context
+            )
+            
+            if include_reasoning:
+                yield {
+                    'type': 'reasoning',
+                    'data': {
+                        'step': 'completed',
+                        'message': 'Elaborazione completata con successo!'
+                    },
+                    'timestamp': datetime.now().isoformat()
+                }
+        
+        except Exception as e:
+            if include_reasoning:
+                yield {
+                    'type': 'reasoning',
+                    'data': {
+                        'step': 'error',
+                        'message': f'Errore durante elaborazione: {str(e)}'
+                    },
+                    'timestamp': datetime.now().isoformat()
+                }
+            
+            # Fallback response
+            agent_response = {
+                "response": "Mi dispiace, si è verificato un errore nell'elaborazione della tua richiesta.",
+                "confidence": 0.1,
+                "sources": []
+            }
+        
+        # Step 3: Stream the response
+        response_text = agent_response.get("response", "Risposta non disponibile.")
+        
+        if include_reasoning:
+            yield {
+                'type': 'reasoning',
+                'data': {
+                    'step': 'streaming',
+                    'message': 'Inviando risposta...'
+                },
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        # Stream response word by word
+        words = response_text.split()
+        current_text = ""
+        
+        for i, word in enumerate(words):
+            current_text += word + " "
+            yield {
+                'type': 'response',
+                'data': {
+                    'text': current_text.strip(),
+                    'is_complete': i == len(words) - 1
+                },
+                'timestamp': datetime.now().isoformat()
+            }
+            # Small delay for streaming effect
+            await asyncio.sleep(0.08)
+        
+        # Final metadata
+        yield {
+            'type': 'metadata',
+            'data': {
+                'confidence': agent_response.get('confidence'),
+                'sources': agent_response.get('sources', [])
+            },
+            'timestamp': datetime.now().isoformat()
+        }
+        
+    except Exception as e:
+        yield {
+            'type': 'error',
+            'data': {
+                'message': f'Errore durante l\'elaborazione: {str(e)}',
+                'error': str(e)
+            },
+            'timestamp': datetime.now().isoformat()
+        }
+
 
 if __name__ == "__main__":
     # Configuration
