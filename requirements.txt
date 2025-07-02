@@ -1,18 +1,38 @@
-python-json-logger
-python-docx
+# 📚 Document Crawling & Parsing
+requests
 beautifulsoup4
-qdrant-client
-openai
-openpyxl
+trafilatura
+PyMuPDF
+
+# 🧠 AI & Embedding
+haystack-ai
+sentence-transformers
+torch
+numpy
+
+# 🧬 NLP & DB
 spacy
-fastapi
-uvicorn
-pandas
-pdfplumber
-pydantic
-httpx
+qdrant-client
+
+# 🧪 Testing & Linting
 pytest==8.0.0
 pytest-cov==4.1.0
 ruff==0.2.1
 mypy==1.8.0
 black==24.1.1
+
+# 📊 Data & API
+pydantic
+pandas
+fastapi
+uvicorn[standard]
+psutil
+
+# 📄 PDF Generation
+reportlab
+
+# ⏰ Removed automatic scheduling for MVP simplicity
+
+# 📊 Document Processing 
+openpyxl
+python-docx

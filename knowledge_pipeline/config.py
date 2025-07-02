@@ -1,3 +1,6 @@
+# Global configuration instance
+CONFIG = None
+
 class PipelineConfig:
     """Configurazioni per la pipeline di ingestione."""
     SUPPORTED_EXTENSIONS = {".pdf", ".docx", ".xlsx", ".txt", ".html", ".htm", ".csv", ".json", ".xml"}
@@ -24,3 +27,7 @@ class PipelineConfig:
 
     QUARANTINE_DIR = "quarantine"
     PRODUCT_STATUS_FIELD_NAME = "product_status"
+    OUTPUT_FILE = "knowledge_base_reliable.jsonl"
+
+# Initialize global CONFIG instance
+CONFIG = PipelineConfig()

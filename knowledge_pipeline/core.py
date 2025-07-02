@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 import pandas as pd
+from karray_rag.rag_store import save_documents_to_jsonl
 
 from .config import PipelineConfig
 from .logging_config import setup_logging
@@ -302,6 +303,54 @@ class KnowledgePipeline:
         self.scanner.cleanup()
         logger.info(f"Pipeline completata. Totale chunk generati: {len(all_chunks)}")
         return all_chunks
+    
+    def process_single_file(self, file_path: Path, category: str = None) -> bool:
+        """
+        Process a single file through the knowledge pipeline.
+        
+        Args:
+            file_path: Path to the file to process
+            category: Optional category override for the document
+            
+        Returns:
+            True if processing successful, False otherwise
+        """
+        try:
+            logger.info(f"Processing single file: {file_path.name}")
+            
+            if not file_path.exists():
+                logger.error(f"File not found: {file_path}")
+                return False
+            
+            # Process the single file
+            chunks = self.process_file(file_path)
+            
+            if not chunks:
+                logger.warning(f"No chunks generated from file: {file_path.name}")
+                return False
+            
+            # Override category if provided
+            if category:
+                for chunk in chunks:
+                    chunk["metadata"]["category"] = category
+                    logger.info(f"Set category to '{category}' for {file_path.name}")
+            
+            # Save processed chunks to output file
+            output_path = Path(self.config.OUTPUT_FILE)
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            
+            # Append to existing file or create new one
+            with open(output_path, "a", encoding="utf-8") as f:
+                for chunk in chunks:
+                    f.write(json.dumps(chunk, ensure_ascii=False, indent=None) + "\n")
+            
+            logger.info(f"Successfully processed {file_path.name}: {len(chunks)} chunks generated")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error processing single file {file_path.name}: {e}", exc_info=True)
+            self._quarantine_file(file_path, f"Error in single file processing: {e}")
+            return False
 
 
 def cli() -> None:
@@ -315,7 +364,7 @@ def cli() -> None:
     config = PipelineConfig()
     pipeline = KnowledgePipeline(config)
     processed_chunks = pipeline.run(Path(args.input_path))
-
+    
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:

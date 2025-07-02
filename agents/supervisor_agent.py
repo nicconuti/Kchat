@@ -1,6 +1,7 @@
 """Analyze logs to provide improvement suggestions."""
 
 from pathlib import Path
+from typing import Optional
 
 from agents.context import AgentContext
 from utils.logger import get_logger
@@ -14,14 +15,14 @@ LOG_FILES = [
 ]
 
 
-def _analyze_intent_log(text: str) -> str | None:
+def _analyze_intent_log(text: str) -> Optional[str]:
     unclear = text.lower().count("unclear")
     if unclear:
         return f"Improve intent detection: {unclear} unclear cases"
     return None
 
 
-def _analyze_validation_log(text: str) -> str | None:
+def _analyze_validation_log(text: str) -> Optional[str]:
     invalid = text.lower().count("invalid")
     if invalid:
         return f"Refine response verification: {invalid} invalid answers"

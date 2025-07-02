@@ -130,22 +130,42 @@ def validate_record_with_llm(record: Dict[str, Any], client: LLMClient = primary
     try:
         prompt_text = LLMPrompts.PROMPT_VALIDATE_EXCEL_RECORD.format(**record)
 
-        response = client.call(
+        raw_response = client.call(
             prompt=prompt_text,
             model="deepseek-r1:14b"
         )
 
-        if not isinstance(response, dict):
-            logger.warning(f"Risposta LLM non valida: {response}")
+        # Parse the LLM response which comes as a string
+        if not isinstance(raw_response, str) or not raw_response.strip():
+            logger.warning(f"Risposta LLM vuota o non valida: {raw_response}")
             return record
 
-        return {
-            "serial": response.get("serial", record.get("serial")),
-            "description": response.get("description", record.get("description")),
-            "price": response.get("price", record.get("price")),
+        # Parse JSON from LLM response
+        parsed_response = _parse_llm_json_output(raw_response)
+        
+        if not isinstance(parsed_response, dict):
+            logger.warning(f"Impossibile parsare la risposta LLM come JSON: {raw_response}")
+            return record
+
+        # Validate and construct corrected record
+        corrected_record = {
+            "serial": parsed_response.get("serial", record.get("serial")),
+            "description": parsed_response.get("description", record.get("description")),
+            "price": parsed_response.get("price", record.get("price")),
             "sheet_name": record.get("sheet_name"),
             "product_status": record.get("product_status"),
         }
+        
+        # Log validation changes if any
+        changes = []
+        for key in ["serial", "description", "price"]:
+            if corrected_record[key] != record.get(key):
+                changes.append(f"{key}: {record.get(key)} -> {corrected_record[key]}")
+        
+        if changes:
+            logger.info(f"LLM validation made changes: {', '.join(changes)}")
+        
+        return corrected_record
 
     except Exception as e:
         logger.error("Errore nella validazione record con LLM", exc_info=True)
