@@ -1,0 +1,52 @@
+{
+  "id": "150",
+  "url": "https://www.k-array.com/en/product/event-krev101",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "EVENT_SERIES",
+    "product_line": "Event",
+    "model": "KREV101",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KREV101", "Event", "mono column", "portable system"],
+    "technical": ["Kobra-KK102 loudspeaker", "Thunder-KMT12 subwoofer"],
+    "applications": ["events with speech requirements", "background music"],
+    "unique_identifiers": ["krev101"]
+  },
+  "content_sections": {
+    "description": "The all-white mono column is comprised of a Kobra-KK102 loudspeaker to provide uniform coverage and is paired with a Thunder-KMT12 subwoofer to deliver a big sound in the low range. The top is affixed to the sub with a pole shaped as a Kobra to create a line of continuity in its discreet design and to hide cables at the same time. On its own, the kit is ideal events with speech requirements and background music. However, the column boasts modular capabilities and can be combined with the other elements in the Event line to create the system that is optimized for each different occasion. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Mono Column for Event Productions (Source: "Event-KREV101: All-White Mono Column for Event ... - K-array")",
+      "Status": "DISCONTINUED (Source: "Event-KREV101 (DISCONTINUED)")",
+      "Components": "Kobra-KK102 loudspeaker, Thunder-KMT12 subwoofer (Source: "comprised of a Kobra-KK102 loudspeaker to provide uniform coverage and is paired with a Thunder-KMT12 subwoofer to deliver a big sound in the low range.")"
+    },
+    "accessories": {
+      "Related": [
+        "K-KKPOLE: Fake Kobra 100cm pole support - WHITE (Source: "K-KKPOLE Fake Kobra 100cm pole support - WHITE")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Event-KREV101 is a DISCONTINUED all-white mono column system. Comprised of a Kobra-KK102 loudspeaker and a Thunder-KMT12 subwoofer. Designed for uniform coverage and strong low-range sound. Discreet design, hides cables. Ideal for events with speech and background music. Modular, combinable with other Event line elements. Related accessory: K-KKPOLE.",
+    "semantic_chunks": [
+      "Event-KREV101: DISCONTINUED all-white mono column system.",
+      "Components: Kobra-KK102 loudspeaker, Thunder-KMT12 subwoofer. Discreet design, hides cables.",
+      "Applications: Events with speech, background music. Modular, combinable with other Event line elements.",
+      "Accessory: K-KKPOLE."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Event-KREV101?", "answer": "All-White Mono Column for Event Productions."},
+      {"question": "What is the status of the Event-KREV101?", "answer": "DISCONTINUED."},
+      {"question": "What components make up the Event-KREV101?", "answer": "A Kobra-KK102 loudspeaker and a Thunder-KMT12 subwoofer."},
+      {"question": "What are the applications for the Event-KREV101?", "answer": "Events with speech requirements and background music."},
+      {"question": "What is a related accessory for the Event-KREV101?", "answer": "K-KKPOLE."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Event-KREV101: All-White Mono Column for Event ... - K-array (https://www.k-array.com/en/product/event-krev101)"}
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "149",
+  "url": "https://www.k-array.com/en/product/axle-krx802",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "AXLE_SERIES",
+    "product_line": "Axle",
+    "model": "KRX802",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": [
+      "KRX802",
+      "Axle",
+      "portable system",
+      "large-format",
+      "high-pressure"
+    ],
+    "technical": [
+      "Dragon-KX12 speakers",
+      "Thunder-KMT218 subwoofer",
+      "SPL",
+      "frequency response"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "krx802"
+    ]
+  },
+  "content_sections": {
+    "description": "The Axle-KRX802 is the largest in the Axle line and is noted as discontinued. It features three Dragon-KX12 12\" speakers combined with a dual 18\" Thunder-KMT218 subwoofer per side in a stereo configuration. This system converts into a line array, providing maximum SPL, very low frequency, and excellent bass response, suitable for covering larger distances and venues with higher pressure.",
+    "specifications": {
+      "Type": "Large-Format, High Pressure Portable System (Source: \"Axle-KRX802: Large-Format, High Pressure Portable System - K-array\")",
+      "Status": "DISCONTINUED (Source: \"is noted as discontinued.\")",
+      "Components": "three Dragon-KX12 12\" speakers combined with a dual 18\" Thunder-KMT218 subwoofer per side in a stereo configuration (Source: \"It features three Dragon-KX12 12\" speakers combined with a dual 18\" Thunder-KMT218 subwoofer per side in a stereo configuration.\")"
+    },
+    "accessories": {
+      "Related": [
+        "K-WHEEL: Set of 4 wheels for Thunder subwoofers (Source: \"K-WHEEL (DISCONTINUED): Set of 4 wheels for Thunder subwoofers.\")",
+        "K-DANTE: Dante uncompressed, multi-channel networking technology (Source: \"K-DANTE (DISCONTINUED): Dante uncompressed, multi-channel networking technology.\")",
+        "K-IP65KITB: Weatherproof rubber protection for NL4 connectors (Source: \"K-IP65KITB: Weatherproof rubber protection for NL4 connectors.\")",
+        "K-FLY2B: Steel fly bar for suspending Dragons, Axle systems, KF212 or KU2... (Source: \"K-FLY2B: Steel fly bar for suspending Dragons, Axle systems, KF212 or KU2...\")",
+        "K-KCLAMP/S: Adapter for fastening Kobra/Python/Kayman/Vyper/Drag. (Source: \"K-KCLAMP/S: Adapter for fastening Kobra/Python/Kayman/Vyper/Drag.\")",
+        "K-KCLAMP: Clamp adapter for truss mount of Vypers, Kobras, Pythons, Ka. (Source: \"K-KCLAMP: Clamp adapter for truss mount of Vypers, Kobras, Pythons, Ka.\")",
+        "K-WHEELB: Set of 4 wheels with brake for KMT subwoofers. (Source: \"K-WHEELB (DISCONTINUED): Set of 4 wheels with brake for KMT subwoofers.\")",
+        "K-SPK235: Speakon connecting cables for Kobras, Pythons, Kaymans, Drag. (Source: \"K-SPK235: Speakon connecting cables for Kobras, Pythons, Kaymans, Drag.\")",
+        "K-WALL2: Wall mount brace. (Source: \"K-WALL2: Wall mount brace.\")",
+        "K-SPKCABLE075: 75cm-long speakon cable (4 wire) for Pinnacle and Axle. (Source: \"K-SPKCABLE075: 75cm-long speakon cable (4 wire) for Pinnacle and Axle.\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Axle-KRX802 is a DISCONTINUED large-format, high-pressure portable system. Largest in Axle line. Features three Dragon-KX12 12\" speakers and a dual 18\" Thunder-KMT218 subwoofer per side in stereo. Converts into a line array for maximum SPL, very low frequency, and excellent bass response. Suitable for larger distances and venues with higher pressure. Related accessories: K-WHEEL, K-DANTE, K-IP65KITB, K-FLY2B, K-KCLAMP/S, K-KCLAMP, K-WHEELB, K-SPK235, K-WALL2, K-SPKCABLE075.",
+    "semantic_chunks": [
+      "Axle-KRX802: DISCONTINUED large-format, high-pressure portable system. Largest in Axle line.",
+      "Components: Three Dragon-KX12 12\" speakers, dual 18\" Thunder-KMT218 subwoofer per side (stereo).",
+      "Performance: Converts to line array for max SPL, very low frequency, excellent bass. For larger distances/high pressure venues.",
+      "Accessories: K-WHEEL, K-DANTE, K-IP65KITB, K-FLY2B, K-KCLAMP/S, K-KCLAMP, K-WHEELB, K-SPK235, K-WALL2, K-SPKCABLE075."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Axle-KRX802?",
+        "answer": "Large-Format, High Pressure Portable System."
+      },
+      {
+        "question": "What is the status of the Axle-KRX802?",
+        "answer": "DISCONTINUED."
+      },
+      {
+        "question": "What components make up the Axle-KRX802 system?",
+        "answer": "Three Dragon-KX12 12\" speakers combined with a dual 18\" Thunder-KMT218 subwoofer per side in a stereo configuration."
+      },
+      {
+        "question": "What are some related accessories for the Axle-KRX802?",
+        "answer": "K-WHEEL, K-DANTE, K-IP65KITB, K-FLY2B, K-KCLAMP/S, K-KCLAMP, K-WHEELB, K-SPK235, K-WALL2, K-SPKCABLE075."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Axle-KRX802: Large-Format, High Pressure Portable System - K-array (https://www.k-array.com/en/product/axle-krx802)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

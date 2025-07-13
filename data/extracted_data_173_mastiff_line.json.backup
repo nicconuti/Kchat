@@ -1,0 +1,158 @@
+{
+  "id": "173",
+  "url": "https://www.k-array.com/en/products/line/mastiff",
+  "timestamp": "2025-07-12T12:10:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCT_LINES",
+    "subcategory": "MASTIFF_SERIES",
+    "product_line": "Mastiff",
+    "content_type": "product_line_overview"
+  },
+  "keywords": {
+    "primary": [
+      "Mastiff",
+      "low-profile",
+      "high power",
+      "stage monitor"
+    ],
+    "technical": [
+      "ultra-low distortion",
+      "100° by 30° horn",
+      "stainless steel grill",
+      "birch wood chassis",
+      "DSP",
+      "Dante"
+    ],
+    "applications": [
+      "concerts",
+      "live events",
+      "music festivals",
+      "stage monitoring",
+      "drum monitoring"
+    ],
+    "unique_identifiers": [
+      "KM312",
+      "KM312P",
+      "KM112",
+      "KM112P"
+    ]
+  },
+  "content_sections": {
+    "series_overview": {
+      "description": "Low-profile, high power stage monitor",
+      "design_philosophy": "Like a loyal guard dog watching over onstage musicians",
+      "target_market": "Musicians and live performances",
+      "durability": "Built to withstand any onstage abuse that may incur from the musical acts"
+    },
+    "product_models": [
+      "KM312",
+      "KM312P",
+      "KM112",
+      "KM112P"
+    ],
+    "technical_details": {
+      "audio_quality": "Ultra-low distortion",
+      "sound_characteristics": "Incredible clarity and precise sound",
+      "horn": "Adjustable 100° by 30° horn for sound emission control",
+      "construction": {
+        "grill": "Stainless steel grill",
+        "chassis": "Sturdy birch wood chassis"
+      },
+      "frequency_response": "Full-range frequency response",
+      "dsp_features": "Onboard touch screen for DSP functions",
+      "connectivity": "Dante network compatibility (with accessory)",
+      "coverage": "Selectable coverage patterns",
+      "customization": "Color customization (can match any RAL code)"
+    },
+    "applications": {
+      "primary_markets": [
+        "Concerts and live events",
+        "Music festivals",
+        "Large venue performances",
+        "Auditoriums",
+        "Concert halls",
+        "Theaters"
+      ],
+      "specific_uses": [
+        "Stage monitoring",
+        "Drum monitoring",
+        "Musician monitoring"
+      ],
+      "installation_benefits": [
+        "Low-profile design for stage use",
+        "High power output for live environments",
+        "Adjustable coverage patterns",
+        "Rugged construction for touring"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mastiff low-profile high power stage monitor ultra-low distortion incredible clarity precise sound adjustable 100 degree 30 degree horn stainless steel grill birch wood chassis full-range frequency response onboard touch screen DSP Dante network KM312 KM312P KM112 KM112P concerts live events music festivals drum monitoring musicians onstage abuse RAL color customization",
+    "semantic_chunks": [
+      "Mastiff is a low-profile, high power stage monitor series designed like a loyal guard dog for onstage musicians",
+      "Key models include KM312, KM312P, KM112, and KM112P with ultra-low distortion and incredible clarity",
+      "Features adjustable 100° by 30° horn, stainless steel grill, sturdy birch wood chassis, and full-range frequency response",
+      "Applications include concerts, live events, music festivals, stage monitoring, and drum monitoring in large venues",
+      "Built to withstand onstage abuse with onboard DSP touch screen, Dante compatibility, and RAL color customization"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is the K-Array Mastiff series?",
+        "a": "Low-profile, high power stage monitor designed for musicians and live performances"
+      },
+      {
+        "q": "What are the Mastiff models?",
+        "a": "KM312, KM312P, KM112, and KM112P"
+      },
+      {
+        "q": "What horn does Mastiff use?",
+        "a": "Adjustable 100° by 30° horn for sound emission control"
+      },
+      {
+        "q": "What construction materials does Mastiff use?",
+        "a": "Stainless steel grill and sturdy birch wood chassis"
+      },
+      {
+        "q": "What applications is Mastiff designed for?",
+        "a": "Concerts, live events, music festivals, stage monitoring, and drum monitoring"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Low-profile, high power stage monitor",
+      "source": "Direct quote from Mastiff series overview"
+    },
+    {
+      "claim": "Like a loyal guard dog watching over onstage musicians",
+      "source": "Direct metaphorical description from product page"
+    },
+    {
+      "claim": "Adjustable 100° by 30° horn for sound emission control",
+      "source": "Direct specification from technical features"
+    },
+    {
+      "claim": "Built to withstand any onstage abuse that may incur from the musical acts",
+      "source": "Direct quote from durability description"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "144",
+  "url": "https://www.k-array.com/en/product/capture-kmc50",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "CAPTURE_SERIES",
+    "product_line": "Capture",
+    "model": "KMC50",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KMC50", "Capture", "line array microphone"],
+    "technical": ["electret condenser cardioid capsules", "frequency response", "sensitivity", "SPL", "signal-to-noise ratio", "polar pattern", "IP54"],
+    "applications": ["voice amplification", "instrument amplification", "capturing environmental sound"],
+    "unique_identifiers": ["kmc50"]
+  },
+  "content_sections": {
+    "description": "The Capture-KMC50 is a line array microphone composed of 16 x 6 mm electret condenser cardioid capsules. It is designed for voice and instrument amplification, as well as for capturing environmental sound with high directivity. Up to four units can be linked to create a continuous steerable array, allowing for new microphone techniques and applications.",
+    "specifications": {
+      "Type": "Line array microphone (Source: "Type: Line array microphone")",
+      "Capsule": "16 x 6mm electret condenser (Source: "Capsule: 16 x 6mm electret condenser")",
+      "Frequency Response": "55 - 20000 Hz (Source: "Frequency Response: 55 - 20000 Hz")",
+      "Sensitivity (1kHz, 94dB SPL)": "-32 dBV (Source: "Sensitivity (1kHz, 94dB SPL): -32 dBV")",
+      "Maximum SPL (1kHz, 10%THD)": "110 dB SPL (Source: "Maximum SPL (1kHz, 10%THD): 110 dB SPL")",
+      "Signal-to-Noise Ratio (1 kHz, A-weighted)": "57 dB (Source: "Signal-to-Noise Ratio (1 kHz, A-weighted): 57 dB")",
+      "Polar Pattern": "Cardioid line array (Source: "Polar Pattern: Cardioid line array")",
+      "Dimensions (W x H x D)": "10 x 10 x 510 mm (0.39 x 0.39 x 20 in) (Source: "Dimensions (W x H x D): 10 x 10 x 510 mm (0.39 x 0.39 x 20 in)")",
+      "Weight": "0.080 kg (0.176 lb) (Source: "Weight: 0.080 kg (0.176 lb)")",
+      "IP Rating": "IP54 (Source: "IP Rating: IP54")"
+    },
+    "accessories": {
+      "Related": [
+        "K-BASE-S: Base for K-STANDM (Source: "K-BASE-S: Base for K-STANDM")",
+        "K-FLYM5: Flybar for flown Capture-KMC50 array configuration (Source: "K-FLYM5: Flybar for flown Capture-KMC50 array configuration")",
+        "K-PREMC01: Preamplifier for one unit of Capture-KMC50 (Source: "K-PREMC01: Preamplifier for one unit of Capture-KMC50")",
+        "K-PREMC02: Preamplifier for up to 4 Capture-KMC50 units (Source: "K-PREMC02: Preamplifier for up to 4 Capture-KMC50 units")",
+        "K-WIND150: Faux fur shield accessory to reduce wind noise (Source: "K-WIND150: Faux fur shield accessory to reduce wind noise")",
+        "K-BRK50: Capture microphone bracket for KMC50 to be used with INV-01 (Source: "K-BRK50: Capture microphone bracket for KMC50 to be used with INV-01")",
+        "K-JOINTM5: Connection hardware to join multiple KMC50 units for an array (Source: "K-JOINTM5: Connection hardware to join multiple KMC50 units for an array")"
+      ],
+      "Discontinued": [
+        "K-WND150: Windoshield accessory for a single KMC50 (Source: "K-WND150 (DISCONTINUED): Windoshield accessory for a single KMC50")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Capture-KMC50 is a line array microphone with 16 x 6 mm electret condenser cardioid capsules. Designed for voice and instrument amplification, and capturing environmental sound with high directivity. Up to four units can be linked to create a continuous steerable array. Specifications: Type: Line array microphone. Capsule: 16 x 6mm electret condenser. Frequency Response: 55 - 20000 Hz. Sensitivity: -32 dBV. Maximum SPL: 110 dB SPL. Signal-to-Noise Ratio: 57 dB. Polar Pattern: Cardioid line array. Dimensions: 10 x 10 x 510 mm. Weight: 0.080 kg. IP Rating: IP54. Related accessories: K-BASE-S, K-FLYM5, K-PREMC01, K-PREMC02, K-WIND150, K-BRK50, K-JOINTM5. Discontinued accessory: K-WND150.",
+    "semantic_chunks": [
+      "Capture-KMC50: line array microphone with 16x 6mm electret condenser cardioid capsules.",
+      "Applications: voice/instrument amplification, high-directivity environmental sound capture. Up to four units can be linked for steerable array.",
+      "Specifications: Type: Line array microphone. Capsule: 16x 6mm electret condenser. Freq. Response: 55-20000 Hz. Sensitivity: -32 dBV. Max SPL: 110 dB. SNR: 57 dB. Polar Pattern: Cardioid line array. Dimensions: 10x10x510 mm. Weight: 0.080 kg. IP Rating: IP54.",
+      "Accessories: Related (K-BASE-S, K-FLYM5, K-PREMC01, K-PREMC02, K-WIND150, K-BRK50, K-JOINTM5). Discontinued (K-WND150)."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Capture-KMC50?", "answer": "Line array microphone."},
+      {"question": "What capsules does the Capture-KMC50 have?", "answer": "16 x 6 mm electret condenser cardioid capsules."},
+      {"question": "What is the frequency response of the Capture-KMC50?", "answer": "55 - 20000 Hz."},
+      {"question": "What is the sensitivity of the Capture-KMC50?", "answer": "-32 dBV."},
+      {"question": "What is the maximum SPL of the Capture-KMC50?", "answer": "110 dB SPL."},
+      {"question": "What is the signal-to-noise ratio of the Capture-KMC50?", "answer": "57 dB."},
+      {"question": "What is the polar pattern of the Capture-KMC50?", "answer": "Cardioid line array."},
+      {"question": "What are the dimensions of the Capture-KMC50?", "answer": "10 x 10 x 510 mm (0.39 x 0.39 x 20 in)."},
+      {"question": "What is the weight of the Capture-KMC50?", "answer": "0.080 kg (0.176 lb)."},
+      {"question": "What is the IP rating of the Capture-KMC50?", "answer": "IP54."},
+      {"question": "What are some related accessories for the Capture-KMC50?", "answer": "K-BASE-S, K-FLYM5, K-PREMC01, K-PREMC02, K-WIND150, K-BRK50, K-JOINTM5."},
+      {"question": "What is a discontinued accessory for the Capture-KMC50?", "answer": "K-WND150."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Capture-KMC50: Line Array Microphone for Horizontal ... - K-array (https://www.k-array.com/en/product/capture-kmc50)"}
+  ]
+}

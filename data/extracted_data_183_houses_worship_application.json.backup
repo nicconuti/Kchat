@@ -1,0 +1,187 @@
+{
+  "id": "183",
+  "url": "https://www.k-array.com/en/application/houses-of-worship",
+  "timestamp": "2025-07-12T13:00:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "HOUSES_OF_WORSHIP",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "houses of worship",
+      "hallowed structures",
+      "devout congregations",
+      "natural sound",
+      "discreet frame"
+    ],
+    "technical": [
+      "narrow vertical coverage",
+      "sound spill",
+      "impressive architecture",
+      "arched ceilings",
+      "compact column speakers"
+    ],
+    "challenges": [
+      "sound reflection",
+      "reverberant environments",
+      "sound intelligibility"
+    ],
+    "products": [
+      "Kayman-KY52",
+      "Python-KP52 I",
+      "Thunder-KS2P I",
+      "Kommander-KA208",
+      "Mugello-KH3P I",
+      "Thunder-KS5 I"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "target_market": "Hallowed structures with devout congregations",
+      "focus": "Delivering natural sound in a discreet frame",
+      "architectural_challenges": "Impressive architecture, arched ceilings",
+      "key_solution": "Narrow vertical coverage minimizing sound spill"
+    },
+    "recommended_products": [
+      {
+        "product": "Kayman-KY52",
+        "use_case": "Worship audio systems"
+      },
+      {
+        "product": "Python-KP52 I",
+        "use_case": "Chapel and nave coverage"
+      },
+      {
+        "product": "Thunder-KS2P I",
+        "use_case": "Worship subwoofer applications"
+      },
+      {
+        "product": "Kommander-KA208",
+        "use_case": "Worship amplification systems"
+      },
+      {
+        "product": "Mugello-KH3P I",
+        "use_case": "Small to medium worship spaces"
+      },
+      {
+        "product": "Thunder-KS5 I",
+        "use_case": "Large worship venue subwoofers"
+      },
+      {
+        "product": "Vyper-KV52 I",
+        "status": "Discontinued",
+        "use_case": "Historical worship installations"
+      },
+      {
+        "product": "Lyzard-KZ14",
+        "status": "Discontinued",
+        "use_case": "Historical worship installations"
+      },
+      {
+        "product": "Kobra-KK52 I",
+        "use_case": "Worship column applications"
+      },
+      {
+        "product": "Rumble-KU44",
+        "use_case": "Worship subwoofer systems"
+      }
+    ],
+    "installation_scenarios": {
+      "acoustic_benefits": [
+        "Minimize sound reflection towards ceiling/floor",
+        "Increase sound intelligibility in reverberant environments"
+      ],
+      "customization": "Option to customize speaker color to match sanctuary décor",
+      "coverage_strategy": "Compact column speakers to uniformly cover long chapels and large naves"
+    },
+    "case_studies": [
+      {
+        "name": "Graham Memorial Chapel",
+        "location": "Washington University"
+      },
+      {
+        "name": "Harvest Christian Fellowship Church",
+        "location": "Riverside, California"
+      },
+      {
+        "name": "Rose Hill Church",
+        "location": "Baton Rouge, Louisiana"
+      },
+      {
+        "name": "St. George Chapel",
+        "location": "Windsor, UK"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "houses worship hallowed structures devout congregations natural sound discreet frame narrow vertical coverage sound spill impressive architecture arched ceilings compact column speakers long chapels large naves reverberant environments sound intelligibility sanctuary décor Kayman-KY52 Python-KP52 I Thunder-KS2P I Kommander-KA208 Mugello-KH3P I Thunder-KS5 I Graham Memorial Chapel Washington University Harvest Christian Fellowship Riverside Rose Hill Church Baton Rouge St. George Chapel Windsor",
+    "semantic_chunks": [
+      "Houses of worship target hallowed structures with devout congregations, delivering natural sound in a discreet frame",
+      "Key challenges include impressive architecture with arched ceilings requiring narrow vertical coverage to minimize sound spill",
+      "Solutions include compact column speakers to uniformly cover long chapels and large naves while minimizing ceiling/floor reflections",
+      "Recommended products include Kayman-KY52, Python-KP52 I, Thunder-KS2P I, Kommander-KA208, Mugello-KH3P I, and Thunder-KS5 I",
+      "Case studies include Graham Memorial Chapel (Washington University), Harvest Christian Fellowship (Riverside), Rose Hill Church (Baton Rouge), and St. George Chapel (Windsor)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to houses of worship?",
+        "a": "Delivering natural sound in a discreet frame for hallowed structures with devout congregations"
+      },
+      {
+        "q": "What are the acoustic challenges in worship spaces?",
+        "a": "Impressive architecture with arched ceilings that create sound reflection and reverberant environments"
+      },
+      {
+        "q": "How does K-Array address worship acoustic challenges?",
+        "a": "Narrow vertical coverage minimizing sound spill and compact column speakers to uniformly cover long chapels and large naves"
+      },
+      {
+        "q": "What K-Array products are recommended for worship?",
+        "a": "Kayman-KY52, Python-KP52 I, Thunder-KS2P I, Kommander-KA208, Mugello-KH3P I, Thunder-KS5 I, Kobra-KK52 I, and Rumble-KU44"
+      },
+      {
+        "q": "What are examples of K-Array worship installations?",
+        "a": "Graham Memorial Chapel (Washington University), Harvest Christian Fellowship (Riverside), Rose Hill Church (Baton Rouge), and St. George Chapel (Windsor)"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Hallowed structures with devout congregations",
+      "source": "Direct quote from houses of worship target market description"
+    },
+    {
+      "claim": "Delivering natural sound in a discreet frame",
+      "source": "Direct quote from application focus description"
+    },
+    {
+      "claim": "Compact column speakers to uniformly cover long chapels and large naves",
+      "source": "Direct quote from coverage strategy description"
+    },
+    {
+      "claim": "Narrow vertical coverage minimizing sound spill",
+      "source": "Direct quote from key solution description"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

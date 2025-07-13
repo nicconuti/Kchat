@@ -1,0 +1,134 @@
+{
+  "id": "099",
+  "url": "https://www.k-array.com/en/product/truffle-ktr24",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "TRUFFLE_SERIES",
+    "product_line": "Truffle",
+    "model": "KTR24",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KTR24",
+      "Truffle",
+      "subwoofer",
+      "compact",
+      "passive"
+    ],
+    "technical": [
+      "active driver",
+      "passive speaker",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "ktr24"
+    ]
+  },
+  "content_sections": {
+    "description": "The Truffle-KTR24 is the smallest model in the compact line of Truffle subwoofers, with a frequency range of 45 Hz to 150 Hz. It is an 8-inch long cylindrical speaker box featuring one 4-inch active driver and one 4-inch passive speaker, designed as an omnidirectional low-end source. This subwoofer provides low-end frequencies for the Azimut-KAMUT2L1 audio system.",
+    "specifications": {
+      "Type": "Passive subwoofer (Source: \"Type: Passive subwoofer\")",
+      "Transducers": "4\" woofer + passive radiator (Source: \"Transducers: 4\" woofer + passive radiator\")",
+      "Frequency Response": "45 Hz - 150 / 500 Hz (-6 dB) (Source: \"Frequency Response: 45 Hz - 150 / 500 Hz (-6 dB)\")",
+      "Max SPL": "112 dB (peak) (Source: \"Max SPL: 112 dB (peak)\")",
+      "Rated Power": "60 W (Source: \"Rated Power: 60 W\")",
+      "Coverage": "Omni (Source: \"Coverage: Omni\")",
+      "Nominal Impedance": "4 Ω (Source: \"Nominal Impedance: 4 Ω\")",
+      "Dimensions (W x H x D)": "122 x 117 x 199 mm (4.8 x 4.6 x 7.8 in) (Source: \"Dimensions (W x H x D): 122 x 117 x 199 mm (4.8 x 4.6 x 7.8 in)\")",
+      "Weight": "1.5 kg (3.31 lb) (Source: \"Weight: 1.5 kg (3.31 lb)\")",
+      "Material": "Aluminum (Source: \"Material: Aluminum\")",
+      "Colors": "Black (Source: \"Colors: Black\")",
+      "Finishes": "Powder Matte (Source: \"Finishes: Powder Matte\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Truffle-KTR24 is the smallest model in the compact line of Truffle subwoofers. Frequency range: 45 Hz to 150 Hz. 8-inch long cylindrical speaker box with one 4-inch active driver and one 4-inch passive speaker. Omnidirectional low-end source. Provides low-end frequencies for Azimut-KAMUT2L1 audio system. Specifications: Type: Passive subwoofer. Transducers: 4\" woofer + passive radiator. Frequency Response: 45 Hz - 150 / 500 Hz (-6 dB). Max SPL: 112 dB. Rated Power: 60 W. Coverage: Omni. Nominal Impedance: 4 Ω. Dimensions: 122 x 117 x 199 mm. Weight: 1.5 kg. Material: Aluminum. Colors: Black. Finishes: Powder Matte. IP Rating: IP64.",
+    "semantic_chunks": [
+      "Truffle-KTR24: smallest compact Truffle subwoofer. Freq. range: 45-150 Hz.",
+      "Design: 8-inch cylindrical, one 4-inch active driver, one 4-inch passive speaker. Omnidirectional low-end. For Azimut-KAMUT2L1.",
+      "Specifications: Type: Passive subwoofer. Transducers: 4\" woofer + passive radiator. Freq. Response: 45-150/500 Hz (-6 dB). Max SPL: 112 dB. Rated Power: 60 W. Coverage: Omni. Impedance: 4 Ω. Dimensions: 122x117x199 mm. Weight: 1.5 kg. Material: Aluminum. Colors: Black. Finishes: Powder Matte. IP Rating: IP64."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Truffle-KTR24?",
+        "answer": "Passive subwoofer."
+      },
+      {
+        "question": "What transducers does the Truffle-KTR24 have?",
+        "answer": "One 4-inch active driver and one 4-inch passive speaker."
+      },
+      {
+        "question": "What is the frequency response of the Truffle-KTR24?",
+        "answer": "45 Hz - 150 / 500 Hz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Truffle-KTR24?",
+        "answer": "112 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Truffle-KTR24?",
+        "answer": "60 W."
+      },
+      {
+        "question": "What is the nominal impedance of the Truffle-KTR24?",
+        "answer": "4 Ω."
+      },
+      {
+        "question": "What are the dimensions of the Truffle-KTR24?",
+        "answer": "122 x 117 x 199 mm (4.8 x 4.6 x 7.8 in)."
+      },
+      {
+        "question": "What is the weight of the Truffle-KTR24?",
+        "answer": "1.5 kg (3.31 lb)."
+      },
+      {
+        "question": "What material is the Truffle-KTR24 made of?",
+        "answer": "Aluminum."
+      },
+      {
+        "question": "What color is available for the Truffle-KTR24?",
+        "answer": "Black."
+      },
+      {
+        "question": "What is the finish of the Truffle-KTR24?",
+        "answer": "Powder Matte."
+      },
+      {
+        "question": "What is the IP rating of the Truffle-KTR24?",
+        "answer": "IP64."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Truffle-KTR24: Compact Aluminum Alloy Subs with 4 ... - K-array (https://www.k-array.com/en/product/truffle-ktr24)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

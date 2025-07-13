@@ -1,0 +1,46 @@
+{
+  "id": "152",
+  "url": "https://www.k-array.com/en/product/kn10s",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "OTHER",
+    "product_line": "K-array",
+    "model": "KN10S",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KN10S", "sub-bass speaker", "self-powered"],
+    "technical": ["DSP", "drivers", "performance-to-size ratio"],
+    "applications": ["touring", "installation"],
+    "unique_identifiers": ["kn10s"]
+  },
+  "content_sections": {
+    "description": "The KN10S is a high-performance, self-powered sub-bass speaker designed for use with K-array KN6 and other small to medium format speaker systems in both touring and installation applications. It features a unique performance-to-size ratio, integrated DSP, direct radiating, long excursion 10” drivers, integrated connection hardware, and an ultra-strong steel shell. The product is discontinued.",
+    "specifications": {
+      "Type": "High-performance, self-powered sub-bass speaker (Source: "The KN10S is a high-performance, self-powered sub-bass speaker")",
+      "Status": "DISCONTINUED (Source: "The product is discontinued.")",
+      "Drivers": "direct radiating, long excursion 10” drivers (Source: "direct radiating, long excursion 10” drivers")",
+      "Features": "unique performance-to-size ratio, integrated DSP, integrated connection hardware, ultra-strong steel shell (Source: "It features a unique performance-to-size ratio, integrated DSP, direct radiating, long excursion 10” drivers, integrated connection hardware, and an ultra-strong steel shell.")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "KN10S is a DISCONTINUED high-performance, self-powered sub-bass speaker. Designed for K-array KN6 and other small to medium format speaker systems in touring and installation. Features unique performance-to-size ratio, integrated DSP, direct radiating, long excursion 10” drivers, integrated connection hardware, ultra-strong steel shell.",
+    "semantic_chunks": [
+      "KN10S: DISCONTINUED high-performance, self-powered sub-bass speaker.",
+      "Applications: K-array KN6 and other small/medium format speaker systems (touring/installation).",
+      "Features: Unique performance-to-size ratio, integrated DSP, direct radiating, long excursion 10” drivers, integrated connection hardware, ultra-strong steel shell."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the KN10S?", "answer": "High-performance, self-powered sub-bass speaker."},
+      {"question": "What is the status of the KN10S?", "answer": "DISCONTINUED."},
+      {"question": "What are the key features of the KN10S?", "answer": "Unique performance-to-size ratio, integrated DSP, direct radiating, long excursion 10” drivers, integrated connection hardware, and an ultra-strong steel shell."},
+      {"question": "What applications is the KN10S designed for?", "answer": "Use with K-array KN6 and other small to medium format speaker systems in both touring and installation applications."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "KN10S - K-array (https://www.k-array.com/en/product/kn10s)"}
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "198",
+  "url": "https://www.k-array.com/en/application/Hospitality-Lighting",
+  "timestamp": "2025-07-12T14:15:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "HOSPITALITY_LIGHTING",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "hospitality lighting",
+      "adaptability",
+      "RAIL system",
+      "perfect ambiance"
+    ],
+    "technical": [
+      "high-quality audio",
+      "lighting",
+      "customizable features",
+      "transforms spaces"
+    ],
+    "venues": [
+      "fine dining restaurants",
+      "hotel reception areas",
+      "hospitality spaces",
+      "ambient atmosphere"
+    ],
+    "products": [
+      "RAIL system"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "market_positioning": "Adaptability in hospitality environments",
+      "key_solution": "RAIL system that integrates high-quality audio and lighting",
+      "venue_types": [
+        "Fine dining restaurants",
+        "Hotel reception areas",
+        "Hospitality spaces requiring ambient atmosphere"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "RAIL system",
+        "key_features": [
+          "Customizable features",
+          "Enables creating perfect ambiance",
+          "Transforms spaces"
+        ]
+      }
+    ],
+    "installation_scenarios": {
+      "design_considerations": [
+        "Ability to create different moods",
+        "Seamless integration of audio and lighting"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "The Taste of Sound",
+        "type": "Referenced project"
+      }
+    ],
+    "philosophical_foundation": {
+      "quote": "The stomach is the conductor who conducts the great orchestra of our passions",
+      "attribution": "Rossini"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "hospitality lighting adaptability RAIL system perfect ambiance high-quality audio lighting customizable features transforms spaces fine dining restaurants hotel reception areas hospitality spaces ambient atmosphere different moods seamless integration Taste of Sound Rossini stomach conductor great orchestra passions",
+    "semantic_chunks": [
+      "Hospitality lighting emphasizes adaptability in hospitality environments using RAIL system that integrates high-quality audio and lighting",
+      "Applications include fine dining restaurants, hotel reception areas, and hospitality spaces requiring ambient atmosphere",
+      "RAIL system offers customizable features enabling creation of perfect ambiance and transforms spaces",
+      "Design considerations include ability to create different moods with seamless integration of audio and lighting",
+      "Philosophy draws from Rossini: 'The stomach is the conductor who conducts the great orchestra of our passions'"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to hospitality lighting?",
+        "a": "Adaptability in hospitality environments using RAIL system that integrates high-quality audio and lighting"
+      },
+      {
+        "q": "What venues does K-Array serve for hospitality lighting?",
+        "a": "Fine dining restaurants, hotel reception areas, and hospitality spaces requiring ambient atmosphere"
+      },
+      {
+        "q": "What are the key features of the RAIL system?",
+        "a": "Customizable features that enable creating perfect ambiance and transforms spaces"
+      },
+      {
+        "q": "What design considerations are important for hospitality lighting?",
+        "a": "Ability to create different moods with seamless integration of audio and lighting"
+      },
+      {
+        "q": "What philosophy underlies K-Array's hospitality approach?",
+        "a": "Rossini's quote: 'The stomach is the conductor who conducts the great orchestra of our passions'"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Adaptability in hospitality environments",
+      "source": "Direct quote from market positioning"
+    },
+    {
+      "claim": "RAIL system that integrates high-quality audio and lighting",
+      "source": "Direct quote from key solution description"
+    },
+    {
+      "claim": "The stomach is the conductor who conducts the great orchestra of our passions",
+      "source": "Direct quote attributed to Rossini"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

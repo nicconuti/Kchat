@@ -1,0 +1,170 @@
+{
+  "id": "177",
+  "url": "https://www.k-array.com/en/products/line/duetto",
+  "timestamp": "2025-07-12T12:30:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCT_LINES",
+    "subcategory": "DUETTO_SERIES",
+    "product_line": "Duetto",
+    "content_type": "product_line_overview",
+    "product_type": "earbuds"
+  },
+  "keywords": {
+    "primary": [
+      "Duetto",
+      "earbuds",
+      "ultra-mini",
+      "high definition",
+      "smallest set"
+    ],
+    "technical": [
+      "6mm dynamic driver",
+      "dual-balanced armatures",
+      "microphone",
+      "wireless",
+      "wired"
+    ],
+    "applications": [
+      "residential",
+      "fitness",
+      "wellness",
+      "concerts",
+      "live events"
+    ],
+    "unique_identifiers": [
+      "KD6T",
+      "KD6B",
+      "KD6BT"
+    ]
+  },
+  "content_sections": {
+    "series_overview": {
+      "description": "The smallest set of in-ear buds on the market to feature top-performance characteristics like high efficiency, sound fidelity, compactness and quality materials",
+      "positioning": "Ultra-mini earbuds targeting high-performance audio market",
+      "key_features": [
+        "Compact design",
+        "High sound quality",
+        "Premium materials",
+        "High efficiency",
+        "Sound fidelity"
+      ]
+    },
+    "product_models": [
+      {
+        "model": "Duetto-KD6T",
+        "type": "High definition earbuds with 6mm dynamic driver",
+        "connectivity": "Wired",
+        "features": [
+          "Standard wired earbuds"
+        ]
+      },
+      {
+        "model": "Duetto-KD6B",
+        "type": "High definition earbuds with 6 mm dynamic driver with microphone and control",
+        "connectivity": "Wired",
+        "features": [
+          "Microphone",
+          "Control functionality"
+        ]
+      },
+      {
+        "model": "Duetto-KD6BT",
+        "type": "Dual-balanced wireless armatures with an in-line microphone and control",
+        "connectivity": "Wireless",
+        "features": [
+          "Balanced armature technology",
+          "In-line microphone",
+          "Control"
+        ]
+      }
+    ],
+    "technical_details": {
+      "driver_configurations": [
+        "6mm dynamic drivers (KD6T/KD6B)",
+        "Dual-balanced armatures (KD6BT)"
+      ],
+      "connectivity_options": [
+        "Wired (KD6T/KD6B)",
+        "Wireless (KD6BT)"
+      ],
+      "audio_features": [
+        "High efficiency",
+        "Sound fidelity",
+        "High definition audio"
+      ]
+    },
+    "applications": {
+      "primary_markets": [
+        "Residential",
+        "Fitness and Wellness",
+        "Concerts and Live Events"
+      ],
+      "positioning": "Smallest earbuds on market with top-performance characteristics"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Duetto smallest in-ear buds earbuds market top-performance high efficiency sound fidelity compactness quality materials ultra-mini KD6T KD6B KD6BT 6mm dynamic driver dual-balanced armatures wireless wired microphone control residential fitness wellness concerts live events high definition",
+    "semantic_chunks": [
+      "Duetto is the smallest set of in-ear buds on the market featuring top-performance characteristics like high efficiency, sound fidelity, compactness and quality materials",
+      "Product models include KD6T (wired 6mm dynamic), KD6B (wired 6mm dynamic with mic/control), and KD6BT (wireless dual-balanced armatures)",
+      "Technical features include 6mm dynamic drivers, dual-balanced armatures, wired and wireless connectivity options",
+      "Applications include residential use, fitness and wellness, concerts and live events",
+      "Positioned as ultra-mini earbuds with premium materials and high-definition audio performance"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is the K-Array Duetto series?",
+        "a": "The smallest set of in-ear buds on the market to feature top-performance characteristics like high efficiency, sound fidelity, compactness and quality materials"
+      },
+      {
+        "q": "What are the main Duetto models?",
+        "a": "KD6T, KD6B, and KD6BT"
+      },
+      {
+        "q": "What drivers does Duetto use?",
+        "a": "6mm dynamic drivers (KD6T/KD6B) and dual-balanced armatures (KD6BT)"
+      },
+      {
+        "q": "What connectivity options does Duetto offer?",
+        "a": "Wired (KD6T/KD6B) and wireless (KD6BT) options"
+      },
+      {
+        "q": "What applications is Duetto designed for?",
+        "a": "Residential, fitness and wellness, concerts and live events"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "The smallest set of in-ear buds on the market to feature top-performance characteristics like high efficiency, sound fidelity, compactness and quality materials",
+      "source": "Direct quote from Duetto series overview"
+    },
+    {
+      "claim": "High definition earbuds with 6mm dynamic driver",
+      "source": "Direct specification from KD6T model details"
+    },
+    {
+      "claim": "Dual-balanced wireless armatures with an in-line microphone and control",
+      "source": "Direct specification from KD6BT model details"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

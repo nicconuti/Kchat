@@ -1,0 +1,186 @@
+{
+  "id": "175",
+  "url": "https://www.k-array.com/en/products/line/kommander",
+  "timestamp": "2025-07-12T12:20:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCT_LINES",
+    "subcategory": "KOMMANDER_SERIES",
+    "product_line": "Kommander",
+    "content_type": "product_line_overview"
+  },
+  "keywords": {
+    "primary": [
+      "Kommander",
+      "super-light",
+      "extremely dynamic",
+      "powerful amplifier",
+      "Class D"
+    ],
+    "technical": [
+      "IEB",
+      "osKar operating system",
+      "Dante Ready",
+      "DSP",
+      "8x8",
+      "4x4"
+    ],
+    "applications": [
+      "fitness",
+      "restaurants",
+      "museums",
+      "worship",
+      "nightclubs",
+      "retail",
+      "hotels",
+      "concerts"
+    ],
+    "unique_identifiers": [
+      "KA02I",
+      "KA04",
+      "KA14I",
+      "KA18",
+      "KA28",
+      "KA34",
+      "KA68",
+      "KA104",
+      "KA208",
+      "K-RACK-M-208"
+    ]
+  },
+  "content_sections": {
+    "series_overview": {
+      "description": "Super-light, extremely dynamic and powerful amplifier series designed to elevate your audio systems",
+      "key_technologies": [
+        "Integrated Electronic Brain (IEB)",
+        "osKar operating system",
+        "Dante Ready licensing",
+        "Class D amplifier modules",
+        "Powerful DSP capabilities"
+      ],
+      "unique_selling_propositions": [
+        "Compact audio speaker solutions",
+        "One-of-a-kind sound experience",
+        "Adaptable for permanent installations and touring applications"
+      ]
+    },
+    "product_models": [
+      "Kommander-KA02I",
+      "Kommander-KA04",
+      "Kommander-KA14I",
+      "Kommander-KA18",
+      "Kommander-KA18+",
+      "Kommander-KA28",
+      "Kommander-KA28+",
+      "Kommander-KA34",
+      "Kommander-KA68",
+      "Kommander-KA68+",
+      "Kommander-KA104LIVE",
+      "Kommander-KA104",
+      "Kommander-KA208LIVE",
+      "Kommander-KA208",
+      "Kommander-KA208+",
+      "Kommander-KA208LIVE+",
+      "K-RACK-M-208"
+    ],
+    "technical_details": {
+      "configurations": [
+        "8 x Inputs to 8 x Outputs models",
+        "4 x Inputs to 4 x Outputs models"
+      ],
+      "amplification": "4-8 channels per unit",
+      "control_options": [
+        "Three software control types",
+        "Professional interface",
+        "Mobile app",
+        "Web app"
+      ],
+      "connectivity": "Dante Ready option",
+      "amplifier_type": "Class D amplifier modules",
+      "processing": "Powerful DSP capabilities"
+    },
+    "applications": {
+      "primary_markets": [
+        "Fitness and Wellness",
+        "Restaurants and Cafes",
+        "Museums and Exhibitions",
+        "Houses of Worship",
+        "Nightclubs and Lounges",
+        "Retail",
+        "Hotels and Resorts",
+        "Concerts and Live Events",
+        "Boardrooms and Conference Rooms"
+      ],
+      "installation_scenarios": [
+        "Permanent installations",
+        "Touring applications",
+        "Professional audio systems",
+        "Commercial audio installations"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Kommander super-light extremely dynamic powerful amplifier series IEB Integrated Electronic Brain osKar operating system Dante Ready Class D DSP 8x8 4x4 inputs outputs KA02I KA04 KA14I KA18 KA28 KA34 KA68 KA104 KA208 K-RACK-M-208 fitness restaurants museums worship nightclubs retail hotels concerts boardrooms permanent installations touring applications compact audio speaker solutions",
+    "semantic_chunks": [
+      "Kommander is a super-light, extremely dynamic and powerful amplifier series designed to elevate audio systems",
+      "Key technologies include Integrated Electronic Brain (IEB), osKar operating system, Dante Ready licensing, Class D amplifier modules, and powerful DSP capabilities",
+      "Product line includes models from KA02I to KA208+ with configurations ranging from 4x4 to 8x8 inputs/outputs and 4-8 channels per unit",
+      "Applications span fitness, restaurants, museums, houses of worship, nightclubs, retail, hotels, concerts, and boardrooms",
+      "Offers three software control types (professional interface, mobile app, web app) and adaptable for both permanent installations and touring applications"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is the K-Array Kommander series?",
+        "a": "Super-light, extremely dynamic and powerful amplifier series designed to elevate your audio systems"
+      },
+      {
+        "q": "What technologies does Kommander use?",
+        "a": "Integrated Electronic Brain (IEB), osKar operating system, Dante Ready licensing, Class D amplifier modules, and powerful DSP capabilities"
+      },
+      {
+        "q": "What are the main Kommander models?",
+        "a": "KA02I, KA04, KA14I, KA18, KA28, KA34, KA68, KA104, KA208, and various + and LIVE variants"
+      },
+      {
+        "q": "What configurations does Kommander offer?",
+        "a": "8 x Inputs to 8 x Outputs models and 4 x Inputs to 4 x Outputs models with 4-8 channels per unit"
+      },
+      {
+        "q": "What applications is Kommander designed for?",
+        "a": "Fitness, restaurants, museums, houses of worship, nightclubs, retail, hotels, concerts, and boardrooms"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Super-light, extremely dynamic and powerful amplifier series designed to elevate your audio systems",
+      "source": "Direct quote from Kommander series overview"
+    },
+    {
+      "claim": "8 x Inputs to 8 x Outputs models",
+      "source": "Direct specification from configuration section"
+    },
+    {
+      "claim": "4 x Inputs to 4 x Outputs models",
+      "source": "Direct specification from configuration section"
+    },
+    {
+      "claim": "Adaptable for permanent installations and touring applications",
+      "source": "Direct quote from unique selling propositions"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "Quick Start Guide",
+      "Amp-to-speaker matching table",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

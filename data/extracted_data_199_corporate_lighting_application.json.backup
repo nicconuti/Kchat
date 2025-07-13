@@ -1,0 +1,164 @@
+{
+  "id": "199",
+  "url": "https://www.k-array.com/en/application/Corporate-Lighting",
+  "timestamp": "2025-07-12T14:20:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "CORPORATE_LIGHTING",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "corporate lighting",
+      "workplace audio-visual",
+      "modern office environments",
+      "RAIL"
+    ],
+    "technical": [
+      "integrated audio-light system",
+      "tunable white LED",
+      "smart automated building",
+      "human centric technology"
+    ],
+    "applications": [
+      "open office environments",
+      "video conferencing",
+      "meeting rooms",
+      "productivity wellness"
+    ],
+    "products": [
+      "RAIL 24V",
+      "Rumble-KU44 I",
+      "Kommander amplifiers"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "focus": "Workplace audio-visual solutions, specifically for modern office environments",
+      "key_solution": "RAIL - an integrated audio-light system for open office environments and video conferencing",
+      "unique_value_proposition": "Harmonious synergy between light and sound"
+    },
+    "recommended_products": [
+      {
+        "product": "RAIL 24V",
+        "type": "Primary product for corporate lighting",
+        "key_features": [
+          "Tunable white LED lighting",
+          "Supports smart automated building systems",
+          "Optimizes illumination for high productivity and wellness",
+          "Supports human centric technology"
+        ]
+      }
+    ],
+    "installation_scenarios": {
+      "target_environments": [
+        "Open office spaces",
+        "Meeting rooms",
+        "Video conferencing areas"
+      ],
+      "design_considerations": "Cutter-free space that promotes productivity and seamless communication"
+    },
+    "case_studies": [
+      {
+        "name": "TAD Associates",
+        "description": "AV consultancy with offices in New York and London",
+        "products_used": [
+          "Rumble-KU44 I",
+          "Rail 24V"
+        ]
+      },
+      {
+        "name": "Armstrong Ceilings' Headquarters",
+        "products_used": [
+          "Rail 24V",
+          "multiple amplification systems"
+        ]
+      },
+      {
+        "name": "Pavion's Office",
+        "products_used": [
+          "Rail 24V",
+          "Rumble series subwoofers",
+          "Kommander amplifiers"
+        ]
+      },
+      {
+        "name": "Sabic Corporate Building",
+        "description": "24-story corporate building in Saudi Arabia",
+        "products_used": [
+          "Multiple speaker and amplification systems"
+        ]
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "corporate lighting workplace audio-visual modern office environments RAIL integrated audio-light system open office video conferencing harmonious synergy light sound RAIL 24V tunable white LED smart automated building high productivity wellness human centric technology cutter-free space seamless communication TAD Associates New York London Rumble-KU44 I Armstrong Ceilings Headquarters Pavion Office Kommander amplifiers Sabic Corporate Building Saudi Arabia 24-story",
+    "semantic_chunks": [
+      "Corporate lighting focuses on workplace audio-visual solutions for modern office environments using RAIL integrated audio-light system",
+      "RAIL provides harmonious synergy between light and sound for open office environments and video conferencing",
+      "RAIL 24V features tunable white LED lighting, supports smart automated building systems, and optimizes illumination for productivity and wellness",
+      "Applications include open office spaces, meeting rooms, video conferencing areas with cutter-free space promoting productivity",
+      "Case studies include TAD Associates (NY/London), Armstrong Ceilings Headquarters, Pavion's Office, and Sabic Corporate Building (24-story, Saudi Arabia)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to corporate lighting?",
+        "a": "Workplace audio-visual solutions for modern office environments using RAIL integrated audio-light system"
+      },
+      {
+        "q": "What is RAIL's unique value proposition?",
+        "a": "Harmonious synergy between light and sound for open office environments and video conferencing"
+      },
+      {
+        "q": "What are the key features of RAIL 24V?",
+        "a": "Tunable white LED lighting, supports smart automated building systems, optimizes illumination for high productivity and wellness, supports human centric technology"
+      },
+      {
+        "q": "What environments are suitable for corporate lighting?",
+        "a": "Open office spaces, meeting rooms, video conferencing areas"
+      },
+      {
+        "q": "What are examples of K-Array corporate installations?",
+        "a": "TAD Associates (AV consultancy, NY/London), Armstrong Ceilings Headquarters, Pavion's Office, and Sabic Corporate Building (24-story, Saudi Arabia)"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Harmonious synergy between light and sound",
+      "source": "Direct quote from Corporate, Education and Government section"
+    },
+    {
+      "claim": "Human centric technology",
+      "source": "Direct quote from Visual Comfort section"
+    },
+    {
+      "claim": "Cutter-free space that promotes productivity and seamless communication",
+      "source": "Direct quote from Visual Comfort section"
+    },
+    {
+      "claim": "AV consultancy with offices in New York and London",
+      "source": "Direct description of TAD Associates"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

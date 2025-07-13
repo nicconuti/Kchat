@@ -1,0 +1,185 @@
+{
+  "id": "188",
+  "url": "https://www.k-array.com/en/application/transportation-facilities",
+  "timestamp": "2025-07-12T13:25:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "TRANSPORTATION_FACILITIES",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "transportation facilities",
+      "high-performance systems",
+      "clear spoken word",
+      "make travel easier"
+    ],
+    "technical": [
+      "strategic speaker placement",
+      "minimize travel delays",
+      "missed connections",
+      "traveler convenience"
+    ],
+    "applications": [
+      "train stations",
+      "public bus stops",
+      "cruise ships",
+      "airports",
+      "luxury jets"
+    ],
+    "products": [
+      "Kobra-KK52 I",
+      "Tornado-KT2",
+      "Kobra-KK102 I",
+      "Mugello-KH2 I",
+      "Vyper-KV25 II",
+      "Domino-KF26",
+      "Python-KP102 I"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "purpose": "High-performance systems that provide clear spoken word to make travel easier",
+      "key_goal": "Enhance traveler convenience by providing clear audio information",
+      "covered_venues": [
+        "Train stations",
+        "Public bus stops",
+        "Cruise ships",
+        "Airports",
+        "Luxury jets"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Kobra-KK52 I",
+        "use_case": "Transportation facility audio systems"
+      },
+      {
+        "product": "Tornado-KT2",
+        "use_case": "Transit facility installations"
+      },
+      {
+        "product": "Kobra-KK102 I",
+        "use_case": "Large transportation venue audio"
+      },
+      {
+        "product": "Mugello-KH2 I",
+        "status": "Discontinued",
+        "use_case": "Transit hub installations"
+      },
+      {
+        "product": "Vyper-KV25 II",
+        "use_case": "Transportation facility monitoring"
+      },
+      {
+        "product": "Domino-KF26",
+        "use_case": "Airport terminal audio systems"
+      },
+      {
+        "product": "Python-KP102 I",
+        "use_case": "Large transportation facility line arrays"
+      }
+    ],
+    "installation_scenarios": {
+      "design_focus": [
+        "Strategic speaker placement",
+        "Focus on clear spoken word communication",
+        "Designed to minimize travel delays and missed connections"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Changi Airport",
+        "location": "Singapore",
+        "description": "Consistently top-rated airport",
+        "products_used": [
+          "Multiple K-Array speaker models"
+        ]
+      },
+      {
+        "name": "Oculus World Trade Center Transit Hub",
+        "description": "800,000 square foot facility",
+        "products_used": [
+          "Mugello speaker series"
+        ]
+      },
+      {
+        "name": "vivaNEXT Toronto Bus Transit",
+        "description": "Collaborative project with CP-Stoneman Inc.",
+        "products_used": [
+          "Tornado and Kobra speaker models"
+        ]
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "transportation facilities high-performance systems clear spoken word make travel easier traveler convenience train stations public bus stops cruise ships airports luxury jets strategic speaker placement minimize travel delays missed connections Kobra-KK52 I Tornado-KT2 Kobra-KK102 I Mugello-KH2 I Vyper-KV25 II Domino-KF26 Python-KP102 I Changi Airport Singapore Oculus World Trade Center Transit Hub vivaNEXT Toronto Bus Transit CP-Stoneman",
+    "semantic_chunks": [
+      "Transportation facilities require high-performance systems that provide clear spoken word to make travel easier and enhance traveler convenience",
+      "Applications include train stations, public bus stops, cruise ships, airports, and luxury jets with strategic speaker placement",
+      "Solutions focus on clear spoken word communication designed to minimize travel delays and missed connections",
+      "Recommended products include Kobra-KK52 I, Tornado-KT2, Kobra-KK102 I, Vyper-KV25 II, Domino-KF26, and Python-KP102 I",
+      "Case studies include Changi Airport (Singapore), Oculus World Trade Center Transit Hub, and vivaNEXT Toronto Bus Transit"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to transportation facilities?",
+        "a": "High-performance systems that provide clear spoken word to make travel easier"
+      },
+      {
+        "q": "What is the key goal for transportation facility audio?",
+        "a": "Enhance traveler convenience by providing clear audio information"
+      },
+      {
+        "q": "What transportation venues does K-Array serve?",
+        "a": "Train stations, public bus stops, cruise ships, airports, and luxury jets"
+      },
+      {
+        "q": "What K-Array products are recommended for transportation?",
+        "a": "Kobra-KK52 I, Tornado-KT2, Kobra-KK102 I, Mugello-KH2 I, Vyper-KV25 II, Domino-KF26, and Python-KP102 I"
+      },
+      {
+        "q": "What are examples of K-Array transportation installations?",
+        "a": "Changi Airport (Singapore), Oculus World Trade Center Transit Hub, and vivaNEXT Toronto Bus Transit"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "High-performance systems that provide clear spoken word to make travel easier",
+      "source": "Direct quote from transportation facilities purpose"
+    },
+    {
+      "claim": "The most important factor... is convenience for the traveler",
+      "source": "Direct quote from Transportation Facilities page"
+    },
+    {
+      "claim": "Consistently top-rated airport",
+      "source": "Direct description of Changi Airport"
+    },
+    {
+      "claim": "800,000 square foot facility",
+      "source": "Direct specification for Oculus World Trade Center Transit Hub"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

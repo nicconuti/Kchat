@@ -1,0 +1,93 @@
+{
+  "id": "121",
+  "url": "https://www.k-array.com/en/product/mastiff-km112",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MASTIFF_SERIES",
+    "product_line": "Mastiff",
+    "model": "KM112",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": [
+      "KM112",
+      "Mastiff",
+      "stage monitor",
+      "self-powered"
+    ],
+    "technical": [
+      "coaxial woofer",
+      "SPL"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "km112"
+    ]
+  },
+  "content_sections": {
+    "description": "The Mastiff-KM112 is a self-powered compact monitor featuring a coaxial 12” woofer, capable of reaching a maximum SPL of 133 dB (peak). It can also power the passive KM112P version, which in turn can drive a stereo mix and a Thunder-KMT18P for a drum fill, making it a versatile monitor. The product is listed as \"DISCONTINUED\".",
+    "specifications": {
+      "Type": "Self-Powered Compact Monitor (Source: \"Mastiff-KM112: 12\" Coaxial Self-Powered Stage Monitor\")",
+      "Status": "DISCONTINUED (Source: \"The product is listed as \\\"DISCONTINUED\\\".\")",
+      "Woofer": "coaxial 12” woofer (Source: \"featuring a coaxial 12” woofer\")",
+      "Max SPL": "133 dB (peak) (Source: \"capable of reaching a maximum SPL of 133 dB (peak).\")",
+      "Powering Capability": "can also power the passive KM112P version, which in turn can drive a stereo mix and a Thunder-KMT18P for a drum fill (Source: \"It can also power the passive KM112P version, which in turn can drive a stereo mix and a Thunder-KMT18P for a drum fill, making it a versatile monitor.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mastiff-KM112 is a DISCONTINUED self-powered compact monitor. Features a coaxial 12” woofer. Max SPL of 133 dB (peak). Can power passive KM112P version, drive stereo mix and Thunder-KMT18P for drum fill. Versatile monitor.",
+    "semantic_chunks": [
+      "Mastiff-KM112: DISCONTINUED self-powered compact monitor.",
+      "Features: Coaxial 12” woofer. Max SPL 133 dB (peak).",
+      "Versatility: Can power passive KM112P, drive stereo mix and Thunder-KMT18P for drum fill."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Mastiff-KM112?",
+        "answer": "Self-Powered Compact Monitor."
+      },
+      {
+        "question": "What is the status of the Mastiff-KM112?",
+        "answer": "DISCONTINUED."
+      },
+      {
+        "question": "What kind of woofer does the Mastiff-KM112 have?",
+        "answer": "Coaxial 12” woofer."
+      },
+      {
+        "question": "What is the maximum SPL of the Mastiff-KM112?",
+        "answer": "133 dB (peak)."
+      },
+      {
+        "question": "What can the Mastiff-KM112 power?",
+        "answer": "The passive KM112P version, which can drive a stereo mix and a Thunder-KMT18P for a drum fill."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Mastiff-KM112: 12\" Coaxial Self-Powered Stage Monitor - K-array (https://www.k-array.com/en/product/mastiff-km112)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

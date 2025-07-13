@@ -1,0 +1,1431 @@
+2025-07-13 00:33:35,405 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 00:33:35,406 - __main__ - INFO - Loading vector store...
+2025-07-13 00:33:35,406 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 00:33:35,407 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 00:33:35,407 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 00:33:38,267 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-13 00:33:53,771 - src.enhanced_vector_store - WARNING - Could not update stats: 'EnhancedVectorStore' object has no attribute 'stats'
+2025-07-13 00:33:53,771 - src.enhanced_vector_store - ERROR - Error initializing enhanced vector store: 'EnhancedVectorStore' object has no attribute 'stats'
+2025-07-13 00:33:53,772 - __main__ - ERROR - Error initializing chat system: 'EnhancedVectorStore' object has no attribute 'stats'
+2025-07-13 00:33:53,772 - root - ERROR - Launch error: 'EnhancedVectorStore' object has no attribute 'stats'
+2025-07-13 00:54:49,520 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 00:54:49,521 - __main__ - INFO - Loading vector store...
+2025-07-13 00:54:49,521 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 00:54:49,521 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 00:54:49,522 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 00:54:52,549 - src.enhanced_vector_store - INFO - Enhanced vector store initialized with 0 documents
+2025-07-13 00:54:52,549 - __main__ - INFO - Vector store is empty, ingesting JSON files...
+2025-07-13 00:54:52,550 - src.enhanced_vector_store - INFO - Found 231 JSON files to process
+2025-07-13 00:54:52,551 - src.enhanced_vector_store - INFO - Processed 18 documents from data\extracted_data_001_kommander_ka104.json
+2025-07-13 00:54:52,860 - src.enhanced_vector_store - INFO - Processed 21 documents from data\extracted_data_002_kommander_ka208.json
+2025-07-13 00:54:53,212 - src.enhanced_vector_store - INFO - Processed 19 documents from data\extracted_data_003_kommander_ka24.json
+2025-07-13 00:54:53,418 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_004_kommander_ka84.json
+2025-07-13 00:54:53,782 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_005_kommander_ka68.json
+2025-07-13 00:54:54,168 - src.enhanced_vector_store - INFO - Processed 21 documents from data\extracted_data_006_kommander_ka02i.json
+2025-07-13 00:54:54,500 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_007_kommander_ka14i.json
+2025-07-13 00:54:54,845 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_008_kommander_ka28.json
+2025-07-13 00:54:55,229 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_009_kommander_ka02.json
+2025-07-13 00:54:55,589 - src.enhanced_vector_store - INFO - Processed 21 documents from data\extracted_data_010_kommander_ka14.json
+2025-07-13 00:54:55,931 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_011_kommander_ka34.json
+2025-07-13 00:54:56,298 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_012_kommander_ka18.json
+2025-07-13 00:54:56,689 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_013_kommander_ka04.json
+2025-07-13 00:54:57,040 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_014_kommander_ka18_plus.json
+2025-07-13 00:54:57,419 - src.enhanced_vector_store - INFO - Processed 26 documents from data\extracted_data_015_kommander_ka28_plus.json
+2025-07-13 00:54:57,833 - src.enhanced_vector_store - INFO - Processed 27 documents from data\extracted_data_016_kommander_ka68_plus.json
+2025-07-13 00:54:58,265 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_017_kommander_ka104live.json
+2025-07-13 00:54:58,651 - src.enhanced_vector_store - INFO - Processed 26 documents from data\extracted_data_018_kommander_ka208live.json
+2025-07-13 00:54:59,069 - src.enhanced_vector_store - INFO - Processed 27 documents from data\extracted_data_019_kommander_ka208_plus.json
+2025-07-13 00:54:59,525 - src.enhanced_vector_store - INFO - Processed 28 documents from data\extracted_data_020_kommander_ka208live_plus.json
+2025-07-13 00:54:59,985 - src.enhanced_vector_store - INFO - Processed 25 documents from data\extracted_data_021_tornado_kt2.json
+2025-07-13 00:55:00,395 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_022_tornado_kt2c.json
+2025-07-13 00:55:00,910 - src.enhanced_vector_store - INFO - Processed 34 documents from data\extracted_data_023_kobra_kk52_i.json
+2025-07-13 00:55:01,442 - src.enhanced_vector_store - INFO - Processed 35 documents from data\extracted_data_024_kobra_kk102_i.json
+2025-07-13 00:55:01,987 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_025_python_kp52_i.json
+2025-07-13 00:55:02,269 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_026_python_kp102_i.json
+2025-07-13 00:55:02,544 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_027_thunder_kmt18p.json
+2025-07-13 00:55:02,689 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_028_thunder_ks2pi.json
+2025-07-13 00:55:02,965 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_029_thunder_kmt12p.json
+2025-07-13 00:55:03,120 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_030_thunder_ks5i.json
+2025-07-13 00:55:03,359 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_031_thunder_ks3i.json
+2025-07-13 00:55:03,647 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_032_thunder_ks3pi.json
+2025-07-13 00:55:03,930 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_033_thunder_ks4i.json
+2025-07-13 00:55:04,231 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_034_thunder_ks4pi.json
+2025-07-13 00:55:04,489 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_035_thunder_kmt218.json
+2025-07-13 00:55:04,595 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_036_thunder_kmt18i.json
+2025-07-13 00:55:04,709 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_037_thunder_ks2i.json
+2025-07-13 00:55:05,002 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_038_thunder_kmt21_i.json
+2025-07-13 00:55:05,205 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_039_thunder_ks5pi.json
+2025-07-13 00:55:05,491 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_040_thunder_ks1i.json
+2025-07-13 00:55:05,788 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_041_thunder_kmt21p.json
+2025-07-13 00:55:05,912 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_042_thunder_kmt12_i.json
+2025-07-13 00:55:06,076 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_043_thunder_ks1pi.json
+2025-07-13 00:55:06,332 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_044_thunder_ksc18p.json
+2025-07-13 00:55:06,586 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_045_thunder_kmt218p.json
+2025-07-13 00:55:06,710 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_046_thunder_ksc12p.json
+2025-07-13 00:55:06,989 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_047_thunder_ksc18p.json
+2025-07-13 00:55:07,272 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_048_lyzard_kz14i.json
+2025-07-13 00:55:07,557 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_049_lyzard_kz14.json
+2025-07-13 00:55:07,762 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_050_lyzard_kz14ri.json
+2025-07-13 00:55:08,038 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_051_lyzard_kz1i.json
+2025-07-13 00:55:08,317 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_052_lyzard_kz1.json
+2025-07-13 00:55:08,528 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_053_lyzard_kz1ri.json
+2025-07-13 00:55:08,802 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_054_lyzard_kz14.json
+2025-07-13 00:55:09,017 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_055_vyper_kv25ii.json
+2025-07-13 00:55:09,311 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_056_vyper_kv25l.json
+2025-07-13 00:55:09,549 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_057_vyper_kv52l.json
+2025-07-13 00:55:09,833 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_058_vyper_kv52rii.json
+2025-07-13 00:55:10,121 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_059_vyper_kv52fii.json
+2025-07-13 00:55:10,424 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_060_vyper_kv102rii.json
+2025-07-13 00:55:10,714 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_061_vyper_kv102ii.json
+2025-07-13 00:55:11,015 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_062_vyper_kv52ii.json
+2025-07-13 00:55:11,305 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_063_vyper_kv25wl.json
+2025-07-13 00:55:11,579 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_064_vyper_kv25rii.json
+2025-07-13 00:55:11,851 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_065_vyper_kv52frii.json
+2025-07-13 00:55:12,172 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_066_vyper_kv25ii.json
+2025-07-13 00:55:12,490 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_067_azimut_kamut2l14ii.json
+2025-07-13 00:55:12,644 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_068_azimut_kamut2l.json
+2025-07-13 00:55:12,797 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_069_azimut_kamut2l_ii.json
+2025-07-13 00:55:13,088 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_070_azimut_kamut2v25ii.json
+2025-07-13 00:55:13,274 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_071_azimut_kamut2l1.json
+2025-07-13 00:55:13,463 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_072_azimut_kamut2l1ii.json
+2025-07-13 00:55:13,746 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_073_azimut_kamut2v25.json
+2025-07-13 00:55:13,913 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_074_azimut_kamut2l14.json
+2025-07-13 00:55:14,096 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_075_rumble_ku44.json
+2025-07-13 00:55:14,388 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_076_rumble_ku26.json
+2025-07-13 00:55:14,695 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_077_rumble_ku210.json
+2025-07-13 00:55:14,958 - src.enhanced_vector_store - INFO - Processed 35 documents from data\extracted_data_078_rumble_ku212.json
+2025-07-13 00:55:15,500 - src.enhanced_vector_store - INFO - Processed 30 documents from data\extracted_data_079_rumble_ku315.json
+2025-07-13 00:55:16,016 - src.enhanced_vector_store - INFO - Processed 32 documents from data\extracted_data_080_rumble_ku44.json
+2025-07-13 00:55:16,487 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_081_mugello_kh5l.json: Expecting ',' delimiter: line 23 column 72 (char 1649)
+2025-07-13 00:55:16,487 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_082_mugello_kh3l.json: Expecting ',' delimiter: line 23 column 73 (char 1530)
+2025-07-13 00:55:16,487 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_083_mugello_kh2l.json: Expecting ',' delimiter: line 23 column 72 (char 1480)
+2025-07-13 00:55:16,488 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_084_mugello_kh2pl.json
+2025-07-13 00:55:16,574 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_085_mugello_kh5pl.json
+2025-07-13 00:55:17,103 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_086_mugello_kh3pl.json: Expecting ',' delimiter: line 21 column 53 (char 1362)
+2025-07-13 00:55:17,104 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_087_mugello_kh2_i_syst12.json: Expecting ',' delimiter: line 22 column 52 (char 997)
+2025-07-13 00:55:17,104 - src.enhanced_vector_store - INFO - Processed 20 documents from data\extracted_data_088_mugello_kh5.json
+2025-07-13 00:55:17,223 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_089_mugello_kh2.json: Expecting ',' delimiter: line 23 column 72 (char 1328)
+2025-07-13 00:55:17,223 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_090_mugello_kh3.json: Expecting ',' delimiter: line 23 column 73 (char 1248)
+2025-07-13 00:55:17,223 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_091_firenze_kh7.json: Expecting ',' delimiter: line 23 column 74 (char 1369)
+2025-07-13 00:55:17,224 - src.enhanced_vector_store - INFO - Processed 30 documents from data\extracted_data_092_firenze_ks7.json
+2025-07-13 00:55:17,725 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_093_firenze_ks8.json: Expecting ',' delimiter: line 22 column 43 (char 1250)
+2025-07-13 00:55:17,726 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_094_firenze_kh7p.json: Expecting ',' delimiter: line 22 column 74 (char 1177)
+2025-07-13 00:55:17,726 - src.enhanced_vector_store - INFO - Processed 25 documents from data\extracted_data_095_firenze_ks7p.json
+2025-07-13 00:55:18,018 - __main__ - ERROR - Error initializing chat system: 'list' object has no attribute 'get'
+2025-07-13 00:55:18,018 - root - ERROR - Launch error: 'list' object has no attribute 'get'
+2025-07-13 00:57:48,319 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 00:57:48,319 - __main__ - INFO - Loading vector store...
+2025-07-13 00:57:48,320 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 00:57:48,320 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 00:57:48,321 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 00:57:54,566 - src.enhanced_vector_store - INFO - Enhanced vector store initialized with 0 documents
+2025-07-13 00:57:54,567 - __main__ - INFO - Vector store is empty, ingesting JSON files...
+2025-07-13 00:57:54,568 - src.enhanced_vector_store - INFO - Found 231 JSON files to process
+2025-07-13 00:57:54,569 - src.enhanced_vector_store - INFO - Processed 18 documents from data\extracted_data_001_kommander_ka104.json
+2025-07-13 00:57:54,864 - src.enhanced_vector_store - INFO - Processed 21 documents from data\extracted_data_002_kommander_ka208.json
+2025-07-13 00:57:55,195 - src.enhanced_vector_store - INFO - Processed 19 documents from data\extracted_data_003_kommander_ka24.json
+2025-07-13 00:57:55,402 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_004_kommander_ka84.json
+2025-07-13 00:57:55,743 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_005_kommander_ka68.json
+2025-07-13 00:57:56,100 - src.enhanced_vector_store - INFO - Processed 21 documents from data\extracted_data_006_kommander_ka02i.json
+2025-07-13 00:57:56,416 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_007_kommander_ka14i.json
+2025-07-13 00:57:56,757 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_008_kommander_ka28.json
+2025-07-13 00:57:57,109 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_009_kommander_ka02.json
+2025-07-13 00:57:57,446 - src.enhanced_vector_store - INFO - Processed 21 documents from data\extracted_data_010_kommander_ka14.json
+2025-07-13 00:57:57,770 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_011_kommander_ka34.json
+2025-07-13 00:57:58,121 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_012_kommander_ka18.json
+2025-07-13 00:57:58,489 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_013_kommander_ka04.json
+2025-07-13 00:57:58,834 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_014_kommander_ka18_plus.json
+2025-07-13 00:57:59,194 - src.enhanced_vector_store - INFO - Processed 26 documents from data\extracted_data_015_kommander_ka28_plus.json
+2025-07-13 00:57:59,594 - src.enhanced_vector_store - INFO - Processed 27 documents from data\extracted_data_016_kommander_ka68_plus.json
+2025-07-13 00:58:00,011 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_017_kommander_ka104live.json
+2025-07-13 00:58:00,377 - src.enhanced_vector_store - INFO - Processed 26 documents from data\extracted_data_018_kommander_ka208live.json
+2025-07-13 00:58:00,782 - src.enhanced_vector_store - INFO - Processed 27 documents from data\extracted_data_019_kommander_ka208_plus.json
+2025-07-13 00:58:01,205 - src.enhanced_vector_store - INFO - Processed 28 documents from data\extracted_data_020_kommander_ka208live_plus.json
+2025-07-13 00:58:01,642 - src.enhanced_vector_store - INFO - Processed 25 documents from data\extracted_data_021_tornado_kt2.json
+2025-07-13 00:58:02,031 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_022_tornado_kt2c.json
+2025-07-13 00:58:02,521 - src.enhanced_vector_store - INFO - Processed 34 documents from data\extracted_data_023_kobra_kk52_i.json
+2025-07-13 00:58:03,032 - src.enhanced_vector_store - INFO - Processed 35 documents from data\extracted_data_024_kobra_kk102_i.json
+2025-07-13 00:58:03,542 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_025_python_kp52_i.json
+2025-07-13 00:58:03,823 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_026_python_kp102_i.json
+2025-07-13 00:58:04,099 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_027_thunder_kmt18p.json
+2025-07-13 00:58:04,240 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_028_thunder_ks2pi.json
+2025-07-13 00:58:04,496 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_029_thunder_kmt12p.json
+2025-07-13 00:58:04,646 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_030_thunder_ks5i.json
+2025-07-13 00:58:04,877 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_031_thunder_ks3i.json
+2025-07-13 00:58:05,154 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_032_thunder_ks3pi.json
+2025-07-13 00:58:05,407 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_033_thunder_ks4i.json
+2025-07-13 00:58:05,672 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_034_thunder_ks4pi.json
+2025-07-13 00:58:05,928 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_035_thunder_kmt218.json
+2025-07-13 00:58:06,037 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_036_thunder_kmt18i.json
+2025-07-13 00:58:06,145 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_037_thunder_ks2i.json
+2025-07-13 00:58:06,417 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_038_thunder_kmt21_i.json
+2025-07-13 00:58:06,615 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_039_thunder_ks5pi.json
+2025-07-13 00:58:06,886 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_040_thunder_ks1i.json
+2025-07-13 00:58:07,160 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_041_thunder_kmt21p.json
+2025-07-13 00:58:07,274 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_042_thunder_kmt12_i.json
+2025-07-13 00:58:07,426 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_043_thunder_ks1pi.json
+2025-07-13 00:58:07,679 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_044_thunder_ksc18p.json
+2025-07-13 00:58:07,939 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_045_thunder_kmt218p.json
+2025-07-13 00:58:08,063 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_046_thunder_ksc12p.json
+2025-07-13 00:58:08,320 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_047_thunder_ksc18p.json
+2025-07-13 00:58:08,571 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_048_lyzard_kz14i.json
+2025-07-13 00:58:08,828 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_049_lyzard_kz14.json
+2025-07-13 00:58:09,018 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_050_lyzard_kz14ri.json
+2025-07-13 00:58:09,281 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_051_lyzard_kz1i.json
+2025-07-13 00:58:09,543 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_052_lyzard_kz1.json
+2025-07-13 00:58:09,738 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_053_lyzard_kz1ri.json
+2025-07-13 00:58:10,002 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_054_lyzard_kz14.json
+2025-07-13 00:58:10,194 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_055_vyper_kv25ii.json
+2025-07-13 00:58:10,473 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_056_vyper_kv25l.json
+2025-07-13 00:58:10,693 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_057_vyper_kv52l.json
+2025-07-13 00:58:10,965 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_058_vyper_kv52rii.json
+2025-07-13 00:58:11,239 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_059_vyper_kv52fii.json
+2025-07-13 00:58:11,527 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_060_vyper_kv102rii.json
+2025-07-13 00:58:11,789 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_061_vyper_kv102ii.json
+2025-07-13 00:58:12,058 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_062_vyper_kv52ii.json
+2025-07-13 00:58:12,334 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_063_vyper_kv25wl.json
+2025-07-13 00:58:12,608 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_064_vyper_kv25rii.json
+2025-07-13 00:58:12,867 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_065_vyper_kv52frii.json
+2025-07-13 00:58:13,143 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_066_vyper_kv25ii.json
+2025-07-13 00:58:13,426 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_067_azimut_kamut2l14ii.json
+2025-07-13 00:58:13,568 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_068_azimut_kamut2l.json
+2025-07-13 00:58:13,715 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_069_azimut_kamut2l_ii.json
+2025-07-13 00:58:13,974 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_070_azimut_kamut2v25ii.json
+2025-07-13 00:58:14,152 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_071_azimut_kamut2l1.json
+2025-07-13 00:58:14,331 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_072_azimut_kamut2l1ii.json
+2025-07-13 00:58:14,603 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_073_azimut_kamut2v25.json
+2025-07-13 00:58:14,777 - src.enhanced_vector_store - INFO - Processed 11 documents from data\extracted_data_074_azimut_kamut2l14.json
+2025-07-13 00:58:14,952 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_075_rumble_ku44.json
+2025-07-13 00:58:15,246 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_076_rumble_ku26.json
+2025-07-13 00:58:15,533 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_077_rumble_ku210.json
+2025-07-13 00:58:15,809 - src.enhanced_vector_store - INFO - Processed 35 documents from data\extracted_data_078_rumble_ku212.json
+2025-07-13 00:58:16,359 - src.enhanced_vector_store - INFO - Processed 30 documents from data\extracted_data_079_rumble_ku315.json
+2025-07-13 00:58:16,857 - src.enhanced_vector_store - INFO - Processed 32 documents from data\extracted_data_080_rumble_ku44.json
+2025-07-13 00:58:17,319 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_081_mugello_kh5l.json: Expecting ',' delimiter: line 23 column 72 (char 1649)
+2025-07-13 00:58:17,319 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_082_mugello_kh3l.json: Expecting ',' delimiter: line 23 column 73 (char 1530)
+2025-07-13 00:58:17,320 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_083_mugello_kh2l.json: Expecting ',' delimiter: line 23 column 72 (char 1480)
+2025-07-13 00:58:17,320 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_084_mugello_kh2pl.json
+2025-07-13 00:58:17,401 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_085_mugello_kh5pl.json
+2025-07-13 00:58:17,919 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_086_mugello_kh3pl.json: Expecting ',' delimiter: line 21 column 53 (char 1362)
+2025-07-13 00:58:17,920 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_087_mugello_kh2_i_syst12.json: Expecting ',' delimiter: line 22 column 52 (char 997)
+2025-07-13 00:58:17,920 - src.enhanced_vector_store - INFO - Processed 20 documents from data\extracted_data_088_mugello_kh5.json
+2025-07-13 00:58:18,040 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_089_mugello_kh2.json: Expecting ',' delimiter: line 23 column 72 (char 1328)
+2025-07-13 00:58:18,040 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_090_mugello_kh3.json: Expecting ',' delimiter: line 23 column 73 (char 1248)
+2025-07-13 00:58:18,041 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_091_firenze_kh7.json: Expecting ',' delimiter: line 23 column 74 (char 1369)
+2025-07-13 00:58:18,041 - src.enhanced_vector_store - INFO - Processed 30 documents from data\extracted_data_092_firenze_ks7.json
+2025-07-13 00:58:18,556 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_093_firenze_ks8.json: Expecting ',' delimiter: line 22 column 43 (char 1250)
+2025-07-13 00:58:18,556 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_094_firenze_kh7p.json: Expecting ',' delimiter: line 22 column 74 (char 1177)
+2025-07-13 00:58:18,557 - src.enhanced_vector_store - INFO - Processed 25 documents from data\extracted_data_095_firenze_ks7p.json
+2025-07-13 00:58:18,842 - src.enhanced_vector_store - INFO - Processed 21 documents from data\extracted_data_096_firenze_kx12fI.json
+2025-07-13 00:58:19,193 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_097_firenze_kh8.json: Expecting ',' delimiter: line 22 column 52 (char 1713)
+2025-07-13 00:58:19,193 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_098_truffle_ktr26.json
+2025-07-13 00:58:19,459 - src.enhanced_vector_store - INFO - Processed 28 documents from data\extracted_data_099_truffle_ktr24.json
+2025-07-13 00:58:19,802 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_100_truffle_ktr25.json
+2025-07-13 00:58:20,047 - src.enhanced_vector_store - INFO - Processed 32 documents from data\extracted_data_101_truffle_ktr24.json
+2025-07-13 00:58:20,567 - src.enhanced_vector_store - INFO - Processed 0 documents from data\extracted_data_101_truffle_ktr24_duplicate.json
+2025-07-13 00:58:20,568 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_102_kayman_ky102.json: Expecting ',' delimiter: line 22 column 37 (char 1208)
+2025-07-13 00:58:20,568 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_103_kayman_ky52.json
+2025-07-13 00:58:21,075 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_104_kayman_ky102_ebs.json
+2025-07-13 00:58:21,562 - src.enhanced_vector_store - INFO - Processed 0 documents from data\extracted_data_105_kayman_ky102_duplicate.json
+2025-07-13 00:58:21,563 - src.enhanced_vector_store - INFO - Processed 29 documents from data\extracted_data_106_turtle_krm33p.json
+2025-07-13 00:58:21,849 - src.enhanced_vector_store - INFO - Processed 29 documents from data\extracted_data_107_turtle_krm33.json
+2025-07-13 00:58:22,129 - src.enhanced_vector_store - INFO - Processed 35 documents from data\extracted_data_109_anakonda_kan200.json
+2025-07-13 00:58:22,621 - src.enhanced_vector_store - INFO - Processed 33 documents from data\extracted_data_110_anakonda_kan200_plus.json
+2025-07-13 00:58:23,089 - src.enhanced_vector_store - INFO - Processed 33 documents from data\extracted_data_111_anakonda_kan200_plus8.json
+2025-07-13 00:58:23,606 - src.enhanced_vector_store - INFO - Processed 25 documents from data\extracted_data_112_domino_kf26.json
+2025-07-13 00:58:24,016 - src.enhanced_vector_store - INFO - Processed 32 documents from data\extracted_data_113_domino_kf212.json
+2025-07-13 00:58:24,527 - src.enhanced_vector_store - INFO - Processed 30 documents from data\extracted_data_114_domino_kf210.json
+2025-07-13 00:58:25,015 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_115_domino_kfc26.json
+2025-07-13 00:58:25,512 - src.enhanced_vector_store - INFO - Processed 0 documents from data\extracted_data_116_domino_kf212_duplicate.json
+2025-07-13 00:58:25,513 - src.enhanced_vector_store - INFO - Processed 30 documents from data\extracted_data_117_dragon_kx12i.json
+2025-07-13 00:58:26,002 - src.enhanced_vector_store - INFO - Processed 30 documents from data\extracted_data_118_dragon_kxt12p.json
+2025-07-13 00:58:26,484 - src.enhanced_vector_store - INFO - Processed 27 documents from data\extracted_data_119_dragon_kxt18p.json
+2025-07-13 00:58:26,751 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_120_mastiff_km312.json
+2025-07-13 00:58:26,801 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_121_mastiff_km112.json
+2025-07-13 00:58:26,862 - src.enhanced_vector_store - INFO - Processed 28 documents from data\extracted_data_122_mastiff_km112p.json
+2025-07-13 00:58:27,208 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_123_mastiff_km312p.json
+2025-07-13 00:58:27,270 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_124_pinnacle_kr102_i.json
+2025-07-13 00:58:27,365 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_125_pinnacle_kr402_i.json
+2025-07-13 00:58:27,500 - src.enhanced_vector_store - INFO - Processed 12 documents from data\extracted_data_126_pinnacle_kr202_i.json
+2025-07-13 00:58:27,574 - src.enhanced_vector_store - INFO - Processed 18 documents from data\extracted_data_127_pinnacle_kr802ypii.json
+2025-07-13 00:58:27,866 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_128_pinnacle_kr102_ll.json
+2025-07-13 00:58:28,258 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_129_pinnacle_kr202_ii.json
+2025-07-13 00:58:28,652 - src.enhanced_vector_store - INFO - Processed 22 documents from data\extracted_data_130_pinnacle_kr402_ii.json
+2025-07-13 00:58:29,016 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_131_pinnacle_kr802.json
+2025-07-13 00:58:29,148 - src.enhanced_vector_store - INFO - Processed 26 documents from data\extracted_data_132_pinnacle_kr804p_ii.json
+2025-07-13 00:58:29,568 - src.enhanced_vector_store - INFO - Processed 23 documents from data\extracted_data_133_pinnacle_kr802_ii.json
+2025-07-13 00:58:29,940 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_134_pinnacle_kr404p_ii.json
+2025-07-13 00:58:30,332 - src.enhanced_vector_store - INFO - Processed 24 documents from data\extracted_data_135_pinnacle_kr402ypii.json
+2025-07-13 00:58:30,733 - src.enhanced_vector_store - INFO - Processed 10 documents from data\extracted_data_136_pinnacle_k_foh2.json
+2025-07-13 00:58:30,807 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_137_dolomite_krd202p.json
+2025-07-13 00:58:31,309 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_138_prisma_kpr00_plus.json: Expecting ',' delimiter: line 22 column 100 (char 1948)
+2025-07-13 00:58:31,309 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_139_prisma_kpra14_plus.json: Expecting ',' delimiter: line 22 column 56 (char 1192)
+2025-07-13 00:58:31,310 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_140_prisma_kpra34_plus.json: Expecting ',' delimiter: line 22 column 56 (char 1303)
+2025-07-13 00:58:31,310 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_141_capture_kmc20.json: Expecting ',' delimiter: line 22 column 48 (char 1118)
+2025-07-13 00:58:31,310 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_142_capture_kmc20h.json: Expecting ',' delimiter: line 22 column 76 (char 1204)
+2025-07-13 00:58:31,310 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_143_capture_kmc20v.json: Expecting ',' delimiter: line 22 column 48 (char 1227)
+2025-07-13 00:58:31,311 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_144_capture_kmc50.json: Expecting ',' delimiter: line 22 column 48 (char 1172)
+2025-07-13 00:58:31,311 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_145_duetto_kd6t.json: Expecting ',' delimiter: line 22 column 45 (char 1070)
+2025-07-13 00:58:31,311 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_146_duetto_kd6b.json: Expecting ',' delimiter: line 22 column 55 (char 1381)
+2025-07-13 00:58:31,311 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_147_duetto_kd6bt.json: Expecting ',' delimiter: line 22 column 55 (char 1112)
+2025-07-13 00:58:31,312 - src.enhanced_vector_store - INFO - Processed 14 documents from data\extracted_data_148_axle_krx402.json
+2025-07-13 00:58:31,419 - src.enhanced_vector_store - INFO - Processed 13 documents from data\extracted_data_149_axle_krx802.json
+2025-07-13 00:58:31,535 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_150_event_krev101.json: Expecting ',' delimiter: line 23 column 60 (char 1382)
+2025-07-13 00:58:31,536 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_151_kk50.json: Expecting ',' delimiter: line 23 column 62 (char 989)
+2025-07-13 00:58:31,536 - src.enhanced_vector_store - ERROR - Error processing JSON file data\extracted_data_152_kn10s.json: Expecting ',' delimiter: line 23 column 74 (char 1108)
+2025-07-13 00:58:31,536 - src.enhanced_vector_store - INFO - Processed 32 documents from data\extracted_data_153_ktl22_ktl22c.json
+2025-07-13 00:58:32,063 - src.enhanced_vector_store - INFO - Processed 32 documents from data\extracted_data_154_k_rack_m_208.json
+2025-07-13 00:58:32,587 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_155_lyzard_line.json
+2025-07-13 00:58:32,778 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_156_vyper_line.json
+2025-07-13 00:58:32,965 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_157_anakonda_line.json
+2025-07-13 00:58:33,124 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_158_tornado_line.json
+2025-07-13 00:58:33,254 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_159_kobra_line.json
+2025-07-13 00:58:33,408 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_160_python_line.json
+2025-07-13 00:58:33,596 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_161_kayman_line.json
+2025-07-13 00:58:33,772 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_162_domino_line.json
+2025-07-13 00:58:33,954 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_163_dragon_line.json
+2025-07-13 00:58:34,112 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_164_mugello_line.json
+2025-07-13 00:58:34,295 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_165_firenze_line.json
+2025-07-13 00:58:34,472 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_166_rumble_line.json
+2025-07-13 00:58:34,624 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_167_truffle_line.json
+2025-07-13 00:58:34,767 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_168_thunder_line.json
+2025-07-13 00:58:34,946 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_169_azimut_line.json
+2025-07-13 00:58:35,231 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_170_dolomite_line.json
+2025-07-13 00:58:35,403 - src.enhanced_vector_store - INFO - Processed 31 documents from data\extracted_data_171_pinnacle_line.json
+2025-07-13 00:58:35,630 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_172_turtle_line.json
+2025-07-13 00:58:35,704 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_173_mastiff_line.json
+2025-07-13 00:58:35,777 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_174_prisma_line.json
+2025-07-13 00:58:35,858 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_175_kommander_line.json
+2025-07-13 00:58:35,945 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_176_capture_line.json
+2025-07-13 00:58:36,010 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_177_duetto_line.json
+2025-07-13 00:58:36,075 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_178_fitness_wellness_application.json
+2025-07-13 00:58:36,155 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_179_cafes_restaurants_application.json
+2025-07-13 00:58:36,265 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_180_museums_exhibitions_application.json
+2025-07-13 00:58:36,367 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_181_large_congregations_application.json
+2025-07-13 00:58:36,455 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_182_theme_parks_application.json
+2025-07-13 00:58:36,544 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_183_houses_worship_application.json
+2025-07-13 00:58:36,640 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_184_nightclubs_application.json
+2025-07-13 00:58:36,755 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_185_event_productions_application.json
+2025-07-13 00:58:37,010 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_186_retail_application.json
+2025-07-13 00:58:37,120 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_187_broadcast_studios_application.json
+2025-07-13 00:58:37,216 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_188_transportation_facilities_application.json
+2025-07-13 00:58:37,317 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_189_theaters_application.json
+2025-07-13 00:58:37,424 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_190_stadium_sport_venues_application.json
+2025-07-13 00:58:37,550 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_191_hotels_resorts_application.json
+2025-07-13 00:58:37,664 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_192_concerts_live_events_application.json
+2025-07-13 00:58:37,763 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_193_boardrooms_application.json
+2025-07-13 00:58:37,842 - src.enhanced_vector_store - INFO - Processed 17 documents from data\extracted_data_194_auditoriums_concert_halls_application.json
+2025-07-13 00:58:37,956 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_195_residential_application.json
+2025-07-13 00:58:38,104 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_196_residential_lighting_application.json
+2025-07-13 00:58:38,211 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_197_museum_exhibitions_lighting_application.json
+2025-07-13 00:58:38,284 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_198_hospitality_lighting_application.json
+2025-07-13 00:58:38,338 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_199_corporate_lighting_application.json
+2025-07-13 00:58:38,422 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_200_retail_lighting_application.json
+2025-07-13 00:58:38,539 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_201_miami_hospitality_scene.json
+2025-07-13 00:58:38,623 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_202_luxury_bars_hospitality.json
+2025-07-13 00:58:38,727 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_203_montreal_restaurant_scene.json
+2025-07-13 00:58:38,812 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_204_cafe_boulud_maison_barnes.json
+2025-07-13 00:58:38,925 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_205_brian_barry_store.json
+2025-07-13 00:58:39,022 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_206_w_hotel_edinburgh.json
+2025-07-13 00:58:39,120 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_207_portrait_hotel_milano.json
+2025-07-13 00:58:39,273 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_208_mercure_hotel_miri.json
+2025-07-13 00:58:39,393 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_209_sommerro_hotel_oslo.json
+2025-07-13 00:58:39,494 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_210_pedra_dura_restaurant.json
+2025-07-13 00:58:39,584 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_211_sana_malhoa_hotel.json
+2025-07-13 00:58:39,669 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_212_bleau_bar_miami.json
+2025-07-13 00:58:39,767 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_213_kerridge_bar_grill.json
+2025-07-13 00:58:39,890 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_214_kailish_restaurant.json
+2025-07-13 00:58:40,025 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_215_vanbarton_balcony.json
+2025-07-13 00:58:40,116 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_216_noi_bar.json
+2025-07-13 00:58:40,249 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_217_moxy_times_square_hotel.json
+2025-07-13 00:58:40,388 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_218_student_hotel.json
+2025-07-13 00:58:40,511 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_219_hotel_parque_centrale.json
+2025-07-13 00:58:40,633 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_220_nobu_hotel_restaurant.json
+2025-07-13 00:58:40,768 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_221_forsthofalm_hotel.json
+2025-07-13 00:58:40,904 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_222_cvs_park_hotel.json
+2025-07-13 00:58:41,055 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_223_ebenezer_church.json
+2025-07-13 00:58:41,146 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_224_graham_memorial_chapel.json
+2025-07-13 00:58:41,287 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_225_harvest_christian_fellowship_church.json
+2025-07-13 00:58:41,413 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_226_rose_hill_church.json
+2025-07-13 00:58:41,556 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_227_graham_chapel.json
+2025-07-13 00:58:41,697 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_228_st_george_chapel.json
+2025-07-13 00:58:41,831 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_229_rock_church.json
+2025-07-13 00:58:41,972 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_230_svetitskhoveli_cathedral_georgia.json
+2025-07-13 00:58:42,100 - src.enhanced_vector_store - INFO - Processed 16 documents from data\extracted_data_231_canterbury_cathedral.json
+2025-07-13 00:58:44,143 - src.enhanced_vector_store - INFO - Successfully ingested 4093 documents
+2025-07-13 00:58:44,151 - __main__ - INFO - Ingested 4093 documents
+2025-07-13 00:58:44,151 - __main__ - INFO - Initializing smart retriever...
+2025-07-13 00:58:44,152 - __main__ - INFO - Initializing response engine...
+2025-07-13 00:58:44,152 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 00:58:44,336 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 00:58:44,337 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 00:58:46,980 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 00:58:47,327 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 00:58:49,517 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 00:59:16,831 - __main__ - INFO - Processing query from session session_1752361156: Mi dai qualche informazioni in più sul kh7?...
+2025-07-13 00:59:16,832 - __main__ - ERROR - Error processing query: bad character range z-x at position 2
+2025-07-13 01:00:31,072 - __main__ - INFO - Processing query from session session_1752361231: come?
+...
+2025-07-13 01:00:31,073 - __main__ - ERROR - Error processing query: bad character range z-x at position 2
+2025-07-13 01:00:51,107 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 01:00:51,108 - __main__ - INFO - Loading vector store...
+2025-07-13 01:00:51,108 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 01:00:51,109 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 01:00:51,109 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 01:00:55,785 - src.enhanced_vector_store - INFO - Enhanced vector store initialized with 4093 documents
+2025-07-13 01:00:55,788 - __main__ - INFO - Vector store ready with 4093 documents
+2025-07-13 01:00:55,788 - __main__ - INFO - Initializing smart retriever...
+2025-07-13 01:00:55,788 - __main__ - INFO - Initializing response engine...
+2025-07-13 01:00:55,789 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 01:00:55,972 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 01:00:55,973 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 01:00:57,451 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 01:00:58,498 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 01:01:00,533 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 01:01:43,969 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 01:01:43,970 - __main__ - INFO - Loading vector store...
+2025-07-13 01:01:43,970 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 01:01:43,971 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 01:01:43,971 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 01:01:48,184 - src.enhanced_vector_store - INFO - Enhanced vector store initialized with 4093 documents
+2025-07-13 01:01:48,186 - __main__ - INFO - Vector store ready with 4093 documents
+2025-07-13 01:01:48,186 - __main__ - INFO - Initializing smart retriever...
+2025-07-13 01:01:48,186 - __main__ - INFO - Initializing response engine...
+2025-07-13 01:01:48,186 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 01:01:48,369 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 01:01:48,370 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 01:01:50,113 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 01:01:50,892 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 01:01:52,954 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 01:02:05,300 - __main__ - INFO - Processing query from session session_1752361325: kh7. cos'è?
+...
+2025-07-13 01:02:05,362 - src.enhanced_vector_store - INFO - Hybrid search returned 0 results for query: kh7. cos'è?
+...
+2025-07-13 01:02:05,376 - src.enhanced_vector_store - INFO - Hybrid search returned 0 results for query: kh7. cos'è?
+...
+2025-07-13 01:02:05,402 - src.enhanced_vector_store - INFO - Hybrid search returned 5 results for query: kh7. cos'è?
+...
+2025-07-13 01:02:05,420 - src.enhanced_vector_store - INFO - Hybrid search returned 3 results for query: kh7. cos'è?
+...
+2025-07-13 01:02:05,421 - src.smart_retriever - INFO - Retrieved 8 unique results for query: kh7. cos'è?
+
+2025-07-13 01:02:05,421 - __main__ - INFO - Retrieved 5 relevant documents
+2025-07-13 01:02:05,421 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 01:02:06,279 - src.llm_manager - ERROR - Error with Gemini API: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:02:06,279 - src.llm_manager - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:02:06,279 - src.response_engine - INFO - Primary LLM response successful (confidence: 0.70)
+2025-07-13 01:02:06,279 - __main__ - INFO - Response generated - Confidence: 0.70, LLM: gemini, Time: 0.86s
+2025-07-13 01:03:52,941 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 01:03:52,941 - __main__ - INFO - Loading vector store...
+2025-07-13 01:03:52,942 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 01:03:52,942 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 01:03:52,943 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 01:03:58,798 - src.enhanced_vector_store - INFO - Enhanced vector store initialized with 4093 documents
+2025-07-13 01:03:58,799 - __main__ - INFO - Vector store ready with 4093 documents
+2025-07-13 01:03:58,799 - __main__ - INFO - Initializing smart retriever...
+2025-07-13 01:03:58,799 - __main__ - INFO - Initializing response engine...
+2025-07-13 01:03:58,799 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 01:03:58,987 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 01:03:58,988 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 01:04:00,368 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 01:04:01,513 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 01:04:03,572 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 01:04:24,590 - __main__ - INFO - Processing query from session session_1752361464: mi dai qualche informazione sul kh7?
+...
+2025-07-13 01:04:24,656 - src.enhanced_vector_store - INFO - Hybrid search returned 0 results for query: mi dai qualche informazione sul kh7?
+...
+2025-07-13 01:04:24,668 - src.enhanced_vector_store - INFO - Hybrid search returned 0 results for query: mi dai qualche informazione sul kh7?
+...
+2025-07-13 01:04:24,694 - src.enhanced_vector_store - INFO - Hybrid search returned 5 results for query: mi dai qualche informazione sul kh7?
+...
+2025-07-13 01:04:24,714 - src.enhanced_vector_store - INFO - Hybrid search returned 3 results for query: mi dai qualche informazione sul kh7?
+...
+2025-07-13 01:04:24,714 - src.smart_retriever - INFO - Retrieved 8 unique results for query: mi dai qualche informazione sul kh7?
+
+2025-07-13 01:04:24,714 - __main__ - INFO - Retrieved 5 relevant documents
+2025-07-13 01:04:24,714 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 01:04:24,958 - src.llm_manager - ERROR - Error with Gemini API: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:04:24,959 - src.llm_manager - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:04:24,959 - src.response_engine - INFO - Primary LLM response successful (confidence: 0.70)
+2025-07-13 01:04:24,959 - __main__ - INFO - Response generated - Confidence: 0.70, LLM: gemini, Time: 0.24s
+2025-07-13 01:06:32,681 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 01:06:32,681 - __main__ - INFO - Loading vector store...
+2025-07-13 01:06:32,681 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 01:06:32,682 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 01:06:32,682 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 01:06:40,178 - src.enhanced_vector_store - INFO - Enhanced vector store initialized with 4093 documents
+2025-07-13 01:06:40,179 - __main__ - INFO - Vector store ready with 4093 documents
+2025-07-13 01:06:40,179 - __main__ - INFO - Initializing smart retriever...
+2025-07-13 01:06:40,179 - __main__ - INFO - Initializing response engine...
+2025-07-13 01:06:40,179 - src.llm_manager - INFO - gemini key,your_gemini_api_key_here
+2025-07-13 01:06:40,179 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 01:06:40,363 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 01:06:40,364 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 01:06:42,584 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 01:06:42,912 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 01:06:44,962 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 01:07:38,569 - __main__ - INFO - Processing query from session session_1752361658: a...
+2025-07-13 01:07:38,656 - src.enhanced_vector_store - INFO - Hybrid search returned 5 results for query: a...
+2025-07-13 01:07:38,669 - src.enhanced_vector_store - INFO - Hybrid search returned 3 results for query: a...
+2025-07-13 01:07:38,669 - src.smart_retriever - INFO - Retrieved 8 unique results for query: a
+2025-07-13 01:07:38,670 - __main__ - INFO - Retrieved 5 relevant documents
+2025-07-13 01:07:38,670 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 01:07:39,423 - src.llm_manager - ERROR - Error with Gemini API: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:07:39,423 - src.llm_manager - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:07:39,423 - src.response_engine - INFO - Primary LLM response successful (confidence: 0.70)
+2025-07-13 01:07:39,423 - __main__ - INFO - Response generated - Confidence: 0.70, LLM: gemini, Time: 0.75s
+2025-07-13 01:08:06,475 - __main__ - INFO - Processing query from session session_1752361686: testing the api
+...
+2025-07-13 01:08:06,498 - src.enhanced_vector_store - INFO - Hybrid search returned 5 results for query: testing the api
+...
+2025-07-13 01:08:06,517 - src.enhanced_vector_store - INFO - Hybrid search returned 3 results for query: testing the api
+...
+2025-07-13 01:08:06,518 - src.smart_retriever - INFO - Retrieved 8 unique results for query: testing the api
+
+2025-07-13 01:08:06,518 - __main__ - INFO - Retrieved 5 relevant documents
+2025-07-13 01:08:06,518 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 01:08:06,856 - src.llm_manager - ERROR - Error with Gemini API: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:08:06,856 - src.llm_manager - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-13 01:08:06,857 - src.response_engine - INFO - Primary LLM response successful (confidence: 0.70)
+2025-07-13 01:08:06,857 - __main__ - INFO - Response generated - Confidence: 0.70, LLM: gemini, Time: 0.34s
+2025-07-13 01:09:41,414 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 01:09:41,414 - __main__ - INFO - Loading vector store...
+2025-07-13 01:09:41,414 - src.enhanced_vector_store - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-07-13 01:09:41,415 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 01:09:41,415 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 01:09:49,542 - src.enhanced_vector_store - INFO - Enhanced vector store initialized with 4093 documents
+2025-07-13 01:09:49,543 - __main__ - INFO - Vector store ready with 4093 documents
+2025-07-13 01:09:49,543 - __main__ - INFO - Initializing smart retriever...
+2025-07-13 01:09:49,543 - __main__ - INFO - Initializing response engine...
+2025-07-13 01:09:49,543 - src.llm_manager - INFO - gemini key,AIzaSyA_GQLDLZJtU5dM1MkQrSdoHP5_a0vcSbU
+2025-07-13 01:09:49,543 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 01:09:49,728 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 01:09:49,729 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 01:09:51,113 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 01:09:52,281 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 01:09:54,328 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 01:09:56,132 - __main__ - INFO - Processing query from session session_1752361796: mi dai informazioni sul kh7
+...
+2025-07-13 01:09:56,203 - src.enhanced_vector_store - INFO - Hybrid search returned 0 results for query: mi dai informazioni sul kh7
+...
+2025-07-13 01:09:56,217 - src.enhanced_vector_store - INFO - Hybrid search returned 0 results for query: mi dai informazioni sul kh7
+...
+2025-07-13 01:09:56,243 - src.enhanced_vector_store - INFO - Hybrid search returned 5 results for query: mi dai informazioni sul kh7
+...
+2025-07-13 01:09:56,263 - src.enhanced_vector_store - INFO - Hybrid search returned 3 results for query: mi dai informazioni sul kh7
+...
+2025-07-13 01:09:56,263 - src.smart_retriever - INFO - Retrieved 8 unique results for query: mi dai informazioni sul kh7
+
+2025-07-13 01:09:56,264 - __main__ - INFO - Retrieved 5 relevant documents
+2025-07-13 01:09:56,264 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 01:09:57,971 - src.response_engine - INFO - Primary LLM response successful (confidence: 1.00)
+2025-07-13 01:09:57,972 - __main__ - INFO - Response generated - Confidence: 1.00, LLM: gemini, Time: 1.71s
+2025-07-13 01:10:26,426 - __main__ - INFO - Processing query from session session_1752361826: vorrei avere maggiori informazioni sul ka02i
+...
+2025-07-13 01:10:26,444 - src.enhanced_vector_store - INFO - Hybrid search returned 0 results for query: vorrei avere maggiori informazioni sul ka02i
+...
+2025-07-13 01:10:26,473 - src.enhanced_vector_store - INFO - Hybrid search returned 5 results for query: vorrei avere maggiori informazioni sul ka02i
+...
+2025-07-13 01:10:26,496 - src.enhanced_vector_store - INFO - Hybrid search returned 3 results for query: vorrei avere maggiori informazioni sul ka02i
+...
+2025-07-13 01:10:26,497 - src.smart_retriever - INFO - Retrieved 8 unique results for query: vorrei avere maggiori informazioni sul ka02i
+
+2025-07-13 01:10:26,497 - __main__ - INFO - Retrieved 5 relevant documents
+2025-07-13 01:10:26,497 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 01:10:28,566 - src.response_engine - INFO - Primary LLM response successful (confidence: 1.00)
+2025-07-13 01:10:28,566 - __main__ - INFO - Response generated - Confidence: 1.00, LLM: gemini, Time: 2.07s
+2025-07-13 11:33:05,556 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 11:33:05,556 - __main__ - INFO - Loading vector store...
+2025-07-13 11:33:05,557 - src.enhanced_vector_store - INFO - Initializing Enhanced Vector Store with Milvus...
+2025-07-13 11:33:05,557 - src.enhanced_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 11:33:05,557 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 11:33:05,557 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 11:33:08,330 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-13 11:33:48,046 - src.enhanced_vector_store - INFO - Connecting to Milvus at localhost:19530
+2025-07-13 11:33:58,072 - src.enhanced_vector_store - ERROR - Error initializing enhanced vector store: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:33:58,072 - __main__ - ERROR - Error initializing chat system: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:33:58,073 - root - ERROR - Launch error: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:35:50,125 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 11:35:50,126 - __main__ - INFO - Loading vector store...
+2025-07-13 11:35:50,126 - src.enhanced_vector_store - INFO - Initializing Enhanced Vector Store with Milvus...
+2025-07-13 11:35:50,126 - src.enhanced_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 11:35:50,127 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 11:35:50,127 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 11:35:53,498 - src.enhanced_vector_store - INFO - Connecting to Milvus at localhost:19530
+2025-07-13 11:36:03,652 - src.enhanced_vector_store - ERROR - Error initializing enhanced vector store: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:36:03,653 - __main__ - ERROR - Error initializing chat system: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:36:03,653 - root - ERROR - Launch error: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:42:22,434 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 11:42:22,435 - __main__ - INFO - Loading vector store...
+2025-07-13 11:42:22,435 - src.enhanced_vector_store - INFO - Initializing Enhanced Vector Store with Milvus...
+2025-07-13 11:42:22,435 - src.enhanced_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 11:42:22,436 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 11:42:22,436 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 11:42:26,214 - src.enhanced_vector_store - INFO - Connecting to Milvus at localhost:19530
+2025-07-13 11:42:36,341 - src.enhanced_vector_store - ERROR - Error initializing enhanced vector store: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:42:36,342 - __main__ - ERROR - Error initializing chat system: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:42:36,342 - root - ERROR - Launch error: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:45:04,861 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 11:45:04,862 - __main__ - INFO - Loading vector store...
+2025-07-13 11:45:04,862 - src.enhanced_vector_store - INFO - Initializing Enhanced Vector Store with Milvus...
+2025-07-13 11:45:04,862 - src.enhanced_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 11:45:04,863 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 11:45:04,863 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 11:45:08,730 - src.enhanced_vector_store - INFO - Connecting to Milvus at localhost:19530
+2025-07-13 11:45:18,929 - src.enhanced_vector_store - ERROR - Error initializing enhanced vector store: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:45:18,929 - __main__ - ERROR - Error initializing chat system: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:45:18,929 - root - ERROR - Launch error: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2025-07-13 11:56:32,219 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 11:56:32,219 - __main__ - INFO - Loading vector store...
+2025-07-13 11:56:32,220 - src.local_vector_store - INFO - Initializing Local Vector Store...
+2025-07-13 11:56:32,220 - src.local_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 11:56:32,221 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 11:56:32,221 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 11:56:34,940 - src.local_vector_store - INFO - Local vector store initialized with 0 documents
+2025-07-13 11:56:34,940 - __main__ - INFO - Vector store is empty, ingesting JSON files...
+2025-07-13 11:56:34,947 - src.local_vector_store - INFO - Found 233 JSON files to process
+2025-07-13 11:56:34,948 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_001_kommander_ka104.json
+2025-07-13 11:56:37,954 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_002_kommander_ka208.json
+2025-07-13 11:56:40,607 - src.local_vector_store - INFO - Processed 19 documents from data\extracted_data_003_kommander_ka24.json
+2025-07-13 11:56:41,887 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_004_kommander_ka84.json
+2025-07-13 11:56:44,071 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_005_kommander_ka68.json
+2025-07-13 11:56:47,155 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_006_kommander_ka02i.json
+2025-07-13 11:56:50,917 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_007_kommander_ka14i.json
+2025-07-13 11:56:54,357 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_008_kommander_ka28.json
+2025-07-13 11:56:58,369 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_009_kommander_ka02.json
+2025-07-13 11:57:00,890 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_010_kommander_ka14.json
+2025-07-13 11:57:02,806 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_011_kommander_ka34.json
+2025-07-13 11:57:06,631 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_012_kommander_ka18.json
+2025-07-13 11:57:10,885 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_013_kommander_ka04.json
+2025-07-13 11:57:15,147 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_014_kommander_ka18_plus.json
+2025-07-13 11:57:19,728 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_015_kommander_ka28_plus.json
+2025-07-13 11:57:24,652 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_016_kommander_ka68_plus.json
+2025-07-13 11:57:29,897 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_017_kommander_ka104live.json
+2025-07-13 11:57:33,169 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_018_kommander_ka208live.json
+2025-07-13 11:57:37,539 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_019_kommander_ka208_plus.json
+2025-07-13 11:57:42,824 - src.local_vector_store - INFO - Processed 28 documents from data\extracted_data_020_kommander_ka208live_plus.json
+2025-07-13 11:57:47,704 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_021_tornado_kt2.json
+2025-07-13 11:57:51,241 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_022_tornado_kt2c.json
+2025-07-13 11:57:55,450 - src.local_vector_store - INFO - Processed 34 documents from data\extracted_data_023_kobra_kk52_i.json
+2025-07-13 11:58:00,516 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_024_kobra_kk102_i.json
+2025-07-13 11:58:06,162 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_025_python_kp52_i.json
+2025-07-13 11:58:09,437 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_026_python_kp102_i.json
+2025-07-13 11:58:12,697 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_027_thunder_kmt18p.json
+2025-07-13 11:58:13,497 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_028_thunder_ks2pi.json
+2025-07-13 11:58:15,659 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_029_thunder_kmt12p.json
+2025-07-13 11:58:16,586 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_030_thunder_ks5i.json
+2025-07-13 11:58:17,957 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_031_thunder_ks3i.json
+2025-07-13 11:58:21,101 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_032_thunder_ks3pi.json
+2025-07-13 11:58:23,231 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_033_thunder_ks4i.json
+2025-07-13 11:58:26,530 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_034_thunder_ks4pi.json
+2025-07-13 11:58:28,781 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_035_thunder_kmt218.json
+2025-07-13 11:58:29,395 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_036_thunder_kmt18i.json
+2025-07-13 11:58:30,015 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_037_thunder_ks2i.json
+2025-07-13 11:58:33,167 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_038_thunder_kmt21_i.json
+2025-07-13 11:58:34,389 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_039_thunder_ks5pi.json
+2025-07-13 11:58:36,664 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_040_thunder_ks1i.json
+2025-07-13 11:58:39,484 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_041_thunder_kmt21p.json
+2025-07-13 11:58:40,104 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_042_thunder_kmt12_i.json
+2025-07-13 11:58:41,040 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_043_thunder_ks1pi.json
+2025-07-13 11:58:43,335 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_044_thunder_ksc18p.json
+2025-07-13 11:58:44,909 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_045_thunder_kmt218p.json
+2025-07-13 11:58:45,632 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_046_thunder_ksc12p.json
+2025-07-13 11:58:47,281 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_047_thunder_ksc18p.json
+2025-07-13 11:58:48,749 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_048_lyzard_kz14i.json
+2025-07-13 11:58:51,359 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_049_lyzard_kz14.json
+2025-07-13 11:58:52,503 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_050_lyzard_kz14ri.json
+2025-07-13 11:58:55,219 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_051_lyzard_kz1i.json
+2025-07-13 11:58:57,913 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_052_lyzard_kz1.json
+2025-07-13 11:58:59,100 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_053_lyzard_kz1ri.json
+2025-07-13 11:59:01,778 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_054_lyzard_kz14.json
+2025-07-13 11:59:02,925 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_055_vyper_kv25ii.json
+2025-07-13 11:59:05,299 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_056_vyper_kv25l.json
+2025-07-13 11:59:06,688 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_057_vyper_kv52l.json
+2025-07-13 11:59:09,228 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_058_vyper_kv52rii.json
+2025-07-13 11:59:11,550 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_059_vyper_kv52fii.json
+2025-07-13 11:59:13,918 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_060_vyper_kv102rii.json
+2025-07-13 11:59:16,248 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_061_vyper_kv102ii.json
+2025-07-13 11:59:18,597 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_062_vyper_kv52ii.json
+2025-07-13 11:59:21,047 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_063_vyper_kv25wl.json
+2025-07-13 11:59:23,144 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_064_vyper_kv25rii.json
+2025-07-13 11:59:25,455 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_065_vyper_kv52frii.json
+2025-07-13 11:59:27,804 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_066_vyper_kv25ii.json
+2025-07-13 11:59:30,254 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_067_azimut_kamut2l14ii.json
+2025-07-13 11:59:31,150 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_068_azimut_kamut2l.json
+2025-07-13 11:59:32,077 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_069_azimut_kamut2l_ii.json
+2025-07-13 11:59:32,615 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_070_azimut_kamut2v25ii.json
+2025-07-13 11:59:33,059 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_071_azimut_kamut2l1.json
+2025-07-13 11:59:33,446 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_072_azimut_kamut2l1ii.json
+2025-07-13 11:59:34,108 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_073_azimut_kamut2v25.json
+2025-07-13 11:59:34,524 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_074_azimut_kamut2l14.json
+2025-07-13 11:59:34,924 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_075_rumble_ku44.json
+2025-07-13 11:59:37,566 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_076_rumble_ku26.json
+2025-07-13 11:59:40,138 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_077_rumble_ku210.json
+2025-07-13 11:59:43,036 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_078_rumble_ku212.json
+2025-07-13 11:59:47,265 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_079_rumble_ku315.json
+2025-07-13 11:59:50,673 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_080_rumble_ku44.json
+2025-07-13 11:59:53,766 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_081_mugello_kh5l.json: Expecting ',' delimiter: line 23 column 72 (char 1649)
+2025-07-13 11:59:53,767 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_082_mugello_kh3l.json: Expecting ',' delimiter: line 23 column 73 (char 1530)
+2025-07-13 11:59:53,767 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_083_mugello_kh2l.json: Expecting ',' delimiter: line 23 column 72 (char 1480)
+2025-07-13 11:59:53,767 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_084_mugello_kh2pl.json
+2025-07-13 11:59:54,269 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_085_mugello_kh5pl.json
+2025-07-13 11:59:58,351 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_086_mugello_kh3pl.json: Expecting ',' delimiter: line 21 column 53 (char 1362)
+2025-07-13 11:59:58,351 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_087_mugello_kh2_i_syst12.json: Expecting ',' delimiter: line 22 column 52 (char 997)
+2025-07-13 11:59:58,351 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_088_mugello_kh5.json
+2025-07-13 11:59:59,091 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_089_mugello_kh2.json: Expecting ',' delimiter: line 23 column 72 (char 1328)
+2025-07-13 11:59:59,091 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_090_mugello_kh3.json: Expecting ',' delimiter: line 23 column 73 (char 1248)
+2025-07-13 11:59:59,091 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_091_firenze_kh7.json: Expecting ',' delimiter: line 23 column 74 (char 1369)
+2025-07-13 11:59:59,092 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_092_firenze_ks7.json
+2025-07-13 12:00:04,323 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_093_firenze_ks8.json: Expecting ',' delimiter: line 22 column 43 (char 1250)
+2025-07-13 12:00:04,336 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_094_firenze_kh7p.json: Expecting ',' delimiter: line 22 column 74 (char 1177)
+2025-07-13 12:00:04,342 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_095_firenze_ks7p.json
+2025-07-13 12:00:06,253 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_096_firenze_kx12fI.json
+2025-07-13 12:00:08,912 - src.local_vector_store - ERROR - Error processing JSON file data\extracted_data_097_firenze_kh8.json: Expecting ',' delimiter: line 22 column 52 (char 1713)
+2025-07-13 12:00:08,918 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_098_truffle_ktr26.json
+2025-07-13 12:11:43,634 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 12:11:43,634 - __main__ - INFO - Loading vector store...
+2025-07-13 12:11:43,635 - src.local_vector_store - INFO - Initializing Local Vector Store...
+2025-07-13 12:11:43,635 - src.local_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 12:11:43,635 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 12:11:43,636 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 12:11:46,058 - src.local_vector_store - INFO - Local vector store initialized with 0 documents
+2025-07-13 12:11:46,058 - __main__ - INFO - Vector store is empty, ingesting JSON files...
+2025-07-13 12:11:46,060 - src.local_vector_store - INFO - Found 239 JSON files to process
+2025-07-13 12:11:46,060 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_001_kommander_ka104.json
+2025-07-13 12:11:48,690 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_002_kommander_ka208.json
+2025-07-13 12:11:51,469 - src.local_vector_store - INFO - Processed 19 documents from data\extracted_data_003_kommander_ka24.json
+2025-07-13 12:11:52,917 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_004_kommander_ka84.json
+2025-07-13 12:11:55,218 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_005_kommander_ka68.json
+2025-07-13 12:11:58,265 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_006_kommander_ka02i.json
+2025-07-13 12:12:02,011 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_007_kommander_ka14i.json
+2025-07-13 12:12:05,466 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_008_kommander_ka28.json
+2025-07-13 12:12:09,430 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_009_kommander_ka02.json
+2025-07-13 12:12:11,975 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_010_kommander_ka14.json
+2025-07-13 12:12:13,919 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_011_kommander_ka34.json
+2025-07-13 12:12:17,644 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_012_kommander_ka18.json
+2025-07-13 12:12:21,919 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_013_kommander_ka04.json
+2025-07-13 12:12:26,114 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_014_kommander_ka18_plus.json
+2025-07-13 12:12:30,511 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_015_kommander_ka28_plus.json
+2025-07-13 12:12:35,480 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_016_kommander_ka68_plus.json
+2025-07-13 12:12:40,767 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_017_kommander_ka104live.json
+2025-07-13 12:12:44,089 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_018_kommander_ka208live.json
+2025-07-13 12:12:48,575 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_019_kommander_ka208_plus.json
+2025-07-13 12:12:53,923 - src.local_vector_store - INFO - Processed 28 documents from data\extracted_data_020_kommander_ka208live_plus.json
+2025-07-13 12:12:58,817 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_021_tornado_kt2.json
+2025-07-13 12:13:02,230 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_022_tornado_kt2c.json
+2025-07-13 12:13:06,497 - src.local_vector_store - INFO - Processed 34 documents from data\extracted_data_023_kobra_kk52_i.json
+2025-07-13 12:13:11,600 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_024_kobra_kk102_i.json
+2025-07-13 12:13:17,268 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_025_python_kp52_i.json
+2025-07-13 12:13:20,545 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_026_python_kp102_i.json
+2025-07-13 12:13:23,934 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_027_thunder_kmt18p.json
+2025-07-13 12:13:24,861 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_028_thunder_ks2pi.json
+2025-07-13 12:13:27,165 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_029_thunder_kmt12p.json
+2025-07-13 12:13:28,222 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_030_thunder_ks5i.json
+2025-07-13 12:13:29,752 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_031_thunder_ks3i.json
+2025-07-13 12:13:33,143 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_032_thunder_ks3pi.json
+2025-07-13 12:13:35,445 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_033_thunder_ks4i.json
+2025-07-13 12:13:38,839 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_034_thunder_ks4pi.json
+2025-07-13 12:13:41,229 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_035_thunder_kmt218.json
+2025-07-13 12:13:41,936 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_036_thunder_kmt18i.json
+2025-07-13 12:13:42,668 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_037_thunder_ks2i.json
+2025-07-13 12:13:46,034 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_038_thunder_kmt21_i.json
+2025-07-13 12:13:47,445 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_039_thunder_ks5pi.json
+2025-07-13 12:13:49,930 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_040_thunder_ks1i.json
+2025-07-13 12:13:52,963 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_041_thunder_kmt21p.json
+2025-07-13 12:13:53,709 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_042_thunder_kmt12_i.json
+2025-07-13 12:13:54,803 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_043_thunder_ks1pi.json
+2025-07-13 12:13:57,272 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_044_thunder_ksc18p.json
+2025-07-13 12:13:59,034 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_045_thunder_kmt218p.json
+2025-07-13 12:13:59,877 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_046_thunder_ksc12p.json
+2025-07-13 12:14:01,506 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_047_thunder_ksc18p.json
+2025-07-13 12:14:02,988 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_048_lyzard_kz14i.json
+2025-07-13 12:14:05,599 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_049_lyzard_kz14.json
+2025-07-13 12:14:06,749 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_050_lyzard_kz14ri.json
+2025-07-13 12:14:09,506 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_051_lyzard_kz1i.json
+2025-07-13 12:14:12,232 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_052_lyzard_kz1.json
+2025-07-13 12:14:13,381 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_053_lyzard_kz1ri.json
+2025-07-13 12:14:16,049 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_054_lyzard_kz14.json
+2025-07-13 12:14:17,205 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_055_vyper_kv25ii.json
+2025-07-13 12:14:19,578 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_056_vyper_kv25l.json
+2025-07-13 12:14:21,008 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_057_vyper_kv52l.json
+2025-07-13 12:14:23,646 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_058_vyper_kv52rii.json
+2025-07-13 12:14:26,045 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_059_vyper_kv52fii.json
+2025-07-13 12:14:28,494 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_060_vyper_kv102rii.json
+2025-07-13 12:14:31,012 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_061_vyper_kv102ii.json
+2025-07-13 12:14:33,944 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_062_vyper_kv52ii.json
+2025-07-13 12:14:37,038 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_063_vyper_kv25wl.json
+2025-07-13 12:14:39,717 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_064_vyper_kv25rii.json
+2025-07-13 12:14:42,640 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_065_vyper_kv52frii.json
+2025-07-13 12:14:45,749 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_066_vyper_kv25ii.json
+2025-07-13 12:14:49,105 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_067_azimut_kamut2l14ii.json
+2025-07-13 12:14:50,318 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_068_azimut_kamut2l.json
+2025-07-13 12:14:51,583 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_069_azimut_kamut2l_ii.json
+2025-07-13 12:14:52,326 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_070_azimut_kamut2v25ii.json
+2025-07-13 12:14:52,931 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_071_azimut_kamut2l1.json
+2025-07-13 12:14:53,474 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_072_azimut_kamut2l1ii.json
+2025-07-13 12:14:54,391 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_073_azimut_kamut2v25.json
+2025-07-13 12:14:54,956 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_074_azimut_kamut2l14.json
+2025-07-13 12:14:55,497 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_075_rumble_ku44.json
+2025-07-13 12:14:58,913 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_076_rumble_ku26.json
+2025-07-13 12:15:02,189 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_077_rumble_ku210.json
+2025-07-13 12:15:05,793 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_078_rumble_ku212.json
+2025-07-13 12:15:10,968 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_079_rumble_ku315.json
+2025-07-13 12:15:15,117 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_080_rumble_ku44.json
+2025-07-13 12:15:19,063 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_081_mugello_kh5l.json
+2025-07-13 12:15:20,552 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_082_mugello_kh3l.json
+2025-07-13 12:15:22,229 - src.local_vector_store - INFO - Processed 19 documents from data\extracted_data_083_mugello_kh2l.json
+2025-07-13 12:15:23,380 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_084_mugello_kh2pl.json
+2025-07-13 12:15:24,053 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_085_mugello_kh5pl.json
+2025-07-13 12:15:29,183 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_086_mugello_kh3pl.json
+2025-07-13 12:15:33,919 - src.local_vector_store - INFO - Processed 10 documents from data\extracted_data_087_mugello_kh2_i_syst12.json
+2025-07-13 12:15:34,410 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_088_mugello_kh5.json
+2025-07-13 12:15:35,399 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_089_mugello_kh2.json
+2025-07-13 12:15:35,400 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_090_mugello_kh3.json
+2025-07-13 12:15:35,400 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_091_firenze_kh7.json
+2025-07-13 12:15:35,401 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_092_firenze_ks7.json
+2025-07-13 12:15:41,652 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_093_firenze_ks8.json
+2025-07-13 12:15:41,652 - src.local_vector_store - INFO - Processed 10 documents from data\extracted_data_094_firenze_kh7p.json
+2025-07-13 12:15:42,084 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_095_firenze_ks7p.json
+2025-07-13 12:15:44,451 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_096_firenze_kx12fI.json
+2025-07-13 12:15:47,835 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_097_firenze_kh8.json
+2025-07-13 12:15:47,835 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_098_truffle_ktr26.json
+2025-07-13 12:15:50,041 - src.local_vector_store - INFO - Processed 28 documents from data\extracted_data_099_truffle_ktr24.json
+2025-07-13 12:15:53,004 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_100_truffle_ktr25.json
+2025-07-13 12:15:55,163 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_101_truffle_ktr24.json
+2025-07-13 12:16:01,640 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_101_truffle_ktr24_duplicate.json
+2025-07-13 12:16:01,656 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_102_kayman_ky102.json
+2025-07-13 12:16:05,807 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_103_kayman_ky52.json
+2025-07-13 12:16:10,432 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_104_kayman_ky102_ebs.json
+2025-07-13 12:16:14,691 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_105_kayman_ky102_duplicate.json
+2025-07-13 12:16:14,693 - src.local_vector_store - INFO - Processed 29 documents from data\extracted_data_106_turtle_krm33p.json
+2025-07-13 12:16:17,100 - src.local_vector_store - INFO - Processed 29 documents from data\extracted_data_107_turtle_krm33.json
+2025-07-13 12:16:19,383 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_109_anakonda_kan200.json
+2025-07-13 12:16:23,582 - src.local_vector_store - INFO - Processed 33 documents from data\extracted_data_110_anakonda_kan200_plus.json
+2025-07-13 12:16:27,798 - src.local_vector_store - INFO - Processed 33 documents from data\extracted_data_111_anakonda_kan200_plus8.json
+2025-07-13 12:16:32,409 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_112_domino_kf26.json
+2025-07-13 12:16:36,722 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_113_domino_kf212.json
+2025-07-13 12:16:41,182 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_114_domino_kf210.json
+2025-07-13 12:16:45,894 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_115_domino_kfc26.json
+2025-07-13 12:16:50,949 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_116_domino_kf212_duplicate.json
+2025-07-13 12:16:50,950 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_117_dragon_kx12i.json
+2025-07-13 12:16:55,382 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_118_dragon_kxt12p.json
+2025-07-13 12:17:00,310 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_119_dragon_kxt18p.json
+2025-07-13 12:17:02,633 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_120_mastiff_km312.json
+2025-07-13 12:17:03,055 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_121_mastiff_km112.json
+2025-07-13 12:17:03,558 - src.local_vector_store - INFO - Processed 28 documents from data\extracted_data_122_mastiff_km112p.json
+2025-07-13 12:17:06,538 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_123_mastiff_km312p.json
+2025-07-13 12:17:07,079 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_124_pinnacle_kr102_i.json
+2025-07-13 12:17:07,909 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_125_pinnacle_kr402_i.json
+2025-07-13 12:17:09,173 - src.local_vector_store - INFO - Processed 12 documents from data\extracted_data_126_pinnacle_kr202_i.json
+2025-07-13 12:17:09,807 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_127_pinnacle_kr802ypii.json
+2025-07-13 12:17:12,518 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_128_pinnacle_kr102_ll.json
+2025-07-13 12:17:17,690 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_129_pinnacle_kr202_ii.json
+2025-07-13 12:17:21,994 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_130_pinnacle_kr402_ii.json
+2025-07-13 12:17:25,326 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_131_pinnacle_kr802.json
+2025-07-13 12:17:26,185 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_132_pinnacle_kr804p_ii.json
+2025-07-13 12:17:30,311 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_133_pinnacle_kr802_ii.json
+2025-07-13 12:17:33,672 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_134_pinnacle_kr404p_ii.json
+2025-07-13 12:17:37,461 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_135_pinnacle_kr402ypii.json
+2025-07-13 12:17:40,708 - src.local_vector_store - INFO - Processed 10 documents from data\extracted_data_136_pinnacle_k_foh2.json
+2025-07-13 12:17:41,147 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_137_dolomite_krd202p.json
+2025-07-13 12:17:46,483 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_138_prisma_kpr00_plus.json
+2025-07-13 12:17:49,098 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_139_prisma_kpra14_plus.json
+2025-07-13 12:17:51,823 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_140_prisma_kpra34_plus.json
+2025-07-13 12:17:54,730 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_141_capture_kmc20.json
+2025-07-13 12:17:56,202 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_142_capture_kmc20h.json
+2025-07-13 12:17:57,770 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_143_capture_kmc20v.json
+2025-07-13 12:17:59,598 - src.local_vector_store - INFO - Processed 29 documents from data\extracted_data_144_capture_kmc50.json
+2025-07-13 12:18:02,120 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_145_duetto_kd6t.json
+2025-07-13 12:18:03,384 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_146_duetto_kd6b.json
+2025-07-13 12:18:04,487 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_147_duetto_kd6bt.json
+2025-07-13 12:18:05,590 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_148_axle_krx402.json
+2025-07-13 12:18:06,288 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_149_axle_krx802.json
+2025-07-13 12:18:07,070 - src.local_vector_store - INFO - Processed 15 documents from data\extracted_data_150_event_krev101.json
+2025-07-13 12:18:07,603 - src.local_vector_store - INFO - Processed 15 documents from data\extracted_data_151_kk50.json
+2025-07-13 12:18:08,097 - src.local_vector_store - INFO - Processed 12 documents from data\extracted_data_152_kn10s.json
+2025-07-13 12:18:08,440 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_153_ktl22_ktl22c.json
+2025-07-13 12:18:11,675 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_154_k_rack_m_208.json
+2025-07-13 12:18:17,216 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_155_lyzard_line.json
+2025-07-13 12:18:18,481 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_156_vyper_line.json
+2025-07-13 12:18:19,723 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_157_anakonda_line.json
+2025-07-13 12:18:20,732 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_158_tornado_line.json
+2025-07-13 12:18:21,562 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_159_kobra_line.json
+2025-07-13 12:18:22,554 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_160_python_line.json
+2025-07-13 12:18:23,792 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_161_kayman_line.json
+2025-07-13 12:18:24,937 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_162_domino_line.json
+2025-07-13 12:18:26,145 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_163_dragon_line.json
+2025-07-13 12:18:27,186 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_164_mugello_line.json
+2025-07-13 12:18:28,438 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_165_firenze_line.json
+2025-07-13 12:18:29,613 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_166_rumble_line.json
+2025-07-13 12:18:30,682 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_167_truffle_line.json
+2025-07-13 12:18:31,584 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_168_thunder_line.json
+2025-07-13 12:18:32,740 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_169_azimut_line.json
+2025-07-13 12:18:34,622 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_170_dolomite_line.json
+2025-07-13 12:18:35,724 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_171_pinnacle_line.json
+2025-07-13 12:18:37,147 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_172_turtle_line.json
+2025-07-13 12:18:37,579 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_173_mastiff_line.json
+2025-07-13 12:18:38,027 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_174_prisma_line.json
+2025-07-13 12:18:38,509 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_175_kommander_line.json
+2025-07-13 12:18:39,042 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_176_capture_line.json
+2025-07-13 12:18:39,432 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_177_duetto_line.json
+2025-07-13 12:18:39,826 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_178_fitness_wellness_application.json
+2025-07-13 12:18:40,303 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_179_cafes_restaurants_application.json
+2025-07-13 12:18:40,989 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_180_museums_exhibitions_application.json
+2025-07-13 12:18:41,630 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_181_large_congregations_application.json
+2025-07-13 12:18:42,185 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_182_theme_parks_application.json
+2025-07-13 12:18:42,710 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_183_houses_worship_application.json
+2025-07-13 12:18:43,318 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_184_nightclubs_application.json
+2025-07-13 12:18:44,038 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_185_event_productions_application.json
+2025-07-13 12:18:44,657 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_186_retail_application.json
+2025-07-13 12:18:45,332 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_187_broadcast_studios_application.json
+2025-07-13 12:18:45,923 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_188_transportation_facilities_application.json
+2025-07-13 12:18:46,535 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_189_theaters_application.json
+2025-07-13 12:18:47,211 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_190_stadium_sport_venues_application.json
+2025-07-13 12:18:48,039 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_191_hotels_resorts_application.json
+2025-07-13 12:18:48,758 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_192_concerts_live_events_application.json
+2025-07-13 12:18:49,378 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_193_boardrooms_application.json
+2025-07-13 12:18:49,859 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_194_auditoriums_concert_halls_application.json
+2025-07-13 12:18:50,589 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_195_residential_application.json
+2025-07-13 12:18:51,584 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_196_residential_lighting_application.json
+2025-07-13 12:18:52,249 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_197_museum_exhibitions_lighting_application.json
+2025-07-13 12:18:52,685 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_198_hospitality_lighting_application.json
+2025-07-13 12:18:53,002 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_199_corporate_lighting_application.json
+2025-07-13 12:18:53,519 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_200_retail_lighting_application.json
+2025-07-13 12:18:54,261 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_201_miami_hospitality_scene.json
+2025-07-13 12:18:54,804 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_202_luxury_bars_hospitality.json
+2025-07-13 12:18:55,484 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_203_montreal_restaurant_scene.json
+2025-07-13 12:18:56,048 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_204_cafe_boulud_maison_barnes.json
+2025-07-13 12:18:56,783 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_205_brian_barry_store.json
+2025-07-13 12:18:57,389 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_206_w_hotel_edinburgh.json
+2025-07-13 12:18:57,983 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_207_portrait_hotel_milano.json
+2025-07-13 12:18:59,049 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_208_mercure_hotel_miri.json
+2025-07-13 12:18:59,930 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_209_sommerro_hotel_oslo.json
+2025-07-13 12:19:00,708 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_210_pedra_dura_restaurant.json
+2025-07-13 12:19:01,397 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_211_sana_malhoa_hotel.json
+2025-07-13 12:19:02,039 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_212_bleau_bar_miami.json
+2025-07-13 12:19:02,787 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_213_kerridge_bar_grill.json
+2025-07-13 12:19:03,720 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_214_kailish_restaurant.json
+2025-07-13 12:19:04,760 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_215_vanbarton_balcony.json
+2025-07-13 12:19:05,427 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_216_noi_bar.json
+2025-07-13 12:19:06,490 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_217_moxy_times_square_hotel.json
+2025-07-13 12:19:07,540 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_218_student_hotel.json
+2025-07-13 12:19:08,465 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_219_hotel_parque_centrale.json
+2025-07-13 12:19:09,377 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_220_nobu_hotel_restaurant.json
+2025-07-13 12:19:10,419 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_221_forsthofalm_hotel.json
+2025-07-13 12:19:11,503 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_222_cvs_park_hotel.json
+2025-07-13 12:19:12,669 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_223_ebenezer_church.json
+2025-07-13 12:19:13,362 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_224_graham_memorial_chapel.json
+2025-07-13 12:19:14,425 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_225_harvest_christian_fellowship_church.json
+2025-07-13 12:19:15,399 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_226_rose_hill_church.json
+2025-07-13 12:19:16,470 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_227_graham_chapel.json
+2025-07-13 12:19:17,538 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_228_st_george_chapel.json
+2025-07-13 12:19:18,578 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_229_rock_church.json
+2025-07-13 12:19:19,818 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_230_svetitskhoveli_cathedral_georgia.json
+2025-07-13 12:19:20,938 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_231_canterbury_cathedral.json
+2025-07-13 12:19:22,060 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_234_museum_sound.json
+2025-07-13 12:19:22,384 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_235_media_museum.json
+2025-07-13 12:19:23,054 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_236_beijing_exhibition_center_theater.json
+2025-07-13 12:19:24,709 - src.local_vector_store - INFO - Processed 34 documents from data\extracted_data_237_the_ranch_gallery.json
+2025-07-13 12:19:30,695 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_238_cleveland_museum.json
+2025-07-13 12:19:33,337 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_239_bucharest_national_opera_house.json
+2025-07-13 12:19:35,722 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_240_budapest_opera_house.json
+2025-07-13 12:19:39,928 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_241_royal_opera_house.json
+2025-07-13 12:19:41,687 - src.local_vector_store - INFO - Data saved successfully
+2025-07-13 12:19:41,687 - src.local_vector_store - INFO - Successfully ingested 4673 documents
+2025-07-13 12:19:41,688 - __main__ - INFO - Ingested 4673 documents
+2025-07-13 12:19:41,688 - __main__ - INFO - Initializing advanced multi-vector retriever...
+2025-07-13 12:19:41,688 - src.reranker - INFO - Loading cross-encoder model: cross-encoder/ms-marco-MiniLM-L-12-v2
+2025-07-13 12:19:42,367 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-13 12:19:54,564 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-07-13 12:19:54,823 - src.reranker - INFO - Cross-encoder model loaded successfully
+2025-07-13 12:19:54,824 - src.llm_manager - INFO - Gemini API key configured: AIzaSyA_***
+2025-07-13 12:19:54,824 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 12:19:54,824 - __main__ - INFO - Initializing smart retriever as fallback...
+2025-07-13 12:19:54,825 - src.reranker - INFO - Loading cross-encoder model: cross-encoder/ms-marco-MiniLM-L-12-v2
+2025-07-13 12:19:55,993 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-07-13 12:19:56,263 - src.reranker - INFO - Cross-encoder model loaded successfully
+2025-07-13 12:19:56,263 - __main__ - INFO - Initializing response engine...
+2025-07-13 12:19:56,263 - src.llm_manager - INFO - Gemini API key configured: AIzaSyA_***
+2025-07-13 12:19:56,263 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 12:19:56,504 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 12:19:56,504 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 12:19:57,595 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 12:19:59,259 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 12:20:01,429 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 12:20:42,288 - __main__ - INFO - Initializing K-Array Chat System...
+2025-07-13 12:20:42,289 - __main__ - INFO - Loading vector store...
+2025-07-13 12:20:42,289 - src.local_vector_store - INFO - Initializing Local Vector Store...
+2025-07-13 12:20:42,289 - src.local_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 12:20:42,290 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 12:20:42,290 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 12:20:45,559 - src.local_vector_store - INFO - Loaded 4673 embeddings
+2025-07-13 12:20:45,596 - src.local_vector_store - INFO - Loaded 4673 documents
+2025-07-13 12:20:45,625 - src.local_vector_store - INFO - Loaded 4673 metadata entries
+2025-07-13 12:20:45,627 - src.local_vector_store - INFO - Local vector store initialized with 4673 documents
+2025-07-13 12:20:45,627 - __main__ - INFO - Vector store ready with 4673 documents
+2025-07-13 12:20:45,627 - __main__ - INFO - Initializing advanced multi-vector retriever...
+2025-07-13 12:20:45,628 - src.reranker - INFO - Loading cross-encoder model: cross-encoder/ms-marco-MiniLM-L-12-v2
+2025-07-13 12:20:46,801 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-07-13 12:20:47,070 - src.reranker - INFO - Cross-encoder model loaded successfully
+2025-07-13 12:20:47,070 - src.llm_manager - INFO - Gemini API key configured: AIzaSyA_***
+2025-07-13 12:20:47,070 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 12:20:47,070 - __main__ - INFO - Initializing smart retriever as fallback...
+2025-07-13 12:20:47,071 - src.reranker - INFO - Loading cross-encoder model: cross-encoder/ms-marco-MiniLM-L-12-v2
+2025-07-13 12:20:48,223 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-07-13 12:20:48,481 - src.reranker - INFO - Cross-encoder model loaded successfully
+2025-07-13 12:20:48,482 - __main__ - INFO - Initializing response engine...
+2025-07-13 12:20:48,482 - src.llm_manager - INFO - Gemini API key configured: AIzaSyA_***
+2025-07-13 12:20:48,483 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 12:20:48,697 - src.llm_manager - INFO - OpenAI client initialized
+2025-07-13 12:20:48,698 - __main__ - INFO - K-Array Chat System initialized successfully!
+2025-07-13 12:20:49,848 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 12:20:51,360 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 12:20:53,419 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 12:21:02,280 - __main__ - INFO - Processing query from session session_1752402062: mi dai informazioni sul K framework 3?...
+2025-07-13 12:21:02,280 - src.multi_vector_retriever - INFO - Multi-vector retrieval for query: 'mi dai informazioni sul K framework 3?'
+2025-07-13 12:21:02,280 - src.query_intelligence - INFO - Analyzing query: 'mi dai informazioni sul K framework 3?...'
+2025-07-13 12:21:03,162 - src.query_intelligence - INFO - Using domain knowledge from configuration file
+2025-07-13 12:21:04,754 - src.query_intelligence - INFO - Query analysis complete: Intent=general_info, Complexity=ambiguous, Confidence=0.60
+2025-07-13 12:21:04,798 - src.multi_vector_retriever - INFO - Intent: general_info, Confidence: 0.60
+2025-07-13 12:21:04,798 - src.multi_vector_retriever - INFO - Clarification suggested: I couldn't find a 'K framework 3' in our K-Array product catalog.  Could you please clarify the product name or provide more details about what you're looking for?
+2025-07-13 12:21:05,967 - src.multi_vector_retriever - INFO - Executed 3 retrieval strategies
+2025-07-13 12:21:06,100 - src.reranker - INFO - Reranked 10 documents, returning top 5
+2025-07-13 12:21:06,100 - src.multi_vector_retriever - INFO - Applied reranking to 10 fused results
+2025-07-13 12:21:06,101 - __main__ - INFO - Multi-vector retrieval: 5 documents
+2025-07-13 12:21:06,101 - __main__ - INFO - Requesting clarification: I couldn't find a 'K framework 3' in our K-Array product catalog.  Could you please clarify the product name or provide more details about what you're looking for?
+2025-07-13 12:21:27,050 - __main__ - INFO - Processing query from session session_1752402087: mi dai informazioni sul ka208
+...
+2025-07-13 12:21:27,051 - src.multi_vector_retriever - INFO - Multi-vector retrieval for query: 'mi dai informazioni sul ka208
+'
+2025-07-13 12:21:27,051 - src.query_intelligence - INFO - Analyzing query: 'mi dai informazioni sul ka208
+...'
+2025-07-13 12:21:29,351 - src.query_intelligence - INFO - Query analysis complete: Intent=general_info, Complexity=simple, Confidence=0.70
+2025-07-13 12:21:29,353 - src.multi_vector_retriever - INFO - Intent: general_info, Confidence: 0.70
+2025-07-13 12:21:29,353 - src.multi_vector_retriever - INFO - Clarification suggested: The model KA208 is not in the provided K-Array product list.  Could you double-check the model number, or perhaps describe the application you have in mind?
+2025-07-13 12:21:30,526 - src.multi_vector_retriever - INFO - Executed 3 retrieval strategies
+2025-07-13 12:21:31,351 - src.reranker - INFO - Reranked 10 documents, returning top 5
+2025-07-13 12:21:31,351 - src.multi_vector_retriever - INFO - Applied reranking to 10 fused results
+2025-07-13 12:21:31,351 - __main__ - INFO - Multi-vector retrieval: 5 documents
+2025-07-13 12:21:31,351 - __main__ - INFO - Requesting clarification: The model KA208 is not in the provided K-Array product list.  Could you double-check the model number, or perhaps describe the application you have in mind?
+2025-07-13 12:21:42,220 - __main__ - INFO - Processing query from session session_1752402102: Quali sono le specifiche del Kommander KA104?...
+2025-07-13 12:21:42,220 - src.multi_vector_retriever - INFO - Multi-vector retrieval for query: 'Quali sono le specifiche del Kommander KA104?'
+2025-07-13 12:21:42,220 - src.query_intelligence - INFO - Analyzing query: 'Quali sono le specifiche del Kommander KA104?...'
+2025-07-13 12:21:44,467 - src.query_intelligence - INFO - Query analysis complete: Intent=technical_specs_only, Complexity=simple, Confidence=0.95
+2025-07-13 12:21:44,469 - src.multi_vector_retriever - INFO - Intent: technical_specs_only, Confidence: 0.95
+2025-07-13 12:21:45,673 - src.multi_vector_retriever - INFO - Executed 5 retrieval strategies
+2025-07-13 12:21:46,450 - src.reranker - INFO - Reranked 10 documents, returning top 5
+2025-07-13 12:21:46,451 - src.multi_vector_retriever - INFO - Applied reranking to 10 fused results
+2025-07-13 12:21:46,451 - __main__ - INFO - Multi-vector retrieval: 5 documents
+2025-07-13 12:21:46,451 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 12:21:52,664 - src.response_engine - INFO - Primary LLM response successful (confidence: 1.00)
+2025-07-13 12:21:52,664 - __main__ - INFO - Response generated - Confidence: 1.00, LLM: gemini, Time: 6.21s
+2025-07-13 12:29:00,283 - __main__ - INFO - Processing query from session session_1752402540: Differenze tra serie Lyzard e Vyper...
+2025-07-13 12:29:00,284 - src.multi_vector_retriever - INFO - Multi-vector retrieval for query: 'Differenze tra serie Lyzard e Vyper'
+2025-07-13 12:29:00,284 - src.query_intelligence - INFO - Analyzing query: 'Differenze tra serie Lyzard e Vyper...'
+2025-07-13 12:29:02,933 - src.query_intelligence - INFO - Query analysis complete: Intent=product_comparison, Complexity=moderate, Confidence=0.95
+2025-07-13 12:29:02,935 - src.multi_vector_retriever - INFO - Intent: product_comparison, Confidence: 0.95
+2025-07-13 12:29:04,206 - src.multi_vector_retriever - INFO - Executed 2 retrieval strategies
+2025-07-13 12:29:04,336 - src.reranker - INFO - Reranked 10 documents, returning top 5
+2025-07-13 12:29:04,337 - src.multi_vector_retriever - INFO - Applied reranking to 10 fused results
+2025-07-13 12:29:04,337 - __main__ - INFO - Multi-vector retrieval: 5 documents
+2025-07-13 12:29:04,337 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 12:29:06,107 - src.response_engine - INFO - Primary LLM response successful (confidence: 1.00)
+2025-07-13 12:29:06,107 - __main__ - INFO - Response generated - Confidence: 1.00, LLM: gemini, Time: 1.77s
+2025-07-13 12:34:21,874 - __main__ - INFO - Processing query from session session_1752402861: Applicazioni per fitness e wellness...
+2025-07-13 12:34:21,874 - src.multi_vector_retriever - INFO - Multi-vector retrieval for query: 'Applicazioni per fitness e wellness'
+2025-07-13 12:34:21,874 - src.query_intelligence - INFO - Analyzing query: 'Applicazioni per fitness e wellness...'
+2025-07-13 12:34:25,354 - src.query_intelligence - INFO - Query analysis complete: Intent=purchase_decision, Complexity=moderate, Confidence=0.80
+2025-07-13 12:34:25,356 - src.multi_vector_retriever - INFO - Intent: purchase_decision, Confidence: 0.80
+2025-07-13 12:34:26,557 - src.multi_vector_retriever - INFO - Executed 5 retrieval strategies
+2025-07-13 12:34:26,711 - src.reranker - INFO - Reranked 10 documents, returning top 5
+2025-07-13 12:34:26,711 - src.multi_vector_retriever - INFO - Applied reranking to 10 fused results
+2025-07-13 12:34:26,712 - __main__ - INFO - Multi-vector retrieval: 5 documents
+2025-07-13 12:34:26,712 - src.response_engine - INFO - Attempting response generation with primary LLM: gemini
+2025-07-13 12:34:31,204 - src.response_engine - INFO - Primary LLM response successful (confidence: 1.00)
+2025-07-13 12:34:31,204 - __main__ - INFO - Response generated - Confidence: 1.00, LLM: gemini, Time: 4.49s
+2025-07-13 12:42:41,486 - src.local_vector_store - INFO - Initializing Local Vector Store...
+2025-07-13 12:42:41,486 - src.local_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 12:42:41,486 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 12:42:41,486 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 12:42:45,014 - src.local_vector_store - INFO - Loaded 4673 embeddings
+2025-07-13 12:42:45,019 - src.local_vector_store - INFO - Loaded 4673 documents
+2025-07-13 12:42:45,029 - src.local_vector_store - INFO - Loaded 4673 metadata entries
+2025-07-13 12:42:45,031 - src.local_vector_store - INFO - Local vector store initialized with 4673 documents
+2025-07-13 12:42:45,032 - src.llm_manager - INFO - Gemini API key configured: AIzaSyA_***
+2025-07-13 12:42:45,032 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 12:42:46,075 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 12:42:47,455 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 12:45:13,527 - __main__ - INFO - Initializing Modern K-Array Chat System...
+2025-07-13 12:45:13,527 - __main__ - INFO - Loading vector store...
+2025-07-13 12:45:13,527 - src.local_vector_store - INFO - Initializing Local Vector Store...
+2025-07-13 12:45:13,528 - src.local_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 12:45:13,528 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 12:45:13,528 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 12:45:16,616 - src.local_vector_store - INFO - Loaded 4673 embeddings
+2025-07-13 12:45:16,622 - src.local_vector_store - INFO - Loaded 4673 documents
+2025-07-13 12:45:16,633 - src.local_vector_store - INFO - Loaded 4673 metadata entries
+2025-07-13 12:45:16,634 - src.local_vector_store - INFO - Local vector store initialized with 4673 documents
+2025-07-13 12:45:16,635 - __main__ - INFO - Vector store ready with 4673 documents
+2025-07-13 12:45:16,635 - __main__ - INFO - Initializing LLM manager...
+2025-07-13 12:45:16,635 - src.llm_manager - INFO - Gemini API key configured: AIzaSyA_***
+2025-07-13 12:45:16,635 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 12:45:16,635 - __main__ - INFO - Initializing LangGraph Agentic RAG system...
+2025-07-13 12:45:16,648 - __main__ - INFO - LangGraph Agentic RAG system ready!
+2025-07-13 12:45:16,648 - __main__ - INFO - System initialized with: LangGraph Agentic RAG
+2025-07-13 12:45:16,648 - __main__ - INFO - Launching K-Array Chat System...
+2025-07-13 12:45:16,758 - __main__ - INFO - Starting server on http://localhost:7860
+2025-07-13 12:45:17,642 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 12:45:19,052 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 12:45:21,115 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-13 12:45:42,240 - __main__ - INFO - Processing query: Differenze tra Lyzard KZ1I e Vyper KV25I
+2025-07-13 12:45:42,241 - src.langgraph_k_array_rag - INFO - Processing query with LangGraph: Differenze tra Lyzard KZ1I e Vyper KV25I
+2025-07-13 12:45:42,285 - src.langgraph_k_array_rag - INFO - Query analysis - Original: Differenze tra Lyzard KZ1I e Vyper KV25I
+2025-07-13 12:45:42,285 - src.langgraph_k_array_rag - INFO - Detected products: ['kz1i', 'kv25i']
+2025-07-13 12:45:42,286 - src.langgraph_k_array_rag - INFO - Detected series: ['lyzard', 'vyper']
+2025-07-13 12:45:43,084 - src.langgraph_k_array_rag - WARNING - No search results found for evaluation
+2025-07-13 12:45:43,565 - src.langgraph_k_array_rag - WARNING - No search results found for evaluation
+2025-07-13 12:45:44,058 - src.langgraph_k_array_rag - WARNING - No search results found for evaluation
+2025-07-13 12:45:46,994 - __main__ - INFO - Query processed in 4.75s using LangGraph Agentic RAG
+2025-07-13 12:49:33,233 - __main__ - INFO - Initializing Modern K-Array Chat System...
+2025-07-13 12:49:33,233 - __main__ - INFO - Loading vector store...
+2025-07-13 12:49:33,234 - src.local_vector_store - INFO - Initializing Local Vector Store...
+2025-07-13 12:49:33,234 - src.local_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 12:49:33,235 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 12:49:33,235 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 12:49:38,963 - src.local_vector_store - INFO - Local vector store initialized with 0 documents
+2025-07-13 12:49:38,963 - __main__ - INFO - Vector store empty - ingesting data...
+2025-07-13 12:49:38,964 - src.local_vector_store - INFO - Found 241 JSON files to process
+2025-07-13 12:49:38,964 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_001_kommander_ka104.json
+2025-07-13 12:49:41,515 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_002_kommander_ka208.json
+2025-07-13 12:49:44,167 - src.local_vector_store - INFO - Processed 19 documents from data\extracted_data_003_kommander_ka24.json
+2025-07-13 12:49:45,458 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_004_kommander_ka84.json
+2025-07-13 12:49:47,628 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_005_kommander_ka68.json
+2025-07-13 12:49:50,717 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_006_kommander_ka02i.json
+2025-07-13 12:50:02,030 - __main__ - INFO - Initializing Modern K-Array Chat System...
+2025-07-13 12:50:02,030 - __main__ - INFO - Loading vector store...
+2025-07-13 12:50:02,030 - src.local_vector_store - INFO - Initializing Local Vector Store...
+2025-07-13 12:50:02,030 - src.local_vector_store - INFO - Loading embedding model: all-mpnet-base-v2
+2025-07-13 12:50:02,031 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 12:50:02,031 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-07-13 12:50:07,469 - src.local_vector_store - INFO - Local vector store initialized with 0 documents
+2025-07-13 12:50:07,469 - __main__ - INFO - Vector store empty - ingesting data...
+2025-07-13 12:50:07,470 - src.local_vector_store - INFO - Found 241 JSON files to process
+2025-07-13 12:50:07,471 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_001_kommander_ka104.json
+2025-07-13 12:50:10,172 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_002_kommander_ka208.json
+2025-07-13 12:50:13,083 - src.local_vector_store - INFO - Processed 19 documents from data\extracted_data_003_kommander_ka24.json
+2025-07-13 12:50:14,579 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_004_kommander_ka84.json
+2025-07-13 12:50:16,946 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_005_kommander_ka68.json
+2025-07-13 12:50:20,320 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_006_kommander_ka02i.json
+2025-07-13 12:50:24,650 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_007_kommander_ka14i.json
+2025-07-13 12:50:28,475 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_008_kommander_ka28.json
+2025-07-13 12:50:32,811 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_009_kommander_ka02.json
+2025-07-13 12:50:35,622 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_010_kommander_ka14.json
+2025-07-13 12:50:37,720 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_011_kommander_ka34.json
+2025-07-13 12:50:41,896 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_012_kommander_ka18.json
+2025-07-13 12:50:46,677 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_013_kommander_ka04.json
+2025-07-13 12:50:51,431 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_014_kommander_ka18_plus.json
+2025-07-13 12:50:56,313 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_015_kommander_ka28_plus.json
+2025-07-13 12:51:01,596 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_016_kommander_ka68_plus.json
+2025-07-13 12:51:07,186 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_017_kommander_ka104live.json
+2025-07-13 12:51:10,690 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_018_kommander_ka208live.json
+2025-07-13 12:51:15,288 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_019_kommander_ka208_plus.json
+2025-07-13 12:51:20,989 - src.local_vector_store - INFO - Processed 28 documents from data\extracted_data_020_kommander_ka208live_plus.json
+2025-07-13 12:51:26,116 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_021_tornado_kt2.json
+2025-07-13 12:51:29,772 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_022_tornado_kt2c.json
+2025-07-13 12:51:34,233 - src.local_vector_store - INFO - Processed 34 documents from data\extracted_data_023_kobra_kk52_i.json
+2025-07-13 12:51:39,633 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_024_kobra_kk102_i.json
+2025-07-13 12:51:45,717 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_025_python_kp52_i.json
+2025-07-13 12:51:50,868 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_026_python_kp102_i.json
+2025-07-13 12:51:59,264 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_027_thunder_kmt18p.json
+2025-07-13 12:52:01,608 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_028_thunder_ks2pi.json
+2025-07-13 12:52:07,379 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_029_thunder_kmt12p.json
+2025-07-13 12:52:09,751 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_030_thunder_ks5i.json
+2025-07-13 12:52:13,327 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_031_thunder_ks3i.json
+2025-07-13 12:52:18,530 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_032_thunder_ks3pi.json
+2025-07-13 12:52:20,784 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_033_thunder_ks4i.json
+2025-07-13 12:52:24,122 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_034_thunder_ks4pi.json
+2025-07-13 12:52:26,437 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_035_thunder_kmt218.json
+2025-07-13 12:52:27,127 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_036_thunder_kmt18i.json
+2025-07-13 12:52:27,851 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_037_thunder_ks2i.json
+2025-07-13 12:52:31,215 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_038_thunder_kmt21_i.json
+2025-07-13 12:52:32,595 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_039_thunder_ks5pi.json
+2025-07-13 12:52:35,112 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_040_thunder_ks1i.json
+2025-07-13 12:52:38,098 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_041_thunder_kmt21p.json
+2025-07-13 12:52:38,828 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_042_thunder_kmt12_i.json
+2025-07-13 12:52:39,903 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_043_thunder_ks1pi.json
+2025-07-13 12:52:42,403 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_044_thunder_ksc18p.json
+2025-07-13 12:52:44,153 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_045_thunder_kmt218p.json
+2025-07-13 12:52:45,003 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_046_thunder_ksc12p.json
+2025-07-13 12:52:46,864 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_047_thunder_ksc18p.json
+2025-07-13 12:52:48,522 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_048_lyzard_kz14i.json
+2025-07-13 12:52:51,385 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_049_lyzard_kz14.json
+2025-07-13 12:52:52,744 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_050_lyzard_kz14ri.json
+2025-07-13 12:52:55,680 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_051_lyzard_kz1i.json
+2025-07-13 12:52:58,538 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_052_lyzard_kz1.json
+2025-07-13 12:52:59,846 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_053_lyzard_kz1ri.json
+2025-07-13 12:53:02,693 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_054_lyzard_kz14.json
+2025-07-13 12:53:04,007 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_055_vyper_kv25ii.json
+2025-07-13 12:53:06,634 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_056_vyper_kv25l.json
+2025-07-13 12:53:08,195 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_057_vyper_kv52l.json
+2025-07-13 12:53:10,917 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_058_vyper_kv52rii.json
+2025-07-13 12:53:13,368 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_059_vyper_kv52fii.json
+2025-07-13 12:53:15,945 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_060_vyper_kv102rii.json
+2025-07-13 12:53:18,598 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_061_vyper_kv102ii.json
+2025-07-13 12:53:21,119 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_062_vyper_kv52ii.json
+2025-07-13 12:53:23,773 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_063_vyper_kv25wl.json
+2025-07-13 12:53:26,060 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_064_vyper_kv25rii.json
+2025-07-13 12:53:28,530 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_065_vyper_kv52frii.json
+2025-07-13 12:53:30,993 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_066_vyper_kv25ii.json
+2025-07-13 12:53:33,565 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_067_azimut_kamut2l14ii.json
+2025-07-13 12:53:34,553 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_068_azimut_kamut2l.json
+2025-07-13 12:53:35,610 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_069_azimut_kamut2l_ii.json
+2025-07-13 12:53:36,219 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_070_azimut_kamut2v25ii.json
+2025-07-13 12:53:36,717 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_071_azimut_kamut2l1.json
+2025-07-13 12:53:37,167 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_072_azimut_kamut2l1ii.json
+2025-07-13 12:53:37,934 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_073_azimut_kamut2v25.json
+2025-07-13 12:53:38,411 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_074_azimut_kamut2l14.json
+2025-07-13 12:53:38,874 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_075_rumble_ku44.json
+2025-07-13 12:53:41,794 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_076_rumble_ku26.json
+2025-07-13 12:53:44,892 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_077_rumble_ku210.json
+2025-07-13 12:53:48,535 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_078_rumble_ku212.json
+2025-07-13 12:53:53,845 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_079_rumble_ku315.json
+2025-07-13 12:53:58,185 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_080_rumble_ku44.json
+2025-07-13 12:54:02,116 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_081_mugello_kh5l.json
+2025-07-13 12:54:03,603 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_082_mugello_kh3l.json
+2025-07-13 12:54:05,247 - src.local_vector_store - INFO - Processed 19 documents from data\extracted_data_083_mugello_kh2l.json
+2025-07-13 12:54:06,441 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_084_mugello_kh2pl.json
+2025-07-13 12:54:07,121 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_085_mugello_kh5pl.json
+2025-07-13 12:54:12,134 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_086_mugello_kh3pl.json
+2025-07-13 12:54:16,706 - src.local_vector_store - INFO - Processed 10 documents from data\extracted_data_087_mugello_kh2_i_syst12.json
+2025-07-13 12:54:17,147 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_088_mugello_kh5.json
+2025-07-13 12:54:18,158 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_089_mugello_kh2.json
+2025-07-13 12:54:18,159 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_090_mugello_kh3.json
+2025-07-13 12:54:18,159 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_091_firenze_kh7.json
+2025-07-13 12:54:18,160 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_092_firenze_ks7.json
+2025-07-13 12:54:24,080 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_093_firenze_ks8.json
+2025-07-13 12:54:24,081 - src.local_vector_store - INFO - Processed 10 documents from data\extracted_data_094_firenze_kh7p.json
+2025-07-13 12:54:24,489 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_095_firenze_ks7p.json
+2025-07-13 12:54:26,688 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_096_firenze_kx12fI.json
+2025-07-13 12:54:29,472 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_097_firenze_kh8.json
+2025-07-13 12:54:29,473 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_098_truffle_ktr26.json
+2025-07-13 12:54:31,262 - src.local_vector_store - INFO - Processed 28 documents from data\extracted_data_099_truffle_ktr24.json
+2025-07-13 12:54:33,652 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_100_truffle_ktr25.json
+2025-07-13 12:54:35,391 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_101_truffle_ktr24.json
+2025-07-13 12:54:40,915 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_101_truffle_ktr24_duplicate.json
+2025-07-13 12:54:40,916 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_102_kayman_ky102.json
+2025-07-13 12:54:44,413 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_103_kayman_ky52.json
+2025-07-13 12:54:48,181 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_104_kayman_ky102_ebs.json
+2025-07-13 12:54:51,715 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_105_kayman_ky102_duplicate.json
+2025-07-13 12:54:51,716 - src.local_vector_store - INFO - Processed 29 documents from data\extracted_data_106_turtle_krm33p.json
+2025-07-13 12:54:53,833 - src.local_vector_store - INFO - Processed 29 documents from data\extracted_data_107_turtle_krm33.json
+2025-07-13 12:54:55,872 - src.local_vector_store - INFO - Processed 35 documents from data\extracted_data_109_anakonda_kan200.json
+2025-07-13 12:54:59,385 - src.local_vector_store - INFO - Processed 33 documents from data\extracted_data_110_anakonda_kan200_plus.json
+2025-07-13 12:55:02,998 - src.local_vector_store - INFO - Processed 33 documents from data\extracted_data_111_anakonda_kan200_plus8.json
+2025-07-13 12:55:06,760 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_112_domino_kf26.json
+2025-07-13 12:55:10,302 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_113_domino_kf212.json
+2025-07-13 12:55:14,005 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_114_domino_kf210.json
+2025-07-13 12:55:17,851 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_115_domino_kfc26.json
+2025-07-13 12:55:21,772 - src.local_vector_store - INFO - Processed 0 documents from data\extracted_data_116_domino_kf212_duplicate.json
+2025-07-13 12:55:21,773 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_117_dragon_kx12i.json
+2025-07-13 12:55:25,375 - src.local_vector_store - INFO - Processed 30 documents from data\extracted_data_118_dragon_kxt12p.json
+2025-07-13 12:55:29,337 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_119_dragon_kxt18p.json
+2025-07-13 12:55:31,284 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_120_mastiff_km312.json
+2025-07-13 12:55:31,623 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_121_mastiff_km112.json
+2025-07-13 12:55:32,021 - src.local_vector_store - INFO - Processed 28 documents from data\extracted_data_122_mastiff_km112p.json
+2025-07-13 12:55:34,659 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_123_mastiff_km312p.json
+2025-07-13 12:55:35,105 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_124_pinnacle_kr102_i.json
+2025-07-13 12:55:35,783 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_125_pinnacle_kr402_i.json
+2025-07-13 12:55:36,820 - src.local_vector_store - INFO - Processed 12 documents from data\extracted_data_126_pinnacle_kr202_i.json
+2025-07-13 12:55:37,350 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_127_pinnacle_kr802ypii.json
+2025-07-13 12:55:39,733 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_128_pinnacle_kr102_ll.json
+2025-07-13 12:55:44,153 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_129_pinnacle_kr202_ii.json
+2025-07-13 12:55:48,654 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_130_pinnacle_kr402_ii.json
+2025-07-13 12:55:52,157 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_131_pinnacle_kr802.json
+2025-07-13 12:55:53,137 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_132_pinnacle_kr804p_ii.json
+2025-07-13 12:55:57,554 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_133_pinnacle_kr802_ii.json
+2025-07-13 12:56:01,083 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_134_pinnacle_kr404p_ii.json
+2025-07-13 12:56:05,051 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_135_pinnacle_kr402ypii.json
+2025-07-13 12:56:08,541 - src.local_vector_store - INFO - Processed 10 documents from data\extracted_data_136_pinnacle_k_foh2.json
+2025-07-13 12:56:09,063 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_137_dolomite_krd202p.json
+2025-07-13 12:56:14,652 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_138_prisma_kpr00_plus.json
+2025-07-13 12:56:17,411 - src.local_vector_store - INFO - Processed 26 documents from data\extracted_data_139_prisma_kpra14_plus.json
+2025-07-13 12:56:20,238 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_140_prisma_kpra34_plus.json
+2025-07-13 12:56:23,279 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_141_capture_kmc20.json
+2025-07-13 12:56:24,874 - src.local_vector_store - INFO - Processed 27 documents from data\extracted_data_142_capture_kmc20h.json
+2025-07-13 12:56:26,611 - src.local_vector_store - INFO - Processed 24 documents from data\extracted_data_143_capture_kmc20v.json
+2025-07-13 12:56:28,561 - src.local_vector_store - INFO - Processed 29 documents from data\extracted_data_144_capture_kmc50.json
+2025-07-13 12:56:31,302 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_145_duetto_kd6t.json
+2025-07-13 12:56:32,723 - src.local_vector_store - INFO - Processed 18 documents from data\extracted_data_146_duetto_kd6b.json
+2025-07-13 12:56:33,955 - src.local_vector_store - INFO - Processed 20 documents from data\extracted_data_147_duetto_kd6bt.json
+2025-07-13 12:56:35,203 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_148_axle_krx402.json
+2025-07-13 12:56:35,980 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_149_axle_krx802.json
+2025-07-13 12:56:36,907 - src.local_vector_store - INFO - Processed 15 documents from data\extracted_data_150_event_krev101.json
+2025-07-13 12:56:37,506 - src.local_vector_store - INFO - Processed 15 documents from data\extracted_data_151_kk50.json
+2025-07-13 12:56:38,073 - src.local_vector_store - INFO - Processed 12 documents from data\extracted_data_152_kn10s.json
+2025-07-13 12:56:38,478 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_153_ktl22_ktl22c.json
+2025-07-13 12:56:41,988 - src.local_vector_store - INFO - Processed 32 documents from data\extracted_data_154_k_rack_m_208.json
+2025-07-13 12:56:47,832 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_155_lyzard_line.json
+2025-07-13 12:56:49,254 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_156_vyper_line.json
+2025-07-13 12:56:50,661 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_157_anakonda_line.json
+2025-07-13 12:56:51,825 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_158_tornado_line.json
+2025-07-13 12:56:52,800 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_159_kobra_line.json
+2025-07-13 12:56:53,929 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_160_python_line.json
+2025-07-13 12:56:55,305 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_161_kayman_line.json
+2025-07-13 12:56:56,522 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_162_domino_line.json
+2025-07-13 12:56:57,860 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_163_dragon_line.json
+2025-07-13 12:56:59,032 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_164_mugello_line.json
+2025-07-13 12:57:00,425 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_165_firenze_line.json
+2025-07-13 12:57:01,752 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_166_rumble_line.json
+2025-07-13 12:57:02,910 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_167_truffle_line.json
+2025-07-13 12:57:03,914 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_168_thunder_line.json
+2025-07-13 12:57:05,182 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_169_azimut_line.json
+2025-07-13 12:57:07,150 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_170_dolomite_line.json
+2025-07-13 12:57:08,394 - src.local_vector_store - INFO - Processed 31 documents from data\extracted_data_171_pinnacle_line.json
+2025-07-13 12:57:10,071 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_172_turtle_line.json
+2025-07-13 12:57:10,580 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_173_mastiff_line.json
+2025-07-13 12:57:11,103 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_174_prisma_line.json
+2025-07-13 12:57:11,671 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_175_kommander_line.json
+2025-07-13 12:57:12,291 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_176_capture_line.json
+2025-07-13 12:57:12,716 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_177_duetto_line.json
+2025-07-13 12:57:13,150 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_178_fitness_wellness_application.json
+2025-07-13 12:57:13,704 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_179_cafes_restaurants_application.json
+2025-07-13 12:57:14,500 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_180_museums_exhibitions_application.json
+2025-07-13 12:57:15,219 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_181_large_congregations_application.json
+2025-07-13 12:57:15,850 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_182_theme_parks_application.json
+2025-07-13 12:57:16,462 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_183_houses_worship_application.json
+2025-07-13 12:57:17,172 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_184_nightclubs_application.json
+2025-07-13 12:57:17,976 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_185_event_productions_application.json
+2025-07-13 12:57:18,692 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_186_retail_application.json
+2025-07-13 12:57:19,469 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_187_broadcast_studios_application.json
+2025-07-13 12:57:20,165 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_188_transportation_facilities_application.json
+2025-07-13 12:57:20,884 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_189_theaters_application.json
+2025-07-13 12:57:21,636 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_190_stadium_sport_venues_application.json
+2025-07-13 12:57:22,562 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_191_hotels_resorts_application.json
+2025-07-13 12:57:23,372 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_192_concerts_live_events_application.json
+2025-07-13 12:57:24,077 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_193_boardrooms_application.json
+2025-07-13 12:57:24,639 - src.local_vector_store - INFO - Processed 17 documents from data\extracted_data_194_auditoriums_concert_halls_application.json
+2025-07-13 12:57:25,490 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_195_residential_application.json
+2025-07-13 12:57:26,637 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_196_residential_lighting_application.json
+2025-07-13 12:57:27,415 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_197_museum_exhibitions_lighting_application.json
+2025-07-13 12:57:27,907 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_198_hospitality_lighting_application.json
+2025-07-13 12:57:28,269 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_199_corporate_lighting_application.json
+2025-07-13 12:57:28,877 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_200_retail_lighting_application.json
+2025-07-13 12:57:29,723 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_201_miami_hospitality_scene.json
+2025-07-13 12:57:30,371 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_202_luxury_bars_hospitality.json
+2025-07-13 12:57:31,135 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_203_montreal_restaurant_scene.json
+2025-07-13 12:57:31,799 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_204_cafe_boulud_maison_barnes.json
+2025-07-13 12:57:32,630 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_205_brian_barry_store.json
+2025-07-13 12:57:33,316 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_206_w_hotel_edinburgh.json
+2025-07-13 12:57:34,019 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_207_portrait_hotel_milano.json
+2025-07-13 12:57:35,155 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_208_mercure_hotel_miri.json
+2025-07-13 12:57:36,028 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_209_sommerro_hotel_oslo.json
+2025-07-13 12:57:36,768 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_210_pedra_dura_restaurant.json
+2025-07-13 12:57:37,452 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_211_sana_malhoa_hotel.json
+2025-07-13 12:57:38,071 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_212_bleau_bar_miami.json
+2025-07-13 12:57:38,796 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_213_kerridge_bar_grill.json
+2025-07-13 12:57:39,718 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_214_kailish_restaurant.json
+2025-07-13 12:57:40,716 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_215_vanbarton_balcony.json
+2025-07-13 12:57:41,376 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_216_noi_bar.json
+2025-07-13 12:57:42,378 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_217_moxy_times_square_hotel.json
+2025-07-13 12:57:43,410 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_218_student_hotel.json
+2025-07-13 12:57:44,350 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_219_hotel_parque_centrale.json
+2025-07-13 12:57:45,251 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_220_nobu_hotel_restaurant.json
+2025-07-13 12:57:46,296 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_221_forsthofalm_hotel.json
+2025-07-13 12:57:47,351 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_222_cvs_park_hotel.json
+2025-07-13 12:57:48,494 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_223_ebenezer_church.json
+2025-07-13 12:57:49,161 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_224_graham_memorial_chapel.json
+2025-07-13 12:57:50,203 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_225_harvest_christian_fellowship_church.json
+2025-07-13 12:57:51,137 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_226_rose_hill_church.json
+2025-07-13 12:57:52,214 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_227_graham_chapel.json
+2025-07-13 12:57:53,285 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_228_st_george_chapel.json
+2025-07-13 12:57:54,274 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_229_rock_church.json
+2025-07-13 12:57:55,378 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_230_svetitskhoveli_cathedral_georgia.json
+2025-07-13 12:57:56,350 - src.local_vector_store - INFO - Processed 16 documents from data\extracted_data_231_canterbury_cathedral.json
+2025-07-13 12:57:57,469 - src.local_vector_store - INFO - Processed 11 documents from data\extracted_data_234_museum_sound.json
+2025-07-13 12:57:57,803 - src.local_vector_store - INFO - Processed 14 documents from data\extracted_data_235_media_museum.json
+2025-07-13 12:57:58,550 - src.local_vector_store - INFO - Processed 25 documents from data\extracted_data_236_beijing_exhibition_center_theater.json
+2025-07-13 12:58:00,241 - src.local_vector_store - INFO - Processed 34 documents from data\extracted_data_237_the_ranch_gallery.json
+2025-07-13 12:58:06,406 - src.local_vector_store - INFO - Processed 21 documents from data\extracted_data_238_cleveland_museum.json
+2025-07-13 12:58:09,186 - src.local_vector_store - INFO - Processed 13 documents from data\extracted_data_239_bucharest_national_opera_house.json
+2025-07-13 12:58:11,753 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_240_budapest_opera_house.json
+2025-07-13 12:58:16,230 - src.local_vector_store - INFO - Processed 22 documents from data\extracted_data_241_royal_opera_house.json
+2025-07-13 12:58:18,068 - src.local_vector_store - INFO - Processed 23 documents from data\extracted_data_243_sungroup_auditorium.json
+2025-07-13 12:58:19,671 - src.local_vector_store - INFO - Processed 29 documents from data\extracted_data_244_alsonemedi_theater.json
+2025-07-13 12:58:22,089 - src.local_vector_store - INFO - Data saved successfully
+2025-07-13 12:58:22,089 - src.local_vector_store - INFO - Successfully ingested 4725 documents
+2025-07-13 12:58:22,089 - __main__ - INFO - Ingested 4725 documents
+2025-07-13 12:58:22,089 - __main__ - INFO - Initializing LLM manager...
+2025-07-13 12:58:22,090 - src.llm_manager - INFO - Gemini API key configured: AIzaSyA_***
+2025-07-13 12:58:22,090 - src.llm_manager - INFO - Gemini client initialized
+2025-07-13 12:58:22,090 - __main__ - INFO - Initializing LangGraph Agentic RAG system...
+2025-07-13 12:58:22,104 - __main__ - INFO - LangGraph Agentic RAG system ready!
+2025-07-13 12:58:22,104 - __main__ - INFO - System initialized with: LangGraph Agentic RAG
+2025-07-13 12:58:22,104 - __main__ - INFO - Launching K-Array Chat System...
+2025-07-13 12:58:22,201 - __main__ - INFO - Starting server on http://localhost:7860
+2025-07-13 12:58:23,312 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-13 12:58:24,500 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-13 12:58:26,567 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"

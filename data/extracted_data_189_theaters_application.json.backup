@@ -1,0 +1,174 @@
+{
+  "id": "189",
+  "url": "https://www.k-array.com/en/application/theaters",
+  "timestamp": "2025-07-12T13:30:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "THEATERS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "theaters",
+      "ornate theaters",
+      "beautiful buildings",
+      "discreet audio",
+      "flexibility"
+    ],
+    "technical": [
+      "Pure Array Technology",
+      "slim compact speakers",
+      "minimal elements",
+      "curvature adaptation"
+    ],
+    "challenges": [
+      "doesn't obstruct show",
+      "disturb decor",
+      "cover large venues",
+      "highly intelligible"
+    ],
+    "products": [
+      "Kayman-KY102",
+      "Thunder-KS3P I",
+      "Anakonda-KAN200+",
+      "Kommander-KA208",
+      "Python-KP102 I",
+      "Kobra-KK102 I"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "description": "Ornate theaters are some of the most beautiful buildings in the world",
+      "key_challenge": "Audio systems must be discreet while maintaining flexibility to meet different requirements",
+      "solution_approach": "Using Pure Array Technology with slim, compact speakers"
+    },
+    "recommended_products": [
+      {
+        "product": "Kayman-KY102",
+        "use_case": "Theater main audio systems"
+      },
+      {
+        "product": "Thunder-KS3P I",
+        "use_case": "Theater subwoofer applications"
+      },
+      {
+        "product": "Anakonda-KAN200+",
+        "use_case": "Large theater venue systems"
+      },
+      {
+        "product": "Kommander-KA208",
+        "use_case": "Theater amplification systems"
+      },
+      {
+        "product": "Kommander-KA104",
+        "use_case": "Theater amplification systems"
+      },
+      {
+        "product": "Python-KP102 I",
+        "use_case": "Theater line array installations"
+      },
+      {
+        "product": "Kobra-KK102 I",
+        "use_case": "Theater column speaker systems"
+      }
+    ],
+    "installation_scenarios": {
+      "design_considerations": [
+        "Doesn't obstruct the show or disturb the decor",
+        "Capable of covering large venues with minimal elements",
+        "Can adapt to the curvature of the stage or shape of seating",
+        "Suitable for front fill and under balcony fill"
+      ],
+      "key_benefits": [
+        "Discreet visual integration",
+        "Flexible system configuration",
+        "Minimal visual intrusion",
+        "Highly intelligible audio"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Bucharest National Opera House"
+      },
+      {
+        "name": "Budapest Opera House"
+      },
+      {
+        "name": "Royal Opera House"
+      },
+      {
+        "name": "Unisinos Theater"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "theaters ornate theaters beautiful buildings discreet audio flexibility Pure Array Technology slim compact speakers doesn't obstruct show disturb decor cover large venues minimal elements adapt curvature stage shape seating front fill under balcony fill highly intelligible audio solutions Kayman-KY102 Thunder-KS3P I Anakonda-KAN200+ Kommander-KA208 Kommander-KA104 Python-KP102 I Kobra-KK102 I Bucharest National Opera House Budapest Opera House Royal Opera House Unisinos Theater",
+    "semantic_chunks": [
+      "Theaters are ornate, beautiful buildings requiring discreet audio systems that maintain flexibility to meet different requirements",
+      "Solutions use Pure Array Technology with slim, compact speakers that don't obstruct shows or disturb theater decor",
+      "Systems can cover large venues with minimal elements, adapt to stage curvature and seating shapes for front fill and under balcony applications",
+      "Recommended products include Kayman-KY102, Thunder-KS3P I, Anakonda-KAN200+, Kommander-KA208/KA104, Python-KP102 I, and Kobra-KK102 I",
+      "Case studies include Bucharest National Opera House, Budapest Opera House, Royal Opera House, and Unisinos Theater"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to theater audio?",
+        "a": "Audio systems must be discreet while maintaining flexibility to meet different requirements in ornate, beautiful buildings"
+      },
+      {
+        "q": "What technology does K-Array use for theaters?",
+        "a": "Pure Array Technology with slim, compact speakers"
+      },
+      {
+        "q": "What are the design requirements for theater installations?",
+        "a": "Doesn't obstruct the show or disturb the decor, covers large venues with minimal elements, adapts to curvature and seating shapes"
+      },
+      {
+        "q": "What K-Array products are recommended for theaters?",
+        "a": "Kayman-KY102, Thunder-KS3P I, Anakonda-KAN200+, Kommander-KA208, Kommander-KA104, Python-KP102 I, and Kobra-KK102 I"
+      },
+      {
+        "q": "What are examples of K-Array theater installations?",
+        "a": "Bucharest National Opera House, Budapest Opera House, Royal Opera House, and Unisinos Theater"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Ornate theaters are some of the most beautiful buildings in the world",
+      "source": "Direct quote from theater application description"
+    },
+    {
+      "claim": "Audio systems must be discreet while maintaining flexibility to meet different requirements",
+      "source": "Direct quote from key challenge description"
+    },
+    {
+      "claim": "Doesn't obstruct the show or disturb the decor",
+      "source": "Direct quote from design considerations"
+    },
+    {
+      "claim": "A symphony of highly intelligible audio solutions",
+      "source": "Direct quote from unique selling proposition"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

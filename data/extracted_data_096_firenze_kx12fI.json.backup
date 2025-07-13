@@ -1,0 +1,130 @@
+{
+  "id": "096",
+  "url": "https://www.k-array.com/en/product/firenze-kx12fI",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "FIRENZE_SERIES",
+    "product_line": "Firenze",
+    "model": "KX12F I",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KX12F I",
+      "Firenze",
+      "coaxial speaker",
+      "point-source"
+    ],
+    "technical": [
+      "woofer",
+      "compression driver",
+      "SPL",
+      "rated power",
+      "impedance",
+      "coverage",
+      "IP54"
+    ],
+    "applications": [
+      "DJ monitoring",
+      "distributed sound systems",
+      "clubs",
+      "dancefloor environments"
+    ],
+    "unique_identifiers": [
+      "kx12fI"
+    ]
+  },
+  "content_sections": {
+    "description": "The KX12F is a coaxial point-source speaker, featuring a 12” woofer and a 1.7” compression driver. This new iteration pushes the iconic KX12 to even greater performance levels, delivering a peak SPL of 134 dB and a rated power of 1200W. It combines immense power with compactness, making it a perfect match for the Firenze family, and fully compatible with the Firenze-KH7P line array. Built with a durable stainless steel cabinet and the signature wide-mesh grille, the KX12F houses an adjustable waveguide that allows for precise vertical and horizontal coverage. This flexibility enables coverage angles to be adjusted from 30° to 90°, providing tailored sound dispersion to suit various venues and applications. Whether used as a standalone speaker or in conjunction with the Firenze-KH7P line array, the KX12F enhances both the frequency response and the overall performance of the system. Its reliability and power make it ideal for high-performance sound applications. It is particularly well-suited for DJ monitoring or distributed sound systems in clubs and dancefloor environments.",
+    "specifications": {
+      "Type": "Point source (Source: \"Type: Point source\")",
+      "Transducers": "Coaxial 12\" woofer + 1.7\" compression driver (Source: \"Transducers: Coaxial 12\" woofer + 1.7\" compression driver\")",
+      "Frequency Response": "121 Hz - 18 kHz (-6dB) (Source: \"Frequency Response: 121 Hz - 18 kHz (-6dB)\")",
+      "Max SPL": "134 dB (peak) (Source: \"Max SPL: 134 dB (peak)\")",
+      "Rated Power": "1200 W (Source: \"Rated Power: 1200 W\")",
+      "Coverage": "User sel. V./H. 30°/90° | 90°/30° (Source: \"Coverage: User sel. V./H. 30°/90° | 90°/30°\")",
+      "Connectors": "2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: 2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+      "Nominal Impedance": "8 Ω (Source: \"Nominal Impedance: 8 Ω\")",
+      "Dimensions (W x H x D)": "351 x 350 x 203 mm (13.8 x 13.8 x 8 in) (Source: \"Dimensions (W x H x D): 351 x 350 x 203 mm (13.8 x 13.8 x 8 in)\")",
+      "Weight": "14 kg (Source: \"Weight: 14 kg\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, Custom RAL (Source: \"Colors: Black, Custom RAL\")",
+      "IP Rating": "IP54 (Source: \"IP Rating: IP54\")"
+    },
+    "accessories": {
+      "Related": [
+        "K-UBRACKETKX12: U-bracket for Dragon-KX12 I - Firenze-KX12F I Wall/Ceiling M... (Source: \"K-UBRACKETKX12 U-bracket for Dragon-KX12 I - Firenze-KX12F I Wall/Ceiling M...\")",
+        "K-JOINTKX12: Adjustable Hardware Kit with Pins To Join Dragon-KX12 I and... (Source: \"K-JOINTKX12 Adjustable Hardware Kit with Pins To Join Dragon-KX12 I and...\")",
+        "K-FLYKX12: Fly Bar with Bumper for Dragon-KX12 I - Firenze-KX12F I Stai... (Source: \"K-FLYKX12 Fly Bar with Bumper for Dragon-KX12 I - Firenze-KX12F I Stai...\")",
+        "K-STEPKX1225: Fixed 25° Angle Joining Hardware to Connect KX12F I to KH7 i... (Source: \"K-STEPKX1225 Fixed 25° Angle Joining Hardware to Connect KX12F I to KH7 i...\")",
+        "K-STEPKX1245: Fixed 45° Angle Joining Hardware to Connect KX12F I to KH7 i... (Source: \"K-STEPKX1245 Fixed 45° Angle Joining Hardware to Connect KX12F I to KH7 i...\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Firenze-KX12F I is a coaxial point-source speaker with a 12” woofer and a 1.7” compression driver. Delivers a peak SPL of 134 dB and a rated power of 1200W. Compact and compatible with Firenze-KH7P line array. Durable stainless steel cabinet with adjustable waveguide for precise vertical and horizontal coverage (30° to 90°). Ideal for DJ monitoring or distributed sound systems in clubs and dancefloor environments. Specifications: Type: Point source. Transducers: Coaxial 12\" woofer + 1.7\" compression driver. Frequency Response: 121 Hz - 18 kHz (-6dB). Max SPL: 134 dB. Rated Power: 1200 W. Coverage: User sel. V./H. 30°/90° | 90°/30°. Connectors: 2 x SpeakOn NL4. Nominal Impedance: 8 Ω. Dimensions: 351 x 350 x 203 mm. Weight: 14 kg. Material: Stainless Steel. Colors: Black, Custom RAL. IP Rating: IP54. Related accessories: K-UBRACKETKX12, K-JOINTKX12, K-FLYKX12, K-STEPKX1225, K-STEPKX1245.",
+    "semantic_chunks": [
+      "Firenze-KX12F I: coaxial point-source speaker with 12” woofer and 1.7” compression driver.",
+      "Performance: Peak SPL 134 dB, rated power 1200W. Compatible with Firenze-KH7P line array.",
+      "Design: Durable stainless steel cabinet, adjustable waveguide (30°-90° coverage).",
+      "Applications: DJ monitoring, distributed sound systems in clubs/dancefloors.",
+      "Specifications: Type: Point source. Transducers: Coaxial 12\" woofer + 1.7\" compression driver. Freq. Response: 121-18 kHz (-6dB). Max SPL: 134 dB. Rated Power: 1200 W. Coverage: V./H. 30°/90° | 90°/30°. Connectors: 2x SpeakOn NL4. Impedance: 8 Ω. Dimensions: 351x350x203 mm. Weight: 14 kg. Material: Stainless Steel. Colors: Black, Custom RAL. IP Rating: IP54.",
+      "Accessories: K-UBRACKETKX12, K-JOINTKX12, K-FLYKX12, K-STEPKX1225, K-STEPKX1245."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Firenze-KX12F I?",
+        "answer": "Coaxial point-source speaker."
+      },
+      {
+        "question": "What transducers does the Firenze-KX12F I have?",
+        "answer": "A 12” woofer and a 1.7” compression driver."
+      },
+      {
+        "question": "What is the peak SPL of the Firenze-KX12F I?",
+        "answer": "134 dB."
+      },
+      {
+        "question": "What is the rated power of the Firenze-KX12F I?",
+        "answer": "1200W."
+      },
+      {
+        "question": "What is the adjustable coverage of the Firenze-KX12F I?",
+        "answer": "Vertical/Horizontal 30°/90° or 90°/30°."
+      },
+      {
+        "question": "What material is the Firenze-KX12F I cabinet made of?",
+        "answer": "Durable stainless steel."
+      },
+      {
+        "question": "What are some applications for the Firenze-KX12F I?",
+        "answer": "DJ monitoring or distributed sound systems in clubs and dancefloor environments."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Firenze-KX12F I: 12\" Coaxial Stainless Steel Array Element - K-array (https://www.k-array.com/en/product/firenze-kx12fI)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

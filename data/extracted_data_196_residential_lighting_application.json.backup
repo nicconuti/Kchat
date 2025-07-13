@@ -1,0 +1,188 @@
+{
+  "id": "196",
+  "url": "https://www.k-array.com/en/application/Residential-Lighting",
+  "timestamp": "2025-07-12T14:05:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "RESIDENTIAL_LIGHTING",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "residential lighting",
+      "track systems",
+      "adjustable projectors",
+      "homes",
+      "integration"
+    ],
+    "technical": [
+      "flexibility",
+      "configurations",
+      "architecture",
+      "elegant design",
+      "adaptability",
+      "control systems"
+    ],
+    "integration": [
+      "Lutron",
+      "Crestron",
+      "Control 4",
+      "design and performance"
+    ],
+    "products": [
+      "Python-KP102 I",
+      "Rumble-KU212",
+      "Vyper-KV52 II",
+      "Kobra-KK52 I",
+      "Pinnacle-KR404P II",
+      "Kommander KA104"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "market_description": "Residential lighting today has seen a rise in the integration of track systems with adjustable projectors inside homes",
+      "key_solution": "Provides flexibility to the spaces, creating configurations that adapt perfectly to the architecture",
+      "design_philosophy": "Emphasizes elegant design and adaptability to control systems"
+    },
+    "recommended_products": [
+      {
+        "product": "Python-KP102 I",
+        "use_case": "Residential audio-lighting integration"
+      },
+      {
+        "product": "Rumble-KU212",
+        "use_case": "Residential subwoofer applications"
+      },
+      {
+        "product": "Vyper-KV52 II",
+        "use_case": "Residential audio systems"
+      },
+      {
+        "product": "Vyper-KV52R II",
+        "use_case": "Residential audio systems"
+      },
+      {
+        "product": "Kobra-KK52 I",
+        "use_case": "Residential column speakers"
+      },
+      {
+        "product": "Kobra-KK102 I",
+        "use_case": "Residential column speakers"
+      },
+      {
+        "product": "Rumble-KU210",
+        "use_case": "Residential subwoofer systems"
+      },
+      {
+        "product": "Pinnacle-KR404P II",
+        "use_case": "High-end residential installations"
+      },
+      {
+        "product": "Kommander series",
+        "models": [
+          "KA104",
+          "KA34",
+          "KA04"
+        ],
+        "use_case": "Residential amplification systems"
+      }
+    ],
+    "installation_scenarios": {
+      "control_compatibility": [
+        "Lutron",
+        "Crestron",
+        "Control 4"
+      ],
+      "integration_focus": "Adapts perfectly to the architecture",
+      "design_priorities": [
+        "Design and performance"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Iceberg House",
+        "description": "A home for an audiophile who regularly invite world-famous DJs to play"
+      },
+      {
+        "name": "Grade II Property",
+        "description": "High-end residential audio solution by Cinch Technology"
+      }
+    ],
+    "market_focus": [
+      "High-end, design-conscious residential markets",
+      "Flexible, architecturally integrated audio-visual solutions",
+      "Advanced control and customization",
+      "Acoustic Challenges in Luxury Residential Spaces"
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "residential lighting track systems adjustable projectors homes integration flexibility configurations adapt perfectly architecture elegant design adaptability control systems Lutron Crestron Control 4 design performance Python-KP102 I Rumble-KU212 Vyper-KV52 II KV52R II Kobra-KK52 I KK102 I Rumble-KU210 Pinnacle-KR404P II Kommander KA104 KA34 KA04 Iceberg House audiophile world-famous DJs Grade II Property Cinch Technology acoustic challenges luxury residential spaces",
+    "semantic_chunks": [
+      "Residential lighting has seen a rise in integration of track systems with adjustable projectors inside homes",
+      "Solutions provide flexibility to spaces, creating configurations that adapt perfectly to the architecture with elegant design",
+      "Compatible with control systems like Lutron, Crestron, Control 4, prioritizing both design and performance",
+      "Product portfolio includes Python-KP102 I, Rumble subwoofers, Vyper series, Kobra speakers, Pinnacle systems, and Kommander amplifiers",
+      "Case studies include Iceberg House (audiophile home with world-famous DJs) and Grade II Property (high-end residential solution)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What trend is seen in residential lighting?",
+        "a": "Residential lighting today has seen a rise in the integration of track systems with adjustable projectors inside homes"
+      },
+      {
+        "q": "What solution does K-Array provide for residential lighting?",
+        "a": "Provides flexibility to the spaces, creating configurations that adapt perfectly to the architecture"
+      },
+      {
+        "q": "What control systems are compatible with K-Array residential solutions?",
+        "a": "Lutron, Crestron, Control 4"
+      },
+      {
+        "q": "What are examples of K-Array residential lighting installations?",
+        "a": "Iceberg House (audiophile home with world-famous DJs) and Grade II Property (high-end residential solution by Cinch Technology)"
+      },
+      {
+        "q": "What market does K-Array target for residential lighting?",
+        "a": "High-end, design-conscious residential markets requiring flexible, architecturally integrated audio-visual solutions"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Residential lighting today has seen a rise in the integration of track systems with adjustable projectors inside homes",
+      "source": "Direct quote from Residential section"
+    },
+    {
+      "claim": "Provides flexibility to the spaces, creating configurations that adapt perfectly to the architecture",
+      "source": "Direct quote from Residential section"
+    },
+    {
+      "claim": "Emphasizes elegant design and adaptability to control systems",
+      "source": "Direct quote from Residential section"
+    },
+    {
+      "claim": "A home for an audiophile who regularly invite world-famous DJs to play",
+      "source": "Direct quote from Iceberg House case study"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

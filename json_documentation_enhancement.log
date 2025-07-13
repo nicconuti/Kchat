@@ -1,0 +1,308 @@
+2025-07-13 15:12:52,579 - __main__ - INFO - 🚀 Starting JSON Documentation Analysis and Enhancement
+2025-07-13 15:12:52,582 - __main__ - INFO - Found 200 JSON files to analyze
+2025-07-13 15:12:53,406 - __main__ - ERROR - Error analyzing data/extracted_data_095_firenze_ks7p.json: 'list' object has no attribute 'get'
+2025-07-13 15:12:54,676 - __main__ - INFO - ✨ Enhancing files with poor documentation...
+2025-07-13 15:12:54,684 - __main__ - INFO - Enhanced extracted_data_010_kommander_ka14.json
+2025-07-13 15:12:54,702 - __main__ - INFO - Enhanced extracted_data_016_kommander_ka68_plus.json
+2025-07-13 15:12:54,713 - __main__ - INFO - Enhanced extracted_data_049_lyzard_kz14.json
+2025-07-13 15:12:54,727 - __main__ - INFO - Enhanced extracted_data_052_lyzard_kz1.json
+2025-07-13 15:12:54,736 - __main__ - INFO - Enhanced extracted_data_054_lyzard_kz14.json
+2025-07-13 15:12:54,747 - __main__ - INFO - Enhanced extracted_data_056_vyper_kv25l.json
+2025-07-13 15:12:54,756 - __main__ - INFO - Enhanced extracted_data_063_vyper_kv25wl.json
+2025-07-13 15:12:54,766 - __main__ - INFO - Enhanced extracted_data_067_azimut_kamut2l14ii.json
+2025-07-13 15:12:54,775 - __main__ - INFO - Enhanced extracted_data_068_azimut_kamut2l.json
+2025-07-13 15:12:54,784 - __main__ - INFO - Enhanced extracted_data_070_azimut_kamut2v25ii.json
+2025-07-13 15:12:54,794 - __main__ - INFO - Enhanced extracted_data_071_azimut_kamut2l1.json
+2025-07-13 15:12:54,805 - __main__ - INFO - Enhanced extracted_data_073_azimut_kamut2v25.json
+2025-07-13 15:12:54,814 - __main__ - INFO - Enhanced extracted_data_074_azimut_kamut2l14.json
+2025-07-13 15:12:54,823 - __main__ - INFO - Enhanced extracted_data_075_rumble_ku44.json
+2025-07-13 15:12:54,832 - __main__ - INFO - Enhanced extracted_data_076_rumble_ku26.json
+2025-07-13 15:12:54,835 - __main__ - INFO - Added documentation section to extracted_data_078_rumble_ku212.json
+2025-07-13 15:12:54,842 - __main__ - INFO - Enhanced extracted_data_078_rumble_ku212.json
+2025-07-13 15:12:54,847 - __main__ - INFO - Added documentation section to extracted_data_079_rumble_ku315.json
+2025-07-13 15:12:54,856 - __main__ - INFO - Enhanced extracted_data_079_rumble_ku315.json
+2025-07-13 15:12:54,859 - __main__ - INFO - Added documentation section to extracted_data_080_rumble_ku44.json
+2025-07-13 15:12:54,866 - __main__ - INFO - Enhanced extracted_data_080_rumble_ku44.json
+2025-07-13 15:12:54,868 - __main__ - INFO - Added documentation section to extracted_data_081_mugello_kh5l.json
+2025-07-13 15:12:54,872 - __main__ - INFO - Enhanced extracted_data_081_mugello_kh5l.json
+2025-07-13 15:12:54,875 - __main__ - INFO - Added documentation section to extracted_data_082_mugello_kh3l.json
+2025-07-13 15:12:54,879 - __main__ - INFO - Enhanced extracted_data_082_mugello_kh3l.json
+2025-07-13 15:12:54,881 - __main__ - INFO - Added documentation section to extracted_data_083_mugello_kh2l.json
+2025-07-13 15:12:54,886 - __main__ - INFO - Enhanced extracted_data_083_mugello_kh2l.json
+2025-07-13 15:12:54,888 - __main__ - INFO - Added documentation section to extracted_data_084_mugello_kh2pl.json
+2025-07-13 15:12:54,895 - __main__ - INFO - Enhanced extracted_data_084_mugello_kh2pl.json
+2025-07-13 15:12:54,901 - __main__ - INFO - Added documentation section to extracted_data_085_mugello_kh5pl.json
+2025-07-13 15:12:54,908 - __main__ - INFO - Enhanced extracted_data_085_mugello_kh5pl.json
+2025-07-13 15:12:54,911 - __main__ - INFO - Added documentation section to extracted_data_086_mugello_kh3pl.json
+2025-07-13 15:12:54,915 - __main__ - INFO - Enhanced extracted_data_086_mugello_kh3pl.json
+2025-07-13 15:12:54,918 - __main__ - INFO - Added documentation section to extracted_data_087_mugello_kh2_i_syst12.json
+2025-07-13 15:12:54,922 - __main__ - INFO - Enhanced extracted_data_087_mugello_kh2_i_syst12.json
+2025-07-13 15:12:54,925 - __main__ - INFO - Added documentation section to extracted_data_088_mugello_kh5.json
+2025-07-13 15:12:54,932 - __main__ - INFO - Enhanced extracted_data_088_mugello_kh5.json
+2025-07-13 15:12:54,935 - __main__ - INFO - Added documentation section to extracted_data_089_mugello_kh2.json
+2025-07-13 15:12:54,941 - __main__ - INFO - Enhanced extracted_data_089_mugello_kh2.json
+2025-07-13 15:12:54,944 - __main__ - INFO - Added documentation section to extracted_data_090_mugello_kh3.json
+2025-07-13 15:12:54,948 - __main__ - INFO - Enhanced extracted_data_090_mugello_kh3.json
+2025-07-13 15:12:54,951 - __main__ - INFO - Added documentation section to extracted_data_091_firenze_kh7.json
+2025-07-13 15:12:54,955 - __main__ - INFO - Enhanced extracted_data_091_firenze_kh7.json
+2025-07-13 15:12:54,957 - __main__ - INFO - Added documentation section to extracted_data_092_firenze_ks7.json
+2025-07-13 15:12:54,966 - __main__ - INFO - Enhanced extracted_data_092_firenze_ks7.json
+2025-07-13 15:12:54,969 - __main__ - INFO - Added documentation section to extracted_data_093_firenze_ks8.json
+2025-07-13 15:12:54,974 - __main__ - INFO - Enhanced extracted_data_093_firenze_ks8.json
+2025-07-13 15:12:54,977 - __main__ - INFO - Added documentation section to extracted_data_094_firenze_kh7p.json
+2025-07-13 15:12:54,981 - __main__ - INFO - Enhanced extracted_data_094_firenze_kh7p.json
+2025-07-13 15:12:54,984 - __main__ - INFO - Added documentation section to extracted_data_096_firenze_kx12fI.json
+2025-07-13 15:12:55,009 - __main__ - INFO - Enhanced extracted_data_096_firenze_kx12fI.json
+2025-07-13 15:12:55,012 - __main__ - INFO - Added documentation section to extracted_data_097_firenze_kh8.json
+2025-07-13 15:12:55,020 - __main__ - INFO - Enhanced extracted_data_097_firenze_kh8.json
+2025-07-13 15:12:55,023 - __main__ - INFO - Added documentation section to extracted_data_098_truffle_ktr26.json
+2025-07-13 15:12:55,029 - __main__ - INFO - Enhanced extracted_data_098_truffle_ktr26.json
+2025-07-13 15:12:55,031 - __main__ - INFO - Added documentation section to extracted_data_099_truffle_ktr24.json
+2025-07-13 15:12:55,038 - __main__ - INFO - Enhanced extracted_data_099_truffle_ktr24.json
+2025-07-13 15:12:55,040 - __main__ - INFO - Added documentation section to extracted_data_100_truffle_ktr25.json
+2025-07-13 15:12:55,050 - __main__ - INFO - Enhanced extracted_data_100_truffle_ktr25.json
+2025-07-13 15:12:55,053 - __main__ - INFO - Added documentation section to extracted_data_101_truffle_ktr24_duplicate.json
+2025-07-13 15:12:55,060 - __main__ - INFO - Enhanced extracted_data_101_truffle_ktr24_duplicate.json
+2025-07-13 15:12:55,064 - __main__ - INFO - Added documentation section to extracted_data_102_kayman_ky102.json
+2025-07-13 15:12:55,068 - __main__ - INFO - Enhanced extracted_data_102_kayman_ky102.json
+2025-07-13 15:12:55,070 - __main__ - INFO - Added documentation section to extracted_data_103_kayman_ky52.json
+2025-07-13 15:12:55,077 - __main__ - INFO - Enhanced extracted_data_103_kayman_ky52.json
+2025-07-13 15:12:55,080 - __main__ - INFO - Added documentation section to extracted_data_104_kayman_ky102_ebs.json
+2025-07-13 15:12:55,087 - __main__ - INFO - Enhanced extracted_data_104_kayman_ky102_ebs.json
+2025-07-13 15:12:55,091 - __main__ - INFO - Added documentation section to extracted_data_105_kayman_ky102_duplicate.json
+2025-07-13 15:12:55,099 - __main__ - INFO - Enhanced extracted_data_105_kayman_ky102_duplicate.json
+2025-07-13 15:12:55,105 - __main__ - INFO - Added documentation section to extracted_data_106_turtle_krm33p.json
+2025-07-13 15:12:55,114 - __main__ - INFO - Enhanced extracted_data_106_turtle_krm33p.json
+2025-07-13 15:12:55,117 - __main__ - INFO - Added documentation section to extracted_data_107_turtle_krm33.json
+2025-07-13 15:12:55,123 - __main__ - INFO - Enhanced extracted_data_107_turtle_krm33.json
+2025-07-13 15:12:55,126 - __main__ - INFO - Added documentation section to extracted_data_109_anakonda_kan200.json
+2025-07-13 15:12:55,133 - __main__ - INFO - Enhanced extracted_data_109_anakonda_kan200.json
+2025-07-13 15:12:55,135 - __main__ - INFO - Added documentation section to extracted_data_110_anakonda_kan200_plus.json
+2025-07-13 15:12:55,145 - __main__ - INFO - Enhanced extracted_data_110_anakonda_kan200_plus.json
+2025-07-13 15:12:55,148 - __main__ - INFO - Added documentation section to extracted_data_111_anakonda_kan200_plus8.json
+2025-07-13 15:12:55,156 - __main__ - INFO - Enhanced extracted_data_111_anakonda_kan200_plus8.json
+2025-07-13 15:12:55,158 - __main__ - INFO - Added documentation section to extracted_data_112_domino_kf26.json
+2025-07-13 15:12:55,165 - __main__ - INFO - Enhanced extracted_data_112_domino_kf26.json
+2025-07-13 15:12:55,168 - __main__ - INFO - Added documentation section to extracted_data_113_domino_kf212.json
+2025-07-13 15:12:55,174 - __main__ - INFO - Enhanced extracted_data_113_domino_kf212.json
+2025-07-13 15:12:55,176 - __main__ - INFO - Added documentation section to extracted_data_114_domino_kf210.json
+2025-07-13 15:12:55,183 - __main__ - INFO - Enhanced extracted_data_114_domino_kf210.json
+2025-07-13 15:12:55,187 - __main__ - INFO - Added documentation section to extracted_data_115_domino_kfc26.json
+2025-07-13 15:12:55,193 - __main__ - INFO - Enhanced extracted_data_115_domino_kfc26.json
+2025-07-13 15:12:55,196 - __main__ - INFO - Added documentation section to extracted_data_116_domino_kf212_duplicate.json
+2025-07-13 15:12:55,203 - __main__ - INFO - Enhanced extracted_data_116_domino_kf212_duplicate.json
+2025-07-13 15:12:55,206 - __main__ - INFO - Added documentation section to extracted_data_117_dragon_kx12i.json
+2025-07-13 15:12:55,213 - __main__ - INFO - Enhanced extracted_data_117_dragon_kx12i.json
+2025-07-13 15:12:55,216 - __main__ - INFO - Added documentation section to extracted_data_118_dragon_kxt12p.json
+2025-07-13 15:12:55,222 - __main__ - INFO - Enhanced extracted_data_118_dragon_kxt12p.json
+2025-07-13 15:12:55,224 - __main__ - INFO - Added documentation section to extracted_data_119_dragon_kxt18p.json
+2025-07-13 15:12:55,230 - __main__ - INFO - Enhanced extracted_data_119_dragon_kxt18p.json
+2025-07-13 15:12:55,233 - __main__ - INFO - Added documentation section to extracted_data_120_mastiff_km312.json
+2025-07-13 15:12:55,239 - __main__ - INFO - Enhanced extracted_data_120_mastiff_km312.json
+2025-07-13 15:12:55,242 - __main__ - INFO - Added documentation section to extracted_data_121_mastiff_km112.json
+2025-07-13 15:12:55,250 - __main__ - INFO - Enhanced extracted_data_121_mastiff_km112.json
+2025-07-13 15:12:55,252 - __main__ - INFO - Added documentation section to extracted_data_122_mastiff_km112p.json
+2025-07-13 15:12:55,263 - __main__ - INFO - Enhanced extracted_data_122_mastiff_km112p.json
+2025-07-13 15:12:55,264 - __main__ - INFO - Added documentation section to extracted_data_123_mastiff_km312p.json
+2025-07-13 15:12:55,271 - __main__ - INFO - Enhanced extracted_data_123_mastiff_km312p.json
+2025-07-13 15:12:55,273 - __main__ - INFO - Added documentation section to extracted_data_124_pinnacle_kr102_i.json
+2025-07-13 15:12:55,279 - __main__ - INFO - Enhanced extracted_data_124_pinnacle_kr102_i.json
+2025-07-13 15:12:55,283 - __main__ - INFO - Added documentation section to extracted_data_125_pinnacle_kr402_i.json
+2025-07-13 15:12:55,289 - __main__ - INFO - Enhanced extracted_data_125_pinnacle_kr402_i.json
+2025-07-13 15:12:55,291 - __main__ - INFO - Added documentation section to extracted_data_126_pinnacle_kr202_i.json
+2025-07-13 15:12:55,298 - __main__ - INFO - Enhanced extracted_data_126_pinnacle_kr202_i.json
+2025-07-13 15:12:55,301 - __main__ - INFO - Added documentation section to extracted_data_127_pinnacle_kr802ypii.json
+2025-07-13 15:12:55,307 - __main__ - INFO - Enhanced extracted_data_127_pinnacle_kr802ypii.json
+2025-07-13 15:12:55,310 - __main__ - INFO - Added documentation section to extracted_data_128_pinnacle_kr102_ll.json
+2025-07-13 15:12:55,318 - __main__ - INFO - Enhanced extracted_data_128_pinnacle_kr102_ll.json
+2025-07-13 15:12:55,320 - __main__ - INFO - Added documentation section to extracted_data_129_pinnacle_kr202_ii.json
+2025-07-13 15:12:55,336 - __main__ - INFO - Enhanced extracted_data_129_pinnacle_kr202_ii.json
+2025-07-13 15:12:55,341 - __main__ - INFO - Added documentation section to extracted_data_130_pinnacle_kr402_ii.json
+2025-07-13 15:12:55,350 - __main__ - INFO - Enhanced extracted_data_130_pinnacle_kr402_ii.json
+2025-07-13 15:12:55,353 - __main__ - INFO - Added documentation section to extracted_data_131_pinnacle_kr802.json
+2025-07-13 15:12:55,361 - __main__ - INFO - Enhanced extracted_data_131_pinnacle_kr802.json
+2025-07-13 15:12:55,364 - __main__ - INFO - Added documentation section to extracted_data_132_pinnacle_kr804p_ii.json
+2025-07-13 15:12:55,371 - __main__ - INFO - Enhanced extracted_data_132_pinnacle_kr804p_ii.json
+2025-07-13 15:12:55,374 - __main__ - INFO - Added documentation section to extracted_data_133_pinnacle_kr802_ii.json
+2025-07-13 15:12:55,381 - __main__ - INFO - Enhanced extracted_data_133_pinnacle_kr802_ii.json
+2025-07-13 15:12:55,386 - __main__ - INFO - Added documentation section to extracted_data_134_pinnacle_kr404p_ii.json
+2025-07-13 15:12:55,393 - __main__ - INFO - Enhanced extracted_data_134_pinnacle_kr404p_ii.json
+2025-07-13 15:12:55,397 - __main__ - INFO - Added documentation section to extracted_data_135_pinnacle_kr402ypii.json
+2025-07-13 15:12:55,403 - __main__ - INFO - Enhanced extracted_data_135_pinnacle_kr402ypii.json
+2025-07-13 15:12:55,406 - __main__ - INFO - Added documentation section to extracted_data_136_pinnacle_k_foh2.json
+2025-07-13 15:12:55,414 - __main__ - INFO - Enhanced extracted_data_136_pinnacle_k_foh2.json
+2025-07-13 15:12:55,417 - __main__ - INFO - Added documentation section to extracted_data_137_dolomite_krd202p.json
+2025-07-13 15:12:55,425 - __main__ - INFO - Enhanced extracted_data_137_dolomite_krd202p.json
+2025-07-13 15:12:55,429 - __main__ - INFO - Added documentation section to extracted_data_138_prisma_kpr00_plus.json
+2025-07-13 15:12:55,435 - __main__ - INFO - Enhanced extracted_data_138_prisma_kpr00_plus.json
+2025-07-13 15:12:55,438 - __main__ - INFO - Added documentation section to extracted_data_139_prisma_kpra14_plus.json
+2025-07-13 15:12:55,442 - __main__ - INFO - Enhanced extracted_data_139_prisma_kpra14_plus.json
+2025-07-13 15:12:55,444 - __main__ - INFO - Added documentation section to extracted_data_140_prisma_kpra34_plus.json
+2025-07-13 15:12:55,448 - __main__ - INFO - Enhanced extracted_data_140_prisma_kpra34_plus.json
+2025-07-13 15:12:55,451 - __main__ - INFO - Added documentation section to extracted_data_141_capture_kmc20.json
+2025-07-13 15:12:55,455 - __main__ - INFO - Enhanced extracted_data_141_capture_kmc20.json
+2025-07-13 15:12:55,458 - __main__ - INFO - Added documentation section to extracted_data_142_capture_kmc20h.json
+2025-07-13 15:12:55,462 - __main__ - INFO - Enhanced extracted_data_142_capture_kmc20h.json
+2025-07-13 15:12:55,465 - __main__ - INFO - Added documentation section to extracted_data_143_capture_kmc20v.json
+2025-07-13 15:12:55,469 - __main__ - INFO - Enhanced extracted_data_143_capture_kmc20v.json
+2025-07-13 15:12:55,471 - __main__ - INFO - Added documentation section to extracted_data_144_capture_kmc50.json
+2025-07-13 15:12:55,475 - __main__ - INFO - Enhanced extracted_data_144_capture_kmc50.json
+2025-07-13 15:12:55,477 - __main__ - INFO - Added documentation section to extracted_data_145_duetto_kd6t.json
+2025-07-13 15:12:55,480 - __main__ - INFO - Enhanced extracted_data_145_duetto_kd6t.json
+2025-07-13 15:12:55,490 - __main__ - INFO - Added documentation section to extracted_data_146_duetto_kd6b.json
+2025-07-13 15:12:55,498 - __main__ - INFO - Enhanced extracted_data_146_duetto_kd6b.json
+2025-07-13 15:12:55,501 - __main__ - INFO - Added documentation section to extracted_data_147_duetto_kd6bt.json
+2025-07-13 15:12:55,505 - __main__ - INFO - Enhanced extracted_data_147_duetto_kd6bt.json
+2025-07-13 15:12:55,509 - __main__ - INFO - Added documentation section to extracted_data_148_axle_krx402.json
+2025-07-13 15:12:55,517 - __main__ - INFO - Enhanced extracted_data_148_axle_krx402.json
+2025-07-13 15:12:55,520 - __main__ - INFO - Added documentation section to extracted_data_149_axle_krx802.json
+2025-07-13 15:12:55,528 - __main__ - INFO - Enhanced extracted_data_149_axle_krx802.json
+2025-07-13 15:12:55,534 - __main__ - INFO - Added documentation section to extracted_data_150_event_krev101.json
+2025-07-13 15:12:55,538 - __main__ - INFO - Enhanced extracted_data_150_event_krev101.json
+2025-07-13 15:12:55,541 - __main__ - INFO - Added documentation section to extracted_data_151_kk50.json
+2025-07-13 15:12:55,548 - __main__ - INFO - Enhanced extracted_data_151_kk50.json
+2025-07-13 15:12:55,557 - __main__ - INFO - Added documentation section to extracted_data_152_kn10s.json
+2025-07-13 15:12:55,561 - __main__ - INFO - Enhanced extracted_data_152_kn10s.json
+2025-07-13 15:12:55,563 - __main__ - INFO - Added documentation section to extracted_data_155_lyzard_line.json
+2025-07-13 15:12:55,571 - __main__ - INFO - Enhanced extracted_data_155_lyzard_line.json
+2025-07-13 15:12:55,574 - __main__ - INFO - Added documentation section to extracted_data_156_vyper_line.json
+2025-07-13 15:12:55,581 - __main__ - INFO - Enhanced extracted_data_156_vyper_line.json
+2025-07-13 15:12:55,584 - __main__ - INFO - Added documentation section to extracted_data_157_anakonda_line.json
+2025-07-13 15:12:55,592 - __main__ - INFO - Enhanced extracted_data_157_anakonda_line.json
+2025-07-13 15:12:55,595 - __main__ - INFO - Added documentation section to extracted_data_158_tornado_line.json
+2025-07-13 15:12:55,604 - __main__ - INFO - Enhanced extracted_data_158_tornado_line.json
+2025-07-13 15:12:55,607 - __main__ - INFO - Added documentation section to extracted_data_159_kobra_line.json
+2025-07-13 15:12:55,617 - __main__ - INFO - Enhanced extracted_data_159_kobra_line.json
+2025-07-13 15:12:55,620 - __main__ - INFO - Added documentation section to extracted_data_160_python_line.json
+2025-07-13 15:12:55,637 - __main__ - INFO - Enhanced extracted_data_160_python_line.json
+2025-07-13 15:12:55,643 - __main__ - INFO - Added documentation section to extracted_data_161_kayman_line.json
+2025-07-13 15:12:55,658 - __main__ - INFO - Enhanced extracted_data_161_kayman_line.json
+2025-07-13 15:12:55,669 - __main__ - INFO - Added documentation section to extracted_data_162_domino_line.json
+2025-07-13 15:12:55,679 - __main__ - INFO - Enhanced extracted_data_162_domino_line.json
+2025-07-13 15:12:55,689 - __main__ - INFO - Added documentation section to extracted_data_163_dragon_line.json
+2025-07-13 15:12:55,709 - __main__ - INFO - Enhanced extracted_data_163_dragon_line.json
+2025-07-13 15:12:55,714 - __main__ - INFO - Added documentation section to extracted_data_164_mugello_line.json
+2025-07-13 15:12:55,723 - __main__ - INFO - Enhanced extracted_data_164_mugello_line.json
+2025-07-13 15:12:55,727 - __main__ - INFO - Added documentation section to extracted_data_165_firenze_line.json
+2025-07-13 15:12:55,735 - __main__ - INFO - Enhanced extracted_data_165_firenze_line.json
+2025-07-13 15:12:55,738 - __main__ - INFO - Added documentation section to extracted_data_166_rumble_line.json
+2025-07-13 15:12:55,747 - __main__ - INFO - Enhanced extracted_data_166_rumble_line.json
+2025-07-13 15:12:55,749 - __main__ - INFO - Added documentation section to extracted_data_167_truffle_line.json
+2025-07-13 15:12:55,760 - __main__ - INFO - Enhanced extracted_data_167_truffle_line.json
+2025-07-13 15:12:55,765 - __main__ - INFO - Added documentation section to extracted_data_168_thunder_line.json
+2025-07-13 15:12:55,775 - __main__ - INFO - Enhanced extracted_data_168_thunder_line.json
+2025-07-13 15:12:55,778 - __main__ - INFO - Added documentation section to extracted_data_169_azimut_line.json
+2025-07-13 15:12:55,785 - __main__ - INFO - Enhanced extracted_data_169_azimut_line.json
+2025-07-13 15:12:55,788 - __main__ - INFO - Added documentation section to extracted_data_170_dolomite_line.json
+2025-07-13 15:12:55,796 - __main__ - INFO - Enhanced extracted_data_170_dolomite_line.json
+2025-07-13 15:12:55,798 - __main__ - INFO - Added documentation section to extracted_data_171_pinnacle_line.json
+2025-07-13 15:12:55,807 - __main__ - INFO - Enhanced extracted_data_171_pinnacle_line.json
+2025-07-13 15:12:55,809 - __main__ - INFO - Added documentation section to extracted_data_172_turtle_line.json
+2025-07-13 15:12:55,818 - __main__ - INFO - Enhanced extracted_data_172_turtle_line.json
+2025-07-13 15:12:55,823 - __main__ - INFO - Added documentation section to extracted_data_173_mastiff_line.json
+2025-07-13 15:12:55,831 - __main__ - INFO - Enhanced extracted_data_173_mastiff_line.json
+2025-07-13 15:12:55,833 - __main__ - INFO - Added documentation section to extracted_data_174_prisma_line.json
+2025-07-13 15:12:55,845 - __main__ - INFO - Enhanced extracted_data_174_prisma_line.json
+2025-07-13 15:12:55,847 - __main__ - INFO - Added documentation section to extracted_data_175_kommander_line.json
+2025-07-13 15:12:55,856 - __main__ - INFO - Enhanced extracted_data_175_kommander_line.json
+2025-07-13 15:12:55,858 - __main__ - INFO - Added documentation section to extracted_data_176_capture_line.json
+2025-07-13 15:12:55,867 - __main__ - INFO - Enhanced extracted_data_176_capture_line.json
+2025-07-13 15:12:55,872 - __main__ - INFO - Added documentation section to extracted_data_177_duetto_line.json
+2025-07-13 15:12:55,880 - __main__ - INFO - Enhanced extracted_data_177_duetto_line.json
+2025-07-13 15:12:55,884 - __main__ - INFO - Added documentation section to extracted_data_178_fitness_wellness_application.json
+2025-07-13 15:12:55,897 - __main__ - INFO - Enhanced extracted_data_178_fitness_wellness_application.json
+2025-07-13 15:12:55,910 - __main__ - INFO - Added documentation section to extracted_data_179_cafes_restaurants_application.json
+2025-07-13 15:12:55,918 - __main__ - INFO - Enhanced extracted_data_179_cafes_restaurants_application.json
+2025-07-13 15:12:55,930 - __main__ - INFO - Added documentation section to extracted_data_180_museums_exhibitions_application.json
+2025-07-13 15:12:55,939 - __main__ - INFO - Enhanced extracted_data_180_museums_exhibitions_application.json
+2025-07-13 15:12:55,944 - __main__ - INFO - Added documentation section to extracted_data_181_large_congregations_application.json
+2025-07-13 15:12:55,959 - __main__ - INFO - Enhanced extracted_data_181_large_congregations_application.json
+2025-07-13 15:12:55,963 - __main__ - INFO - Added documentation section to extracted_data_182_theme_parks_application.json
+2025-07-13 15:12:55,975 - __main__ - INFO - Enhanced extracted_data_182_theme_parks_application.json
+2025-07-13 15:12:55,980 - __main__ - INFO - Added documentation section to extracted_data_183_houses_worship_application.json
+2025-07-13 15:12:55,991 - __main__ - INFO - Enhanced extracted_data_183_houses_worship_application.json
+2025-07-13 15:12:55,995 - __main__ - INFO - Added documentation section to extracted_data_184_nightclubs_application.json
+2025-07-13 15:12:56,007 - __main__ - INFO - Enhanced extracted_data_184_nightclubs_application.json
+2025-07-13 15:12:56,010 - __main__ - INFO - Added documentation section to extracted_data_185_event_productions_application.json
+2025-07-13 15:12:56,028 - __main__ - INFO - Enhanced extracted_data_185_event_productions_application.json
+2025-07-13 15:12:56,033 - __main__ - INFO - Added documentation section to extracted_data_186_retail_application.json
+2025-07-13 15:12:56,042 - __main__ - INFO - Enhanced extracted_data_186_retail_application.json
+2025-07-13 15:12:56,045 - __main__ - INFO - Added documentation section to extracted_data_187_broadcast_studios_application.json
+2025-07-13 15:12:56,054 - __main__ - INFO - Enhanced extracted_data_187_broadcast_studios_application.json
+2025-07-13 15:12:56,058 - __main__ - INFO - Added documentation section to extracted_data_188_transportation_facilities_application.json
+2025-07-13 15:12:56,065 - __main__ - INFO - Enhanced extracted_data_188_transportation_facilities_application.json
+2025-07-13 15:12:56,067 - __main__ - INFO - Added documentation section to extracted_data_189_theaters_application.json
+2025-07-13 15:12:56,080 - __main__ - INFO - Enhanced extracted_data_189_theaters_application.json
+2025-07-13 15:12:56,084 - __main__ - INFO - Added documentation section to extracted_data_190_stadium_sport_venues_application.json
+2025-07-13 15:12:56,092 - __main__ - INFO - Enhanced extracted_data_190_stadium_sport_venues_application.json
+2025-07-13 15:12:56,103 - __main__ - INFO - Added documentation section to extracted_data_191_hotels_resorts_application.json
+2025-07-13 15:12:56,111 - __main__ - INFO - Enhanced extracted_data_191_hotels_resorts_application.json
+2025-07-13 15:12:56,117 - __main__ - INFO - Added documentation section to extracted_data_192_concerts_live_events_application.json
+2025-07-13 15:12:56,130 - __main__ - INFO - Enhanced extracted_data_192_concerts_live_events_application.json
+2025-07-13 15:12:56,141 - __main__ - INFO - Added documentation section to extracted_data_193_boardrooms_application.json
+2025-07-13 15:12:56,148 - __main__ - INFO - Enhanced extracted_data_193_boardrooms_application.json
+2025-07-13 15:12:56,157 - __main__ - INFO - Added documentation section to extracted_data_194_auditoriums_concert_halls_application.json
+2025-07-13 15:12:56,165 - __main__ - INFO - Enhanced extracted_data_194_auditoriums_concert_halls_application.json
+2025-07-13 15:12:56,168 - __main__ - INFO - Added documentation section to extracted_data_195_residential_application.json
+2025-07-13 15:12:56,178 - __main__ - INFO - Enhanced extracted_data_195_residential_application.json
+2025-07-13 15:12:56,183 - __main__ - INFO - Added documentation section to extracted_data_196_residential_lighting_application.json
+2025-07-13 15:12:56,192 - __main__ - INFO - Enhanced extracted_data_196_residential_lighting_application.json
+2025-07-13 15:12:56,196 - __main__ - INFO - Added documentation section to extracted_data_197_museum_exhibitions_lighting_application.json
+2025-07-13 15:12:56,207 - __main__ - INFO - Enhanced extracted_data_197_museum_exhibitions_lighting_application.json
+2025-07-13 15:12:56,212 - __main__ - INFO - Added documentation section to extracted_data_198_hospitality_lighting_application.json
+2025-07-13 15:12:56,222 - __main__ - INFO - Enhanced extracted_data_198_hospitality_lighting_application.json
+2025-07-13 15:12:56,226 - __main__ - INFO - Added documentation section to extracted_data_199_corporate_lighting_application.json
+2025-07-13 15:12:56,233 - __main__ - INFO - Enhanced extracted_data_199_corporate_lighting_application.json
+2025-07-13 15:12:56,236 - __main__ - INFO - Added documentation section to extracted_data_200_retail_lighting_application.json
+2025-07-13 15:12:56,243 - __main__ - INFO - Enhanced extracted_data_200_retail_lighting_application.json
+2025-07-13 15:12:56,244 - __main__ - INFO - 
+📊 K-Array JSON Documentation Quality Analysis Report
+============================================================
+
+📈 Quality Distribution:
+- Excellent: 33 (16.5%)
+- Good: 9 (4.5%)
+- Fair: 23 (11.5%)
+- Basic: 14 (7.0%)
+- Poor: 1 (0.5%)
+- None: 119 (59.5%)
+- Errors: 1 (0.5%)
+
+🔍 Files Analyzed: 199
+✨ Files Enhanced: 134
+
+📋 Most Common Issues:
+- Missing entire documentation section: 119 files
+
+📊 Quality by Product Line:
+- Anakonda: 0/4 (0.0%) good quality
+- Axle: 0/2 (0.0%) good quality
+- Azimut: 2/9 (22.2%) good quality
+- Capture: 0/5 (0.0%) good quality
+- Dolomite: 0/2 (0.0%) good quality
+- Domino: 0/6 (0.0%) good quality
+- Dragon: 0/4 (0.0%) good quality
+- Duetto: 0/4 (0.0%) good quality
+- Event: 0/1 (0.0%) good quality
+- Firenze: 0/7 (0.0%) good quality
+- K-RACK: 1/1 (100.0%) good quality
+- K-array: 0/1 (0.0%) good quality
+- KTL: 1/1 (100.0%) good quality
+- Kayman: 0/5 (0.0%) good quality
+- Kobra: 2/4 (50.0%) good quality
+- Kommander: 2/21 (9.5%) good quality
+- Lyzard: 4/8 (50.0%) good quality
+- Mastiff: 0/5 (0.0%) good quality
+- Mugello: 0/11 (0.0%) good quality
+- Pinnacle: 0/14 (0.0%) good quality
+- Prisma: 0/4 (0.0%) good quality
+- Python: 2/3 (66.7%) good quality
+- Rumble: 1/7 (14.3%) good quality
+- Thunder: 14/22 (63.6%) good quality
+- Tornado: 2/3 (66.7%) good quality
+- Truffle: 1/6 (16.7%) good quality
+- Turtle: 0/3 (0.0%) good quality
+- Unknown: 0/24 (0.0%) good quality
+- Vyper: 10/13 (76.9%) good quality
+
+2025-07-13 15:12:56,251 - __main__ - INFO - 📄 Detailed report saved to: data/documentation_quality_report.md

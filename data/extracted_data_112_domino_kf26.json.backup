@@ -1,0 +1,144 @@
+{
+  "id": "112",
+  "url": "https://www.k-array.com/en/product/domino-kf26",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DOMINO_SERIES",
+    "product_line": "Domino",
+    "model": "KF26",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KF26",
+      "Domino",
+      "full-range speaker",
+      "passive"
+    ],
+    "technical": [
+      "neodymium magnet woofer",
+      "passive radiator",
+      "frequency response",
+      "sensitivity",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP64",
+      "IP65"
+    ],
+    "applications": [
+      "smaller installations"
+    ],
+    "unique_identifiers": [
+      "kf26"
+    ]
+  },
+  "content_sections": {
+    "description": "The Domino-KF26 is the smallest of the full-range Domino line measuring a depth of less than 12 cm. Compact and discreet, the Domino-KF26 is a stainless steel speaker with plug-and-play capabilities and it is the perfect solution for applications with subwoofer restrictions. The Domino-KF26 doesn't require a dedicated preset and it can be driven by any amplifier. Designed as a passive speaker, the Domino-KF26 can be transformed into a self-powered speaker just by inserting the specific amplifier accessory. With a peak SPL of 115dB, the KF26 is ideal for smaller installations that require high quality in a practical, compact form.",
+    "specifications": {
+      "Type": "Point source (Source: \"Type: Point source\")",
+      "Transducers": "6\" neodymium magnet woofer, 2\" neodymium magnet woofer, 6\" passive radiator (Source: \"Transducers: 6\" neodymium magnet woofer 2\" neodymium magnet woofer 6\" passive radiator\")",
+      "Frequency Response": "50 Hz - 19 kHz (-6 dB) (Source: \"Frequency Response: 50 Hz - 19 kHz (-6 dB)\")",
+      "Sensitivity (1W/1m)": "90 dB (Source: \"Sensitivity (1W/1m): 90 dB\")",
+      "Max SPL": "115 dB (peak) (Source: \"Max SPL: 115 dB (peak)\")",
+      "Rated Power": "160 W (Source: \"Rated Power: 160 W\")",
+      "Coverage": "V. 90° | H. 90° (Source: \"Coverage: V. 90° | H. 90°\")",
+      "Connectors": "4PIN euroblock connector (included) (Source: \"Connectors: 4PIN euroblock connector (included)\")",
+      "Nominal Impedance": "8 Ω / 32 Ω selectable (Source: \"Nominal Impedance: 8 Ω / 32 Ω selectable\")",
+      "Dimensions (W x H x D)": "180 x 350 x 118 mm (7.1 x 13.8 x 4.6 in) (Source: \"Dimensions (W x H x D): 180 x 350 x 118 mm (7.1 x 13.8 x 4.6 in)\")",
+      "Weight": "6.5 kg (14.3 lb) (Source: \"Weight: 6.5 kg (14.3 lb)\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "Finishes": "24K Gold, Polished, Brushed (Source: \"Finishes: 24K Gold, Polished, Brushed\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\"), IP65 (KFC26M or with K-KUIP accessory) (Source: \"IP65 (KFC26M or with K-KUIP accessory)\")"
+    },
+    "models": {
+      "Standard": [
+        "KF26 black model (Source: \"KF26 black model\")",
+        "KF26W white model (Source: \"KF26W white model\")",
+        "KF26X customizable color and finish (box + grille) (Source: \"KF26X customizable color and finish (box + grille)\")"
+      ],
+      "Marine Treated": [
+        "KFC26M (Source: \"KFC26M\")",
+        "KFC26MW (Source: \"KFC26MW\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Domino-KF26 is the smallest full-range Domino line speaker, less than 12 cm deep. Compact, discreet, stainless steel, plug-and-play. Ideal for applications with subwoofer restrictions. Doesn't require dedicated preset, can be driven by any amplifier. Passive, can be self-powered with amplifier accessory. Peak SPL of 115dB. Ideal for smaller installations requiring high quality in a practical, compact form. Specifications: Type: Point source. Transducers: 6\" neodymium magnet woofer, 2\" neodymium magnet woofer, 6\" passive radiator. Frequency Response: 50 Hz - 19 kHz (-6 dB). Sensitivity: 90 dB. Max SPL: 115 dB (peak). Rated Power: 160 W. Coverage: V. 90° | H. 90°. Connectors: 4PIN euroblock. Nominal Impedance: 8 Ω / 32 Ω selectable. Dimensions: 180 x 350 x 118 mm. Weight: 6.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64, IP65 (KFC26M or with K-KUIP). Models: KF26 black, KF26W white, KF26X customizable. Marine Treated: KFC26M, KFC26MW.",
+    "semantic_chunks": [
+      "Domino-KF26: smallest full-range Domino speaker, <12cm deep. Compact, discreet, stainless steel, plug-and-play. For subwoofer-restricted applications.",
+      "Features: No dedicated preset needed, works with any amplifier. Passive, can be self-powered with accessory. Peak SPL 115dB. For small installations needing high quality in compact form.",
+      "Specifications: Type: Point source. Transducers: 6\" neodymium woofer, 2\" neodymium woofer, 6\" passive radiator. Freq. Response: 50-19 kHz (-6 dB). Sensitivity: 90 dB. Max SPL: 115 dB. Rated Power: 160 W. Coverage: V. 90° | H. 90°. Connectors: 4PIN euroblock. Impedance: 8Ω/32Ω selectable. Dimensions: 180x350x118 mm. Weight: 6.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64, IP65 (KFC26M/K-KUIP).",
+      "Models: KF26 (black), KF26W (white), KF26X (custom). Marine Treated: KFC26M, KFC26MW."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Domino-KF26?",
+        "answer": "Full-range Compact passive Speaker / Point source."
+      },
+      {
+        "question": "What are the dimensions of the Domino-KF26?",
+        "answer": "Less than 12 cm depth / 180 x 350 x 118 mm (7.1 x 13.8 x 4.6 in)."
+      },
+      {
+        "question": "What is the peak SPL of the Domino-KF26?",
+        "answer": "115dB."
+      },
+      {
+        "question": "What transducers does the Domino-KF26 have?",
+        "answer": "6\" neodymium magnet woofer, 2\" neodymium magnet woofer, 6\" passive radiator."
+      },
+      {
+        "question": "What is the frequency response of the Domino-KF26?",
+        "answer": "50 Hz - 19 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the rated power of the Domino-KF26?",
+        "answer": "160 W."
+      },
+      {
+        "question": "What is the nominal impedance of the Domino-KF26?",
+        "answer": "8 Ω / 32 Ω selectable."
+      },
+      {
+        "question": "What is the IP rating of the Domino-KF26?",
+        "answer": "IP64, IP65 (KFC26M or with K-KUIP accessory)."
+      },
+      {
+        "question": "What material is the Domino-KF26 made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What color and finish options are available for the Domino-KF26?",
+        "answer": "Black, White, Custom RAL colors, with 24K Gold, Polished, or Brushed finishes."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Domino-KF26: Full-range Compact passive Speakers with ... - K-array (https://www.k-array.com/en/product/domino-kf26)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

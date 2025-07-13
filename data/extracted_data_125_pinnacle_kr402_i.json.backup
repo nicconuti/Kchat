@@ -1,0 +1,118 @@
+{
+  "id": "125",
+  "url": "https://www.k-array.com/en/product/pinnacle-kr402-i",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PINNACLE_SERIES",
+    "product_line": "Pinnacle",
+    "model": "KR402-I",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": [
+      "KR402-I",
+      "Pinnacle",
+      "portable system",
+      "high-tech",
+      "medium-format"
+    ],
+    "technical": [
+      "Thunder-KMT21 I subwoofer",
+      "Python-KP102 I mid-high line array elements",
+      "neodymium magnet transducers",
+      "Class D amplifier",
+      "frequency response",
+      "power"
+    ],
+    "applications": [
+      "theaters",
+      "auditoriums",
+      "concerts",
+      "live events"
+    ],
+    "unique_identifiers": [
+      "kr402i"
+    ]
+  },
+  "content_sections": {
+    "description": "The Pinnacle-KR402 I is an innovative and compact, ultra-light powered portable system in a stereo configuration. Each side of the system includes one Thunder-KMT21 I subwoofer with two channels of 2400W, matched with two Python-KP102 I mid-high line array elements, each containing 12 x 3.15\" neodymium magnet transducers. The system is designed for fast setup and optimal mechanical stability, making it suitable for applications such as theaters, auditoriums, concerts, and live events. The product is listed as \"DISCONTINUED\".",
+    "specifications": {
+      "Type": "High-Tech, Medium-Format Portable System (Source: \"Pinnacle-KR402 I: High-Tech, Medium-Format Portable ... - K-array\")",
+      "Status": "DISCONTINUED (Source: \"The product is listed as \"DISCONTINUED\".\")",
+      "Components": "one Thunder-KMT21 I subwoofer with two channels of 2400W, matched with two Python-KP102 I mid-high line array elements, each containing 12 x 3.15\" neodymium magnet transducers (Source: \"Each side of the system includes one Thunder-KMT21 I subwoofer with two channels of 2400W, matched with two Python-KP102 I mid-high line array elements, each containing 12 x 3.15\" neodymium magnet transducers.\")"
+    },
+    "accessories": {
+      "Discontinued": [
+        "K-USB: USB-RS485 Interface (Source: \"K-USB (USB-RS485 Interface)\")",
+        "K-WHEEL: Set of 4 wheels for Thunder subwoofers (Source: \"K-WHEEL (Set of 4 wheels for Thunder subwoofers)\")",
+        "K-DANTE: Dante networking technology (Source: \"K-DANTE (Dante networking technology)\")",
+        "K-WHEELB: Set of 4 wheels with brake for KMT subwoofers (Source: \"K-WHEELB (Set of 4 wheels with brake for KMT subwoofers)\")"
+      ],
+      "Other": [
+        "K-IP65KITB: Weatherproof rubber protection for NL4 connectors (Source: \"K-IP65KITB (Weatherproof rubber protection for NL4 connectors)\")",
+        "K-WALL2: Wall mount brace (Source: \"K-WALL2 (Wall mount brace)\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Pinnacle-KR402 I is a DISCONTINUED innovative, compact, ultra-light powered portable system in stereo. Each side includes one Thunder-KMT21 I subwoofer (2x2400W channels) and two Python-KP102 I mid-high line array elements (12x 3.15\" neodymium transducers each). Designed for fast setup and mechanical stability. Suitable for theaters, auditoriums, concerts, live events. Discontinued accessories: K-USB, K-WHEEL, K-DANTE, K-WHEELB. Other accessories: K-IP65KITB, K-WALL2.",
+    "semantic_chunks": [
+      "Pinnacle-KR402 I: DISCONTINUED innovative, compact, ultra-light powered portable stereo system.",
+      "Components: Per side: Thunder-KMT21 I subwoofer (2x2400W), two Python-KP102 I mid-high line array (12x 3.15\" neodymium transducers each).",
+      "Design: Fast setup, optimal mechanical stability. For theaters, auditoriums, concerts, live events.",
+      "Accessories: Discontinued (K-USB, K-WHEEL, K-DANTE, K-WHEELB). Other (K-IP65KITB, K-WALL2)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Pinnacle-KR402 I?",
+        "answer": "High-Tech, Medium-Format Portable System."
+      },
+      {
+        "question": "What is the status of the Pinnacle-KR402 I?",
+        "answer": "DISCONTINUED."
+      },
+      {
+        "question": "What components are included in each side of the Pinnacle-KR402 I system?",
+        "answer": "One Thunder-KMT21 I subwoofer with two channels of 2400W, matched with two Python-KP102 I mid-high line array elements, each containing 12 x 3.15\" neodymium magnet transducers."
+      },
+      {
+        "question": "What are some applications for the Pinnacle-KR402 I?",
+        "answer": "Theaters, auditoriums, concerts, and live events."
+      },
+      {
+        "question": "What are some discontinued accessories for the Pinnacle-KR402 I?",
+        "answer": "K-USB, K-WHEEL, K-DANTE, K-WHEELB."
+      },
+      {
+        "question": "What are some other accessories for the Pinnacle-KR402 I?",
+        "answer": "K-IP65KITB, K-WALL2."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Pinnacle-KR402 I: High-Tech, Medium-Format Portable ... - K-array (https://www.k-array.com/en/product/pinnacle-kr402-i)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

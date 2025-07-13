@@ -1,0 +1,63 @@
+{
+  "id": "086",
+  "url": "https://www.k-array.com/en/product/mugello-kh3pl",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH3PL",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KH3PL", "Mugello", "line array", "speaker", "passive"],
+    "technical": ["neodymium magnet woofers", "compression drivers", "Slim Array Technology", "Electronic Beam Steering", "frequency response", "max SPL", "rated power", "impedance", "coverage", "IP54"],
+    "applications": ["large-scale concerts", "live events"]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH3P I is an incredibly flat and lightweight passive speaker, a revolutionary compact line array element for large-scale concerts and live events. It features two 12” neodymium magnet woofers and two compression drivers. The speaker utilizes Slim Array Technology for improved impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, which, along with mechanical steering, enables digital adjustment of sound beam dispersion for precise sound field aiming.",
+    "specifications": {
+      "Type": "Passive line array element (Source: "Type: Passive line array element")",
+      "Transducers": "2x 12” neodymium magnet woofer, 2x compression driver (Source: "Transducers: 2x 12” neodymium magnet woofer, 2x compression driver")",
+      "Frequency Response": "120 Hz – 19 kHz (-6 dB) (Source: "Frequency Response: 120 Hz – 19 kHz (-6 dB)")",
+      "Max SPL": "144 dB peak (Source: "Max SPL: 144 dB peak")",
+      "Rated Power (Quad-amp)": "HF: 2x 150 Wpeak, LF: 2x 400 Wpeak (Source: "Rated Power (Quad-amp): HF: 2x 150 Wpeak, LF: 2x 400 Wpeak")",
+      "Nominal Impedance": "HF: 2x 16 ohm, LF: 2x 8 ohm (Source: "Nominal Impedance: HF: 2x 16 ohm, LF: 2x 8 ohm")",
+      "Coverage": "V. 7° digitally adjustable in array | H. 110° (Source: "Coverage: V. 7° digitally adjustable in array | H. 110°")",
+      "Dimensions (W x H x D)": "900 x 450 x 160 mm (35.4 x 17.7 x 6.3 in) with rigging hardware (Source: "Dimensions (W x H x D): 900 x 450 x 160 mm (35.4 x 17.7 x 6.3 in) with rigging hardware")",
+      "Weight": "30 kg / 66.1 lb (with rigging hardware) (Source: "Weight: 30 kg / 66.1 lb (with rigging hardware)")",
+      "Material": "Polyurea coated birch plywood (Source: "Material: Polyurea coated birch plywood")",
+      "Colors": "Black, White, Custom RAL (Source: "Colors: Black, White, Custom RAL")",
+      "IP Rating": "IP54 (Source: "IP Rating: IP54")",
+      "Technology": "Slim Array Technology, Electronic Beam Steering (Source: "The speaker utilizes Slim Array Technology for improved impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, which, along with mechanical steering, enables digital adjustment of sound beam dispersion for precise sound field aiming.")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH3P I is an incredibly flat and lightweight passive speaker, a revolutionary compact line array element for large-scale concerts and live events. Features two 12” neodymium magnet woofers and two compression drivers. Incorporates Slim Array Technology for improved impulse response and a unique cardioid polar pattern. Electronic Beam Steering technology for digital adjustment of sound beam dispersion. Specifications: Type: Passive line array element. Transducers: 2x 12” neodymium magnet woofer, 2x compression driver. Frequency Response: 120 Hz – 19 kHz (-6 dB). Max SPL: 144 dB peak. Rated Power (Quad-amp): HF: 2x 150 Wpeak, LF: 2x 400 Wpeak. Nominal Impedance: HF: 2x 16 ohm, LF: 2x 8 ohm. Coverage: V. 7° digitally adjustable in array | H. 110°. Dimensions (W x H x D): 900 x 450 x 160 mm (35.4 x 17.7 x 6.3 in) with rigging hardware. Weight: 30 kg / 66.1 lb (with rigging hardware). Material: Polyurea coated birch plywood. Colors: Black, White, Custom RAL. IP Rating: IP54.",
+    "semantic_chunks": [
+      "Mugello-KH3P I: passive, compact line array for large-scale concerts/live events.",
+      "Components: Two 12” neodymium woofers, two compression drivers.",
+      "Technologies: Slim Array Technology (impulse response, cardioid polar pattern), Electronic Beam Steering (digital sound beam dispersion).",
+      "Specifications: Type: Passive line array. Transducers: 2x 12” neodymium, 2x compression drivers. Freq. Response: 120 Hz – 19 kHz (-6 dB). Max SPL: 144 dB peak. Rated Power (Quad-amp): HF: 2x 150 Wpeak, LF: 2x 400 Wpeak. Impedance: HF: 2x 16 ohm, LF: 2x 8 ohm. Coverage: V. 7° digitally adjustable | H. 110°. Dimensions: 900x450x160 mm. Weight: 30 kg. Material: Polyurea coated birch plywood. Colors: Black, White, Custom RAL. IP Rating: IP54."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Mugello-KH3P I?", "answer": "Passive line array element."},
+      {"question": "What transducers does the Mugello-KH3P I have?", "answer": "2x 12” neodymium magnet woofer, 2x compression driver."},
+      {"question": "What is the frequency response of the Mugello-KH3P I?", "answer": "120 Hz – 19 kHz (-6 dB)."},
+      {"question": "What is the maximum SPL of the Mugello-KH3P I?", "answer": "144 dB peak."},
+      {"question": "What is the rated power (Quad-amp) of the Mugello-KH3P I?", "answer": "HF: 2x 150 Wpeak, LF: 2x 400 Wpeak."},
+      {"question": "What is the nominal impedance of the Mugello-KH3P I?", "answer": "HF: 2x 16 ohm, LF: 2x 8 ohm."},
+      {"question": "What is the coverage of the Mugello-KH3P I?", "answer": "V. 7° digitally adjustable in array | H. 110°."},
+      {"question": "What are the dimensions of the Mugello-KH3P I?", "answer": "900 x 450 x 160 mm (35.4 x 17.7 x 6.3 in) with rigging hardware."},
+      {"question": "What is the weight of the Mugello-KH3P I?", "answer": "30 kg / 66.1 lb (with rigging hardware)."},
+      {"question": "What material is the Mugello-KH3P I made of?", "answer": "Polyurea coated birch plywood."},
+      {"question": "What colors are available for the Mugello-KH3P I?", "answer": "Black, White, Custom RAL."},
+      {"question": "What is the IP rating of the Mugello-KH3P I?", "answer": "IP54."},
+      {"question": "What technologies are incorporated in the Mugello-KH3P I?", "answer": "Slim Array Technology and Electronic Beam Steering technology."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Mugello-KH3P I: Medium-format line array with digital ... - K-array (https://www.k-array.com/en/product/mugello-kh3pl)"}
+  ]
+}

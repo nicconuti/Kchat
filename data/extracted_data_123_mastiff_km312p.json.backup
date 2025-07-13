@@ -1,0 +1,93 @@
+{
+  "id": "123",
+  "url": "https://www.k-array.com/en/product/mastiff-km312p",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MASTIFF_SERIES",
+    "product_line": "Mastiff",
+    "model": "KM312P",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KM312P",
+      "Mastiff",
+      "stage monitor",
+      "passive"
+    ],
+    "technical": [
+      "woofers",
+      "SPL",
+      "power"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "km312p"
+    ]
+  },
+  "content_sections": {
+    "description": "The Mastiff-KM312P is a passive high-power stage monitor from K-array. It is the largest passive monitor in the Mastiff line, with a maximum power of 4000 W. It features three 12\" woofers and can produce a maximum SPL output of 136 dB (peak). It is designed to be driven by the self-powered Mastiff-KM312.",
+    "specifications": {
+      "Type": "Passive High-Power Stage Monitor (Source: \"Mastiff-KM312P: 3 x 12\" Self-Powered High-Power Stage ... - K-array\")",
+      "Woofers": "three 12\" woofers (Source: \"It features three 12\" woofers\")",
+      "Max Power": "4000 W (Source: \"with a maximum power of 4000 W.\")",
+      "Max SPL": "136 dB (peak) (Source: \"can produce a maximum SPL output of 136 dB (peak).\")",
+      "Driven By": "self-powered Mastiff-KM312 (Source: \"It is designed to be driven by the self-powered Mastiff-KM312.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mastiff-KM312P is a passive high-power stage monitor from K-array. Largest passive monitor in Mastiff line. Max power of 4000 W. Features three 12\" woofers. Max SPL output of 136 dB (peak). Designed to be driven by self-powered Mastiff-KM312.",
+    "semantic_chunks": [
+      "Mastiff-KM312P: passive high-power stage monitor.",
+      "Features: Largest passive monitor in Mastiff line. Max power 4000 W. Three 12\" woofers. Max SPL 136 dB (peak).",
+      "Driven by: self-powered Mastiff-KM312."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Mastiff-KM312P?",
+        "answer": "Passive High-Power Stage Monitor."
+      },
+      {
+        "question": "What is the maximum power of the Mastiff-KM312P?",
+        "answer": "4000 W."
+      },
+      {
+        "question": "How many woofers does the Mastiff-KM312P have?",
+        "answer": "Three 12\" woofers."
+      },
+      {
+        "question": "What is the maximum SPL output of the Mastiff-KM312P?",
+        "answer": "136 dB (peak)."
+      },
+      {
+        "question": "What drives the Mastiff-KM312P?",
+        "answer": "The self-powered Mastiff-KM312."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Mastiff-KM312P: 3 x 12\" Self-Powered High-Power Stage ... - K-array (https://www.k-array.com/en/product/mastiff-km312p)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

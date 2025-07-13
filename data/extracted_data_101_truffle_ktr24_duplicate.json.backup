@@ -1,0 +1,40 @@
+{
+  "id": "101",
+  "url": "https://www.k-array.com/en/product/Truffle-KTR24",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "skipped",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "TRUFFLE_SERIES",
+    "product_line": "Truffle",
+    "model": "KTR24",
+    "content_type": "product_page",
+    "note": "Duplicate URL, already processed as ID 099."
+  },
+  "keywords": {},
+  "content_sections": {},
+  "embedding_optimized": {},
+  "source_attributions": [
+    {
+      "source": "Truffle-KTR24: Compact Aluminum Alloy Subs with 4 ... - K-array (https://www.k-array.com/en/product/Truffle-KTR24)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

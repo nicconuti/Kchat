@@ -2,123 +2,157 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Development Commands
+## Project Overview
 
-### Environment Setup
+This is a Python-based retrieval and web scraping system designed to extract technical specifications and content from K-Array's website. The project implements a sophisticated data extraction pipeline with emphasis on zero-hallucination quality and source attribution.
+
+## Common Commands
+
+### Setup and Dependencies
 ```bash
-# Create and activate virtual environment
-python3 -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-.\.venv\Scripts\activate   # Windows
-
-# Install dependencies
+# Install Python dependencies
 pip install -r requirements.txt
+
+# Install and start Milvus vector database (required for chat system)
+# Option 1: Docker (recommended)
+docker run -d --name milvus -p 19530:19530 -p 9091:9091 milvusdb/milvus:latest
+
+# Option 2: Local installation
+# Follow: https://milvus.io/docs/install_standalone-docker.md
+
+# Create necessary directories (done automatically by the system)
+mkdir -p data/extracted_content data/verified_specs data/quality_reports data/extraction_logs
 ```
 
-### Code Quality and Testing
+### Running Extraction Scripts
 ```bash
-# Linting and code style
-ruff .
+# Run the main extraction orchestrator (MVP quality focus)
+python src/extraction_orchestrator.py
 
-# Type checking
-mypy .
+# Run systematic scraper (processes ALL URLs from sitemap.xml)
+python src/systematic_scraper.py
 
-# Run all tests
-pytest
+# Generate complete todo list
+python generate_complete_todolist.py
 
-# Run tests with verbose output and capture logs
-pytest -vv -s
-
-# Run a specific test file
-pytest tests/test_orchestrator_agent.py
-
-# Run tests with coverage
-pytest --cov
+# Download PDFs from sitemap
+python download_pdfs.py
 ```
 
-### Running the Application
+### Running the Chat System
 ```bash
-# Interactive chat mode
-python main.py
+# First-time setup (initialize vector store and check configuration)
+python setup_chat.py
 
-# Knowledge pipeline processing
-python knowledge_pipeline.py path/to/documents --output knowledge_base.jsonl
+# Launch the chat interface
+python k_array_chat.py
 
-# Run RAG pipeline with KArray data
-python -c "from karray_rag import karray_rag_pipeline; karray_rag_pipeline.run_pipeline_with_karray()"
+# The chat will be available at: http://localhost:7860
 ```
 
-## High-Level Architecture
+### Development Commands
+```bash
+# Run Python scripts with proper module path
+python -m src.extraction_orchestrator
+python -m src.systematic_scraper
 
-### Core Agent System
-The system is built around a multi-agent architecture with shared memory through `AgentContext` (agents/context.py). All agents operate on the same context object, reading and writing different fields as they process user requests.
+# Check Python syntax
+python -m py_compile src/*.py
+```
 
-**Agent Orchestration Flow:**
-1. `OrchestratorAgent` (agents/orchestrator_agent.py) coordinates the execution sequence
-2. Uses LLM-based decision making via `choose_agent_sequence()` to determine which agents to run
-3. Falls back to rule-based sequences if LLM orchestration fails
-4. Each agent updates the shared context and logs its activity
+## Architecture Overview
 
-**Key Agents:**
-- `LanguageAgent` - Detects language, formality, and mixed-language input
-- `IntentAgent` - Classifies user intent using both rule-based and LLM approaches
-- `DocumentRetrieverAgent` - Retrieves relevant documents from Qdrant vector store
-- `ResponseAgent` - Generates final responses using retrieved context or small talk
-- `TranslationAgent` - Handles multilingual translation and auto-correction
-- `VerificationAgent` - Validates response quality and relevance
-- `ClarificationAgent` - Generates clarifying questions when intent is unclear
+### Core Components
 
-### Knowledge Pipeline System
-The knowledge pipeline (knowledge_pipeline/) is a parallel document processing system that:
+1. **Web Scraping & Extraction Pipeline**
+   - `src/extraction_orchestrator.py`: Main orchestrator with MVP quality focus, implements tier-based processing
+   - `src/systematic_scraper.py`: Comprehensive scraper that processes ALL URLs from sitemap.xml
 
-1. **File Processing**: Scans directories/ZIP files for supported document types
-2. **Classification**: Uses dual-LLM classification with cross-checking for reliability
-3. **Chunking**: Applies semantic chunking strategies based on document category
-4. **Enrichment**: Generates summaries and hypothetical questions for each chunk
-5. **Quality Control**: Quarantines files that fail processing or have low confidence scores
+2. **Vector Store & Retrieval System**
+   - `src/enhanced_vector_store.py`: Advanced Milvus-based vector store with hybrid search capabilities
+   - `src/smart_retriever.py`: Intelligent retrieval with context awareness and query analysis
+   - `src/multi_vector_retriever.py`: Multi-strategy retrieval system for maximum quality
 
-**Pipeline Components:**
-- `FileScanner` - Discovers and validates input files
-- `TextExtractor` - Extracts text from various document formats  
-- `EntityExtractor` - Identifies entities within documents
-- `AdvancedSemanticChunker` - Chunks text semantically
-- `StructuredDataExtractor` - Handles structured data like product catalogs
+3. **Chat System Components**
+   - `src/response_engine.py`: Zero-hallucination response generation with dual LLM fallback
+   - `src/reranker.py`: Quality-based result reranking and relevance scoring
+   - `src/query_intelligence.py`: Advanced query analysis and optimization
+   - `k_array_chat.py`: Main Gradio chat interface with session memory
 
-### Logging and Monitoring
-Each agent maintains dedicated log files in logs/ directory:
-- `orchestration_trace.log` - Orchestration decisions and reasoning
-- `pipeline_<pid>.log` - Knowledge pipeline processing logs
-- Agent-specific logs for debugging individual components
+4. **Configuration & Utilities**
+   - `src/llm_manager.py`: Multi-provider LLM management (Gemini/OpenAI)
+   - `src/config.py`: Centralized configuration with environment variable support
+   - `src/dynamic_config.py`: Runtime configuration management
+   - `setup_chat.py`: Automated setup script for chat system initialization
 
-### Local LLM Integration
-Uses Ollama for local model serving:
-- Primary model: `deepseek-r1:14b` for classification
-- Fallback model: `mistral` for cross-checking and general tasks
-- `openchat` for conversational responses
+### Key Design Patterns
 
-## Intent Categories
+- **Zero-Hallucination System**: All components implement strict source attribution and explicit value extraction
+- **Tier-Based Processing**: URLs are prioritized (Tier 1: Product specs, Tier 2: Applications, Tier 3: General)
+- **Multi-Vector Retrieval**: Combines semantic, keyword, and hybrid search strategies
+- **Quality Validation**: Multi-layer quality checks with confidence scoring and result reranking
+- **Progressive Enhancement**: Starts with individual products, then applications, then case studies
 
-The system recognizes these primary intents:
-- `technical_support_request` - Technical issues with products/services
-- `product_information_request` - Product details and specifications  
-- `cost_estimation` - Pricing and quote requests
-- `booking_or_schedule` - Appointment scheduling
-- `document_request` - Manual/documentation requests
-- `open_ticket` - Explicit ticket creation requests
-- `complaint` - Formal complaints
-- `generic_smalltalk` - Casual conversation
+### Data Flow
 
-## Key Configuration
+1. **Sitemap Processing**: Load and categorize all URLs from `sitemap.xml`
+2. **Prioritized Extraction**: Process URLs in batches based on content type
+3. **Quality Validation**: Apply MVP-quality standards with source attribution
+4. **Cross-Verification**: Compare specifications across multiple sources
+5. **Dataset Generation**: Create final verified dataset with quality metrics
 
-- Document categories: `tech_assistance`, `software_assistance`, `product_price`, `product_guide`
-- Supported file types: PDF, DOCX, TXT, CSV, various office formats
-- Vector store: Qdrant for document retrieval
-- Quarantine system for problematic files during pipeline processing
+## Configuration
 
-## Development Notes
+### Environment Variables
+Set these in a `.env` file or environment:
+- `GEMINI_API_KEY`: For Gemini AI access
+- `OPENAI_API_KEY`: For OpenAI access  
+- `DEFAULT_LLM_PROVIDER`: "gemini" or "openai"
+- `VECTOR_STORE_DIRECTORY`: Vector store data path (default: "./data/vector_store")
+- `MILVUS_HOST`: Milvus server host (default: "localhost")
+- `MILVUS_PORT`: Milvus server port (default: 19530)
 
-- The codebase is primarily in Italian with Italian comments and logs
-- All agents follow the pattern of receiving and returning `AgentContext`
-- The system is designed to run completely offline without cloud dependencies
-- Robust error handling with fallback mechanisms throughout the pipeline
-- Comprehensive test suite covering all major components
+### Key Configuration Options
+- **Extraction Strategy**: MVP focus vs. complete sitemap processing
+- **Quality Thresholds**: Confidence scores, validation rules
+- **Batch Processing**: URLs per batch, delays between requests
+- **Output Formats**: JSON with full traceability
+
+## Data Storage
+
+### Directory Structure
+- `data/`: Main data directory
+  - `extracted_data_*.json`: Individual extraction results (numbered 001-231+)
+  - `vector_store/`: Milvus vector store data
+  - `extraction_logs/`: Detailed processing logs
+  - `quality_reports/`: Quality metrics and validation results
+
+### Data Files
+- `sitemap.xml`: Source of all URLs to process
+- `todolist_progress.json`: Processing progress tracking
+- `requirements.txt`: Python dependencies
+
+## Quality Standards
+
+### MVP Requirements
+- **Source Attribution**: Every technical fact must include exact source quote
+- **No Speculation**: Use "Not specified" instead of estimating values
+- **Cross-Verification**: Multiple sources validated for consistency  
+- **Confidence Scoring**: 80%+ minimum for production use
+- **Traceability**: Full extraction history and timestamps
+
+### Extraction Strategies
+- **Product Specs**: Focus on technical specifications with exact values
+- **Application Guides**: Extract explicit recommendations and challenges
+- **Case Studies**: Document real implementations with specific products
+- **PDF Processing**: Extract from datasheets for cross-verification
+
+## Important Implementation Notes
+
+- The system uses WebFetch tools for actual content extraction
+- All extraction prompts emphasize zero-hallucination requirements
+- Quality validation includes multiple checks for speculation words
+- Progress tracking enables resumable operations
+- Milvus provides high-performance vector similarity search with hybrid capabilities
+- Multiple LLM providers supported with failover capability
+- Advanced query intelligence with multi-strategy retrieval

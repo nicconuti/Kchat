@@ -1,0 +1,57 @@
+{
+  "id": "143",
+  "url": "https://www.k-array.com/en/product/capture-kmc20v",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "CAPTURE_SERIES",
+    "product_line": "Capture",
+    "model": "KMC20V",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KMC20V", "Capture", "line array microphone", "vertical"],
+    "technical": ["cardioid capsules", "brass base", "frequency response", "sensitivity", "SPL", "signal-to-noise ratio", "polar pattern", "IP54"],
+    "applications": [],
+    "unique_identifiers": ["kmc20v"]
+  },
+  "content_sections": {
+    "description": "The Capture-KMC20V is an incredibly thin line array microphone with 8 x 4 mm cardioid capsules and a brass base, designed for vertical setup. This configuration allows for wide horizontal and narrow vertical sound registration. It can be tilted from 90° to 145° relative to the base surface, with a 28° truncated vertical orientation. A 4.75 mm-thick HT800 silicone anti-vibration pad is attached to the base to minimize noise transmission from the surface to the microphone array.",
+    "specifications": {
+      "Type": "Line array microphone (Source: "Type: Line array microphone")",
+      "Capsule": "8 x 4mm electret condenser (Source: "Capsule: 8 x 4mm electret condenser")",
+      "Frequency Response": "65 - 15000 Hz (-6 dB) (Source: "Frequency Response: 65 - 15000 Hz (-6 dB)")",
+      "Sensitivity (1kHz, 94dB SPL)": "-37 dBV (Source: "Sensitivity (1kHz, 94dB SPL): -37 dBV")",
+      "Maximum SPL (1kHz, 10%THD)": "105 dB SPL (Source: "Maximum SPL (1kHz, 10%THD): 105 dB SPL")",
+      "Signal-to-Noise Ratio (1 kHz, A-weighted)": "55 dB (Source: "Signal-to-Noise Ratio (1 kHz, A-weighted): 55 dB")",
+      "Polar Pattern": "Cardioid line array (Source: "Polar Pattern: Cardioid line array")",
+      "Dimensions (W x H x D)": "6 x 200 x 6 mm (0.24 x 7.9 x 0.24 in) (Source: "Dimensions (W x H x D): 6 x 200 x 6 mm (0.24 x 7.9 x 0.24 in)")",
+      "Weight": "0.032 kg (0.070 lb) (Source: "Weight: 0.032 kg (0.070 lb)")",
+      "IP Rating": "IP54 (Source: "IP Rating: IP54")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Capture-KMC20V is an incredibly thin line array microphone with 8 x 4 mm cardioid capsules and a brass base, designed for vertical setup. Allows for wide horizontal and narrow vertical sound registration. Can be tilted from 90° to 145° relative to base, with 28° truncated vertical orientation. 4.75 mm-thick HT800 silicone anti-vibration pad minimizes noise transmission. Specifications: Type: Line array microphone. Capsule: 8 x 4mm electret condenser. Frequency Response: 65 - 15000 Hz (-6 dB). Sensitivity: -37 dBV. Maximum SPL: 105 dB SPL. Signal-to-Noise Ratio: 55 dB. Polar Pattern: Cardioid line array. Dimensions: 6 x 200 x 6 mm. Weight: 0.032 kg. IP Rating: IP54.",
+    "semantic_chunks": [
+      "Capture-KMC20V: thin line array microphone with 8x 4mm cardioid capsules, brass base, for vertical setup.",
+      "Features: Wide horizontal, narrow vertical sound registration. Tiltable 90°-145°. 4.75mm HT800 silicone anti-vibration pad.",
+      "Specifications: Type: Line array microphone. Capsule: 8x 4mm electret condenser. Freq. Response: 65-15000 Hz (-6 dB). Sensitivity: -37 dBV. Max SPL: 105 dB. SNR: 55 dB. Polar Pattern: Cardioid line array. Dimensions: 6x200x6 mm. Weight: 0.032 kg. IP Rating: IP54."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Capture-KMC20V?", "answer": "Line array microphone."},
+      {"question": "What capsules does the Capture-KMC20V have?", "answer": "8 x 4 mm cardioid electret condenser capsules."},
+      {"question": "What is the frequency response of the Capture-KMC20V?", "answer": "65 - 15000 Hz (-6 dB)."},
+      {"question": "What is the sensitivity of the Capture-KMC20V?", "answer": "-37 dBV/Pa."},
+      {"question": "What is the maximum SPL of the Capture-KMC20V?", "answer": "105 dB SPL."},
+      {"question": "What is the signal-to-noise ratio of the Capture-KMC20V?", "answer": "55 dB."},
+      {"question": "What is the polar pattern of the Capture-KMC20V?", "answer": "Cardioid line array."},
+      {"question": "What are the dimensions of the Capture-KMC20V?", "answer": "6 x 200 x 6 mm (0.24 x 7.9 x 0.24 in)."},
+      {"question": "What is the weight of the Capture-KMC20V?", "answer": "0.032 kg (0.070 lb)."},
+      {"question": "What is the IP rating of the Capture-KMC20V?", "answer": "IP54."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Capture-KMC20V: Line Array Microphone in Vertical Setup - K-array (https://www.k-array.com/en/product/capture-kmc20v)"}
+  ]
+}

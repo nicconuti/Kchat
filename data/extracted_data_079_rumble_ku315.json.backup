@@ -1,0 +1,138 @@
+{
+  "id": "079",
+  "url": "https://www.k-array.com/en/product/rumble-ku315",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "RUMBLE_SERIES",
+    "product_line": "Rumble",
+    "model": "KU315",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KU315",
+      "Rumble",
+      "subwoofer"
+    ],
+    "technical": [
+      "neodymium transducer",
+      "passive radiator",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [
+      "clubs",
+      "lounges",
+      "theaters",
+      "cinemas",
+      "auditoria",
+      "outdoor installations"
+    ],
+    "unique_identifiers": [
+      "ku315"
+    ]
+  },
+  "content_sections": {
+    "description": "The Rumble-KU315 is a passive subwoofer from K-array's Rumble series, featuring a nominal rated power of 2000 W at 4 Ω. It is constructed from water-resistant polyurea-coated birch plywood and includes a 15\" neodymium transducer along with two additional 15\" passive radiators, which help ensure linear transducer excursion and minimal residual noise. This design, combined with durable materials and an upgraded SpeakOn NL4 connector, makes it suitable for outdoor installations and resistant to harsh weather conditions. The Rumble-KU315 is designed for medium and large-format projects such as clubs, lounges, theaters, cinemas, and auditoria, offering an extended frequency response and high output in a discrete form factor. K-array's Kommander amplifiers are recommended for powering the Rumble-KU315, as they can balance settings to match other K-array mid-high speakers.",
+    "specifications": {
+      "Type": "Passive subwoofer (Source: \"The Rumble-KU315 is a passive subwoofer\")",
+      "Transducers": "15” neodymium magnet woofer, 2 x 15” passive radiator (Source: \"Transducers: 15” neodymium magnet woofer, 2 x 15” passive radiator\")",
+      "Frequency Response": "35 Hz – 150 Hz (-6 dB) (Source: \"Frequency Response: 35 Hz – 150 Hz (-6 dB)\")",
+      "Max SPL": "137 dB (peak) (Source: \"Max SPL: 137 dB (peak)\")",
+      "Rated Power": "2000 W (Source: \"Rated Power: 2000 W\")",
+      "Nominal Impedance": "4 Ω (Source: \"Nominal Impedance: 4 Ω\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\")",
+      "Dimensions": "123 x 45 x 25 cm (48.4 x 17.7 x 9.8 in) (Source: \"The subwoofer measures 123 x 45 x 25 cm (48.4 x 17.7 x 9.8 in)\")",
+      "Weight": "40 kg (88.18 lb) (Source: \"weighs 40 kg (88.18 lb)\")",
+      "Color Options": "black or white, with custom RAL colors also an option (Source: \"It is available in black or white, with custom RAL colors also an option.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Rumble-KU315 is a passive subwoofer from K-array's Rumble series. Rated power of 2000 W at 4 Ω. Constructed from water-resistant polyurea-coated birch plywood. Includes a 15\" neodymium transducer and two additional 15\" passive radiators for linear transducer excursion and minimal residual noise. Durable materials and upgraded SpeakOn NL4 connector make it suitable for outdoor installations and harsh weather conditions. Measures 123 x 45 x 25 cm (48.4 x 17.7 x 9.8 in) and weighs 40 kg (88.18 lb). Available in black or white, with custom RAL colors. Designed for medium and large-format projects like clubs, lounges, theaters, cinemas, and auditoria. Offers extended frequency response and high output in a discrete form factor. K-array's Kommander amplifiers recommended. Specifications: Transducers: 15” neodymium magnet woofer, 2 x 15” passive radiator. Frequency Response: 35 Hz – 150 Hz (-6 dB). Max SPL: 137 dB (peak). Rated Power: 2000 W. Nominal Impedance: 4 Ω. IP Rating: IP64.",
+    "semantic_chunks": [
+      "Rumble-KU315: passive subwoofer from K-array's Rumble series, 2000 W at 4 Ω.",
+      "Construction: water-resistant polyurea-coated birch plywood, 15\" neodymium transducer, two 15\" passive radiators for linear excursion and minimal noise. Upgraded SpeakOn NL4 connector. Suitable for outdoor and harsh weather.",
+      "Dimensions: 123 x 45 x 25 cm (48.4 x 17.7 x 9.8 in). Weight: 40 kg (88.18 lb). Colors: black, white, custom RAL.",
+      "Applications: medium and large-format projects (clubs, lounges, theaters, cinemas, auditoria). Extended frequency response, high output, discrete form factor. K-array Kommander amplifiers recommended.",
+      "Specifications: Transducers: 15” neodymium magnet woofer, 2 x 15” passive radiator. Frequency Response: 35 Hz – 150 Hz (-6 dB). Max SPL: 137 dB (peak). Rated Power: 2000 W. Nominal Impedance: 4 Ω. IP Rating: IP64."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Rumble-KU315?",
+        "answer": "Passive subwoofer."
+      },
+      {
+        "question": "What is the rated power of the Rumble-KU315?",
+        "answer": "2000 W."
+      },
+      {
+        "question": "What material is the Rumble-KU315 constructed from?",
+        "answer": "Water-resistant polyurea-coated birch plywood."
+      },
+      {
+        "question": "What transducers does the Rumble-KU315 have?",
+        "answer": "15\" neodymium magnet woofer, 2 x 15\" passive radiator."
+      },
+      {
+        "question": "What is the frequency response of the Rumble-KU315?",
+        "answer": "35 Hz – 150 Hz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Rumble-KU315?",
+        "answer": "137 dB (peak)."
+      },
+      {
+        "question": "What is the nominal impedance of the Rumble-KU315?",
+        "answer": "4 Ω."
+      },
+      {
+        "question": "What is the IP rating of the Rumble-KU315?",
+        "answer": "IP64."
+      },
+      {
+        "question": "What are the dimensions of the Rumble-KU315?",
+        "answer": "123 x 45 x 25 cm (48.4 x 17.7 x 9.8 in)."
+      },
+      {
+        "question": "What is the weight of the Rumble-KU315?",
+        "answer": "40 kg (88.18 lb)."
+      },
+      {
+        "question": "What color options are available for the Rumble-KU315?",
+        "answer": "Black or white, with custom RAL colors also an option."
+      },
+      {
+        "question": "What are the recommended amplifiers for the Rumble-KU315?",
+        "answer": "K-array's Kommander amplifiers."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Rumble-KU315: Ultra-thin passive subwoofer with 3x15 ... - K-array (https://www.k-array.com/en/product/rumble-ku315)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

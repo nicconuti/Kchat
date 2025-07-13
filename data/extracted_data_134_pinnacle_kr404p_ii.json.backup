@@ -1,0 +1,173 @@
+{
+  "id": "134",
+  "url": "https://www.k-array.com/en/product/Pinnacle-KR404P%20II",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PINNACLE_SERIES",
+    "product_line": "Pinnacle",
+    "model": "KR404P II",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KR404P II",
+      "Pinnacle",
+      "audio system",
+      "large-scale applications"
+    ],
+    "technical": [
+      "Thunder-KS4P I",
+      "Python-KP102 I",
+      "Kommander-KA208LIVE",
+      "neodymium magnet woofer",
+      "Class D amplifier",
+      "DSP",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP64",
+      "IP54",
+      "IP20"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "kr404pii"
+    ]
+  },
+  "content_sections": {
+    "description": "The K-array Pinnacle-KR404P II system is composed of two Thunder-KS4P I passive subwoofers, eight Python-KP102 I stainless steel line array elements with 3.15\" drivers, and one Kommander-KA208LIVE amplifier. The Kommander-KA208LIVE amplifier with DSP is designed to be the core device in the sound reinforcement system: the dedicated K-array Connect mobile app provides a user-friendly interface for the remote control, the DSP parameters and to boost the system performance. K-framework3 is the managing and control software dedicated to professionals and operators looking for a powerful tool for designing and managing a large number of units over a wired LAN in demanding applications. This results in a lightweight, flexible, and elegant portable system, delivering pristine sound in various applications.",
+    "components": {
+      "Thunder-KS4P I (Passive subwoofer)": {
+        "Type": "Passive subwoofer (Source: \"Thunder-KS4P I General Type: Passive subwoofer\")",
+        "Transducers": "2 x 18\" neodymium magnet woofer (Source: \"Transducers: 2 x 18\" neodymium magnet woofer\")",
+        "Frequency Response": "30 Hz – 150/450 Hz (-6 dB) crossover dependent (Source: \"Frequency Response: 30 Hz – 150/450 Hz (-6 dB) crossover dependent\")",
+        "Crossover": "DSP-controlled, Low Pass @ 150 Hz, preset dependent (Source: \"Crossover: DSP-controlled, Low Pass @ 150 Hz, preset dependent\")",
+        "Max SPL": "141dB (Source: \"Max SPL: 141dB\")",
+        "Rated Power": "2800W peak (Source: \"Rated Power: 2800W peak\")",
+        "Connectors": "2x speakON 2+ 2- / 1+ 1- link (Source: \"Connectors: 2x speakON 2+ 2- / 1+ 1- link\")",
+        "Nominal Impedance": "4ohm (Source: \"Nominal Impedance: 4ohm\")",
+        "Dimensions (W x H x D)": "1106 x 500 x 580 mm (43.5 x 19.7 x 22.8 in) (Source: \"Dimensions (W x H x D): 1106 x 500 x 580 mm (43.5 x 19.7 x 22.8 in)\")",
+        "Weight": "53.2 kg (117.3 lb) (Source: \"Weight: 53.2 kg (117.3 lb)\")",
+        "Material": "Polyurea coated birch plywood (Source: \"Material: Polyurea coated birch plywood\")",
+        "Colors": "Black/White/Custom RAL (Source: \"Colors: Black/White/Custom RAL\")",
+        "IP Rating": "IP54 (Source: \"IP Rating: IP54\")"
+      },
+      "Python-KP102 I (Line array)": {
+        "Type": "Line array (Source: \"Python-KP102 I General Type: Line array\")",
+        "Transducers": "12 x 3.15\" neodymium magnet transducers (Source: \"Transducers: 12 x 3.15\" neodymium magnet transducers\")",
+        "Frequency Response": "150 Hz - 18 kHz (-6 dB) (Source: \"Frequency Response: 150 Hz - 18 kHz (-6 dB)\")",
+        "Max SPL": "128 dB (peak) (Source: \"Max SPL: 128 dB (peak)\")",
+        "Rated Power": "500 W (Source: \"Rated Power: 500 W\")",
+        "Coverage": "V. 7° - 35° | H. 90° (Source: \"Coverage: V. 7° - 35° | H. 90°\")",
+        "Connectors": "SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+        "Nominal Impedance": "8 Ω / 32 Ω selectable (Source: \"Nominal Impedance: 8 Ω / 32 Ω selectable\")",
+        "Dimensions (W x H x D)": "1000 x 81 x 59 mm (39.4 x 3.2 x 2.3 in) (Source: \"Dimensions (W x H x D): 1000 x 81 x 59 mm (39.4 x 3.2 x 2.3 in)\")",
+        "Weight": "4.8 kg (10.6 lb) (Source: \"Weight: 4.8 kg (10.6 lb)\")",
+        "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+        "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+        "Finishes": "24K Gold, Polished, Brushed (Source: \"Finishes: 24K Gold, Polished, Brushed\")",
+        "IP Rating": "IP64 (Source: \"IP Rating: IP64\")"
+      },
+      "Kommander-KA208LIVE (8ch switching mode, Class D Amplifier)": {
+        "Type": "8ch switching mode, Class D Amplifier (Source: \"Type: 8ch switching mode, Class D Amplifier\")",
+        "Output Power": "8 x 2500W @ 4Ω (Source: \"Output Power: 8 x 2500W @ 4Ω\")",
+        "Impedance": "minimum 4 Ω (Source: \"Impedance: minimum 4 Ω\")",
+        "Frequency Response": "20 Hz - 20 kHz (±1 dB) (Source: \"Frequency Response: 20 Hz - 20 kHz (±1 dB)\")",
+        "Connections": "8x XLR-F bal input, 4x SpeakON NL4 speaker output, 2x CA-COM connections, 2x Ethernet RJ45 - EtherCON, 1x USB-A (Source: \"Connections: 8x XLR-F bal input, 4x SpeakON NL4 speaker output, 2x CA-COM connections, 2x Ethernet RJ45 - EtherCON, 1x USB-A\")",
+        "Digital channel count": "8x IN (Source: \"Digital channel count: 8x IN\")",
+        "Power": "1 x PowerCon TRUE IN, 1 x PowerCon TRUE Link (Source: \"Power: 1 x PowerCon TRUE IN, 1 x PowerCon TRUE Link\")",
+        "Built-in DSP": "Grouping, Equalization, Limiters, Routing, Level, Loudspeaker presets (Source: \"Built-in DSP: Grouping, Equalization, Limiters, Routing, Level, Loudspeaker presets\")",
+        "Remote Control": "Web dedicated APP and Desktop software (connected via Ethernet) (Source: \"Remote Control: Web dedicated APP and Desktop software (connected via Ethernet)\")",
+        "Protections": "Thermal protection, output short circuit, RMS output current protection, high frequency protection, power limiter, clip limiter. (Source: \"Protections: Thermal protection, output short circuit, RMS output current protection, high frequency protection, power limiter, clip limiter.\")",
+        "MAIN Operating Range": "100-240V AC, 50-60 Hz with PFC (Source: \"MAIN Operating Range: 100-240V AC, 50-60 Hz with PFC\")",
+        "Power Consumption": "1200 W @ 4 Ω load, Pink noise, 1/8 rated power (Source: \"Power Consumption: 1200 W @ 4 Ω load, Pink noise, 1/8 rated power\")",
+        "Colors": "Black (Source: \"Colors: Black\")",
+        "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+        "Dimensions (W x H x D)": "430 x 87 x 430 mm (17 x 3.4 x 17 in) (Source: \"Dimensions (W x H x D): 430 x 87 x 430 mm (17 x 3.4 x 17 in)\")",
+        "Weight": "10 kg (22 lb) (Source: \"Weight: 10 kg (22 lb)\")",
+        "IP Rating": "IP20 (Source: \"IP Rating: IP20\")"
+      }
+    },
+    "integrations": {
+      "Q-SYS": "(Source: \"Q-SYS\")",
+      "Control4": "(Source: \"Control4\")",
+      "Crestron Home": "(Source: \"Crestron Home\")",
+      "Crestron": "(Source: \"Crestron\")",
+      "AMX by Harman": "(Source: \"AMX by Harman\")",
+      "Dante Ready": "(Source: \"Dante Ready\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Pinnacle-KR404P II is an advanced audio system composed of two Thunder-KS4P I passive subwoofers, eight Python-KP102 I stainless steel line array elements, and one Kommander-KA208LIVE amplifier. Kommander-KA208LIVE amplifier with DSP, K-array Connect mobile app for remote control, DSP parameters, performance boost. K-framework3 for managing and controlling units over wired LAN. Lightweight, flexible, elegant portable system, delivering pristine sound. Thunder-KS4P I: Passive subwoofer, 2x 18\" neodymium woofer, 30-150/450 Hz Freq. Response, 141dB Max SPL, 2800W peak Rated Power, 1106x500x580 mm, 53.2 kg, IP54. Python-KP102 I: Line array, 12x 3.15\" neodymium woofers, 150-18 kHz Freq. Response, 128 dB Max SPL, 500 W Rated Power, V. 7°-35° | H. 90° Coverage, 1000x81x59 mm, 4.8 kg, IP64. Kommander-KA208LIVE: 8ch switching mode, Class D Amplifier, 8x 2500W @ 4Ω Output Power, 20-20 kHz Freq. Response, Built-in DSP, 430x87x430 mm, 10 kg, IP20. Integrates with Q-SYS, Control4, Crestron Home, Crestron, AMX by Harman, Dante Ready.",
+    "semantic_chunks": [
+      "Pinnacle-KR404P II: advanced audio system with two Thunder-KS4P I (passive subwoofers), eight Python-KP102 I (line array elements), and one Kommander-KA208LIVE (amplifier).",
+      "Kommander-KA208LIVE: DSP, K-array Connect mobile app, K-framework3 for management.",
+      "System benefits: lightweight, flexible, elegant, pristine sound.",
+      "Thunder-KS4P I Specs: Passive subwoofer, 2x 18\" neodymium woofer, 30-150/450 Hz Freq. Response, 141dB Max SPL, 2800W peak Rated Power, 1106x500x580 mm, 53.2 kg, IP54.",
+      "Python-KP102 I Specs: Line array, 12x 3.15\" neodymium woofers, 150-18 kHz Freq. Response, 128 dB Max SPL, 500 W Rated Power, V. 7°-35° | H. 90° Coverage, 1000x81x59 mm, 4.8 kg, IP64.",
+      "Kommander-KA208LIVE Specs: 8ch switching mode, Class D Amplifier, 8x 2500W @ 4Ω Output Power, 20-20 kHz Freq. Response, Built-in DSP, 430x87x430 mm, 10 kg, IP20.",
+      "Integrations: Q-SYS, Control4, Crestron Home, Crestron, AMX by Harman, Dante Ready."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Pinnacle-KR404P II?",
+        "answer": "Advanced audio system."
+      },
+      {
+        "question": "What components make up the Pinnacle-KR404P II system?",
+        "answer": "Two Thunder-KS4P I passive subwoofers, eight Python-KP102 I stainless steel line array elements, and one Kommander-KA208LIVE amplifier."
+      },
+      {
+        "question": "What is the Max SPL of the Thunder-KS4P I component?",
+        "answer": "141dB."
+      },
+      {
+        "question": "What is the Max SPL of the Python-KP102 I?",
+        "answer": "128 dB (peak)."
+      },
+      {
+        "question": "What is the output power of the Kommander-KA208LIVE amplifier?",
+        "answer": "8 x 2500W @ 4Ω."
+      },
+      {
+        "question": "What is the IP rating of the Thunder-KS4P I?",
+        "answer": "IP54."
+      },
+      {
+        "question": "What is the IP rating of the Python-KP102 I?",
+        "answer": "IP64."
+      },
+      {
+        "question": "What is the IP rating of the Kommander-KA208LIVE?",
+        "answer": "IP20."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "K-array's Pinnacle-KR404P II - K-array (https://www.k-array.com/en/product/Pinnacle-KR404P%20II)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

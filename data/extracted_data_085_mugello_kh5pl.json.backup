@@ -1,0 +1,148 @@
+{
+  "id": "085",
+  "url": "https://www.k-array.com/en/product/mugello-kh5pl",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH5PL",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KH5PL",
+      "Mugello",
+      "line array",
+      "speaker",
+      "passive"
+    ],
+    "technical": [
+      "neodymium woofers",
+      "compression drivers",
+      "Slim Array Technology",
+      "Electronic Beam Steering",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "impedance",
+      "coverage",
+      "IP54"
+    ],
+    "applications": [
+      "large-scale concerts",
+      "live events"
+    ],
+    "unique_identifiers": [
+      "kh5pl"
+    ]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH5P I is an incredibly flat and powerful passive speaker, a revolutionary compact line array element for large-scale concerts and live events. It features two 15” neodymium woofers and four horn-loaded compression drivers with 2.5” voice coils. The speaker also incorporates \"Slim Array Technology\" for better impulse response and a unique cardioid polar pattern, and K-array's \"Electronic Beam Steering technology\" for digital adjustment of sound beam dispersion.",
+    "specifications": {
+      "Type": "Passive line array element (Source: \"Type: Passive line array element\")",
+      "Transducers": "2x 15” neodymium magnet woofer with 2.5” voice coil, 4x compression driver with 2.5” voice coil (Source: \"Transducers: 2x 15” neodymium magnet woofer with 2.5” voice coil, 4x compression driver with 2.5” voice coil\")",
+      "Frequency Response": "120 Hz – 19 kHz (-6 dB) (Source: \"Frequency Response: 120 Hz – 19 kHz (-6 dB)\")",
+      "Max SPL": "147 dB peak (Source: \"Max SPL: 147 dB peak\")",
+      "Rated Power (Quad-amp)": "HF: 2x 250 Wpeak, LF: 2x 800 Wpeak (Source: \"Rated Power (Quad-amp): HF: 2x 250 Wpeak, LF: 2x 800 Wpeak\")",
+      "Nominal Impedance": "HF: 2x 16 ohm, LF: 2x 8 ohm (Source: \"Nominal Impedance: HF: 2x 16 ohm, LF: 2x 8 ohm\")",
+      "Coverage": "V. 7° digitally adjustable in array | H. 110° (Source: \"Coverage: V. 7° digitally adjustable in array | H. 110°\")",
+      "Dimensions (W x H x D)": "1218 x 604 x 210 mm (47.9 x 23.8 x 8.3 in) with rigging hardware (Source: \"Dimensions (W x H x D): 1218 x 604 x 210 mm (47.9 x 23.8 x 8.3 in) with rigging hardware\")",
+      "Weight": "59 kg / 130 lb (with rigging hardware) (Source: \"Weight: 59 kg / 130 lb (with rigging hardware)\")",
+      "Material": "Polyurea coated birch plywood (Source: \"Material: Polyurea coated birch plywood\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "IP Rating": "IP54 (Source: \"IP Rating: IP54\")",
+      "Technology": "Slim Array Technology, Electronic Beam Steering (Source: \"The speaker also incorporates \\\"Slim Array Technology\\\" for better impulse response and a unique cardioid polar pattern, and K-array's \\\"Electronic Beam Steering technology\\\" for digital adjustment of sound beam dispersion.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH5P I is an incredibly flat and powerful passive speaker, a revolutionary compact line array element for large-scale concerts and live events. Features two 15” neodymium woofers and four horn-loaded compression drivers with 2.5” voice coils. Incorporates Slim Array Technology for better impulse response and a unique cardioid polar pattern. Electronic Beam Steering technology for digital adjustment of sound beam dispersion. Specifications: Type: Passive line array element. Transducers: 2x 15” neodymium magnet woofer with 2.5” voice coil, 4x compression driver with 2.5” voice coil. Frequency Response: 120 Hz – 19 kHz (-6 dB). Max SPL: 147 dB peak. Rated Power (Quad-amp): HF: 2x 250 Wpeak, LF: 2x 800 Wpeak. Nominal Impedance: HF: 2x 16 ohm, LF: 2x 8 ohm. Coverage: V. 7° digitally adjustable in array | H. 110°. Dimensions: 1218 x 604 x 210 mm (47.9 x 23.8 x 8.3 in) with rigging hardware. Weight: 59 kg / 130 lb (with rigging hardware). Material: Polyurea coated birch plywood. Colors: Black, White, Custom RAL. IP Rating: IP54.",
+    "semantic_chunks": [
+      "Mugello-KH5P I: passive, compact line array for large-scale concerts/live events.",
+      "Components: Two 15” neodymium woofers, four 2.5” voice coil horn-loaded compression drivers.",
+      "Technologies: Slim Array Technology (impulse response, cardioid polar pattern), Electronic Beam Steering (digital sound beam dispersion).",
+      "Specifications: Type: Passive line array. Transducers: 2x 15” neodymium, 4x 2.5” compression drivers. Freq. Response: 120 Hz – 19 kHz (-6 dB). Max SPL: 147 dB peak. Rated Power (Quad-amp): HF: 2x 250 Wpeak, LF: 2x 800 Wpeak. Impedance: HF: 2x 16 ohm, LF: 2x 8 ohm. Coverage: V. 7° digitally adjustable | H. 110°. Dimensions: 1218x604x210 mm. Weight: 59 kg. Material: Polyurea coated birch plywood. Colors: Black, White, Custom RAL. IP Rating: IP54."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Mugello-KH5P I?",
+        "answer": "Passive line array element."
+      },
+      {
+        "question": "What transducers does the Mugello-KH5P I have?",
+        "answer": "2x 15” neodymium magnet woofer with 2.5” voice coil, 4x compression driver with 2.5” voice coil."
+      },
+      {
+        "question": "What is the frequency response of the Mugello-KH5P I?",
+        "answer": "120 Hz – 19 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Mugello-KH5P I?",
+        "answer": "147 dB peak."
+      },
+      {
+        "question": "What is the rated power (Quad-amp) of the Mugello-KH5P I?",
+        "answer": "HF: 2x 250 Wpeak, LF: 2x 800 Wpeak."
+      },
+      {
+        "question": "What is the nominal impedance of the Mugello-KH5P I?",
+        "answer": "HF: 2x 16 ohm, LF: 2x 8 ohm."
+      },
+      {
+        "question": "What is the coverage of the Mugello-KH5P I?",
+        "answer": "V. 7° digitally adjustable in array | H. 110°."
+      },
+      {
+        "question": "What are the dimensions of the Mugello-KH5P I?",
+        "answer": "1218 x 604 x 210 mm (47.9 x 23.8 x 8.3 in) with rigging hardware."
+      },
+      {
+        "question": "What is the weight of the Mugello-KH5P I?",
+        "answer": "59 kg / 130 lb (with rigging hardware)."
+      },
+      {
+        "question": "What material is the Mugello-KH5P I made of?",
+        "answer": "Polyurea coated birch plywood."
+      },
+      {
+        "question": "What colors are available for the Mugello-KH5P I?",
+        "answer": "Black, White, Custom RAL."
+      },
+      {
+        "question": "What is the IP rating of the Mugello-KH5P I?",
+        "answer": "IP54."
+      },
+      {
+        "question": "What technologies are incorporated in the Mugello-KH5P I?",
+        "answer": "Slim Array Technology and Electronic Beam Steering technology."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Mugello-KH5P I: Large Format Line Array with Digital ... - K-array (https://www.k-array.com/en/product/mugello-kh5pl)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE & EASE Focus Data",
+      "Preset",
+      "DWG 3D",
+      "DXF 2D",
+      "3DS 3D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity",
+      "BIM files"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

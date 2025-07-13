@@ -1,0 +1,187 @@
+{
+  "id": "195",
+  "url": "https://www.k-array.com/en/application/residential",
+  "timestamp": "2025-07-12T14:00:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "RESIDENTIAL",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "residential",
+      "contemporary design",
+      "innovation",
+      "perfect sound experience",
+      "comfort entertainment"
+    ],
+    "technical": [
+      "multi-room audio",
+      "sleek design",
+      "multimedia source management",
+      "reliable connectivity",
+      "easy setup"
+    ],
+    "integration": [
+      "Crestron",
+      "Control4",
+      "Q-SYS",
+      "third party control",
+      "official plug-ins",
+      "API documentation"
+    ],
+    "products": [
+      "Python-KP102 I",
+      "Kobra-KK52 I",
+      "Kayman-KY102",
+      "Domino-KF210",
+      "Azimut-KAMUT2L II",
+      "Rumble-KU210",
+      "Kommander-KA68"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "positioning": "Combining the values of contemporary design and innovation with a perfect sound experience",
+      "key_goals": "Achieve another level of both comfort and entertainment at home",
+      "features": [
+        "Multi-room audio systems",
+        "Sleek design",
+        "Multimedia source management",
+        "Reliable connectivity",
+        "Easy setup",
+        "Dedicated control software"
+      ]
+    },
+    "system_integration": {
+      "compatibility": "Easy to integrate with third party control system like Crestron, Control4, Q-SYS",
+      "integration_methods": [
+        "Official plug-ins",
+        "API documentation"
+      ]
+    },
+    "recommended_products": [
+      {
+        "category": "Speakers",
+        "products": [
+          "Python-KP102 I",
+          "Kobra-KK52 I",
+          "Kayman-KY102",
+          "Domino-KF210/KF212",
+          "Azimut-KAMUT2L II",
+          "Lyzard-KZ14 I",
+          "Vyper-KV52 series"
+        ]
+      },
+      {
+        "category": "Subwoofers",
+        "products": [
+          "Rumble-KU210/KU212/KU26",
+          "Thunder-KSC18P"
+        ]
+      },
+      {
+        "category": "Amplifiers",
+        "products": [
+          "Kommander-KA68/KA84",
+          "Turtle-KRM33P"
+        ]
+      }
+    ],
+    "installation_scenarios": {
+      "typical_environments": [
+        "Home theaters",
+        "Outdoor audio systems",
+        "Luxury residences",
+        "Multi-purpose rooms",
+        "Penthouses"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Spring Ponds",
+        "description": "Dual-purpose room"
+      },
+      {
+        "name": "Private Luxury Estate",
+        "description": "Outdoor/home theater"
+      },
+      {
+        "name": "The Camellias",
+        "description": "Luxury residential project"
+      },
+      {
+        "name": "Private Penthouse in Zurich"
+      },
+      {
+        "name": "Luxury Home Cinema"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "residential contemporary design innovation perfect sound experience comfort entertainment multi-room audio sleek design multimedia source management reliable connectivity easy setup dedicated control software Crestron Control4 Q-SYS third party control official plug-ins API documentation home theaters outdoor audio luxury residences multi-purpose rooms penthouses Python-KP102 I Kobra-KK52 I Kayman-KY102 Domino-KF210 KF212 Azimut-KAMUT2L II Lyzard-KZ14 I Vyper-KV52 Rumble-KU210 KU212 KU26 Thunder-KSC18P Kommander-KA68 KA84 Turtle-KRM33P Spring Ponds Private Luxury Estate Camellias Penthouse Zurich Luxury Home Cinema",
+    "semantic_chunks": [
+      "Residential applications combine contemporary design and innovation with perfect sound experience to achieve another level of comfort and entertainment at home",
+      "Features include multi-room audio systems, sleek design, multimedia source management, reliable connectivity, easy setup, and dedicated control software",
+      "Easy integration with third party control systems like Crestron, Control4, Q-SYS through official plug-ins and API documentation",
+      "Product portfolio includes Python speakers, Kobra systems, Kayman monitors, Domino series, Azimut, Lyzard, Vyper, Rumble subwoofers, and Kommander amplifiers",
+      "Applications span home theaters, outdoor audio systems, luxury residences, multi-purpose rooms, and penthouses with case studies including Spring Ponds, Private Luxury Estate, The Camellias, and Zurich Penthouse"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to residential audio?",
+        "a": "Combining the values of contemporary design and innovation with a perfect sound experience"
+      },
+      {
+        "q": "What are the key goals for residential audio systems?",
+        "a": "Achieve another level of both comfort and entertainment at home"
+      },
+      {
+        "q": "What control systems can K-Array integrate with?",
+        "a": "Easy to integrate with third party control system like Crestron, Control4, Q-SYS"
+      },
+      {
+        "q": "What environments are suitable for K-Array residential systems?",
+        "a": "Home theaters, outdoor audio systems, luxury residences, multi-purpose rooms, and penthouses"
+      },
+      {
+        "q": "What are examples of K-Array residential installations?",
+        "a": "Spring Ponds (dual-purpose room), Private Luxury Estate (outdoor/home theater), The Camellias (luxury residential project), Private Penthouse in Zurich, and Luxury Home Cinema"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Combining the values of contemporary design and innovation with a perfect sound experience",
+      "source": "Direct quote from residential positioning"
+    },
+    {
+      "claim": "Achieve another level of both comfort and entertainment at home",
+      "source": "Direct quote from key goals"
+    },
+    {
+      "claim": "Easy to integrate with third party control system like Crestron, Control4, Q-SYS",
+      "source": "Direct quote from system integration compatibility"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

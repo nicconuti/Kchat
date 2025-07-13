@@ -1,0 +1,175 @@
+{
+  "id": "176",
+  "url": "https://www.k-array.com/en/products/line/capture",
+  "timestamp": "2025-07-12T12:25:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCT_LINES",
+    "subcategory": "CAPTURE_SERIES",
+    "product_line": "Capture",
+    "content_type": "product_line_overview",
+    "product_type": "microphone_line_array"
+  },
+  "keywords": {
+    "primary": [
+      "Capture",
+      "line array microphone",
+      "Pure Array Technology",
+      "cardioid capsules"
+    ],
+    "technical": [
+      "4mm capsules",
+      "6mm electret condenser",
+      "closely-spaced",
+      "minimal gain variation"
+    ],
+    "applications": [
+      "auditoriums",
+      "boardrooms",
+      "concerts",
+      "theaters",
+      "houses of worship"
+    ],
+    "unique_identifiers": [
+      "KMC20",
+      "KMC20H",
+      "KMC20V",
+      "KMC50"
+    ]
+  },
+  "content_sections": {
+    "series_overview": {
+      "description": "Incredibly thin line array microphone with Pure Array Technology",
+      "key_features": [
+        "Closely-spaced 4 mm cardioid capsules",
+        "Line array configuration",
+        "Vertical and horizontal orientation options"
+      ],
+      "design_philosophy": "Pure Array Technology with closely-spaced full-range sound sources"
+    },
+    "product_models": [
+      {
+        "model": "KMC20",
+        "capsules": "8 x 4 mm cardioid capsules",
+        "configuration": "Standard setup"
+      },
+      {
+        "model": "KMC20H",
+        "capsules": "8 x 4 mm cardioid capsules",
+        "configuration": "Horizontal setup"
+      },
+      {
+        "model": "KMC20V",
+        "capsules": "8 x 4 mm cardioid capsules",
+        "configuration": "Vertical setup"
+      },
+      {
+        "model": "KMC50",
+        "capsules": "16 x 6 mm electret condenser capsules",
+        "configuration": "50 cm configuration"
+      }
+    ],
+    "technical_details": {
+      "pure_array_technology": [
+        "Closely-spaced full-range sound sources",
+        "Minimal gain variation with distance",
+        "Visually discreet design",
+        "Lightweight and easy to transport"
+      ],
+      "capsule_types": [
+        "4 mm cardioid capsules",
+        "6 mm electret condenser capsules"
+      ],
+      "orientation_options": [
+        "Vertical orientation",
+        "Horizontal orientation"
+      ]
+    },
+    "applications": {
+      "primary_markets": [
+        "Auditoriums and Concert Halls",
+        "Boardrooms and Conference Rooms",
+        "Concerts and Live Events",
+        "Theaters",
+        "Houses of Worship"
+      ],
+      "key_benefits": [
+        "Visually discreet",
+        "Minimal gain variation",
+        "Lightweight design",
+        "Flexible configuration options"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Capture incredibly thin line array microphone Pure Array Technology closely-spaced 4mm cardioid capsules 6mm electret condenser vertical horizontal orientation KMC20 KMC20H KMC20V KMC50 minimal gain variation visually discreet lightweight auditoriums boardrooms concerts theaters houses worship flexible configuration",
+    "semantic_chunks": [
+      "Capture is an incredibly thin line array microphone series using Pure Array Technology with closely-spaced cardioid capsules",
+      "Product models include KMC20 (8x4mm cardioid), KMC20H (horizontal), KMC20V (vertical), and KMC50 (16x6mm electret condenser)",
+      "Features minimal gain variation with distance, visually discreet design, and lightweight construction for easy transport",
+      "Applications include auditoriums, concert halls, boardrooms, conferences, concerts, live events, theaters, and houses of worship",
+      "Offers flexible configuration options with both vertical and horizontal orientation capabilities"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is the K-Array Capture series?",
+        "a": "Incredibly thin line array microphone with Pure Array Technology"
+      },
+      {
+        "q": "What are the main Capture models?",
+        "a": "KMC20, KMC20H, KMC20V, and KMC50"
+      },
+      {
+        "q": "What capsules does Capture use?",
+        "a": "4 mm cardioid capsules and 6 mm electret condenser capsules"
+      },
+      {
+        "q": "What are the key benefits of Capture microphones?",
+        "a": "Minimal gain variation with distance, visually discreet design, and lightweight construction"
+      },
+      {
+        "q": "What applications is Capture designed for?",
+        "a": "Auditoriums, concert halls, boardrooms, concerts, theaters, and houses of worship"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Incredibly thin line array microphone with Pure Array Technology",
+      "source": "Direct quote from Capture series overview"
+    },
+    {
+      "claim": "Closely-spaced 4 mm cardioid capsules",
+      "source": "Direct specification from technical features"
+    },
+    {
+      "claim": "16 x 6 mm electret condenser capsules",
+      "source": "Direct specification from KMC50 model details"
+    },
+    {
+      "claim": "Minimal gain variation with distance",
+      "source": "Direct quote from Pure Array Technology benefits"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE & EASE Focus Data",
+      "Preset",
+      "DWG 3D",
+      "DXF 2D",
+      "3DS 3D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity",
+      "BIM files"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

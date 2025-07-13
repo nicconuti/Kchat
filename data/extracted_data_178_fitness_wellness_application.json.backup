@@ -1,0 +1,185 @@
+{
+  "id": "178",
+  "url": "https://www.k-array.com/en/application/fitness-and-wellness",
+  "timestamp": "2025-07-12T12:35:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "FITNESS_AND_WELLNESS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "fitness",
+      "wellness",
+      "spa",
+      "spin class",
+      "well-being experience"
+    ],
+    "technical": [
+      "clear spoken word",
+      "trainer instructions",
+      "high-intensity",
+      "reliable materials"
+    ],
+    "applications": [
+      "fitness centers",
+      "spas",
+      "cycling studios",
+      "weight training",
+      "aquatic environments"
+    ],
+    "products": [
+      "Domino-KF26",
+      "Python-KP52 I",
+      "Thunder-KMT18P",
+      "Thunder-KS2P I",
+      "Kommander-KA84"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "purpose": "From relaxing in a spa to keeping rhythm in a spin class, our solutions will assist in creating an overall positive well-being experience",
+      "key_challenges": [
+        "Providing clear audio for trainer instructions",
+        "Maintaining sound quality during intense environments"
+      ],
+      "venue_types": [
+        "Fitness centers",
+        "Spas",
+        "Cycling studios",
+        "Weight training facilities",
+        "Aquatic environments"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Domino-KF26",
+        "use_case": "Ski resort restaurant applications"
+      },
+      {
+        "product": "Python-KP52 I",
+        "use_case": "Indoor cycling and boutique fitness studios"
+      },
+      {
+        "product": "Thunder-KMT18P",
+        "status": "Discontinued",
+        "use_case": "High-intensity workout environments"
+      },
+      {
+        "product": "Thunder-KS2P I",
+        "use_case": "Cycling and fitness studio applications"
+      },
+      {
+        "product": "Kommander-KA84",
+        "status": "Discontinued",
+        "use_case": "Fitness studio amplification"
+      }
+    ],
+    "installation_scenarios": {
+      "environmental_considerations": "Systems made of the most reliable and durable materials",
+      "environmental_tolerance": [
+        "Sauna steam",
+        "Aquatic environments",
+        "High-intensity workout spaces"
+      ],
+      "audio_objectives": [
+        "Clear spoken word getting the trainers' instructions out",
+        "Large sound to keep weightlifters concentrated"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "CRANK Indoor Cycling & Boutique Fitness Studio (Dubai)",
+        "products_used": [
+          "Python-KP52 I",
+          "Thunder-KMT18P",
+          "Kommander-KA84",
+          "Thunder-KS2P I"
+        ],
+        "services": [
+          "Indoor cycling",
+          "Boot camp sessions",
+          "Strength training",
+          "Stretching"
+        ]
+      },
+      {
+        "name": "Franzl Schmitten Ski Resort Restaurant",
+        "products_used": [
+          "Domino-KF26",
+          "Kommander-KA24"
+        ]
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "fitness wellness spa spin class well-being experience clear spoken word trainer instructions sauna steam aquatic environments high-intensity workout reliable durable materials Domino-KF26 Python-KP52 I Thunder-KMT18P Thunder-KS2P I Kommander-KA84 CRANK Dubai indoor cycling boutique fitness boot camp strength training stretching Franzl Schmitten ski resort restaurant",
+    "semantic_chunks": [
+      "K-Array fitness and wellness applications range from relaxing spa environments to high-intensity spin classes, creating positive well-being experiences",
+      "Key challenges include providing clear spoken word for trainer instructions and maintaining large sound for weightlifter concentration",
+      "Recommended products include Domino-KF26, Python-KP52 I, Thunder-KMT18P, Thunder-KS2P I, and Kommander-KA84 for various fitness scenarios",
+      "Systems use reliable and durable materials to withstand sauna steam, aquatic environments, and high-intensity workout spaces",
+      "Case studies include CRANK Dubai (indoor cycling, boot camp, strength training) and Franzl Schmitten ski resort restaurant"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to fitness and wellness applications?",
+        "a": "From relaxing in a spa to keeping rhythm in a spin class, creating an overall positive well-being experience"
+      },
+      {
+        "q": "What are the key audio challenges in fitness environments?",
+        "a": "Providing clear spoken word for trainer instructions and maintaining sound quality during intense environments"
+      },
+      {
+        "q": "What products does K-Array recommend for fitness applications?",
+        "a": "Domino-KF26, Python-KP52 I, Thunder-KMT18P, Thunder-KS2P I, and Kommander-KA84"
+      },
+      {
+        "q": "What environmental conditions can K-Array systems handle in fitness venues?",
+        "a": "Sauna steam, aquatic environments, and high-intensity workout spaces"
+      },
+      {
+        "q": "What is an example of K-Array in fitness applications?",
+        "a": "CRANK Indoor Cycling & Boutique Fitness Studio in Dubai using Python-KP52 I, Thunder-KMT18P, Kommander-KA84, and Thunder-KS2P I"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "From relaxing in a spa to keeping rhythm in a spin class, our solutions will assist in creating an overall positive well-being experience",
+      "source": "Direct quote from fitness and wellness application overview"
+    },
+    {
+      "claim": "Clear spoken word getting the trainers' instructions out",
+      "source": "Direct quote from audio objectives section"
+    },
+    {
+      "claim": "Systems made of the most reliable and durable materials",
+      "source": "Direct quote from environmental considerations"
+    },
+    {
+      "claim": "Large sound to keep weightlifters concentrated",
+      "source": "Direct quote from audio objectives section"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "147",
+  "url": "https://www.k-array.com/en/product/duetto-kd6bt",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DUETTO_SERIES",
+    "product_line": "Duetto",
+    "model": "KD6BT",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KD6BT", "Duetto", "earbuds", "ultra-mini", "bluetooth"],
+    "technical": ["transducer", "frequency response", "sensitivity", "impedance", "Bluetooth"],
+    "applications": [],
+    "unique_identifiers": ["kd6bt"]
+  },
+  "content_sections": {
+    "description": "The Duetto-KD6BT is a set of ultra-mini, high-quality aluminum alloy earbuds with Bluetooth connectivity. Each earbud is equipped with a 6 mm full-range transducer, capable of reproducing frequencies from 5 Hz to 23 kHz at -12 dB ensuring high-definition audio with deep, rich bass and clear high frequencies. The earbuds come with three sizes of ear tips (silicon and memory foam) and a genuine leather carrying case.",
+    "specifications": {
+      "Transducers": "6 mm neodymium magnet (Source: "Transducers: 6 mm neodymium magnet")",
+      "Frequency Response": "5 Hz - 23 kHz (Source: "Frequency Response: 5 Hz - 23 kHz")",
+      "Sensitivity (1W/1m)": "105 ± 3 dB @ 1 kHz (Source: "Sensitivity (1W/1m): 105 ± 3 dB @ 1 kHz")",
+      "Impedance": "16Ω±15% (Source: "Impedance: 16Ω±15%")",
+      "Finishes": "Black (Source: "Finishes: Black")",
+      "Material": "Aluminium Alloy (Source: "Material: Aluminium Alloy")",
+      "Connectivity": "Bluetooth (Source: "Bluetooth connectivity")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Duetto-KD6BT is a set of ultra-mini, high-quality aluminum alloy earbuds with Bluetooth connectivity. Each earbud has a 6 mm full-range transducer, reproducing frequencies from 5 Hz to 23 kHz at -12 dB for high-definition audio. Comes with three sizes of ear tips (silicon and memory foam) and a genuine leather carrying case. Specifications: Transducers: 6 mm neodymium magnet. Frequency Response: 5 Hz - 23 kHz. Sensitivity: 105 ± 3 dB @ 1 kHz. Impedance: 16Ω±15%. Finishes: Black. Material: Aluminium Alloy. Connectivity: Bluetooth.",
+    "semantic_chunks": [
+      "Duetto-KD6BT: ultra-mini, high-quality aluminum alloy earbuds with Bluetooth.",
+      "Features: 6 mm full-range transducer, 5-23 kHz freq. range (-12 dB) for high-definition audio. Three ear tip sizes, leather carrying case.",
+      "Specifications: Transducers: 6mm neodymium. Freq. Response: 5-23 kHz. Sensitivity: 105 ± 3 dB @ 1 kHz. Impedance: 16Ω±15%. Finishes: Black. Material: Aluminium Alloy. Connectivity: Bluetooth."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Duetto-KD6BT?", "answer": "Ultra-Mini Earbuds with Bluetooth connectivity."},
+      {"question": "What kind of transducer does the Duetto-KD6BT have?", "answer": "A 6 mm full-range transducer."},
+      {"question": "What is the frequency response of the Duetto-KD6BT?", "answer": "5 Hz - 23 kHz."},
+      {"question": "What is the sensitivity of the Duetto-KD6BT?", "answer": "105 ± 3 dB @ 1 kHz."},
+      {"question": "What is the impedance of the Duetto-KD6BT?", "answer": "16Ω±15%."},
+      {"question": "What material is the Duetto-KD6BT made of?", "answer": "Aluminum Alloy."},
+      {"question": "What color is available for the Duetto-KD6BT?", "answer": "Black."},
+      {"question": "What is the connectivity of the Duetto-KD6BT?", "answer": "Bluetooth."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Duetto-KD6BT: K-array's Ultra-Mini Earbuds - K-array (https://www.k-array.com/en/product/duetto-kd6bt)"}
+  ]
+}

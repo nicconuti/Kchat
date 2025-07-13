@@ -1,0 +1,159 @@
+{
+  "id": "115",
+  "url": "https://www.k-array.com/en/product/domino-kfc26",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DOMINO_SERIES",
+    "product_line": "Domino",
+    "model": "KFC26",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KFC26",
+      "Domino",
+      "full-range speaker",
+      "passive",
+      "wide-coverage"
+    ],
+    "technical": [
+      "neodymium magnet woofer",
+      "dome tweeter",
+      "passive radiator",
+      "frequency response",
+      "sensitivity",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [
+      "home cinema",
+      "ceiling mounting"
+    ],
+    "unique_identifiers": [
+      "kfc26"
+    ]
+  },
+  "content_sections": {
+    "description": "The Domino-KFC26 is a 2 x 6\" full-range, wide-coverage passive speaker. It has a peak SPL of 115dB and fixed 8Ω impedance, making it suitable for home cinema applications and situations requiring wider audio coverage, such as ceiling mounting. The speaker maintains the compact, discreet stainless steel chassis of the Domino-KF26 and does not require a dedicated preset, allowing use with any well-scaled amplifier. It can be transformed into a self-powered speaker by inserting a specific amplifier accessory.",
+    "specifications": {
+      "Type": "Point source (Source: \"Type: Point source\")",
+      "Transducers": "6\" neodymium magnet woofer, 1.1\" dome tweeter (in KFC26 models), 6\" passive radiator (Source: \"Transducers: 6\" neodymium magnet woofer, 1.1\" dome tweeter (in KFC26 models), 6\" passive radiator\")",
+      "Frequency Response": "50 Hz - 20 kHz (-6 dB) (Source: \"Frequency Response: 50 Hz - 20 kHz (-6 dB)\")",
+      "Sensitivity (1W/1m)": "90 dB (Source: \"Sensitivity (1W/1m): 90 dB\")",
+      "Max SPL": "115 dB (peak) (Source: \"Max SPL: 115 dB (peak)\")",
+      "Rated Power": "160 W (Source: \"Rated Power: 160 W\")",
+      "Coverage": "V. 140° | H. 140° (Source: \"Coverage: V. 140° | H. 140°\")",
+      "Connectors": "2PIN euroblock connector (included) (Source: \"Connectors: 2PIN euroblock connector (included)\")",
+      "Nominal Impedance": "8Ω (Source: \"Nominal Impedance: 8Ω\")",
+      "Dimensions (W x H x D)": "180 x 350 x 118 mm (7.1 x 13.8 x 4.6 in) (Source: \"Dimensions (W x H x D): 180 x 350 x 118 mm (7.1 x 13.8 x 4.6 in)\")",
+      "Weight": "6.5 kg (14.3 lb) (Source: \"Weight: 6.5 kg (14.3 lb)\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "Finishes": "24K Gold, Polished, Brushed (Source: \"Finishes: 24K Gold, Polished, Brushed\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\")"
+    },
+    "models": {
+      "Standard": [
+        "KFC26 black model (Source: \"KFC26 black model\")",
+        "KFC26W white model (Source: \"KFC26W white model\")",
+        "KFC26X customizable color and finish (box + grill) (Source: \"KFC26X customizable color and finish (box + grill)\")"
+      ],
+      "Marine Treated (on request)": [
+        "KFC26M (Source: \"KFC26M\")",
+        "KFC26MW (Source: \"KFC26MW\")",
+        "KFC26MX (Source: \"KFC26MX\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Domino-KFC26 is a 2 x 6\" full-range, wide-coverage passive speaker. Peak SPL of 115dB and fixed 8Ω impedance. Suitable for home cinema and wider audio coverage applications like ceiling mounting. Compact, discreet stainless steel chassis. Doesn't require dedicated preset, works with any well-scaled amplifier. Can be transformed into a self-powered speaker with accessory. Specifications: Type: Point source. Transducers: 6\" neodymium magnet woofer, 1.1\" dome tweeter, 6\" passive radiator. Frequency Response: 50 Hz - 20 kHz (-6 dB). Sensitivity: 90 dB. Max SPL: 115 dB (peak). Rated Power: 160 W. Coverage: V. 140° | H. 140°. Connectors: 2PIN euroblock. Nominal Impedance: 8Ω. Dimensions: 180 x 350 x 118 mm. Weight: 6.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64. Models: KFC26 black, KFC26W white, KFC26X customizable. Marine Treated: KFC26M, KFC26MW, KFC26MX.",
+    "semantic_chunks": [
+      "Domino-KFC26: 2x6\" full-range, wide-coverage passive speaker. Peak SPL 115dB, 8Ω impedance. For home cinema, ceiling mounting.",
+      "Features: Compact, discreet stainless steel. No dedicated preset needed. Can be self-powered with accessory.",
+      "Specifications: Type: Point source. Transducers: 6\" neodymium woofer, 1.1\" dome tweeter, 6\" passive radiator. Freq. Response: 50-20 kHz (-6 dB). Sensitivity: 90 dB. Max SPL: 115 dB. Rated Power: 160 W. Coverage: V. 140° | H. 140°. Connectors: 2PIN euroblock. Impedance: 8Ω. Dimensions: 180x350x118 mm. Weight: 6.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64.",
+      "Models: KFC26 (black), KFC26W (white), KFC26X (custom). Marine Treated: KFC26M, KFC26MW, KFC26MX."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Domino-KFC26?",
+        "answer": "Full-range, wide-coverage passive speaker / Point source."
+      },
+      {
+        "question": "What transducers does the Domino-KFC26 have?",
+        "answer": "6\" neodymium magnet woofer, 1.1\" dome tweeter (in KFC26 models), 6\" passive radiator."
+      },
+      {
+        "question": "What is the peak SPL of the Domino-KFC26?",
+        "answer": "115dB."
+      },
+      {
+        "question": "What is the nominal impedance of the Domino-KFC26?",
+        "answer": "8Ω."
+      },
+      {
+        "question": "What is the frequency response of the Domino-KFC26?",
+        "answer": "50 Hz - 20 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the sensitivity of the Domino-KFC26?",
+        "answer": "90 dB."
+      },
+      {
+        "question": "What is the rated power of the Domino-KFC26?",
+        "answer": "160 W."
+      },
+      {
+        "question": "What is the coverage of the Domino-KFC26?",
+        "answer": "V. 140° | H. 140°."
+      },
+      {
+        "question": "What are the dimensions of the Domino-KFC26?",
+        "answer": "180 x 350 x 118 mm (7.1 x 13.8 x 4.6 in)."
+      },
+      {
+        "question": "What is the weight of the Domino-KFC26?",
+        "answer": "6.5 kg (14.3 lb)."
+      },
+      {
+        "question": "What material is the Domino-KFC26 made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What colors and finishes are available for the Domino-KFC26?",
+        "answer": "Black, White, Custom RAL colors, with 24K Gold, Polished, or Brushed finishes."
+      },
+      {
+        "question": "What is the IP rating of the Domino-KFC26?",
+        "answer": "IP64."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Domino-KFC26: 2 x 6\" full-range, wide-coverage passive ... - K-array (https://www.k-array.com/en/product/domino-kfc26)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "102",
+  "url": "https://www.k-array.com/en/product/kayman-ky102",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "KAYMAN_SERIES",
+    "product_line": "Kayman",
+    "model": "KY102",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KY102", "Kayman", "line array", "speaker"],
+    "technical": ["neodymium magnet woofers", "SPL", "frequency response", "rated power", "coverage", "impedance", "IP64"],
+    "applications": ["outdoor installation"],
+    "unique_identifiers": ["ky102"]
+  },
+  "content_sections": {
+    "description": "The Kayman-KY102 is the widest line array in K-array's column speaker collection, featuring eight closely-spaced 4” neodymium magnet woofers. It is a passive speaker capable of delivering SPL levels up to 138dB, making it K-array's most powerful column speaker. It is designed for outdoor installation with an IP64 rating and offers various rigging accessories for vertical and horizontal line array configurations. All components are custom-made in Italy under K-array's quality control system.",
+    "specifications": {
+      "Type": "Line array (Source: "Type: Line array")",
+      "Transducers": "8 x 4\" neodymium magnet woofers (Source: "Transducers: 8 x 4\" neodymium magnet woofers")",
+      "Frequency Response": "120 Hz – 20 kHz (-6 dB) or 70 Hz – 20 kHz (-6 dB) with full-range preset (Source: "Frequency Response: 120 Hz – 20 kHz (-6 dB) or 70 Hz – 20 kHz (-6 dB) with full-range preset.")",
+      "Max SPL": "138 dB (peak) or 126 dB (peak) with full-range preset (Source: "Max SPL: 138 dB (peak) or 126 dB (peak) with full-range preset.")",
+      "Rated Power": "1200 W (Source: "Rated Power: 1200 W")",
+      "Coverage": "V. 7° - 30° | H. 90° (Source: "Coverage: V. 7° - 30° | H. 90°")",
+      "Connectors": "SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: "Connectors: SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)")",
+      "Nominal Impedance": "8 Ω / 32 Ω selectable (Source: "Nominal Impedance: 8 Ω / 32 Ω selectable")",
+      "Dimensions (W x H x D)": "116 x 1000 x 134 mm (4.6 x 39.4 x 5.3 in) (Source: "Dimensions (W x H x D): 116 x 1000 x 134 mm (4.6 x 39.4 x 5.3 in)")",
+      "Weight": "14.9 kg (32.8 lb) (Source: "Weight: 14.9 kg (32.8 lb)")",
+      "Material": "Stainless Steel (Source: "Material: Stainless Steel")",
+      "Colors": "Black, White, Custom RAL (Source: "Colors: Black, White, Custom RAL")",
+      "Finishes": "24K Gold, Polished, Brushed (Source: "Finishes: 24K Gold, Polished, Brushed")",
+      "IP Rating": "IP64 (Source: "IP Rating: IP64")"
+    },
+    "models": {
+      "Standard": [
+        "KY102 black (Source: "KY102 black")",
+        "KY102W white (Source: "KY102W white")",
+        "KY102X customizable color and finish (Source: "KY102X customizable color and finish")"
+      ],
+      "Marine Treated": [
+        "KY102M (Source: "KY102M")",
+        "KY102MW (Source: "KY102MW")",
+        "KY102MX (Source: "KY102MX")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Kayman-KY102 is the widest line array in K-array's column speaker collection. Features eight closely-spaced 4” neodymium magnet woofers. Passive speaker, delivers SPL levels up to 138dB. Designed for outdoor installation with an IP64 rating. Offers various rigging accessories for vertical and horizontal line array configurations. All components custom-made in Italy. Specifications: Type: Line array. Transducers: 8 x 4\" neodymium magnet woofers. Frequency Response: 120 Hz – 20 kHz (-6 dB) or 70 Hz – 20 kHz (-6 dB) with full-range preset. Max SPL: 138 dB (peak) or 126 dB (peak) with full-range preset. Rated Power: 1200 W. Coverage: V. 7° - 30° | H. 90°. Connectors: SpeakOn NL4. Nominal Impedance: 8 Ω / 32 Ω selectable. Dimensions: 116 x 1000 x 134 mm. Weight: 14.9 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64. Models: KY102 black, KY102W white, KY102X customizable color and finish. Marine-treated versions: KY102M, KY102MW, KY102MX.",
+    "semantic_chunks": [
+      "Kayman-KY102: widest line array in K-array's column speaker collection. Eight 4” neodymium woofers. Passive, up to 138dB SPL.",
+      "Design: Outdoor installation (IP64). Rigging accessories for vertical/horizontal line array. Custom-made in Italy.",
+      "Specifications: Type: Line array. Transducers: 8x 4\" neodymium woofers. Freq. Response: 120-20 kHz (-6 dB) or 70-20 kHz (-6 dB) with full-range preset. Max SPL: 138 dB (peak) or 126 dB (peak) with full-range preset. Rated Power: 1200 W. Coverage: V. 7°-30° | H. 90°. Connectors: SpeakOn NL4. Impedance: 8Ω/32Ω selectable. Dimensions: 116x1000x134 mm. Weight: 14.9 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64.",
+      "Models: Standard (KY102 black, KY102W white, KY102X custom). Marine-treated (KY102M, KY102MW, KY102MX)."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Kayman-KY102?", "answer": "Line array / Column speaker."},
+      {"question": "How many transducers does the Kayman-KY102 have?", "answer": "Eight 4\" neodymium magnet woofers."},
+      {"question": "What is the maximum SPL of the Kayman-KY102?", "answer": "138 dB (peak) or 126 dB (peak) with full-range preset."},
+      {"question": "What is the rated power of the Kayman-KY102?", "answer": "1200 W."},
+      {"question": "What is the IP rating of the Kayman-KY102?", "answer": "IP64."},
+      {"question": "What are the dimensions of the Kayman-KY102?", "answer": "116 x 1000 x 134 mm (4.6 x 39.4 x 5.3 in)."},
+      {"question": "What is the weight of the Kayman-KY102?", "answer": "14.9 kg (32.8 lb)."},
+      {"question": "What material is the Kayman-KY102 made of?", "answer": "Stainless Steel."},
+      {"question": "What color and finish options are available for the Kayman-KY102?", "answer": "Black, White, Custom RAL colors, with 24K Gold, Polished, or Brushed finishes."},
+      {"question": "Are there marine-treated versions of the Kayman-KY102?", "answer": "Yes, KY102M, KY102MW, KY102MX are available on request."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Kayman KY102: Stainless Steel Line Array with 4\" drivers - K-array (https://www.k-array.com/en/product/kayman-ky102)"}
+  ]
+}

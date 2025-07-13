@@ -1,0 +1,184 @@
+{
+  "id": "185",
+  "url": "https://www.k-array.com/en/application/event-productions",
+  "timestamp": "2025-07-12T13:10:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "EVENT_PRODUCTIONS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "event productions",
+      "prestigious events",
+      "sleek design",
+      "discreet form",
+      "portable systems"
+    ],
+    "technical": [
+      "lightweight",
+      "easy setup",
+      "high-tech powered",
+      "weather resistant",
+      "temporary installations"
+    ],
+    "applications": [
+      "gala dinners",
+      "wedding receptions",
+      "fashion shows",
+      "corporate events",
+      "outdoor setups"
+    ],
+    "products": [
+      "Pinnacle-KR102 I",
+      "Anakonda-KAN200",
+      "Python-KP102 I",
+      "Kobra-KK102 I",
+      "Thunder-KMT21P",
+      "Kommander-KA84"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "focus": "Audio equipment for prestigious events",
+      "key_description": "With a sleek design and a discreet form, K-array's portable systems and kits integrate seamlessly into audio designs",
+      "covered_venues": [
+        "Gala dinners",
+        "Wedding receptions",
+        "High-end fashion shows",
+        "Corporate events",
+        "Outdoor setups"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Pinnacle-KR102 I",
+        "status": "Discontinued",
+        "use_case": "High-end event audio systems"
+      },
+      {
+        "product": "Anakonda-KAN200",
+        "use_case": "Large outdoor event productions"
+      },
+      {
+        "product": "Python-KP102 I",
+        "use_case": "Event line array systems"
+      },
+      {
+        "product": "Kobra-KK102 I",
+        "use_case": "Compact event audio installations"
+      },
+      {
+        "product": "Thunder-KMT21P",
+        "status": "Discontinued",
+        "use_case": "Event subwoofer applications"
+      },
+      {
+        "product": "Kommander-KA84",
+        "status": "Discontinued",
+        "use_case": "Event amplification systems"
+      },
+      {
+        "product": "Pinnacle-KR402 I",
+        "status": "Discontinued",
+        "use_case": "Medium-scale event productions"
+      }
+    ],
+    "installation_scenarios": {
+      "key_characteristics": [
+        "Lightweight and easy to setup and dismantle",
+        "High-tech, powered audio solutions",
+        "Easily adaptable for temporary installations",
+        "Durable, weather resistant features for outdoor setups"
+      ],
+      "design_integration": "Seamless integration into audio designs with sleek and discreet form"
+    },
+    "case_studies": [
+      {
+        "name": "Patriarch of Moscow Cathedral Visit"
+      },
+      {
+        "name": "Rio 2016 Olympic Torch Relay"
+      },
+      {
+        "name": "The Economist Innovation Summit Series"
+      },
+      {
+        "name": "New Generation Festival"
+      },
+      {
+        "name": "General Electric 60th Anniversary"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "event productions prestigious events sleek design discreet form portable systems kits integrate seamlessly audio designs lightweight easy setup dismantle high-tech powered weather resistant temporary installations gala dinners wedding receptions fashion shows corporate events outdoor setups Pinnacle-KR102 I Anakonda-KAN200 Python-KP102 I Kobra-KK102 I Thunder-KMT21P Kommander-KA84 Patriarch Moscow Cathedral Rio 2016 Olympic Torch Relay Economist Innovation Summit New Generation Festival General Electric Anniversary",
+    "semantic_chunks": [
+      "Event productions focus on prestigious events with sleek design and discreet form, integrating portable systems seamlessly into audio designs",
+      "Applications include gala dinners, wedding receptions, high-end fashion shows, corporate events, and outdoor setups",
+      "Key characteristics include lightweight, easy setup/dismantle, high-tech powered solutions, and weather-resistant features for temporary installations",
+      "Recommended products include Pinnacle-KR102 I, Anakonda-KAN200, Python-KP102 I, Kobra-KK102 I, Thunder-KMT21P, and Kommander-KA84",
+      "Case studies include Patriarch of Moscow Cathedral Visit, Rio 2016 Olympic Torch Relay, Economist Innovation Summit, New Generation Festival, and GE 60th Anniversary"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to event productions?",
+        "a": "With a sleek design and a discreet form, K-array's portable systems and kits integrate seamlessly into audio designs"
+      },
+      {
+        "q": "What types of events does K-Array serve?",
+        "a": "Gala dinners, wedding receptions, high-end fashion shows, corporate events, and outdoor setups"
+      },
+      {
+        "q": "What are the key characteristics of K-Array event systems?",
+        "a": "Lightweight and easy to setup and dismantle, high-tech powered audio solutions, easily adaptable for temporary installations, and weather resistant"
+      },
+      {
+        "q": "What K-Array products are recommended for events?",
+        "a": "Pinnacle-KR102 I, Anakonda-KAN200, Python-KP102 I, Kobra-KK102 I, Thunder-KMT21P, Kommander-KA84, and Pinnacle-KR402 I"
+      },
+      {
+        "q": "What are examples of K-Array event productions?",
+        "a": "Patriarch of Moscow Cathedral Visit, Rio 2016 Olympic Torch Relay, The Economist Innovation Summit Series, New Generation Festival, and General Electric 60th Anniversary"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "With a sleek design and a discreet form, K-array's portable systems and kits integrate seamlessly into audio designs",
+      "source": "Direct quote from Event Productions section"
+    },
+    {
+      "claim": "Lightweight and easy to setup and dismantle",
+      "source": "Direct quote from installation characteristics"
+    },
+    {
+      "claim": "High-tech, powered audio solutions",
+      "source": "Direct quote from system description"
+    },
+    {
+      "claim": "Innovative and compact... delivering premium, custom-tailored sound experiences",
+      "source": "Direct quote from Brand Description"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

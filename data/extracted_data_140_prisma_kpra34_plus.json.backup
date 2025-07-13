@@ -1,0 +1,75 @@
+{
+  "id": "140",
+  "url": "https://www.k-array.com/en/product/Prisma-KPRA34+",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PRISMA_SERIES",
+    "product_line": "Prisma",
+    "model": "KPRA34+",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KPRA34+", "Prisma", "amplified matrix"],
+    "technical": ["IEB-Pro", "Dante-Ready", "Dante channels", "analog inputs", "analog outputs", "Class D Amplifier", "DSP", "output power", "impedance", "frequency response", "IP20"],
+    "applications": [],
+    "unique_identifiers": ["kpra34plus"]
+  },
+  "content_sections": {
+    "description": "The Prisma-KPRA34+ is a cutting-edge amplified matrix solution empowered by our new Integrated Electronic Brain-Pro, featuring Dante-Ready ™ for up to 8x8 Dante channels and 0x analog inputs right out of the box. With the dedicated input board accessory K-PRIN4 is expandable to up to 8x analog inputs and with the 4 analog amplified outputs, it is a reliable solution for different applications. The KPRA34+ (4x 750W) becomes a powerful matrix tool with the well-known audio quality and robustness of our Kommander-KA family.",
+    "specifications": {
+      "Type": "Amplified Matrix with IEB-Pro (Source: "Type: Amplified Matrix with IEB-Pro (8x8 Dante C, payment-enabled)")",
+      "Output Power": "4 x 750W @ 4Ω (Source: "Output Power: 4 x 750W @ 4Ω")",
+      "Impedance": "minimum 4 Ω (Source: "Impedance: minimum 4 Ω")",
+      "Frequency Response": "20 Hz – 20 kHz (±1 dB) (Source: "Frequency Response: 20 Hz – 20 kHz (±1 dB)")",
+      "Connections": "Input: 0x analog Inputs - expandable up to 8x with K-PRIN4; Output: 2x PC 4/ 4-ST-7,62 speaker output - 4x analog outputs; Digital: Up to 16x Dante channel 8 IN/8 OUT - (enabled with Dante Ready), 2x RJ45 Ethernet 1.Gbit - primary, secondary 1x USB-A (Source: "Connections: Input: 0x analog Inputs - expandable up to 8x with K-PRIN4 Output: 2x PC 4/ 4-ST-7,62 speaker output - 4x analog outputs Digital: Up to 16x Dante channel 8 IN/8 OUT - (enabled with Dante Ready), 2x RJ45 Ethernet 1.Gbit - primary, secondary 1x USB-A")",
+      "Power": "1 x PowerCon TRUE IN, 1 x PowerCon TRUE Link (Source: "Power: 1 x PowerCon TRUE IN 1 x PowerCon TRUE Link")",
+      "Built-in DSP": "Grouping, Input EQ, Output EQ, Signal Routing, Level adjustment, Dynamic Limiters, Delay, Loudspeaker presets (Source: "Built-in DSP: Grouping, Input EQ, Output EQ, Signal Routing, Level adjustment, Dynamic Limiters, Delay, Loudspeaker presets")",
+      "Remote Control": "Wi-Fi and Ethernet dedicated APP and Desktop software (Source: "Remote Control: Wi-Fi and Ethernet dedicated APP and Desktop software")",
+      "Protections": "Thermal protection, output short circuit, RMS output current protection, high frequency protection, power limiter, clip limiter. (Source: "Protections: Thermal protection, output short circuit, RMS output current protection, high frequency protection, power limiter, clip limiter.")",
+      "MAIN Operating Range": "100-240V AC, 50-60 Hz with PFC (Source: "MAIN Operating Range: 100-240V AC, 50-60 Hz with PFC")",
+      "Power Consumption": "600 W @ 8 Ω load, Pink noise, 1/4 rated power (Source: "Power Consumption: 600 W @ 8 Ω load, Pink noise, 1/4 rated power")",
+      "Material": "Stainless Steel (Source: "Material: Stainless Steel")",
+      "Colors": "Black (Source: "Colors: Black")",
+      "Dimensions (W x H x D)": "2U 430 x 87 x 430 mm (17 x 3,4 x 17 in) (Source: "Dimensions (W x H x D): 2U 430 x 87 x 430 mm (17 x 3,4 x 17 in)")",
+      "Weight": "7 kg (15,4 lb) (Source: "Weight: 7 kg (15,4 lb)")",
+      "IP Rating": "IP20 (Source: "IP Rating: IP20")"
+    },
+    "integrations": {
+      "AMX by Harman": "(Source: "AMX by Harman")",
+      "Q-SYS": "(Source: "Q-SYS")",
+      "CONTROL 4": "(Source: "CONTROL 4")",
+      "Crestron": "(Source: "Crestron")"
+    },
+    "expansion": {
+      "K-PRIN4": "Input/Preamp Expansion Card for Prisma matrices with 4 balanced inputs (Source: "Prisma-KPRIN4 Input/Preamp Expansion Card for Prisma matrices with 4 balan...")",
+      "K-PROUT4": "Output Expansion Card for Prisma matrices with 4 balanced analog outputs (Source: "Prisma-KPROUT4 Output Expansion Card for Prisma matrices with 4 balanced an...")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Prisma-KPRA34+ is a cutting-edge amplified matrix solution with Integrated Electronic Brain-Pro. Dante-Ready for up to 8x8 Dante channels and 0x analog inputs (expandable to 8x with K-PRIN4). Has 4 analog amplified outputs. Powerful matrix tool with 4x 750W output. Integrates with AMX by Harman, Q-SYS, Control4, Crestron. Specifications: Type: Amplified Matrix with IEB-Pro. Output Power: 4 x 750W @ 4Ω. Impedance: minimum 4 Ω. Frequency Response: 20 Hz – 20 kHz (±1 dB). Connections: Dante, analog I/O, Ethernet, USB-A. Power: PowerCon TRUE IN/Link. Built-in DSP. Remote Control: Wi-Fi/Ethernet APP/Desktop software. Protections included. MAIN Operating Range: 100-240V AC. Power Consumption: 600 W. Material: Stainless Steel. Colors: Black. Dimensions: 2U 430 x 87 x 430 mm. Weight: 7 kg. IP Rating: IP20. Expandable with K-PRIN4 and K-PROUT4.",
+    "semantic_chunks": [
+      "Prisma-KPRA34+: amplified matrix solution with IEB-Pro. Dante-Ready (up to 8x8 Dante channels), expandable to 8x analog inputs. 4 analog amplified outputs.",
+      "Performance: Powerful matrix tool with 4x 750W output. Well-known audio quality and robustness of Kommander-KA family.",
+      "Specifications: Type: Amplified Matrix. Output Power: 4x 750W @ 4Ω. Impedance: Min 4Ω. Freq. Response: 20-20 kHz (±1 dB). Connections: Dante, analog I/O, Ethernet, USB-A. Power: PowerCon TRUE. Built-in DSP. Remote Control: Wi-Fi/Ethernet APP/Desktop software. Protections. Operating Range: 100-240V AC. Power Consumption: 600 W. Material: Stainless Steel. Colors: Black. Dimensions: 2U 430x87x430 mm. Weight: 7 kg. IP Rating: IP20.",
+      "Integrations: AMX by Harman, Q-SYS, Control4, Crestron. Expansion: K-PRIN4 (input), K-PROUT4 (output)."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Prisma-KPRA34+?", "answer": "Amplified Matrix with IEB-Pro."},
+      {"question": "What is the output power of the Prisma-KPRA34+?", "answer": "4 x 750W @ 4Ω."},
+      {"question": "What is the minimum impedance of the Prisma-KPRA34+?", "answer": "4 Ω."},
+      {"question": "What is the frequency response of the Prisma-KPRA34+?", "answer": "20 Hz – 20 kHz (±1 dB)."},
+      {"question": "How many Dante channels does the Prisma-KPRA34+ support?", "answer": "Up to 8x8."},
+      {"question": "How many analog inputs can the Prisma-KPRA34+ be expanded to?", "answer": "Up to 8x with K-PRIN4."},
+      {"question": "What are the dimensions of the Prisma-KPRA34+?", "answer": "2U 430 x 87 x 430 mm (17 x 3,4 x 17 in)."},
+      {"question": "What is the weight of the Prisma-KPRA34+?", "answer": "7 kg (15,4 lb)."},
+      {"question": "What material is the Prisma-KPRA34+ made of?", "answer": "Stainless Steel."},
+      {"question": "What is the IP rating of the Prisma-KPRA34+?", "answer": "IP20."},
+      {"question": "What control systems can the Prisma-KPRA34+ integrate with?", "answer": "AMX by Harman, Q-SYS, Control4, and Crestron."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Prisma-KPRA34+ - K-array (https://www.k-array.com/en/product/Prisma-KPRA34+)"}
+  ]
+}

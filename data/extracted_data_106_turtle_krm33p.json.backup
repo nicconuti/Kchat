@@ -1,0 +1,138 @@
+{
+  "id": "106",
+  "url": "https://www.k-array.com/en/product/turtle-krm33p",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "TURTLE_SERIES",
+    "product_line": "Turtle",
+    "model": "KRM33P",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KRM33P",
+      "Turtle",
+      "passive",
+      "variable coverage",
+      "monitor"
+    ],
+    "technical": [
+      "neodymium magnet transducers",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "impedance",
+      "coverage",
+      "IP54"
+    ],
+    "applications": [
+      "stage monitoring",
+      "under-balcony fill",
+      "front fill"
+    ],
+    "unique_identifiers": [
+      "krm33p"
+    ]
+  },
+  "content_sections": {
+    "description": "The K-array KRM33P is a passive, low-profile, variable coverage monitor. It features three 3.15\" neodymium magnet transducers and is designed for stage monitoring, under-balcony fill, or front fill applications. Its variable coverage allows for flexible sound dispersion.",
+    "specifications": {
+      "Type": "Low-Profile Variable Coverage Passive Monitor (Source: \"Turtle-KRM33P: Low-Profile Variable Coverage Passive ... - K-array\")",
+      "Transducers": "3x 3.15\" neodymium magnet transducers (Source: \"It features three 3.15\" neodymium magnet transducers\")",
+      "Frequency Response": "70 Hz – 18 kHz (-6 dB) (Source: \"Frequency Response: 70 Hz – 18 kHz (-6 dB)\")",
+      "Max SPL": "124 dB (peak) (Source: \"Max SPL: 124 dB (peak)\")",
+      "Rated Power": "150 W (Source: \"Rated Power: 150 W\")",
+      "Nominal Impedance": "8 Ω (Source: \"Nominal Impedance: 8 Ω\")",
+      "Coverage": "Variable (Source: \"Variable Coverage\")",
+      "Dimensions (W x H x D)": "330 x 100 x 100 mm (13.0 x 3.9 x 3.9 in) (Source: \"Dimensions (W x H x D): 330 x 100 x 100 mm (13.0 x 3.9 x 3.9 in)\")",
+      "Weight": "2.5 kg (5.51 lb) (Source: \"Weight: 2.5 kg (5.51 lb)\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "IP Rating": "IP54 (Source: \"IP Rating: IP54\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-array KRM33P is a passive, low-profile, variable coverage monitor. Features three 3.15\" neodymium magnet transducers. Designed for stage monitoring, under-balcony fill, or front fill applications. Specifications: Type: Low-Profile Variable Coverage Passive Monitor. Transducers: 3x 3.15\" neodymium magnet transducers. Frequency Response: 70 Hz – 18 kHz (-6 dB). Max SPL: 124 dB. Rated Power: 150 W. Nominal Impedance: 8 Ω. Coverage: Variable. Dimensions: 330 x 100 x 100 mm. Weight: 2.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. IP Rating: IP54.",
+    "semantic_chunks": [
+      "KRM33P: passive, low-profile, variable coverage monitor.",
+      "Components: Three 3.15\" neodymium magnet transducers.",
+      "Applications: stage monitoring, under-balcony fill, front fill.",
+      "Specifications: Type: Passive monitor. Transducers: 3x 3.15\" neodymium. Freq. Response: 70-18 kHz (-6 dB). Max SPL: 124 dB. Rated Power: 150 W. Impedance: 8 Ω. Coverage: Variable. Dimensions: 330x100x100 mm. Weight: 2.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. IP Rating: IP54."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Turtle-KRM33P?",
+        "answer": "Low-Profile Variable Coverage Passive Monitor."
+      },
+      {
+        "question": "What transducers does the Turtle-KRM33P have?",
+        "answer": "Three 3.15\" neodymium magnet transducers."
+      },
+      {
+        "question": "What is the frequency response of the Turtle-KRM33P?",
+        "answer": "70 Hz – 18 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Turtle-KRM33P?",
+        "answer": "124 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Turtle-KRM33P?",
+        "answer": "150 W."
+      },
+      {
+        "question": "What is the nominal impedance of the Turtle-KRM33P?",
+        "answer": "8 Ω."
+      },
+      {
+        "question": "What is the coverage of the Turtle-KRM33P?",
+        "answer": "Variable."
+      },
+      {
+        "question": "What are the dimensions of the Turtle-KRM33P?",
+        "answer": "330 x 100 x 100 mm (13.0 x 3.9 x 3.9 in)."
+      },
+      {
+        "question": "What is the weight of the Turtle-KRM33P?",
+        "answer": "2.5 kg (5.51 lb)."
+      },
+      {
+        "question": "What material is the Turtle-KRM33P made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What colors are available for the Turtle-KRM33P?",
+        "answer": "Black, White, Custom RAL."
+      },
+      {
+        "question": "What is the IP rating of the Turtle-KRM33P?",
+        "answer": "IP54."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Turtle-KRM33P: Low-Profile Variable Coverage Passive ... - K-array (https://www.k-array.com/en/product/turtle-krm33p)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

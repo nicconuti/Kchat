@@ -1,0 +1,123 @@
+{
+  "id": "100",
+  "url": "https://www.k-array.com/en/product/truffle-ktr25",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "TRUFFLE_SERIES",
+    "product_line": "Truffle",
+    "model": "KTR25",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KTR25",
+      "Truffle",
+      "subwoofer",
+      "compact",
+      "passive"
+    ],
+    "technical": [
+      "driver",
+      "passive radiators",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "ktr25"
+    ]
+  },
+  "content_sections": {
+    "description": "The Truffle-KTR25 is a compact subwoofer from K-array, designed for hidden installations. It features a single 5\" driver with passive radiators, offering a frequency range of 45 Hz to 150 Hz. The subwoofer has an omnidirectional low-end source and is suitable for systems like the Azimut-KAMUT2V25.",
+    "specifications": {
+      "Type": "Passive subwoofer (Source: \"Type: Passive subwoofer\")",
+      "Transducers": "5\" woofer + passive radiator (Source: \"Transducers: 5\" woofer + passive radiator\")",
+      "Frequency Response": "45 Hz - 150 / 500 Hz (-6 dB) (Source: \"Frequency Response: 45 Hz - 150 / 500 Hz (-6 dB)\")",
+      "Max SPL": "116 dB (peak) (Source: \"Max SPL: 116 dB (peak)\")",
+      "Rated Power": "80 W (Source: \"Rated Power: 80 W\")",
+      "Nominal Impedance": "2 Ω (Source: \"Nominal Impedance: 2 Ω\")",
+      "Dimensions": "152 x 146 x 281 mm (5.9 x 5.7 x 11.0 in) (Source: \"Dimensions: 152 x 146 x 281 mm (5.9 x 5.7 x 11.0 in)\")",
+      "Weight": "2.5 kg (5.51 lb) (Source: \"Weight: 2.5 kg (5.51 lb)\")",
+      "Material": "Aluminum (Source: \"Material: Aluminum\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Truffle-KTR25 is a compact passive subwoofer from K-array, designed for hidden installations. Features a single 5\" driver with passive radiators. Frequency range: 45 Hz to 150 Hz. Omnidirectional low-end source. Suitable for systems like Azimut-KAMUT2V25. Specifications: Type: Passive subwoofer. Transducers: 5\" woofer + passive radiator. Frequency Response: 45 Hz - 150 / 500 Hz (-6 dB). Max SPL: 116 dB (peak). Rated Power: 80 W. Nominal Impedance: 2 Ω. Dimensions: 152 x 146 x 281 mm. Weight: 2.5 kg. Material: Aluminum. IP Rating: IP64.",
+    "semantic_chunks": [
+      "Truffle-KTR25: compact passive subwoofer for hidden installations.",
+      "Features: Single 5\" driver with passive radiators. Frequency range: 45-150 Hz. Omnidirectional low-end. Compatible with Azimut-KAMUT2V25.",
+      "Specifications: Type: Passive subwoofer. Transducers: 5\" woofer + passive radiator. Freq. Response: 45-150/500 Hz (-6 dB). Max SPL: 116 dB. Rated Power: 80 W. Impedance: 2 Ω. Dimensions: 152x146x281 mm. Weight: 2.5 kg. Material: Aluminum. IP Rating: IP64."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Truffle-KTR25?",
+        "answer": "Compact passive subwoofer."
+      },
+      {
+        "question": "What transducers does the Truffle-KTR25 have?",
+        "answer": "A single 5\" driver with passive radiators."
+      },
+      {
+        "question": "What is the frequency response of the Truffle-KTR25?",
+        "answer": "45 Hz - 150 / 500 Hz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Truffle-KTR25?",
+        "answer": "116 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Truffle-KTR25?",
+        "answer": "80 W."
+      },
+      {
+        "question": "What is the nominal impedance of the Truffle-KTR25?",
+        "answer": "2 Ω."
+      },
+      {
+        "question": "What are the dimensions of the Truffle-KTR25?",
+        "answer": "152 x 146 x 281 mm (5.9 x 5.7 x 11.0 in)."
+      },
+      {
+        "question": "What is the weight of the Truffle-KTR25?",
+        "answer": "2.5 kg (5.51 lb)."
+      },
+      {
+        "question": "What material is the Truffle-KTR25 made of?",
+        "answer": "Aluminum."
+      },
+      {
+        "question": "What is the IP rating of the Truffle-KTR25?",
+        "answer": "IP64."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Truffle-KTR25: Compact Aluminum Alloy Subs with 5 ... - K-array (https://www.k-array.com/en/product/truffle-ktr25)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

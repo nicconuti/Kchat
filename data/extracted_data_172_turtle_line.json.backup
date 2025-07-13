@@ -1,0 +1,166 @@
+{
+  "id": "172",
+  "url": "https://www.k-array.com/en/products/line/turtle",
+  "timestamp": "2025-07-12T12:05:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCT_LINES",
+    "subcategory": "TURTLE_SERIES",
+    "product_line": "Turtle",
+    "content_type": "product_line_overview"
+  },
+  "keywords": {
+    "primary": [
+      "Turtle",
+      "ultra-compact",
+      "low-profile",
+      "wedge speakers"
+    ],
+    "technical": [
+      "controlled horizontal dispersion",
+      "stainless steel",
+      "passive radiator",
+      "3.15 inch drivers"
+    ],
+    "applications": [
+      "auditoriums",
+      "boardrooms",
+      "concerts",
+      "theaters",
+      "broadcast studios"
+    ],
+    "unique_identifiers": [
+      "KRM33P",
+      "KRM33"
+    ]
+  },
+  "content_sections": {
+    "series_overview": {
+      "description": "Ultra-compact and low-profile wedge speakers with a controlled horizontal pattern and an extended frequency response",
+      "key_technologies": [
+        "Stainless steel chassis",
+        "Controlled horizontal dispersion",
+        "Color customization capability"
+      ],
+      "target_applications": [
+        "Auditoriums and Concert Halls",
+        "Boardrooms and Conference Rooms",
+        "Concerts and Live Events",
+        "Theaters",
+        "Broadcast Studios"
+      ]
+    },
+    "product_models": [
+      {
+        "model": "KRM33P",
+        "type": "Passive model"
+      },
+      {
+        "model": "KRM33",
+        "type": "Self-powered model"
+      }
+    ],
+    "technical_details": {
+      "drivers": "Three 3.15\" cone drivers",
+      "passive_radiator": "One 6\" passive radiator",
+      "frequency_response": "70Hz to 18KHz (with bass enhancement mode)",
+      "chassis": "Stainless steel, sturdy and durable",
+      "design_features": [
+        "Ultra-compact",
+        "Low-profile",
+        "Visually discreet",
+        "Weather resistant"
+      ],
+      "customization": "Color matching to any RAL code"
+    },
+    "applications": {
+      "primary_markets": [
+        "Auditoriums and Concert Halls",
+        "Boardrooms and Conference Rooms",
+        "Concerts and Live Events",
+        "Theaters",
+        "Broadcast Studios"
+      ],
+      "use_cases": [
+        "Scenography designs",
+        "Broadcast studios",
+        "Under-balcony theater installations",
+        "Venues requiring discreet audio integration"
+      ],
+      "installation_benefits": [
+        "Controlled horizontal dispersion",
+        "Ability to create horizontal arrays",
+        "High signal-before-feedback performance",
+        "Seamless architectural integration"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Turtle ultra-compact low-profile wedge speakers controlled horizontal pattern extended frequency response stainless steel chassis KRM33P KRM33 passive self-powered three 3.15 inch cone drivers six inch passive radiator 70Hz 18KHz bass enhancement auditoriums boardrooms concerts theaters broadcast studios scenography weather resistant RAL color customization",
+    "semantic_chunks": [
+      "Turtle series consists of ultra-compact and low-profile wedge speakers with controlled horizontal pattern and extended frequency response",
+      "Key models include KRM33P (passive) and KRM33 (self-powered) with three 3.15 inch cone drivers and one 6 inch passive radiator",
+      "Frequency response spans 70Hz to 18KHz with bass enhancement mode, housed in stainless steel weather-resistant chassis",
+      "Applications include auditoriums, concert halls, boardrooms, theaters, broadcast studios with seamless architectural integration",
+      "Features controlled horizontal dispersion, ability to create horizontal arrays, and high signal-before-feedback performance"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is the K-Array Turtle series?",
+        "a": "Ultra-compact and low-profile wedge speakers with a controlled horizontal pattern and an extended frequency response"
+      },
+      {
+        "q": "What are the Turtle models?",
+        "a": "KRM33P (passive model) and KRM33 (self-powered model)"
+      },
+      {
+        "q": "What drivers does Turtle use?",
+        "a": "Three 3.15 inch cone drivers and one 6 inch passive radiator"
+      },
+      {
+        "q": "What is the frequency response of Turtle speakers?",
+        "a": "70Hz to 18KHz with bass enhancement mode"
+      },
+      {
+        "q": "What applications is Turtle designed for?",
+        "a": "Auditoriums, concert halls, boardrooms, theaters, broadcast studios, and scenography designs"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Ultra-compact and low-profile wedge speakers with a controlled horizontal pattern and an extended frequency response",
+      "source": "Direct quote from Turtle series overview"
+    },
+    {
+      "claim": "Three 3.15\" cone drivers",
+      "source": "Direct specification from technical details"
+    },
+    {
+      "claim": "70Hz to 18KHz (with bass enhancement mode)",
+      "source": "Direct specification from frequency response section"
+    },
+    {
+      "claim": "Stainless steel, sturdy and durable",
+      "source": "Direct quote from chassis description"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

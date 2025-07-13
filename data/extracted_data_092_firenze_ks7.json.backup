@@ -1,0 +1,155 @@
+{
+  "id": "092",
+  "url": "https://www.k-array.com/en/product/firenze-ks7",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "FIRENZE_SERIES",
+    "product_line": "Firenze",
+    "model": "KS7",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KS7",
+      "Firenze",
+      "subwoofer",
+      "self-powered"
+    ],
+    "technical": [
+      "neodymium magnets",
+      "voice coils",
+      "Class D amplifiers",
+      "DSP",
+      "frequency response",
+      "max SPL",
+      "impedance",
+      "IP53"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "ks7"
+    ]
+  },
+  "content_sections": {
+    "description": "The Firenze-KS7 is a 2 x 21” subwoofer featuring neodymium magnets with 6” voice coils driven by powerful Class D amplifiers. The large ports are designed to be fully symmetrical to the speakers, which means the back loading on the drivers is consistent and even with no port air turbulence. The rear panel provides balanced analog and digital AES3 inputs and Ethernet connectivity for complete remote control over the fully-featured integrated DSP. With the Firenze-KS7, gradient/cardioid configurations and end-fire arrangements are made easy with up to 2 seconds of input delay and frequency shaping. The Firenze-KS7 is an all-encompassing subwoofer that is capable of being employed as a single point source or in an arch array configuration.",
+    "specifications": {
+      "Type": "Active subwoofer (Source: \"Type: Active subwoofer\")",
+      "Transducers": "2x 21\" Neodymium magnet woofer with 5.31\" voice coil (Source: \"Transducers: 2x 21\" Neodymium magnet woofer with 5.31\" voice coil\")",
+      "Frequency Response": "25 Hz - 120 Hz (-6 dB) (Source: \"Frequency Response: 25 Hz - 120 Hz (-6 dB)\")",
+      "Max SPL": "145 dB peak (Source: \"Max SPL: 145 dB peak\")",
+      "Coverage": "Omni (Source: \"Coverage: Omni\")",
+      "Remote Control": "Remote control with dedicated PC software via Ethernet (Source: \"Remote Control: Remote control with dedicated PC software via Ethernet\")",
+      "Connectors": "Analog: 1x XLR (bal) input signal, 1x XLR (bal) parallel output; Digital: 1x XLR AES3 input (Source: \"Connectors: Analog: 1x XLR (bal) input signal 1x XLR (bal) parallel output Digital: 1x XLR AES3 input\")",
+      "Built-in DSP": "Input gain, delay up to 2 s, Full parametric IIR filters (Peaking, Shelving, Hi/Lo pass, Hi/Lo Butterworth), Level and Temperature remote monitoring (Source: \"Built-in DSP: Input gain, delay up to 2 s, Full parametric IIR filters (Peaking, Shelving, Hi/Lo pass, Hi/Lo Butterworth), Level and Temperature remote monitoring\")",
+      "Dimensions (W x H x D)": "1162 x 590 x 851 mm (45.7 x 23.2 x 33.5 in) (Source: \"Dimensions (W x H x D): 1162 x 590 x 851 mm (45.7 x 23.2 x 33.5 in)\")",
+      "Weight": "104.4 kg (230.16 lb) (Source: \"Weight: 104.4 kg (230.16 lb)\")",
+      "Material": "Wood (Source: \"Material: Wood\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "IP Rating": "IP53 (Source: \"IP Rating: IP53\")",
+      "Amplifier Module": "2-ch., switch mode, class D (Source: \"Amp Module: 2-ch., switch mode, class D\")",
+      "Output Power": "2x 3500 W @ 2 Ω 1% THD+N (Source: \"Output Power: 2x 3500 W @ 2 Ω 1% THD+N\")",
+      "Power Consumption": "600 W @ 4 Ω load, Pink noise 1/8 rated power (Source: \"Power Consumption: 600 W @ 4 Ω load, Pink noise 1/8 rated power\")",
+      "Protections": "Over Temp. (Power Limiting - Thermal Shutdown), Short Circuit/Overload Output Protection, Power Limiting, Clip Limiter/Permanent Signal Limiter, High Frequency Protection (Source: \"Protections: Over Temp. (Power Limiting - Thermal Shutdown), Short Circuit/Overload Output Protection, Power Limiting, Clip Limiter/Permanent Signal Limiter, High Frequency Protection\")",
+      "Operating Range": "100-240V AC, 50-60 Hz with PFC (Source: \"Operating Range: 100-240V AC, 50-60 Hz with PFC\")",
+      "Mains Connector": "powerCON True with link inlet (Source: \"Mains Connector: powerCON True with link inlet\")"
+    },
+    "accessories": {
+      "Discontinued": [
+        "K-WHEEL: Set of 4 wheels for Thunder subwoofers. (Source: \"K-WHEEL (DISCONTINUED) Set of 4 wheels for Thunder subwoofers.\")",
+        "K-WHEELB: Set of 4 wheels with brake for KMT subwoofers. (Source: \"K-WHEELB (DISCONTINUED) Set of 4 wheels with brake for KMT subwoofers.\")"
+      ],
+      "Available": [
+        "K-COVERS5: Soft protective cover for KS5 I subwoofers. (Source: \"K-COVERS5 Soft protective cover for KS5 I subwoofers.\")",
+        "K8-PWCABLE5: PowerconTrue Male-Female 5mt cable (Source: \"K8-PWCABLE5 PowerconTrue Male-Female 5mt cable\")",
+        "K8-SIG10: Multi cable signal + control 10 mt (Source: \"K8-SIG10 Multi cable signal + control 10 mt\")",
+        "K8-SIGOUT: 2mt with out LK25 and in XRL+RJ45 (Source: \"K8-SIGOUT 2mt with out LK25 and in XRL+RJ45\")",
+        "K-SK221: Skate board for one Thunder-KS5 I or Firenze-KS7 I and Firen... (Source: \"K-SK221 Skate board for one Thunder-KS5 I or Firenze-KS7 I and Firen...\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Firenze-KS7 is a 2 x 21” self-powered subwoofer with neodymium magnets and 6” voice coils, driven by powerful Class D amplifiers. Symmetrical ports for consistent back loading and no air turbulence. Rear panel has balanced analog and digital AES3 inputs, Ethernet for remote control via integrated DSP. Supports gradient/cardioid and end-fire arrangements with up to 2 seconds input delay and frequency shaping. Can be used as single point source or in arch array. Specifications: Type: Active subwoofer. Transducers: 2x 21\" Neodymium magnet woofer with 5.31\" voice coil. Frequency Response: 25 Hz - 120 Hz (-6 dB). Max SPL: 145 dB peak. Coverage: Omni. Remote Control: PC software via Ethernet. Connectors: Analog XLR, Digital AES3. Built-in DSP. Dimensions: 1162 x 590 x 851 mm. Weight: 104.4 kg. Material: Wood. Colors: Black, White, Custom RAL. IP Rating: IP53. Amplifier Module: 2-ch., switch mode, class D. Output Power: 2x 3500 W @ 2 Ω. Power Consumption: 600 W. Protections: Over Temp., Short Circuit/Overload, Power Limiting, Clip Limiter, High Frequency. Operating Range: 100-240V AC, 50-60 Hz with PFC. Mains Connector: powerCON True. Discontinued accessories: K-WHEEL, K-WHEELB. Available accessories: K-COVERS5, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K-SK221.",
+    "semantic_chunks": [
+      "Firenze-KS7: 2x21” self-powered subwoofer with neodymium magnets and 6” voice coils, Class D amplifiers.",
+      "Design: Symmetrical ports, balanced analog/digital AES3 inputs, Ethernet for remote DSP control. Supports gradient/cardioid/end-fire configurations.",
+      "Specifications: Active subwoofer. Transducers: 2x 21\" Neodymium woofer (5.31\" VC). Freq. Response: 25-120 Hz (-6 dB). Max SPL: 145 dB peak. Coverage: Omni. IP53. Amp: 2x 3500W @ 2Ω Class D.",
+      "Physical: 1162x590x851 mm, 104.4 kg. Material: Wood. Colors: Black, White, Custom RAL.",
+      "Accessories: Discontinued (K-WHEEL, K-WHEELB). Available (K-COVERS5, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K-SK221)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Firenze-KS7?",
+        "answer": "Active subwoofer."
+      },
+      {
+        "question": "What transducers does the Firenze-KS7 have?",
+        "answer": "2x 21\" Neodymium magnet woofer with 5.31\" voice coil."
+      },
+      {
+        "question": "What is the frequency response of the Firenze-KS7?",
+        "answer": "25 Hz - 120 Hz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Firenze-KS7?",
+        "answer": "145 dB peak."
+      },
+      {
+        "question": "What type of amplifier is in the Firenze-KS7?",
+        "answer": "2-ch., switch mode, class D."
+      },
+      {
+        "question": "What is the output power of the Firenze-KS7 amplifier?",
+        "answer": "2x 3500 W @ 2 Ω 1% THD+N."
+      },
+      {
+        "question": "What is the IP rating of the Firenze-KS7?",
+        "answer": "IP53."
+      },
+      {
+        "question": "What are the dimensions of the Firenze-KS7?",
+        "answer": "1162 x 590 x 851 mm (45.7 x 23.2 x 33.5 in)."
+      },
+      {
+        "question": "What is the weight of the Firenze-KS7?",
+        "answer": "104.4 kg (230.16 lb)."
+      },
+      {
+        "question": "What material is the Firenze-KS7 made of?",
+        "answer": "Wood."
+      },
+      {
+        "question": "What are some discontinued accessories for the Firenze-KS7?",
+        "answer": "K-WHEEL, K-WHEELB."
+      },
+      {
+        "question": "What are some available accessories for the Firenze-KS7?",
+        "answer": "K-COVERS5, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K-SK221."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Firenze-KS7: All-Encompassing Self-Powered Subwoofer - K-array (https://www.k-array.com/en/product/firenze-ks7)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}
