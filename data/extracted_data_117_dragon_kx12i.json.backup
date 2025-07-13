@@ -1,0 +1,147 @@
+{
+  "id": "117",
+  "url": "https://www.k-array.com/en/product/dragon-kx12I",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DRAGON_SERIES",
+    "product_line": "Dragon",
+    "model": "KX12I",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KX12I",
+      "Dragon",
+      "point source speaker"
+    ],
+    "technical": [
+      "coaxial woofer",
+      "compression driver",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP54",
+      "EBS"
+    ],
+    "applications": [
+      "DJ monitoring",
+      "high-intensity applications"
+    ],
+    "unique_identifiers": [
+      "kx12i"
+    ]
+  },
+  "content_sections": {
+    "description": "The Dragon-KX12 MKI is a radical reinterpretation of a coaxial point source speaker, featuring a 12” woofer and a 1.7” compression driver. Designed to improve high-quality audio, it performs with remarkable versatility, whether used as a powerful point source or as part of a line array. The MKI version introduces a sleek stainless steel chassis with a compact and lightweight design, perfect for both durability and ease of installation, simplifying rigging. The KX12 MKI rises to the challenges of high-intensity applications, such as DJ monitoring in exclusive venues. Its fixed waveguide can be rotated using screws allowing for focused or spread horizontal and vertical coverage of V. 40° | H. 60°, optimizing sound dispersion and ensuring superior performance. When used in an array, the speaker fully leverages EBS (Electronic Beam Steering) technology for precise, electronically adjustable coverage, offering consistent and controlled sound distribution.",
+    "specifications": {
+      "Type": "Point source (Source: \"Type: Point source\")",
+      "Transducers": "Coaxial 12\" woofer + 1.7\" compression driver (Source: \"Transducers: Coaxial 12\" woofer + 1.7\" compression driver\")",
+      "Frequency Response": "120 Hz - 18 kHz (-6dB) (Source: \"Frequency Response: 120 Hz - 18 kHz (-6dB)\")",
+      "Max SPL": "133 dB (peak) (Source: \"Max SPL: 133 dB (peak)\")",
+      "Rated Power": "800 W (Source: \"Rated Power: 800 W\")",
+      "Coverage": "V. 40° | H. 60° (rotatable w/ screws) (Source: \"Coverage: V. 40° | H. 60° (rotatable w/ screws)\")",
+      "Connectors": "2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: 2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+      "Nominal Impedance": "8 Ω (Source: \"Nominal Impedance: 8 Ω\")",
+      "Dimensions (W x H x D)": "350 x 350 x 203 mm (13.8 x 13.8 x 8 in) (Source: \"Dimensions (W x H x D): 350 x 350 x 203 mm (13.8 x 13.8 x 8 in)\")",
+      "Weight": "15 kg (Source: \"Weight: 15 kg\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, Custom RAL (Source: \"Colors: Black, Custom RAL\")",
+      "IP Rating": "IP54 (Source: \"IP Rating: IP54\")"
+    },
+    "accessories": {
+      "Related": [
+        "K-WALL2: Specifically for wall mounts, this dependable black brace wi... (Source: \"K-WALL2 Specifically for wall mounts, this dependable brace wi...\")",
+        "K-UBRACKETKX12: U-bracket for Dragon-KX12 I - Firenze-KX12F I Wall/Ceiling M... (Source: \"K-UBRACKETKX12 U-bracket for Dragon-KX12 I - Firenze-KX12F I Wall/Ceiling M...\")",
+        "K-JOINTKX12: Adjustable Hardware Kit with Pins To Join Dragon-KX12 I and... (Source: \"K-JOINTKX12 Adjustable Hardware Kit with Pins To Join Dragon-KX12 I and...\")",
+        "K-FLYKX12: Fly Bar with Bumper for Dragon-KX12 I - Firenze-KX12F I Stai... (Source: \"K-FLYKX12 Fly Bar with Bumper for Dragon-KX12 I - Firenze-KX12F I Stai...\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Dragon-KX12 MKI is a coaxial point source speaker with a 12” woofer and a 1.7” compression driver. Delivers high-quality audio, versatile as point source or line array. Sleek stainless steel chassis, compact, lightweight, durable, easy rigging. For high-intensity applications like DJ monitoring. Fixed waveguide rotatable for V. 40° | H. 60° coverage. Leverages EBS (Electronic Beam Steering) for precise, electronically adjustable coverage in array. Specifications: Type: Point source. Transducers: Coaxial 12\" woofer + 1.7\" compression driver. Freq. Response: 120-18 kHz (-6dB). Max SPL: 133 dB. Rated Power: 800 W. Coverage: V. 40° | H. 60° (rotatable). Connectors: 2 x SpeakOn NL4. Impedance: 8 Ω. Dimensions: 350 x 350 x 203 mm. Weight: 15 kg. Material: Stainless Steel. Colors: Black, Custom RAL. IP Rating: IP54. Related accessories: K-WALL2, K-UBRACKETKX12, K-JOINTKX12, K-FLYKX12.",
+    "semantic_chunks": [
+      "Dragon-KX12 MKI: coaxial point source speaker with 12” woofer and 1.7” compression driver. High-quality audio, versatile as point source or line array.",
+      "Design: Sleek stainless steel chassis, compact, lightweight, durable, easy rigging. For high-intensity applications (DJ monitoring).",
+      "Coverage: Fixed waveguide rotatable for V. 40° | H. 60°. Leverages EBS for precise, electronically adjustable coverage in array.",
+      "Specifications: Type: Point source. Transducers: Coaxial 12\" woofer + 1.7\" compression driver. Freq. Response: 120-18 kHz (-6dB). Max SPL: 133 dB. Rated Power: 800 W. Coverage: V. 40° | H. 60° (rotatable). Connectors: 2x SpeakOn NL4. Impedance: 8 Ω. Dimensions: 350x350x203 mm. Weight: 15 kg. Material: Stainless Steel. Colors: Black, Custom RAL. IP Rating: IP54.",
+      "Accessories: K-WALL2, K-UBRACKETKX12, K-JOINTKX12, K-FLYKX12."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Dragon-KX12 I?",
+        "answer": "Coaxial point source speaker."
+      },
+      {
+        "question": "What transducers does the Dragon-KX12 I have?",
+        "answer": "A 12” woofer and a 1.7” compression driver."
+      },
+      {
+        "question": "What is the maximum SPL of the Dragon-KX12 I?",
+        "answer": "133 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Dragon-KX12 I?",
+        "answer": "800 W."
+      },
+      {
+        "question": "What is the coverage of the Dragon-KX12 I?",
+        "answer": "V. 40° | H. 60° (rotatable with screws)."
+      },
+      {
+        "question": "What is the nominal impedance of the Dragon-KX12 I?",
+        "answer": "8 Ω."
+      },
+      {
+        "question": "What are the dimensions of the Dragon-KX12 I?",
+        "answer": "350 x 350 x 203 mm (13.8 x 13.8 x 8 in)."
+      },
+      {
+        "question": "What is the weight of the Dragon-KX12 I?",
+        "answer": "15 kg."
+      },
+      {
+        "question": "What material is the Dragon-KX12 I made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What colors are available for the Dragon-KX12 I?",
+        "answer": "Black, Custom RAL."
+      },
+      {
+        "question": "What is the IP rating of the Dragon-KX12 I?",
+        "answer": "IP54."
+      },
+      {
+        "question": "What technology does the Dragon-KX12 I leverage in an array?",
+        "answer": "EBS (Electronic Beam Steering) technology."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Dragon-KX12 I: Stainless steel cabinet, sleek design ... - K-array (https://www.k-array.com/en/product/dragon-kx12I)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

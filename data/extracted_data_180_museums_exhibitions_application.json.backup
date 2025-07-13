@@ -1,0 +1,180 @@
+{
+  "id": "180",
+  "url": "https://www.k-array.com/en/application/museums-and-exhibitions",
+  "timestamp": "2025-07-12T12:45:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "MUSEUMS_AND_EXHIBITIONS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "museums",
+      "exhibitions",
+      "galleries",
+      "only heard not seen",
+      "visual displays"
+    ],
+    "technical": [
+      "exceptional size-to-output ratio",
+      "wide horizontal patterns",
+      "narrow vertical patterns",
+      "slender customizable"
+    ],
+    "challenges": [
+      "auditory senses",
+      "discovery",
+      "learning",
+      "visual experience",
+      "unobtrusive"
+    ],
+    "products": [
+      "Tornado-KT2C",
+      "Azimut-KAMUT2L II",
+      "Lyzard-KZ14 I",
+      "Vyper-KV25 II",
+      "Truffle-KTR26",
+      "Kommander-KA02 I",
+      "Rumble-KU44"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "positioning": "Audio solutions that are only heard and not seen",
+      "key_challenge": "The auditory senses must encourage discovery and learning without distracting from the visual experience",
+      "venue_types": [
+        "Museums",
+        "Galleries",
+        "Exhibitions"
+      ],
+      "design_philosophy": "Visual displays abound, audio should be only heard and not seen"
+    },
+    "recommended_products": [
+      {
+        "product": "Tornado-KT2C",
+        "use_case": "Museum audio installations"
+      },
+      {
+        "product": "Azimut-KAMUT2L II",
+        "use_case": "Exhibition audio systems"
+      },
+      {
+        "product": "Lyzard-KZ14 I",
+        "use_case": "Gallery audio applications"
+      },
+      {
+        "product": "Vyper-KV25 II",
+        "use_case": "Museum audio systems"
+      },
+      {
+        "product": "Truffle-KTR26",
+        "use_case": "Exhibition audio installations"
+      },
+      {
+        "product": "Kommander-KA02 I",
+        "use_case": "Museum amplification systems"
+      },
+      {
+        "product": "Rumble-KU44",
+        "use_case": "Museum subwoofer applications"
+      }
+    ],
+    "product_characteristics": [
+      "Exceptional size-to-output ratio",
+      "Cover wide horizontal and relatively narrow vertical patterns",
+      "Slender and customizable physical characteristics"
+    ],
+    "installation_scenarios": {
+      "design_considerations": [
+        "Must be visually unobtrusive",
+        "Capable of providing immersive audio without visual interference",
+        "Adaptable to various exhibit configurations"
+      ],
+      "key_requirement": "Encouraging discovery and learning without distracting from visual experience"
+    },
+    "case_studies": [
+      {
+        "name": "EMBL Exhibition at National Motor Museum"
+      },
+      {
+        "name": "Nanxun Ancient Town"
+      },
+      {
+        "name": "Imperial War Museum"
+      },
+      {
+        "name": "Media Museum of Sound and Vision"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "museums exhibitions galleries audio only heard not seen visual displays auditory senses discovery learning visual experience exceptional size-to-output ratio wide horizontal narrow vertical patterns slender customizable unobtrusive Tornado-KT2C Azimut-KAMUT2L II Lyzard-KZ14 I Vyper-KV25 II Truffle-KTR26 Kommander-KA02 I Rumble-KU44 EMBL National Motor Museum Nanxun Ancient Town Imperial War Museum Media Museum Sound Vision",
+    "semantic_chunks": [
+      "Museum and exhibition audio solutions must be only heard and not seen, where visual displays abound",
+      "Key challenge is ensuring auditory senses encourage discovery and learning without distracting from the visual experience",
+      "Products feature exceptional size-to-output ratio, wide horizontal and narrow vertical patterns, and slender customizable characteristics",
+      "Recommended products include Tornado-KT2C, Azimut-KAMUT2L II, Lyzard-KZ14 I, Vyper-KV25 II, Truffle-KTR26, Kommander-KA02 I, and Rumble-KU44",
+      "Case studies include EMBL Exhibition at National Motor Museum, Nanxun Ancient Town, Imperial War Museum, and Media Museum of Sound and Vision"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to museum audio?",
+        "a": "Audio solutions that are only heard and not seen, where visual displays abound"
+      },
+      {
+        "q": "What is the key challenge in museum audio design?",
+        "a": "The auditory senses must encourage discovery and learning without distracting from the visual experience"
+      },
+      {
+        "q": "What characteristics do K-Array museum products have?",
+        "a": "Exceptional size-to-output ratio, wide horizontal and narrow vertical patterns, and slender customizable physical characteristics"
+      },
+      {
+        "q": "What K-Array products are recommended for museums?",
+        "a": "Tornado-KT2C, Azimut-KAMUT2L II, Lyzard-KZ14 I, Vyper-KV25 II, Truffle-KTR26, Kommander-KA02 I, and Rumble-KU44"
+      },
+      {
+        "q": "What are examples of K-Array museum installations?",
+        "a": "EMBL Exhibition at National Motor Museum, Nanxun Ancient Town, Imperial War Museum, and Media Museum of Sound and Vision"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Visual displays abound, audio should be only heard and not seen",
+      "source": "Direct quote from Museums and Exhibitions section"
+    },
+    {
+      "claim": "The auditory senses must encourage discovery and learning without distracting from the visual experience",
+      "source": "Direct quote from application challenge description"
+    },
+    {
+      "claim": "Exceptional size-to-output ratio",
+      "source": "Direct quote from product characteristics"
+    },
+    {
+      "claim": "Cover wide horizontal and relatively narrow vertical patterns",
+      "source": "Direct quote from technical specifications"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

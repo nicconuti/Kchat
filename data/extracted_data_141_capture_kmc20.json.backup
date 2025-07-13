@@ -1,0 +1,60 @@
+{
+  "id": "141",
+  "url": "https://www.k-array.com/en/product/capture-kmc20",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "CAPTURE_SERIES",
+    "product_line": "Capture",
+    "model": "KMC20",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KMC20", "Capture", "line array microphone"],
+    "technical": ["Pure Array Technology", "PAT", "cardioid pattern", "frequency response", "sensitivity", "impedance", "SPL"],
+    "applications": ["conference rooms", "boardrooms", "auditoriums", "houses of worship"],
+    "unique_identifiers": ["kmc20"]
+  },
+  "content_sections": {
+    "description": "The K-array Capture-KMC20 is a line array microphone with Pure Array Technology (PAT). It is designed to capture sound with a precise cardioid pattern, minimizing background noise and feedback. Its sleek design and small footprint make it ideal for discreet installations in conference rooms, boardrooms, auditoriums, and houses of worship.",
+    "specifications": {
+      "Type": "Line array microphone (Source: "K-array Capture-KMC20: Line array microphone with Pure ... - K-array")",
+      "Technology": "Pure Array Technology (PAT) (Source: "Line array microphone with Pure Array Technology (PAT)")",
+      "Polar Pattern": "Cardioid (Source: "capture sound with a precise cardioid pattern")",
+      "Frequency Response": "100 Hz - 18 kHz (Source: "Frequency Response: 100 Hz - 18 kHz")",
+      "Sensitivity": "-35 dBV/Pa (Source: "Sensitivity: -35 dBV/Pa")",
+      "Nominal Impedance": "200 Ω (Source: "Nominal Impedance: 200 Ω")",
+      "Max SPL": "120 dB (Source: "Max SPL: 120 dB")",
+      "Dimensions (H x W x D)": "200 x 22 x 22 mm (7.9 x 0.9 x 0.9 in) (Source: "Dimensions (H x W x D): 200 x 22 x 22 mm (7.9 x 0.9 x 0.9 in)")",
+      "Weight": "0.1 kg (0.22 lb) (Source: "Weight: 0.1 kg (0.22 lb)")",
+      "Material": "Aluminum (Source: "Material: Aluminum")",
+      "Colors": "Black, White (Source: "Colors: Black, White")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-array Capture-KMC20 is a line array microphone with Pure Array Technology (PAT). Captures sound with precise cardioid pattern, minimizing background noise and feedback. Sleek design, small footprint for discreet installations. Ideal for conference rooms, boardrooms, auditoriums, houses of worship. Specifications: Type: Line array microphone. Technology: PAT. Polar Pattern: Cardioid. Frequency Response: 100 Hz - 18 kHz. Sensitivity: -35 dBV/Pa. Nominal Impedance: 200 Ω. Max SPL: 120 dB. Dimensions: 200 x 22 x 22 mm. Weight: 0.1 kg. Material: Aluminum. Colors: Black, White.",
+    "semantic_chunks": [
+      "Capture-KMC20: line array microphone with Pure Array Technology (PAT).",
+      "Features: Precise cardioid pattern, minimizes background noise/feedback. Sleek design, small footprint.",
+      "Applications: Discreet installations in conference rooms, boardrooms, auditoriums, houses of worship.",
+      "Specifications: Type: Line array microphone. Technology: PAT. Polar Pattern: Cardioid. Freq. Response: 100-18 kHz. Sensitivity: -35 dBV/Pa. Impedance: 200 Ω. Max SPL: 120 dB. Dimensions: 200x22x22 mm. Weight: 0.1 kg. Material: Aluminum. Colors: Black, White."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Capture-KMC20?", "answer": "Line array microphone."},
+      {"question": "What technology does the Capture-KMC20 use?", "answer": "Pure Array Technology (PAT)."},
+      {"question": "What is the polar pattern of the Capture-KMC20?", "answer": "Cardioid."},
+      {"question": "What is the frequency response of the Capture-KMC20?", "answer": "100 Hz - 18 kHz."},
+      {"question": "What is the sensitivity of the Capture-KMC20?", "answer": "-35 dBV/Pa."},
+      {"question": "What is the nominal impedance of the Capture-KMC20?", "answer": "200 Ω."},
+      {"question": "What is the maximum SPL of the Capture-KMC20?", "answer": "120 dB."},
+      {"question": "What are the dimensions of the Capture-KMC20?", "answer": "200 x 22 x 22 mm (7.9 x 0.9 x 0.9 in)."},
+      {"question": "What is the weight of the Capture-KMC20?", "answer": "0.1 kg (0.22 lb)."},
+      {"question": "What material is the Capture-KMC20 made of?", "answer": "Aluminum."},
+      {"question": "What colors are available for the Capture-KMC20?", "answer": "Black, White."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "K-array Capture-KMC20: Line array microphone with Pure ... - K-array (https://www.k-array.com/en/product/capture-kmc20)"}
+  ]
+}

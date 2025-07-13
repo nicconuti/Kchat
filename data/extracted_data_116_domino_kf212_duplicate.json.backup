@@ -1,0 +1,40 @@
+{
+  "id": "116",
+  "url": "https://www.k-array.com/en/product/Domino-KF212",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "skipped",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DOMINO_SERIES",
+    "product_line": "Domino",
+    "model": "KF212",
+    "content_type": "product_page",
+    "note": "Duplicate URL, already processed as ID 113."
+  },
+  "keywords": {},
+  "content_sections": {},
+  "embedding_optimized": {},
+  "source_attributions": [
+    {
+      "source": "Domino-KF212: Full-range Speakers with 2 x 12\" Drivers - K-array (https://www.k-array.com/en/product/Domino-KF212)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

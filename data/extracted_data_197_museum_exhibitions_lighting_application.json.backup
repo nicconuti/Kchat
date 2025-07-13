@@ -1,0 +1,162 @@
+{
+  "id": "197",
+  "url": "https://www.k-array.com/en/application/Museum%20and%20Ehibitions-Lighting",
+  "timestamp": "2025-07-12T14:10:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "MUSEUM_AND_EXHIBITIONS_LIGHTING",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "museum",
+      "gallery experience",
+      "RAIL",
+      "elevate",
+      "visitor experience"
+    ],
+    "technical": [
+      "high-quality audio",
+      "lighting",
+      "immersive atmosphere",
+      "intuitive control",
+      "adjust levels"
+    ],
+    "integration": [
+      "seamlessly combines",
+      "tailored experience",
+      "two worlds apart",
+      "combined together"
+    ],
+    "products": [
+      "Kommander-KA02",
+      "Kommander-KA34",
+      "Kommander-KA14 I"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "positioning": "Elevate the Museum and Gallery experience with RAIL",
+      "key_solution": "Combines high-quality audio and lighting to create an immersive atmosphere that enhances the visitor experience",
+      "key_features": [
+        "Variety of lighting options",
+        "Intuitive control interface",
+        "Ability to adjust lighting and audio levels"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product_line": "Kommander Series",
+        "models": [
+          {
+            "product": "Kommander-KA02",
+            "status": "Discontinued",
+            "use_case": "Museum audio-lighting integration"
+          },
+          {
+            "product": "Kommander-KA34",
+            "use_case": "Museum audio-lighting systems"
+          },
+          {
+            "product": "Kommander-KA14 I",
+            "use_case": "Gallery audio-lighting integration"
+          }
+        ]
+      }
+    ],
+    "installation_scenarios": {
+      "design_considerations": [
+        "Seamlessly combines high-quality audio and lighting",
+        "Allows for tailored experience for every visitor"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Cleveland Museum of Natural History",
+        "location": "Cleveland, Ohio, USA",
+        "founded": "1920",
+        "products_used": [
+          "Kommander-KA02",
+          "Kommander-KA34"
+        ]
+      },
+      {
+        "name": "The Ranch Gallery",
+        "focus": "Integrating audio and lighting",
+        "products_used": [
+          "Kommander-KA14 I"
+        ]
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "museum gallery experience RAIL elevate visitor experience high-quality audio lighting immersive atmosphere intuitive control adjust levels variety lighting options seamlessly combines tailored experience Kommander-KA02 Kommander-KA34 Kommander-KA14 I Cleveland Museum Natural History Ohio USA 1920 Ranch Gallery integrating audio lighting two worlds apart combined together",
+    "semantic_chunks": [
+      "Museum and exhibitions lighting solutions elevate the museum and gallery experience with RAIL technology",
+      "Combines high-quality audio and lighting to create an immersive atmosphere that enhances the visitor experience",
+      "Features include variety of lighting options, intuitive control interface, and ability to adjust lighting and audio levels",
+      "Solutions seamlessly combine audio and lighting allowing for tailored experience for every visitor",
+      "Case studies include Cleveland Museum of Natural History (founded 1920, using Kommander-KA02/KA34) and The Ranch Gallery (using Kommander-KA14 I)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to museum lighting?",
+        "a": "Elevate the Museum and Gallery experience with RAIL"
+      },
+      {
+        "q": "How does K-Array enhance visitor experience?",
+        "a": "Combines high-quality audio and lighting to create an immersive atmosphere that enhances the visitor experience"
+      },
+      {
+        "q": "What features do K-Array museum lighting systems provide?",
+        "a": "Variety of lighting options, intuitive control interface, and ability to adjust lighting and audio levels"
+      },
+      {
+        "q": "What K-Array products are used for museum lighting?",
+        "a": "Kommander series including KA02 (discontinued), KA34, and KA14 I"
+      },
+      {
+        "q": "What are examples of K-Array museum lighting installations?",
+        "a": "Cleveland Museum of Natural History (Ohio, founded 1920) using Kommander-KA02/KA34, and The Ranch Gallery using Kommander-KA14 I"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Elevate the Museum and Gallery experience with RAIL",
+      "source": "Direct quote from positioning statement"
+    },
+    {
+      "claim": "Combines high-quality audio and lighting to create an immersive atmosphere that enhances the visitor experience",
+      "source": "Direct quote from key solution description"
+    },
+    {
+      "claim": "Seamlessly combines high-quality audio and lighting",
+      "source": "Direct quote from design considerations"
+    },
+    {
+      "claim": "When it comes to audio and lighting we have always seen them as two different worlds apart but when combined together...",
+      "source": "Direct quote from The Ranch Gallery case study"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "111",
+  "url": "https://www.k-array.com/en/product/anakonda-kan200-plus8",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "ANAKONDA_SERIES",
+    "product_line": "Anakonda",
+    "model": "KAN200+8",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KAN200+8",
+      "Anakonda",
+      "flexible array speaker"
+    ],
+    "technical": [
+      "drivers",
+      "impedance",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "IP64"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "kan200plus8"
+    ]
+  },
+  "content_sections": {
+    "description": "The K-array Anakonda-KAN200+8 is a flexible array speaker that is 2 meters long and features 16 x 1\" drivers. It can deliver up to 108 dB and is rated at 300W@8Ω impedance. The speaker has integrated male and female Speakon NL4 connectors. With the dedicated K-ANLINK accessory and two amplifier channels, the system can be extended to up to 4 units (8 meters) for continuous sound. It has dedicated presets that allow it to be used as an audio system in combination with K-array subwoofers.",
+    "specifications": {
+      "Type": "Line array (Source: \"Type: Line array\")",
+      "Transducers": "16 x 1\" neodymium magnet woofer (Source: \"Transducers: 16 x 1\" neodymium magnet woofer\")",
+      "Frequency Response": "150 Hz - 18 kHz (-6 dB) (Source: \"Frequency Response: 150 Hz - 18 kHz (-6 dB)\")",
+      "Max SPL": "108 dB (peak) (Source: \"Max SPL: 108 dB (peak)\")",
+      "Rated Power": "300 W (Source: \"Rated Power: 300 W\")",
+      "Coverage": "V. 10° | H. 140° (Source: \"Coverage: V. 10° | H. 140°\")",
+      "Connectors": "SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+      "Nominal Impedance": "8 Ω (Source: \"Nominal Impedance: 8 Ω\")",
+      "Dimensions (W x H x D)": "2000 (±20mm) x 56 x 35 mm (79.5 (±0.8 in) x 2.2 x 1.4 in) (Source: \"Dimensions (W x H x D): 2000 (±20mm) x 56 x 35 mm (79.5 (±0.8 in) x 2.2 x 1.4 in)\")",
+      "Weight": "1.9 kg (4.2 lb) (Source: \"Weight: 1.9 kg (4.2 lb)\")",
+      "Material": "PVC/Neoprene (Source: \"Material: PVC/Neoprene\")",
+      "Colors": "Black, White (Source: \"Colors: Black, White\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\")"
+    },
+    "models": {
+      "Standard": [
+        "KAN200+8 black (Source: \"KAN200+8 (black)\")",
+        "KAN200W+8 white (Source: \"KAN200W+8 (white)\")"
+      ],
+      "Marine Treated (on request)": [
+        "KAN200M+8 (Source: \"KAN200M+8\")",
+        "KAN200MW+8 (Source: \"KAN200MW+8\")"
+      ]
+    },
+    "accessories": {
+      "Related": [
+        "K-IP65KITB: Weatherproof rubber protection for NL4 connectors (Source: \"K-IP65KITB (weatherproof rubber protection for NL4 connectors)\")",
+        "K-ANLINK: Male to female NL4 adapter (Source: \"K-ANLINK (male to female NL4 adapter)\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-array Anakonda-KAN200+8 is a flexible array speaker. 2 meters long with 16 x 1\" drivers. Delivers up to 108 dB and rated at 300W@8Ω impedance. Integrated male and female Speakon NL4 connectors. Extendable to 4 units (8 meters) using K-ANLINK. Can be used with K-array subwoofers. Specifications: Type: Line array. Transducers: 16 x 1\" neodymium magnet woofer. Frequency Response: 150 Hz - 18 kHz (-6 dB). Max SPL: 108 dB (peak). Rated Power: 300 W. Coverage: V. 10° | H. 140°. Connectors: SpeakOn NL4. Nominal Impedance: 8 Ω. Dimensions: 2000 (±20mm) x 56 x 35 mm. Weight: 1.9 kg. Material: PVC/Neoprene. Colors: Black, White. IP Rating: IP64. Models: KAN200+8 black, KAN200W+8 white. Marine treated: KAN200M+8, KAN200MW+8. Related accessories: K-IP65KITB, K-ANLINK.",
+    "semantic_chunks": [
+      "Anakonda-KAN200+8: flexible array speaker. 2 meters long, 16 x 1\" drivers. Up to 108 dB, 300W@8Ω.",
+      "Connectivity: Integrated Speakon NL4. Extendable to 4 units (8 meters) with K-ANLINK. Works with K-array subwoofers.",
+      "Specifications: Type: Line array. Transducers: 16x 1\" neodymium woofer. Freq. Response: 150-18 kHz (-6 dB). Max SPL: 108 dB. Rated Power: 300 W. Coverage: V. 10° | H. 140°. Impedance: 8 Ω. Dimensions: 2000x56x35 mm. Weight: 1.9 kg. Material: PVC/Neoprene. Colors: Black, White. IP Rating: IP64.",
+      "Models: KAN200+8 (black), KAN200W+8 (white). Marine treated (KAN200M+8, KAN200MW+8). Accessories: K-IP65KITB, K-ANLINK."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Anakonda-KAN200+8?",
+        "answer": "Flexible Array Speaker / Line array."
+      },
+      {
+        "question": "What transducers does the Anakonda-KAN200+8 have?",
+        "answer": "16 x 1\" drivers / 16 x 1\" neodymium magnet woofer."
+      },
+      {
+        "question": "What is the length of the Anakonda-KAN200+8?",
+        "answer": "2 meters."
+      },
+      {
+        "question": "What is the maximum SPL of the Anakonda-KAN200+8?",
+        "answer": "108 dB."
+      },
+      {
+        "question": "What is the rated power of the Anakonda-KAN200+8?",
+        "answer": "300W."
+      },
+      {
+        "question": "What is the impedance of the Anakonda-KAN200+8?",
+        "answer": "8Ω."
+      },
+      {
+        "question": "What is the frequency response of the Anakonda-KAN200+8?",
+        "answer": "150 Hz - 18 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the coverage of the Anakonda-KAN200+8?",
+        "answer": "V. 10° | H. 140°."
+      },
+      {
+        "question": "What are the dimensions of the Anakonda-KAN200+8?",
+        "answer": "2000 (±20mm) x 56 x 35 mm (79.5 (±0.8 in) x 2.2 x 1.4 in)."
+      },
+      {
+        "question": "What is the weight of the Anakonda-KAN200+8?",
+        "answer": "1.9 kg (4.2 lb)."
+      },
+      {
+        "question": "What material is the Anakonda-KAN200+8 made of?",
+        "answer": "PVC/Neoprene."
+      },
+      {
+        "question": "What colors are available for the Anakonda-KAN200+8?",
+        "answer": "Black, White."
+      },
+      {
+        "question": "What is the IP rating of the Anakonda-KAN200+8?",
+        "answer": "IP64."
+      },
+      {
+        "question": "What accessories are related to the Anakonda-KAN200+8?",
+        "answer": "K-IP65KITB, K-ANLINK."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "K-array Anakonda-KAN200+8: Flexible Array Speaker with 8Ω - K-array (https://www.k-array.com/en/product/anakonda-kan200-plus8)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

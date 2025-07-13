@@ -1,0 +1,157 @@
+{
+  "id": "109",
+  "url": "https://www.k-array.com/en/product/anakonda-kan200",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "ANAKONDA_SERIES",
+    "product_line": "Anakonda",
+    "model": "KAN200",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KAN200",
+      "Anakonda",
+      "flexible array speaker"
+    ],
+    "technical": [
+      "drivers",
+      "impedance",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "IP64"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "kan200"
+    ]
+  },
+  "content_sections": {
+    "description": "The Anakonda-KAN200 is a light-weighted, revolutionary speaker that can take any form. These loudspeakers are 2 meters long with 8 x 1\" drivers that deliver a max power of 300W at 64Ω impedance. Integrated male and female Speakon NL4 connectors hide all connections inside the body of the speaker. By using two amplifier channels with the dedicated K-ANLINK accessory, you can extend your Anakonda system to up to 32 units – 64 meters – which creates an elegant, seamless line of continuous sound. Its dedicated presets work on a wide frequency range and can be used as an audio system in combination with K-array subwoofers.",
+    "specifications": {
+      "Type": "Line array (Source: \"Type: Line array\")",
+      "Transducers": "8 x 1\" neodymium magnet woofer (Source: \"Transducers: 8 x 1\" neodymium magnet woofer\")",
+      "Frequency Response": "150 Hz - 18 kHz (-6 dB) (with dedicated preset) (Source: \"Frequency Response: 150 Hz - 18 kHz (-6 dB) (with dedicated preset)\")",
+      "Max SPL": "102 dB (peak) (Source: \"Max SPL: 102 dB (peak)\")",
+      "Rated Power": "150 W (Source: \"Rated Power: 150 W\")",
+      "Coverage": "V. 10° | H. 140° (Source: \"Coverage: V. 10° | H. 140°\")",
+      "Connectors": "SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+      "Nominal Impedance": "64 Ω (Source: \"Nominal Impedance: 64 Ω\")",
+      "Dimensions (W x H x D)": "2000 (±20mm) x 56 x 35 mm (79.5 (±0.8 in) x 2.2 x 1.4 in) (Source: \"Dimensions (W x H x D): 2000 (±20mm) x 56 x 35 mm (79.5 (±0.8 in) x 2.2 x 1.4 in)\")",
+      "Weight": "1.4 kg (3.1 lb) (Source: \"Weight: 1.4 kg (3.1 lb)\")",
+      "Material": "PVC/Neoprene (Source: \"Material: PVC/Neoprene\")",
+      "Colors": "Black, White (Source: \"Colors: Black, White\")",
+      "IP Rating": "IP64 (more complete water protection with dedicated K-IP65KITB accessory) (Source: \"IP Rating: IP64 (more complete water protection with dedicated K-IP65KITB accessory)\")"
+    },
+    "models": {
+      "Standard": [
+        "KAN200 black model (Source: \"KAN200 black model\")",
+        "KAN200W white model (Source: \"KAN200W white model\")"
+      ]
+    },
+    "accessories": {
+      "Related": [
+        "K-IP65KITB: Weatherproof rubber protection for NL4 connectors (Source: \"K-IP65KITB (Weatherproof rubber protection for NL4 connectors)\")",
+        "K-ANLINK: Male to female NL4 adapter that switches Channel 1 (1+/1-) to Channel 2 (2+/2-) (Source: \"K-ANLINK (Male to female NL4 adapter that switches Channel 1 (1+/1-) to Channel 2 (2+/2-))\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Anakonda-KAN200 is a light-weighted, revolutionary flexible array speaker. 2 meters long with 8 x 1\" drivers. Max power of 300W at 64Ω impedance. Integrated male and female Speakon NL4 connectors. Extendable to 32 units (64 meters) using K-ANLINK. Dedicated presets for wide frequency range. Can be used with K-array subwoofers. Specifications: Type: Line array. Transducers: 8 x 1\" neodymium magnet woofer. Frequency Response: 150 Hz - 18 kHz (-6 dB). Max SPL: 102 dB (peak). Rated Power: 150 W. Coverage: V. 10° | H. 140°. Connectors: SpeakOn NL4. Nominal Impedance: 64 Ω. Dimensions: 2000 (±20mm) x 56 x 35 mm. Weight: 1.4 kg. Material: PVC/Neoprene. Colors: Black, White. IP Rating: IP64. Models: KAN200 black, KAN200W white. Related accessories: K-IP65KITB, K-ANLINK.",
+    "semantic_chunks": [
+      "Anakonda-KAN200: light-weighted, revolutionary flexible array speaker. 2 meters long, 8 x 1\" drivers. Max power 300W at 64Ω.",
+      "Connectivity: Integrated male/female Speakon NL4. Extendable to 32 units (64 meters) with K-ANLINK. Works with K-array subwoofers.",
+      "Specifications: Type: Line array. Transducers: 8x 1\" neodymium woofer. Freq. Response: 150-18 kHz (-6 dB). Max SPL: 102 dB. Rated Power: 150 W. Coverage: V. 10° | H. 140°. Impedance: 64 Ω. Dimensions: 2000x56x35 mm. Weight: 1.4 kg. Material: PVC/Neoprene. Colors: Black, White. IP Rating: IP64.",
+      "Models: KAN200 (black), KAN200W (white). Accessories: K-IP65KITB, K-ANLINK."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Anakonda-KAN200?",
+        "answer": "Flexible Array Speaker / Line array."
+      },
+      {
+        "question": "What transducers does the Anakonda-KAN200 have?",
+        "answer": "8 x 1\" drivers / 8 x 1\" neodymium magnet woofer."
+      },
+      {
+        "question": "What is the length of the Anakonda-KAN200?",
+        "answer": "2 meters."
+      },
+      {
+        "question": "What is the maximum power of the Anakonda-KAN200?",
+        "answer": "300W."
+      },
+      {
+        "question": "What is the impedance of the Anakonda-KAN200?",
+        "answer": "64Ω."
+      },
+      {
+        "question": "What is the frequency response of the Anakonda-KAN200?",
+        "answer": "150 Hz - 18 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Anakonda-KAN200?",
+        "answer": "102 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Anakonda-KAN200?",
+        "answer": "150 W."
+      },
+      {
+        "question": "What is the coverage of the Anakonda-KAN200?",
+        "answer": "V. 10° | H. 140°."
+      },
+      {
+        "question": "What are the dimensions of the Anakonda-KAN200?",
+        "answer": "2000 (±20mm) x 56 x 35 mm (79.5 (±0.8 in) x 2.2 x 1.4 in)."
+      },
+      {
+        "question": "What is the weight of the Anakonda-KAN200?",
+        "answer": "1.4 kg (3.1 lb)."
+      },
+      {
+        "question": "What material is the Anakonda-KAN200 made of?",
+        "answer": "PVC/Neoprene."
+      },
+      {
+        "question": "What colors are available for the Anakonda-KAN200?",
+        "answer": "Black, White."
+      },
+      {
+        "question": "What is the IP rating of the Anakonda-KAN200?",
+        "answer": "IP64 (can be IP65 compliant with accessories)."
+      },
+      {
+        "question": "What accessories are related to the Anakonda-KAN200?",
+        "answer": "K-IP65KITB, K-ANLINK."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "K-array Anakonda-KAN200: Flexible Array Speaker with 64Ω - K-array (https://www.k-array.com/en/product/anakonda-kan200)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "146",
+  "url": "https://www.k-array.com/en/product/duetto-kd6b",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DUETTO_SERIES",
+    "product_line": "Duetto",
+    "model": "KD6B",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KD6B", "Duetto", "earbuds", "high definition"],
+    "technical": ["transducer", "frequency response", "sensitivity", "impedance"],
+    "applications": [],
+    "unique_identifiers": ["kd6b"]
+  },
+  "content_sections": {
+    "description": "The Duetto-KD6B is a set of ultra-mini, high quality aluminum alloy earbuds with an in-line microphone and control. Each earbud is equipped with a 6 mm full-range transducer to provide amazing output capable of reproducing the frequency range from 5 Hz to 23 kHz at -12 dB ensuring high-definition audio with deep, rich bass and clear high frequencies. The microphone and control are wired in the headphone cable and offer the freedom and convenience to accept calls, manage music playback and adjust the volume. Packaged in a convenient hard carrying case, the Duetto-KD6B comes with four pairs of silicon ear tips to provide a custom fit while maximizing sound isolation, and a set of ear hooks for active use.",
+    "specifications": {
+      "Transducers": "6 mm neodymium magnet (Source: "Transducers: 6 mm neodymium magnet")",
+      "Frequency Response": "5 Hz - 23 kHz (Source: "Frequency Response: 5 Hz - 23 kHz")",
+      "Sensitivity (1W/1m)": "105 ± 3 dB @ 1 kHz (Source: "Sensitivity (1W/1m): 105 ± 3 dB @ 1 kHz")",
+      "Impedance": "16Ω±15% (Source: "Impedance: 16Ω±15%")",
+      "Finishes": "Black (Source: "Finishes: Black")",
+      "Material": "Aluminium Alloy (Source: "Material: Aluminium Alloy")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Duetto-KD6B is a set of ultra-mini, high quality aluminum alloy earbuds with an in-line microphone and control. Each earbud has a 6 mm full-range transducer, reproducing frequencies from 5 Hz to 23 kHz at -12 dB for high-definition audio. Microphone and control wired in headphone cable for calls, music playback, volume adjustment. Comes with hard carrying case, four pairs of silicon ear tips, and ear hooks. Specifications: Transducers: 6 mm neodymium magnet. Frequency Response: 5 Hz - 23 kHz. Sensitivity: 105 ± 3 dB @ 1 kHz. Impedance: 16Ω±15%. Finishes: Black. Material: Aluminium Alloy.",
+    "semantic_chunks": [
+      "Duetto-KD6B: ultra-mini, high quality aluminum alloy earbuds with in-line microphone and control.",
+      "Features: 6 mm full-range transducer, 5-23 kHz freq. range (-12 dB) for high-definition audio. Microphone/control for calls, music, volume. Hard carrying case, silicon ear tips, ear hooks.",
+      "Specifications: Transducers: 6mm neodymium. Freq. Response: 5-23 kHz. Sensitivity: 105 ± 3 dB @ 1 kHz. Impedance: 16Ω±15%. Finishes: Black. Material: Aluminium Alloy."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Duetto-KD6B?", "answer": "High Definition Earbuds with Microphone and Control."},
+      {"question": "What kind of transducer does the Duetto-KD6B have?", "answer": "A 6 mm full-range transducer."},
+      {"question": "What is the frequency response of the Duetto-KD6B?", "answer": "5 Hz - 23 kHz."},
+      {"question": "What is the sensitivity of the Duetto-KD6B?", "answer": "105 ± 3 dB @ 1 kHz."},
+      {"question": "What is the impedance of the Duetto-KD6B?", "answer": "16Ω±15%."},
+      {"question": "What material is the Duetto-KD6B made of?", "answer": "Aluminum Alloy."},
+      {"question": "What color is available for the Duetto-KD6B?", "answer": "Black."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Duetto-KD6B: High Definition Earbuds with Microphone ... - K-array (https://www.k-array.com/en/product/duetto-kd6b)"}
+  ]
+}

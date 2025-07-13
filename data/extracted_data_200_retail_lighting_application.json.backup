@@ -1,0 +1,181 @@
+{
+  "id": "200",
+  "url": "https://www.k-array.com/en/application/Retail-Lighting",
+  "timestamp": "2025-07-12T14:25:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "RETAIL_LIGHTING",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "retail lighting",
+      "revolutionize retail experience",
+      "RAIL",
+      "immersive atmosphere"
+    ],
+    "technical": [
+      "dynamic combination",
+      "lighting professional audio",
+      "electrified tracks",
+      "projectors",
+      "diffused linear lighting"
+    ],
+    "applications": [
+      "shopping experience",
+      "showrooms",
+      "fashion retail",
+      "IoT solution",
+      "multiple audio zones"
+    ],
+    "products": [
+      "Kommander-KA02 I",
+      "Truffle-KTR26",
+      "Tornado-KT2",
+      "Vyper-KV25 I",
+      "Azimut-KAMUT2L1 II",
+      "Rail 24V",
+      "Pinnacle-KR202 II"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "positioning": "Revolutionize the retail experience with RAIL",
+      "key_solution": "Dynamic combination of lighting and professional audio to create immersive atmosphere",
+      "specific_features": [
+        "Electrified tracks with projectors",
+        "Diffused linear lighting",
+        "Enhances overall shopping experience"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Kommander-KA02 I",
+        "use_case": "Retail amplification systems"
+      },
+      {
+        "product": "Truffle-KTR26",
+        "use_case": "Retail subwoofer applications"
+      },
+      {
+        "product": "Tornado-KT2",
+        "use_case": "Retail audio systems"
+      },
+      {
+        "product": "Vyper-KV25 I",
+        "status": "Discontinued",
+        "use_case": "Retail audio installations"
+      },
+      {
+        "product": "Azimut-KAMUT2L1 II",
+        "use_case": "Retail line array systems"
+      },
+      {
+        "product": "Rumble-KU210/KU212",
+        "use_case": "Retail subwoofer systems"
+      },
+      {
+        "product": "Rail 24V",
+        "use_case": "Retail lighting-audio integration"
+      },
+      {
+        "product": "Pinnacle-KR202 II",
+        "use_case": "Retail line array installations"
+      },
+      {
+        "product": "Vyper-KV52 II",
+        "use_case": "Retail audio systems"
+      }
+    ],
+    "installation_scenarios": {
+      "design_characteristics": [
+        "Flexibility in design",
+        "Focus on creating movement and dynamic environments",
+        "Adaptable to various retail spaces (showrooms, fashion retail)"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Temera Fashion Retail Showroom",
+        "description": "IoT solution integration",
+        "features": [
+          "Multiple speaker configurations"
+        ]
+      },
+      {
+        "name": "SPAZIO Showroom",
+        "description": "High-tech environment",
+        "features": [
+          "Multiple audio zones",
+          "Diverse product deployment"
+        ]
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "retail lighting revolutionize retail experience RAIL immersive atmosphere dynamic combination lighting professional audio electrified tracks projectors diffused linear lighting shopping experience showrooms fashion retail IoT solution multiple audio zones Kommander-KA02 I Truffle-KTR26 Tornado-KT2 Vyper-KV25 I Azimut-KAMUT2L1 II Rumble-KU210 KU212 Rail 24V Pinnacle-KR202 II Vyper-KV52 II Temera Fashion Retail Showroom SPAZIO Showroom high-tech environment AV technologies transforming retail",
+    "semantic_chunks": [
+      "Retail lighting revolutionizes the retail experience with RAIL using dynamic combination of lighting and professional audio to create immersive atmosphere",
+      "Features include electrified tracks with projectors, diffused linear lighting that enhances overall shopping experience",
+      "Solutions offer flexibility in design, focus on creating movement and dynamic environments adaptable to various retail spaces",
+      "Product portfolio includes Kommander-KA02 I, Truffle-KTR26, Tornado-KT2, Azimut-KAMUT2L1 II, Rumble subwoofers, Rail 24V, and Pinnacle systems",
+      "Case studies include Temera Fashion Retail Showroom (IoT solution integration) and SPAZIO Showroom (high-tech environment with multiple audio zones)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to retail lighting?",
+        "a": "Revolutionize the retail experience with RAIL using dynamic combination of lighting and professional audio to create immersive atmosphere"
+      },
+      {
+        "q": "What features does K-Array retail lighting provide?",
+        "a": "Electrified tracks with projectors, diffused linear lighting that enhances overall shopping experience"
+      },
+      {
+        "q": "What design characteristics define retail lighting installations?",
+        "a": "Flexibility in design, focus on creating movement and dynamic environments, adaptable to various retail spaces"
+      },
+      {
+        "q": "What K-Array products are used for retail lighting?",
+        "a": "Kommander-KA02 I, Truffle-KTR26, Tornado-KT2, Azimut-KAMUT2L1 II, Rumble-KU210/KU212, Rail 24V, Pinnacle-KR202 II, Vyper-KV52 II"
+      },
+      {
+        "q": "What are examples of K-Array retail lighting installations?",
+        "a": "Temera Fashion Retail Showroom (IoT solution integration) and SPAZIO Showroom (high-tech environment with multiple audio zones)"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Revolutionize the retail experience with RAIL",
+      "source": "Direct quote from retail lighting positioning"
+    },
+    {
+      "claim": "Dynamic combination of lighting and professional audio to create immersive atmosphere",
+      "source": "Direct quote from key solution description"
+    },
+    {
+      "claim": "AV technologies are transforming the retail experience",
+      "source": "Direct quote from unique insight"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

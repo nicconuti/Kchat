@@ -1,0 +1,190 @@
+{
+  "id": "181",
+  "url": "https://www.k-array.com/en/application/large-congregations",
+  "timestamp": "2025-07-12T12:50:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "LARGE_CONGREGATIONS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "large congregations",
+      "masses",
+      "powerful intelligible acoustics",
+      "celebration",
+      "devotion"
+    ],
+    "technical": [
+      "high intelligibility",
+      "clear spoken word",
+      "maximum clarity",
+      "powerful line arrays",
+      "resistant monitors"
+    ],
+    "applications": [
+      "religious gatherings",
+      "congregational events",
+      "spoken word",
+      "live music"
+    ],
+    "products": [
+      "Mugello KH5",
+      "Thunder KS5",
+      "Python KP102",
+      "Kayman KY102",
+      "Dragon KX12",
+      "Kommander KA208"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "purpose": "Appealing to the masses through highly powerful and intelligible acoustics",
+      "key_challenge": "Providing high intelligibility and clear spoken word for large gatherings",
+      "primary_need": "Ensuring audience can fully engage in celebration and hear messages clearly"
+    },
+    "recommended_products": [
+      {
+        "product_line": "Mugello Series",
+        "models": [
+          "KH5",
+          "KH3",
+          "KH2"
+        ],
+        "use_case": "Large congregation audio systems"
+      },
+      {
+        "product_line": "Thunder Series",
+        "models": [
+          "KS5",
+          "KS3",
+          "KS4"
+        ],
+        "use_case": "High-power congregational audio"
+      },
+      {
+        "product_line": "Python Series",
+        "models": [
+          "KP102"
+        ],
+        "use_case": "Line array systems for congregations"
+      },
+      {
+        "product_line": "Kayman Series",
+        "models": [
+          "KY102"
+        ],
+        "use_case": "Congregation monitor systems"
+      },
+      {
+        "product_line": "Dragon Series",
+        "models": [
+          "KX12"
+        ],
+        "use_case": "Large venue congregation audio"
+      },
+      {
+        "product_line": "Kommander Amplifiers",
+        "models": [
+          "KA208"
+        ],
+        "use_case": "Congregation amplification systems"
+      }
+    ],
+    "installation_scenarios": {
+      "ideal_for": [
+        "Religious gatherings",
+        "Large congregational events"
+      ],
+      "key_requirements": [
+        "Maximum clarity",
+        "Powerful sound projection",
+        "Suitable for both spoken word and live music"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "53rd International Eucharistic Congress",
+        "location": "Quito"
+      },
+      {
+        "name": "Solomon Temple",
+        "location": "São Paulo"
+      },
+      {
+        "name": "Gran Carpa Outdoor Cathedral",
+        "location": "Puerto Rico"
+      },
+      {
+        "name": "Iglesia de Cristo Ebenezer Mega Church",
+        "location": "Honduras"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "large congregations masses powerful intelligible acoustics high intelligibility clear spoken word maximum clarity celebration devotion religious gatherings congregational events Mugello KH5 KH3 KH2 Thunder KS5 KS3 KS4 Python KP102 Kayman KY102 Dragon KX12 Kommander KA208 53rd International Eucharistic Congress Quito Solomon Temple São Paulo Gran Carpa Puerto Rico Ebenezer Mega Church Honduras",
+    "semantic_chunks": [
+      "Large congregations require appealing to the masses through highly powerful and intelligible acoustics for celebration and devotion",
+      "Key challenge is providing high intelligibility and clear spoken word ensuring audience can fully engage and hear messages clearly",
+      "Recommended products include Mugello series (KH5, KH3, KH2), Thunder series (KS5, KS3, KS4), Python KP102, Kayman KY102, Dragon KX12, and Kommander KA208",
+      "Installation requirements include maximum clarity, powerful sound projection, suitable for both spoken word and live music",
+      "Case studies include 53rd International Eucharistic Congress (Quito), Solomon Temple (São Paulo), Gran Carpa (Puerto Rico), and Ebenezer Mega Church (Honduras)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to large congregations?",
+        "a": "Appealing to the masses through highly powerful and intelligible acoustics"
+      },
+      {
+        "q": "What is the key challenge in large congregation audio?",
+        "a": "Providing high intelligibility and clear spoken word for large gatherings"
+      },
+      {
+        "q": "What K-Array products are recommended for large congregations?",
+        "a": "Mugello series (KH5, KH3, KH2), Thunder series (KS5, KS3, KS4), Python KP102, Kayman KY102, Dragon KX12, and Kommander KA208"
+      },
+      {
+        "q": "What are the key requirements for congregation audio systems?",
+        "a": "Maximum clarity, powerful sound projection, suitable for both spoken word and live music"
+      },
+      {
+        "q": "What are examples of K-Array congregation installations?",
+        "a": "53rd International Eucharistic Congress (Quito), Solomon Temple (São Paulo), Gran Carpa (Puerto Rico), and Ebenezer Mega Church (Honduras)"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Appealing to the masses through highly powerful and intelligible acoustics",
+      "source": "Direct quote from large congregations application overview"
+    },
+    {
+      "claim": "High intelligibility and clear spoken word",
+      "source": "Direct quote from key challenge description"
+    },
+    {
+      "claim": "K-array's powerful line arrays and resistant monitors are ideal in getting the devotion to the audience with maximum clarity",
+      "source": "Direct quote from unique value proposition"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

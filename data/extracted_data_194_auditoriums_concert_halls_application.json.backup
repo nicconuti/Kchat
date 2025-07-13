@@ -1,0 +1,191 @@
+{
+  "id": "194",
+  "url": "https://www.k-array.com/en/application/auditoriums-and-concert-halls",
+  "timestamp": "2025-07-12T13:55:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "AUDITORIUMS_AND_CONCERT_HALLS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "auditoriums",
+      "concert halls",
+      "powerful loudspeakers",
+      "uniformly cover",
+      "clarity distinction"
+    ],
+    "technical": [
+      "Electronic Beam Steering",
+      "digitally adjust dispersion",
+      "PAT line arrays",
+      "perfect phase response",
+      "narrow vertical coverage"
+    ],
+    "challenges": [
+      "spoken word",
+      "musical events",
+      "sound quality",
+      "noise pollution",
+      "sound spill"
+    ],
+    "products": [
+      "GH12",
+      "GS218",
+      "GA46",
+      "Mugello-KH2P I",
+      "Thunder-KS4P I",
+      "Kayman-KY52",
+      "Kommander-KA208",
+      "Domino-KF212",
+      "Kobra-KK102 I"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "requirements": "Powerful loudspeakers that can uniformly cover the large venue with clarity and distinction for spoken word",
+      "adaptability": "Must adapt for both spoken word and musical events",
+      "challenges": [
+        "Maintaining sound quality across entire venue",
+        "Minimizing noise pollution"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "GH12",
+        "use_case": "Auditorium main systems"
+      },
+      {
+        "product": "GS218",
+        "use_case": "Concert hall subwoofer applications"
+      },
+      {
+        "product": "GA46",
+        "use_case": "Large venue amplification"
+      },
+      {
+        "product": "Mugello-KH2P I",
+        "use_case": "Compact auditorium installations"
+      },
+      {
+        "product": "Thunder-KS4P I",
+        "use_case": "Auditorium powered subwoofers"
+      },
+      {
+        "product": "Kayman-KY52",
+        "use_case": "Concert hall monitoring systems"
+      },
+      {
+        "product": "Kommander-KA208",
+        "use_case": "Auditorium amplification systems"
+      },
+      {
+        "product": "Domino-KF212",
+        "use_case": "Concert hall audio systems"
+      },
+      {
+        "product": "Kobra-KK102 I",
+        "use_case": "Auditorium column speakers"
+      }
+    ],
+    "installation_scenarios": {
+      "key_technologies": [
+        "Electronic Beam Steering to digitally adjust the dispersion of a line array element",
+        "PAT line arrays with perfect phase response for smaller auditoriums",
+        "Narrow vertical coverage to minimize sound spill towards walls and floor"
+      ],
+      "technical_benefits": [
+        "Same listening experience to all audience members",
+        "Limit noise pollution in areas where sound pressure must be kept at a minimum",
+        "Optimizing sound dispersion for a very versatile system"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Riga Circus",
+        "description": "Historical landmark"
+      },
+      {
+        "name": "Sungroup's Auditorium",
+        "description": "Large-scale project in Phu Quoc"
+      },
+      {
+        "name": "Alsónémedi Theater"
+      },
+      {
+        "name": "General Assembly of Accountants Convention"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "auditoriums concert halls powerful loudspeakers uniformly cover large venue clarity distinction spoken word musical events Electronic Beam Steering digitally adjust dispersion PAT line arrays perfect phase response narrow vertical coverage minimize sound spill noise pollution same listening experience GH12 GS218 GA46 Mugello-KH2P I Thunder-KS4P I Kayman-KY52 Kommander-KA208 Domino-KF212 Kobra-KK102 I Riga Circus Sungroup Auditorium Phu Quoc Alsónémedi Theater General Assembly Accountants Convention",
+    "semantic_chunks": [
+      "Auditoriums and concert halls require powerful loudspeakers that uniformly cover large venues with clarity and distinction for spoken word",
+      "Systems must adapt for both spoken word and musical events while maintaining sound quality and minimizing noise pollution",
+      "Technologies include Electronic Beam Steering to digitally adjust dispersion, PAT line arrays with perfect phase response, and narrow vertical coverage",
+      "Solutions provide same listening experience to all audience members while limiting noise pollution and optimizing sound dispersion",
+      "Product portfolio includes GH12, GS218, GA46, Mugello-KH2P I, Thunder-KS4P I, Kayman-KY52, Kommander-KA208, Domino-KF212, and Kobra-KK102 I",
+      "Case studies include Riga Circus, Sungroup's Auditorium (Phu Quoc), Alsónémedi Theater, and General Assembly of Accountants Convention"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What are the requirements for auditorium audio systems?",
+        "a": "Powerful loudspeakers that can uniformly cover the large venue with clarity and distinction for spoken word"
+      },
+      {
+        "q": "What challenges do auditoriums face?",
+        "a": "Must adapt for both spoken word and musical events while maintaining sound quality across entire venue and minimizing noise pollution"
+      },
+      {
+        "q": "What technologies does K-Array use for auditoriums?",
+        "a": "Electronic Beam Steering to digitally adjust dispersion, PAT line arrays with perfect phase response, and narrow vertical coverage to minimize sound spill"
+      },
+      {
+        "q": "What K-Array products are recommended for auditoriums?",
+        "a": "GH12, GS218, GA46, Mugello-KH2P I, Thunder-KS4P I, Kayman-KY52, Kommander-KA208, Domino-KF212, and Kobra-KK102 I"
+      },
+      {
+        "q": "What are examples of K-Array auditorium installations?",
+        "a": "Riga Circus (historical landmark), Sungroup's Auditorium (Phu Quoc), Alsónémedi Theater, and General Assembly of Accountants Convention"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Powerful loudspeakers that can uniformly cover the large venue with clarity and distinction for spoken word",
+      "source": "Direct quote from auditorium requirements"
+    },
+    {
+      "claim": "Electronic Beam Steering to digitally adjust the dispersion of a line array element",
+      "source": "Direct quote from key technical approaches"
+    },
+    {
+      "claim": "Same listening experience to all audience members",
+      "source": "Direct quote from technical benefits"
+    },
+    {
+      "claim": "Optimizing sound dispersion for a very versatile system",
+      "source": "Direct quote from unique value proposition"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "135",
+  "url": "https://www.k-array.com/en/product/Pinnacle-KR402YPII",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PINNACLE_SERIES",
+    "product_line": "Pinnacle",
+    "model": "KR402YP II",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KR402YP II",
+      "Pinnacle",
+      "audio system"
+    ],
+    "technical": [
+      "Thunder-KS3P",
+      "Kayman-KY102",
+      "Kommander-KA104LIVE",
+      "Pure Array Technology",
+      "SPL",
+      "frequency response",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP64",
+      "IP54",
+      "IP20"
+    ],
+    "applications": [
+      "concerts",
+      "large congregations",
+      "theaters",
+      "event productions"
+    ],
+    "unique_identifiers": [
+      "kr402ypii"
+    ]
+  },
+  "content_sections": {
+    "description": "The Pinnacle-KR402YP II audio system integrates the Thunder-KS3P 21\" subwoofer with the Kayman-KY102, equipped with 4-inch cone drivers. It is enhanced by the Kommander-KA104LIVE amplifier and includes accessories like cables and joints. This system is designed for various applications such as concerts, large congregations, theaters, and event productions, offering exceptional sound quality and long-distance coverage through Pure Array Technology (P.A.T.).",
+    "components": {
+      "Kayman-KY102 (Line array)": {
+        "Type": "Line array (Source: \"Type: Line array\")",
+        "Transducers": "8 x 4\" neodymium magnet woofers (Source: \"Transducers: 8 x 4\" neodymium magnet woofers\")",
+        "Frequency Response": "120 Hz – 20 kHz (-6 dB) (Source: \"Frequency Response: 120 Hz – 20 kHz (-6 dB)\")",
+        "Max SPL": "138 dB (peak) (Source: \"Max SPL: 138 dB (peak)\")",
+        "Rated Power": "1200 W (Source: \"Rated Power: 1200 W\")",
+        "Coverage": "V. 7° - 30° | H. 90° (Source: \"Coverage: V. 7° - 30° | H. 90°\")",
+        "Dimensions": "116 x 1000 x 134 mm (4.6 x 39.4 x 5.3 in) (Source: \"Dimensions: 116 x 1000 x 134 mm (4.6 x 39.4 x 5.3 in)\")",
+        "Weight": "14.9 kg (32.8 lb) (Source: \"Weight: 14.9 kg (32.8 lb)\")",
+        "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+        "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+        "IP Rating": "IP64 (Source: \"IP Rating: IP64\")"
+      },
+      "Thunder-KS3P I (Passive subwoofer)": {
+        "Type": "Passive subwoofer (Source: \"Thunder-KS3P I (Passive subwoofer)\")",
+        "Transducers": "2 x 18\" neodymium magnet woofer (Source: \"Transducers: 2 x 18\" neodymium magnet woofer\")",
+        "Frequency Response": "30 Hz – 150/450 Hz (-6 dB) crossover dependant (Source: \"Frequency Response: 30 Hz – 150/450 Hz (-6 dB) crossover dependant\")",
+        "Max SPL": "141dB (Source: \"Max SPL: 141dB\")",
+        "Rated Power": "2800W peak (Source: \"Rated Power: 2800W peak\")",
+        "Dimensions": "1106 x 500 x 580 mm (43.5 x 19.7 x 22.8 in) (Source: \"Dimensions: 1106 x 500 x 580 mm (43.5 x 19.7 x 22.8 in)\")",
+        "Weight": "53.2 kg (117.3 lb) (Source: \"Weight: 53.2 kg (117.3 lb)\")",
+        "Material": "Polyurea coated birch plywood (Source: \"Material: Polyurea coated birch plywood\")",
+        "Colors": "Black/White/Custom RAL (Source: \"Colors: Black/White/Custom RAL\")",
+        "IP Rating": "IP54 (Source: \"IP Rating: IP54\")"
+      },
+      "Kommander-KA104LIVE (4ch switching mode, Class D Amplifier)": {
+        "Type": "4ch switching mode, Class D Amplifier (Source: \"Kommander-KA104LIVE (4ch switching mode, Class D Amplifier)\")",
+        "Output Power": "4 x 2500W @ 4Ω (Source: \"Output Power: 4 x 2500W @ 4Ω\")",
+        "Frequency Response": "20 Hz - 20 kHz (±1 dB) (Source: \"Frequency Response: 20 Hz - 20 kHz (±1 dB)\")",
+        "Built-in DSP": "Grouping, Equalization, Limiters, Routing, Level, Loudspeaker presets (Source: \"Built-in DSP: Grouping, Equalization, Limiters, Routing, Level, Loudspeaker presets\")",
+        "Dimensions": "430 x 87 x 430 mm (17 x 3.4 x 17 in) (Source: \"Dimensions: 430 x 87 x 430 mm (17 x 3.4 x 17 in)\")",
+        "Weight": "8.15 kg (18 lb) (Source: \"Weight: 8.15 kg (18 lb)\")",
+        "IP Rating": "IP20 (Source: \"IP Rating: IP20\")"
+      }
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Pinnacle-KR402YP II audio system integrates Thunder-KS3P 21\" subwoofer with Kayman-KY102 (4-inch cone drivers). Enhanced by Kommander-KA104LIVE amplifier. Includes cables and joints. Designed for concerts, large congregations, theaters, event productions. Offers exceptional sound quality and long-distance coverage through Pure Array Technology (P.A.T.). Kayman-KY102: Line array, 8x 4\" neodymium woofers, 120-20 kHz Freq. Response, 138 dB Max SPL, 1200 W Rated Power, V. 7°-30° | H. 90° Coverage, 116x1000x134 mm, 14.9 kg, IP64. Thunder-KS3P I: Passive subwoofer, 2x 18\" neodymium woofer, 30-150/450 Hz Freq. Response, 141dB Max SPL, 2800W peak Rated Power, 1106x500x580 mm, 53.2 kg, IP54. Kommander-KA104LIVE: 4ch switching mode, Class D Amplifier, 4x 2500W @ 4Ω Output Power, 20-20 kHz Freq. Response, Built-in DSP, 430x87x430 mm, 8.15 kg, IP20.",
+    "semantic_chunks": [
+      "Pinnacle-KR402YP II: audio system integrating Thunder-KS3P 21\" subwoofer and Kayman-KY102 (4-inch cone drivers). Enhanced by Kommander-KA104LIVE amplifier.",
+      "Applications: concerts, large congregations, theaters, event productions. Exceptional sound, long-distance coverage via Pure Array Technology (P.A.T.).",
+      "Kayman-KY102 Specs: Line array, 8x 4\" neodymium woofers, 120-20 kHz Freq. Response, 138 dB Max SPL, 1200 W Rated Power, V. 7°-30° | H. 90° Coverage, 116x1000x134 mm, 14.9 kg, IP64.",
+      "Thunder-KS3P I Specs: Passive subwoofer, 2x 18\" neodymium woofer, 30-150/450 Hz Freq. Response, 141dB Max SPL, 2800W peak Rated Power, 1106x500x580 mm, 53.2 kg, IP54.",
+      "Kommander-KA104LIVE Specs: 4ch switching mode, Class D Amplifier, 4x 2500W @ 4Ω Output Power, 20-20 kHz Freq. Response, Built-in DSP, 430x87x430 mm, 8.15 kg, IP20."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Pinnacle-KR402YP II?",
+        "answer": "Audio system."
+      },
+      {
+        "question": "What components make up the Pinnacle-KR402YP II system?",
+        "answer": "Thunder-KS3P 21\" subwoofer, Kayman-KY102, and Kommander-KA104LIVE amplifier."
+      },
+      {
+        "question": "What are the applications for the Pinnacle-KR402YP II?",
+        "answer": "Concerts, large congregations, theaters, and event productions."
+      },
+      {
+        "question": "What is the Max SPL of the Kayman-KY102 component?",
+        "answer": "138 dB (peak)."
+      },
+      {
+        "question": "What is the Max SPL of the Thunder-KS3P I component?",
+        "answer": "141dB."
+      },
+      {
+        "question": "What is the output power of the Kommander-KA104LIVE amplifier?",
+        "answer": "4 x 2500W @ 4Ω."
+      },
+      {
+        "question": "What is the IP rating of the Kayman-KY102?",
+        "answer": "IP64."
+      },
+      {
+        "question": "What is the IP rating of the Thunder-KS3P I?",
+        "answer": "IP54."
+      },
+      {
+        "question": "What is the IP rating of the Kommander-KA104LIVE?",
+        "answer": "IP20."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Pinnacle-KR402YP II - K-array (https://www.k-array.com/en/product/Pinnacle-KR402YPII)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

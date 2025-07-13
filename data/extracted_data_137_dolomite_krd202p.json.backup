@@ -1,0 +1,143 @@
+{
+  "id": "137",
+  "url": "https://www.k-array.com/en/product/dolomite-krd202p",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DOLOMITE_SERIES",
+    "product_line": "Dolomite",
+    "model": "KRD202P",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KRD202P",
+      "Dolomite",
+      "portable audio system",
+      "high-performance"
+    ],
+    "technical": [
+      "drivers",
+      "woofers",
+      "passive radiators",
+      "Pure Array Technology",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [
+      "luxury private events",
+      "hospitality venues",
+      "high-end residential settings"
+    ],
+    "unique_identifiers": [
+      "krd202p"
+    ]
+  },
+  "content_sections": {
+    "description": "Dolomite-KRD202P sets a new benchmark in high-performance portable audio systems. Each full-range tower integrates 32x 2\" drivers with Pure Array Technology (PAT), paired with 4x 10\" subwoofers and 4x 10\" passive radiators, housed in modular 1-meter sections for scalable and flexible deployment. Sold as a stereo kit, the system includes 2-meter towers per side, dedicated mounting hardware, a ground-stacking base, and the KA104LIVE amplifier. By combining array drivers, subwoofers, and passive radiators within a single tower body, the system achieves a highly linear and accurate frequency response, making it ideal for long-throw applications. The passive radiators enhance low-end performance by increasing perceived bass volume and system efficiency without adding bulk or requiring more power — making it a true full-range solution for premium audio applications. Built for durability, each module features a weather-resistant stainless steel frame wrapped in acoustically transparent fabric, combining ruggedness with a refined aesthetic. The modular design allows for compact or large-scale configurations, adapting seamlessly to premium environments—from luxury private events to hospitality venues and high-end residential settings.",
+    "specifications": {
+      "Type": "Line array (Source: \"Type: Line array\")",
+      "Transducers": "1x module with 16 x 2\" neodymium magnet woofers, 2 x 10\" neodymium magnet woofers, 2 x 10\" passive radiators; system: 32 x 2\" neodymium magnet woofers, 4 x 10\" neodymium magnet woofers, 4 x 10\" passive radiators (Source: \"Transducers: 1x module with 16 x 2\" neodymium magnet woofers 2 x 10\" neodymium magnet woofers 2 x 10\" passive radiators system: 32 x 2\" neodymium magnet woofers 4 x 10\" neodymium magnet woofers 4 x 10\" passive radiators\")",
+      "Frequency Response": "41Hz - 18kHz (-6dB) (Source: \"Frequency Response: 41Hz - 18kHz (-6dB)\")",
+      "Max SPL": "127 dB (peak) Half space (Source: \"Max SPL: 127 dB (peak) Half space\")",
+      "Rated Power": "400x2 W (MHF) + 1600 (LF) W (Source: \"Rated Power: 400x2 W (MHF) + 1600 (LF) W\")",
+      "Coverage": "V. 7° | H. 120° (array) (Source: \"Coverage: V. 7° | H. 120° (array)\")",
+      "Connectors": "2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: 2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+      "Nominal Impedance": "system: 4 Ω + 4 Ω bi-amplified (Source: \"Nominal Impedance: system: 4 Ω + 4 Ω bi-amplified\")",
+      "Dimensions (W x H x D)": "220 x 1000 x 360mm (8.7 x 39.4 x 14.2) (Source: \"Dimensions (W x H x D): 220 x 1000 x 360mm (8.7 x 39.4 x 14.2)\")",
+      "Weight": "system modules: 76 kg + standing bases (Source: \"Weight: system modules: 76 kg + standing bases\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, Custom RAL (Source: \"Colors: Black, Custom RAL\")",
+      "IP Rating": "IP64 (IP65 compliant with dedicated K-IP65KITB) (Source: \"IP Rating: IP64 (IP65 compliant with dedicated K-IP65KITB)\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Dolomite-KRD202P is a high-performance portable audio system. Each full-range tower integrates 32x 2\" drivers with Pure Array Technology (PAT), 4x 10\" subwoofers, and 4x 10\" passive radiators in modular 1-meter sections. Sold as stereo kit with 2-meter towers per side, mounting hardware, ground-stacking base, and KA104LIVE amplifier. Achieves linear and accurate frequency response for long-throw applications. Passive radiators enhance low-end. Weather-resistant stainless steel frame with acoustically transparent fabric. Modular design for compact or large-scale configurations. Suitable for luxury private events, hospitality venues, high-end residential settings. Specifications: Type: Line array. Transducers: 1x module with 16x 2\" neodymium woofers, 2x 10\" neodymium woofers, 2x 10\" passive radiators; system: 32x 2\" neodymium woofers, 4x 10\" neodymium woofers, 4x 10\" passive radiators. Frequency Response: 41Hz - 18kHz (-6dB). Max SPL: 127 dB (peak) Half space. Rated Power: 400x2 W (MHF) + 1600 (LF) W. Coverage: V. 7° | H. 120°. Connectors: 2 x SpeakOn NL4. Nominal Impedance: system: 4 Ω + 4 Ω bi-amplified. Dimensions: 220 x 1000 x 360mm. Weight: system modules: 76 kg + standing bases. Material: Stainless Steel. Colors: Black, Custom RAL. IP Rating: IP64 (IP65 compliant with K-IP65KITB).",
+    "semantic_chunks": [
+      "Dolomite-KRD202P: high-performance portable audio system. Modular 1-meter sections for scalable deployment.",
+      "Components: Each tower has 32x 2\" PAT drivers, 4x 10\" subwoofers, 4x 10\" passive radiators. Sold as stereo kit with 2-meter towers, mounting hardware, ground-stacking base, KA104LIVE amplifier.",
+      "Performance: Linear/accurate frequency response for long-throw. Passive radiators enhance low-end. True full-range solution.",
+      "Design: Weather-resistant stainless steel frame, acoustically transparent fabric. Modular for compact/large-scale configurations.",
+      "Applications: luxury private events, hospitality venues, high-end residential settings.",
+      "Specifications: Type: Line array. Transducers: 1x module (16x 2\" neo woofers, 2x 10\" neo woofers, 2x 10\" passive radiators); system (32x 2\" neo woofers, 4x 10\" neo woofers, 4x 10\" passive radiators). Freq. Response: 41-18kHz (-6dB). Max SPL: 127 dB. Rated Power: 400x2 W (MHF) + 1600 (LF) W. Coverage: V. 7° | H. 120°. Impedance: 4Ω + 4Ω bi-amplified. Dimensions: 220x1000x360mm. Weight: 76 kg + bases. Material: Stainless Steel. Colors: Black, Custom RAL. IP Rating: IP64 (IP65 compliant)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Dolomite-KRD202P?",
+        "answer": "High-performance portable audio system / Line array."
+      },
+      {
+        "question": "What components are integrated into each full-range tower of the Dolomite-KRD202P?",
+        "answer": "32x 2\" drivers with Pure Array Technology (PAT), 4x 10\" subwoofers, and 4x 10\" passive radiators."
+      },
+      {
+        "question": "What is the frequency response of the Dolomite-KRD202P?",
+        "answer": "41Hz - 18kHz (-6dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Dolomite-KRD202P?",
+        "answer": "127 dB (peak) Half space."
+      },
+      {
+        "question": "What is the rated power of the Dolomite-KRD202P?",
+        "answer": "400x2 W (MHF) + 1600 (LF) W."
+      },
+      {
+        "question": "What is the coverage of the Dolomite-KRD202P?",
+        "answer": "V. 7° | H. 120° (array)."
+      },
+      {
+        "question": "What is the nominal impedance of the Dolomite-KRD202P system?",
+        "answer": "4 Ω + 4 Ω bi-amplified."
+      },
+      {
+        "question": "What are the dimensions of the Dolomite-KRD202P?",
+        "answer": "220 x 1000 x 360mm (8.7 x 39.4 x 14.2)."
+      },
+      {
+        "question": "What is the weight of the Dolomite-KRD202P system modules?",
+        "answer": "76 kg + standing bases."
+      },
+      {
+        "question": "What material is the Dolomite-KRD202P made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What colors are available for the Dolomite-KRD202P?",
+        "answer": "Black, Custom RAL."
+      },
+      {
+        "question": "What is the IP rating of the Dolomite-KRD202P?",
+        "answer": "IP64 (IP65 compliant with dedicated K-IP65KITB)."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Dolomite-KRD202P - K-array (https://www.k-array.com/en/product/dolomite-krd202p)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

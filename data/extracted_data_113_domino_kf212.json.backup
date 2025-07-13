@@ -1,0 +1,155 @@
+{
+  "id": "113",
+  "url": "https://www.k-array.com/en/product/domino-kf212",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DOMINO_SERIES",
+    "product_line": "Domino",
+    "model": "KF212",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KF212",
+      "Domino",
+      "full-range speaker"
+    ],
+    "technical": [
+      "coaxial transducer",
+      "passive radiator",
+      "frequency response",
+      "sensitivity",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP43",
+      "IP64"
+    ],
+    "applications": [
+      "clubs",
+      "lounges"
+    ],
+    "unique_identifiers": [
+      "kf212"
+    ]
+  },
+  "content_sections": {
+    "description": "The Domino-KF212 is the largest and most powerful speaker in the Domino line. It features a 12\" coaxial transducer with a titanium dome and a 12\" passive radiator. With a depth of just 20 cm, it's suitable for clubs and lounges. Wall brackets are included, and other tools are available for purchase. All components are designed by K-array's R&D department and custom-made in Italy under their quality control system.",
+    "specifications": {
+      "Type": "Point source (Source: \"Type: Point source\")",
+      "Transducers": "Coaxial 12\" woofer / 1.7\" compression driver, 12\" passive radiator (Source: \"Transducers: Coaxial 12\" woofer / 1.7\" compression driver, 12\" passive radiator\")",
+      "Frequency Response": "40 Hz - 19 kHz (-6 dB) (Source: \"Frequency Response: 40 Hz - 19 kHz (-6 dB)\")",
+      "Sensitivity (1W/1m)": "100 dB (Source: \"Sensitivity (1W/1m): 100 dB\")",
+      "Max SPL": "130 dB (peak) (Source: \"Max SPL: 130 dB (peak)\")",
+      "Rated Power": "700 W (Source: \"Rated Power: 700 W\")",
+      "Coverage": "Vertical 60° | Horizontal 90° (Source: \"Coverage: Vertical 60° | Horizontal 90°\")",
+      "Connectors": "4PIN euroblock connector (included) (Source: \"Connectors: 4PIN euroblock connector (included)\")",
+      "Nominal Impedance": "8 Ω (Source: \"Nominal Impedance: 8 Ω\")",
+      "Dimensions (W x H x D)": "330 x 655 x 200 mm (13.0 x 25.8 x 7.9 in) (Source: \"Dimensions (W x H x D): 330 x 655 x 200 mm (13.0 x 25.8 x 7.9 in)\")",
+      "Weight": "23.5 kg (51.8 lb) (Source: \"Weight: 23.5 kg (51.8 lb)\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "Finishes": "24K Gold, Polished, Brushed (Source: \"Finishes: 24K Gold, Polished, Brushed\")",
+      "IP Rating": "IP43 (Source: \"IP Rating: IP43\"), IP64 (with K-KUIP12 accessory) (Source: \"IP64 with K-KUIP12 accessory\")"
+    },
+    "models": {
+      "Standard": [
+        "KF212 (black) (Source: \"KF212 (black)\")",
+        "KF212W (white) (Source: \"KF212W (white)\")",
+        "KF212X (customizable color and finish) (Source: \"KF212X (customizable color and finish)\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Domino-KF212 is the largest and most powerful speaker in the Domino line. Features a 12\" coaxial transducer with a titanium dome and a 12\" passive radiator. Depth of just 20 cm, suitable for clubs and lounges. Wall brackets included. All components custom-made in Italy. Specifications: Type: Point source. Transducers: Coaxial 12\" woofer / 1.7\" compression driver, 12\" passive radiator. Frequency Response: 40 Hz - 19 kHz (-6 dB). Sensitivity: 100 dB. Max SPL: 130 dB (peak). Rated Power: 700 W. Coverage: Vertical 60° | Horizontal 90°. Connectors: 4PIN euroblock. Nominal Impedance: 8 Ω. Dimensions: 330 x 655 x 200 mm. Weight: 23.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP43, IP64 (with K-KUIP12). Models: KF212 black, KF212W white, KF212X customizable.",
+    "semantic_chunks": [
+      "Domino-KF212: largest and most powerful speaker in Domino line. 12\" coaxial transducer (titanium dome), 12\" passive radiator. Depth 20 cm. For clubs/lounges. Wall brackets included.",
+      "Specifications: Type: Point source. Transducers: Coaxial 12\" woofer/1.7\" compression driver, 12\" passive radiator. Freq. Response: 40-19 kHz (-6 dB). Sensitivity: 100 dB. Max SPL: 130 dB. Rated Power: 700 W. Coverage: V. 60° | H. 90°. Connectors: 4PIN euroblock. Impedance: 8 Ω. Dimensions: 330x655x200 mm. Weight: 23.5 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP43, IP64 (with K-KUIP12).",
+      "Models: KF212 (black), KF212W (white), KF212X (customizable)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Domino-KF212?",
+        "answer": "Full-range Speaker / Point source."
+      },
+      {
+        "question": "What transducers does the Domino-KF212 have?",
+        "answer": "A 12\" coaxial transducer with a titanium dome and a 12\" passive radiator."
+      },
+      {
+        "question": "What is the depth of the Domino-KF212?",
+        "answer": "Just 20 cm."
+      },
+      {
+        "question": "What is the frequency response of the Domino-KF212?",
+        "answer": "40 Hz - 19 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the sensitivity of the Domino-KF212?",
+        "answer": "100 dB."
+      },
+      {
+        "question": "What is the maximum SPL of the Domino-KF212?",
+        "answer": "130 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Domino-KF212?",
+        "answer": "700 W."
+      },
+      {
+        "question": "What is the coverage of the Domino-KF212?",
+        "answer": "Vertical 60° | Horizontal 90°."
+      },
+      {
+        "question": "What is the nominal impedance of the Domino-KF212?",
+        "answer": "8 Ω."
+      },
+      {
+        "question": "What are the dimensions of the Domino-KF212?",
+        "answer": "330 x 655 x 200 mm (13.0 x 25.8 x 7.9 in)."
+      },
+      {
+        "question": "What is the weight of the Domino-KF212?",
+        "answer": "23.5 kg (51.8 lb)."
+      },
+      {
+        "question": "What material is the Domino-KF212 made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What colors and finishes are available for the Domino-KF212?",
+        "answer": "Black, White, Custom RAL colors, with 24K Gold, Polished, or Brushed finishes."
+      },
+      {
+        "question": "What is the IP rating of the Domino-KF212?",
+        "answer": "IP43, IP64 (with K-KUIP12 accessory)."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Domino-KF212: Full-range Speakers with 2 x 12\" Drivers - K-array (https://www.k-array.com/en/product/domino-kf212)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

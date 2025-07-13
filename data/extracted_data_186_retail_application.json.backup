@@ -1,0 +1,179 @@
+{
+  "id": "186",
+  "url": "https://www.k-array.com/en/application/retail",
+  "timestamp": "2025-07-12T13:15:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "RETAIL",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "retail",
+      "enjoyable stress-free environment",
+      "promote sales",
+      "positive shopping experience"
+    ],
+    "technical": [
+      "discreet loudspeakers",
+      "premium finishes",
+      "variety of sizes",
+      "audio output",
+      "aesthetic integration"
+    ],
+    "applications": [
+      "small boutiques",
+      "large shopping centers",
+      "luxury retail stores",
+      "high-end retail environments"
+    ],
+    "products": [
+      "Lyzard-KZ1 I",
+      "Lyzard-KZ14 I",
+      "Truffle-KTR24",
+      "Rumble-KU44 I",
+      "Tornado-KT2",
+      "Pinnacle-KR102 I",
+      "Kobra-KK52 I"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "purpose": "Create an enjoyable, stress-free environment to promote sales and provide a positive shopping experience",
+      "venue_types": [
+        "Small boutiques",
+        "Large shopping centers",
+        "Luxury retail stores"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Lyzard-KZ1 I",
+        "use_case": "Small boutique audio systems"
+      },
+      {
+        "product": "Lyzard-KZ14 I",
+        "use_case": "Medium retail space audio"
+      },
+      {
+        "product": "Truffle-KTR24",
+        "use_case": "Discreet retail subwoofer applications"
+      },
+      {
+        "product": "Rumble-KU44",
+        "use_case": "Large retail space subwoofers"
+      },
+      {
+        "product": "Tornado-KT2",
+        "use_case": "Retail audio systems"
+      },
+      {
+        "product": "Pinnacle-KR102 I",
+        "status": "Discontinued",
+        "use_case": "Premium retail installations"
+      },
+      {
+        "product": "Kobra-KK52 I",
+        "use_case": "Retail column speaker applications"
+      }
+    ],
+    "product_characteristics": [
+      "Discreet loudspeakers with premium finishes",
+      "Variety of sizes and audio output",
+      "Designed to blend with high-end retail environments"
+    ],
+    "installation_scenarios": {
+      "design_considerations": [
+        "Ideal design element for creating ambient sound",
+        "Aesthetic integration with retail spaces",
+        "Supports high-end architectural design"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Brian & Barry Department Store",
+        "location": "Milan"
+      },
+      {
+        "name": "Playground Flagship Clothing Store",
+        "location": "Prato, Italy"
+      },
+      {
+        "name": "City Walk Dubai"
+      },
+      {
+        "name": "Browns Luxury Boutique"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "retail enjoyable stress-free environment promote sales positive shopping experience small boutiques large shopping centers luxury retail stores discreet loudspeakers premium finishes variety sizes audio output aesthetic integration high-end retail environments ideal design element ambient sound Lyzard-KZ1 I Lyzard-KZ14 I Truffle-KTR24 Rumble-KU44 I Tornado-KT2 Pinnacle-KR102 I Kobra-KK52 I Brian Barry Department Store Milan Playground Flagship Clothing Store Prato Italy City Walk Dubai Browns Luxury Boutique",
+    "semantic_chunks": [
+      "Retail applications focus on creating an enjoyable, stress-free environment to promote sales and provide a positive shopping experience",
+      "Venue types include small boutiques, large shopping centers, and luxury retail stores requiring aesthetic integration",
+      "Products feature discreet loudspeakers with premium finishes, variety of sizes and audio output designed for high-end retail environments",
+      "Recommended products include Lyzard-KZ1 I, Lyzard-KZ14 I, Truffle-KTR24, Rumble-KU44 I, Tornado-KT2, and Kobra-KK52 I",
+      "Case studies include Brian & Barry Department Store (Milan), Playground Flagship Clothing Store (Prato), City Walk Dubai, and Browns Luxury Boutique"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to retail audio?",
+        "a": "Create an enjoyable, stress-free environment to promote sales and provide a positive shopping experience"
+      },
+      {
+        "q": "What retail venue types does K-Array serve?",
+        "a": "Small boutiques, large shopping centers, and luxury retail stores"
+      },
+      {
+        "q": "What are the characteristics of K-Array retail products?",
+        "a": "Discreet loudspeakers with premium finishes, variety of sizes and audio output, designed to blend with high-end retail environments"
+      },
+      {
+        "q": "What K-Array products are recommended for retail?",
+        "a": "Lyzard-KZ1 I, Lyzard-KZ14 I, Truffle-KTR24, Rumble-KU44 I, Tornado-KT2, Pinnacle-KR102 I, and Kobra-KK52 I"
+      },
+      {
+        "q": "What are examples of K-Array retail installations?",
+        "a": "Brian & Barry Department Store (Milan), Playground Flagship Clothing Store (Prato, Italy), City Walk Dubai, and Browns Luxury Boutique"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Create an enjoyable, stress-free environment to promote sales and provide a positive shopping experience",
+      "source": "Direct quote from retail application purpose"
+    },
+    {
+      "claim": "Discreet loudspeakers with premium finishes",
+      "source": "Direct quote from product characteristics"
+    },
+    {
+      "claim": "Ideal design element for creating ambient sound",
+      "source": "Direct quote from design considerations"
+    },
+    {
+      "claim": "Designed to blend with high-end retail environments",
+      "source": "Direct quote from product design philosophy"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

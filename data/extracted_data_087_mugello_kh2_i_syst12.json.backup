@@ -1,0 +1,43 @@
+{
+  "id": "087",
+  "url": "https://www.k-array.com/en/product/Mugello-KH2-I-SYST12",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH2-I-SYST12",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KH2-I-SYST12", "Mugello", "line array", "system", "passive"],
+    "technical": ["KH2P I", "KS4P I", "Kommander-KA84", "Kommander-KA208", "Kommander-KA208P", "Kommander-KA208L", "Kommander-KA208LP"],
+    "applications": [],
+    "unique_identifiers": ["kh2-i-syst12"]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH2-I-SYST12 is a passive line array system composed of 12x KH2P I and 12x KS4P I elements. It is designed to be driven by Kommander-KA84, Kommander-KA208, Kommander-KA208P, Kommander-KA208L, or Kommander-KA208LP amplifiers.",
+    "specifications": {
+      "Type": "Line array passive system (Source: "Line array passive systems composed by 12x KH2P I, 12x ... - K-array")",
+      "Components": "12x KH2P I, 12x KS4P I (Source: "composed by 12x KH2P I, 12x KS4P I")",
+      "Recommended Amplifiers": "Kommander-KA84, Kommander-KA208, Kommander-KA208P, Kommander-KA208L, Kommander-KA208LP (Source: "designed to be driven by Kommander-KA84, Kommander-KA208, Kommander-KA208P, Kommander-KA208L, or Kommander-KA208LP amplifiers.")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH2-I-SYST12 is a passive line array system composed of 12x KH2P I and 12x KS4P I elements. Designed to be driven by Kommander-KA84, Kommander-KA208, Kommander-KA208P, Kommander-KA208L, or Kommander-KA208LP amplifiers.",
+    "semantic_chunks": [
+      "Mugello-KH2-I-SYST12: passive line array system.",
+      "Components: 12x KH2P I, 12x KS4P I.",
+      "Recommended Amplifiers: Kommander-KA84, Kommander-KA208, Kommander-KA208P, Kommander-KA208L, Kommander-KA208LP."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Mugello-KH2-I-SYST12?", "answer": "Line array passive system."},
+      {"question": "What components make up the Mugello-KH2-I-SYST12?", "answer": "12x KH2P I and 12x KS4P I."},
+      {"question": "What amplifiers are recommended for the Mugello-KH2-I-SYST12?", "answer": "Kommander-KA84, Kommander-KA208, Kommander-KA208P, Kommander-KA208L, or Kommander-KA208LP amplifiers."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Line array passive systems composed by 12x KH2P I, 12x ... - K-array (https://www.k-array.com/en/product/Mugello-KH2-I-SYST12)"}
+  ]
+}

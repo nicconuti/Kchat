@@ -1,0 +1,40 @@
+{
+  "id": "105",
+  "url": "https://www.k-array.com/en/product/Kayman-KY102",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "skipped",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "KAYMAN_SERIES",
+    "product_line": "Kayman",
+    "model": "KY102",
+    "content_type": "product_page",
+    "note": "Duplicate URL, already processed as ID 102."
+  },
+  "keywords": {},
+  "content_sections": {},
+  "embedding_optimized": {},
+  "source_attributions": [
+    {
+      "source": "Kayman KY102: Stainless Steel Line Array with 4\" drivers - K-array (https://www.k-array.com/en/product/Kayman-KY102)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

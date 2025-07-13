@@ -1,0 +1,69 @@
+{
+  "id": "139",
+  "url": "https://www.k-array.com/en/product/Prisma-KPRA14+",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PRISMA_SERIES",
+    "product_line": "Prisma",
+    "model": "KPRA14+",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KPRA14+", "Prisma", "amplified matrix"],
+    "technical": ["IEB-Pro", "Dante-Ready", "Dante channels", "analog inputs", "analog outputs", "Class D Amplifier", "DSP", "output power", "impedance", "frequency response", "IP20"],
+    "applications": [],
+    "unique_identifiers": ["kpra14plus"]
+  },
+  "content_sections": {
+    "description": "The Prisma-KPRA14+ is an amplified matrix solution from K-array. It is equipped with the new Integrated Electronic Brain-Pro (IEB-Pro) and is Dante-Ready™ for activation of Dante™ license and supporting up to 8x8 Dante channels. It has 4x analog amplified outputs and can be expanded to up to 8x analog inputs with the K-PRIN4 accessory. It can be controlled by AMX by Harman, Q-SYS, Control4, and Crestron modules.",
+    "specifications": {
+      "Type": "Amplified Matrix with IEB-Pro (Source: "Type: Amplified Matrix with IEB-Pro (8x8 Dante Ch, payment-enabled).")",
+      "Output Power": "4x 600W @ 2Ω (Source: "Output Power: 4x 600W @ 2Ω.")",
+      "Impedance": "Minimum 2Ω (Source: "Impedance: Minimum 2Ω.")",
+      "Amp Module": "4ch switching mode, Class D Amplifier (Source: "Amp Module: 4ch switching mode, Class D Amplifier.")",
+      "Frequency Response": "20 Hz – 20 kHz (±1 dB) (Source: "Frequency Response: 20 Hz – 20 kHz (±1 dB).")",
+      "Connections": "Input: 8x8 Dante enabling channels, 0x analog Inputs (expandable up to 8x with K-PRIN4); Output: 2x PC 4/ 4-ST-7,62 speaker output - 4ch analog outputs; Remote connectivity: 2x Ethernet RJ45 - EtherCON (1.Gbit ports - primary, secondary), 1x USB-A (Source: "Connections: Input: 8x8 Dante enabling channels, 0x analog Inputs (expandable up to 8x with K-PRIN4). Output: 2x PC 4/ 4-ST-7,62 speaker output - 4ch analog outputs. Remote connectivity: 2x Ethernet RJ45 - EtherCON (1.Gbit ports - primary, secondary), 1x USB-A.")",
+      "Power": "1 x PowerCon TRUE IN, 1 x PowerCon TRUE Link (Source: "Power: 1 x PowerCon TRUE IN, 1 x PowerCon TRUE Link.")",
+      "Built-in DSP": "Grouping, Equalization, Limiters, Routing, Level, Loudspeaker presets (Source: "Built-in DSP: Grouping, Equalization, Limiters, Routing, Level, Loudspeaker presets.")",
+      "Remote Control": "Wi-Fi and Ethernet dedicated APP and Desktop software (Source: "Remote Control: Wi-Fi and Ethernet dedicated APP and Desktop software.")",
+      "MAIN Operating Range": "100-240V AC, 50-60 Hz with PFC (Source: "MAIN Operating Range: 100-240V AC, 50-60 Hz with PFC.")",
+      "Power Consumption": "400 W @ 8 Ω load, Pink noise, 1/4 rated power (Source: "Power Consumption: 400 W @ 8 Ω load, Pink noise, 1/4 rated power.")",
+      "Weight": "1.2 kg (2.65 lb) (Source: "Weight: 1.2 kg (2.65 lb).")",
+      "Material": "Aluminum (Source: "Material: Aluminum.")",
+      "Dimensions (W x H x D)": "219 x 46 x 320 mm (8.6 x 1.8 x 12.6 in) (Source: "Dimensions (W x H x D): 219 x 46 x 320 mm (8.6 x 1.8 x 12.6 in).")",
+      "IP Rating": "IP20 (Source: "IP Rating: IP20.")"
+    },
+    "integrations": {
+      "AMX by Harman": "(Source: "AMX by Harman")",
+      "Q-SYS": "(Source: "Q-SYS")",
+      "Control4": "(Source: "Control4")",
+      "Crestron": "(Source: "Crestron")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Prisma-KPRA14+ is an amplified matrix solution with IEB-Pro. Dante-Ready for up to 8x8 Dante channels, expandable to 8x analog inputs with K-PRIN4. Has 4x analog amplified outputs. Controllable by AMX by Harman, Q-SYS, Control4, and Crestron modules. Specifications: Type: Amplified Matrix with IEB-Pro. Output Power: 4x 600W @ 2Ω. Impedance: Minimum 2Ω. Amp Module: 4ch switching mode, Class D. Frequency Response: 20 Hz – 20 kHz (±1 dB). Connections: Input: 8x8 Dante, 0x analog (expandable to 8x); Output: 4ch analog. Remote connectivity: Ethernet, USB-A. Power: PowerCon TRUE IN/Link. Built-in DSP. Remote Control: Wi-Fi/Ethernet APP/Desktop software. MAIN Operating Range: 100-240V AC. Power Consumption: 400 W. Weight: 1.2 kg. Material: Aluminum. Dimensions: 219 x 46 x 320 mm. IP Rating: IP20.",
+    "semantic_chunks": [
+      "Prisma-KPRA14+: amplified matrix solution with IEB-Pro. Dante-Ready (up to 8x8 Dante channels), expandable to 8x analog inputs. 4x analog amplified outputs.",
+      "Control: AMX by Harman, Q-SYS, Control4, Crestron modules. Wi-Fi/Ethernet APP/Desktop software for remote control.",
+      "Specifications: Type: Amplified Matrix. Output Power: 4x 600W @ 2Ω. Impedance: Min 2Ω. Amp Module: 4ch Class D. Freq. Response: 20-20 kHz (±1 dB). Connections: Dante, analog I/O. Power: PowerCon TRUE. Built-in DSP. Operating Range: 100-240V AC. Power Consumption: 400 W. Weight: 1.2 kg. Material: Aluminum. Dimensions: 219x46x320 mm. IP Rating: IP20."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Prisma-KPRA14+?", "answer": "Amplified Matrix with IEB-Pro."},
+      {"question": "What is the output power of the Prisma-KPRA14+?", "answer": "4x 600W @ 2Ω."},
+      {"question": "What is the minimum impedance of the Prisma-KPRA14+?", "answer": "2Ω."},
+      {"question": "What is the frequency response of the Prisma-KPRA14+?", "answer": "20 Hz – 20 kHz (±1 dB)."},
+      {"question": "How many Dante channels does the Prisma-KPRA14+ support?", "answer": "Up to 8x8."},
+      {"question": "How many analog inputs can the Prisma-KPRA14+ be expanded to?", "answer": "Up to 8x with K-PRIN4."},
+      {"question": "What are the dimensions of the Prisma-KPRA14+?", "answer": "219 x 46 x 320 mm (8.6 x 1.8 x 12.6 in)."},
+      {"question": "What is the weight of the Prisma-KPRA14+?", "answer": "1.2 kg (2.65 lb)."},
+      {"question": "What material is the Prisma-KPRA14+ made of?", "answer": "Aluminum."},
+      {"question": "What is the IP rating of the Prisma-KPRA14+?", "answer": "IP20."},
+      {"question": "What control systems can the Prisma-KPRA14+ integrate with?", "answer": "AMX by Harman, Q-SYS, Control4, and Crestron."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Prisma-KPRA14+ - K-array (https://www.k-array.com/en/product/Prisma-KPRA14+)"}
+  ]
+}

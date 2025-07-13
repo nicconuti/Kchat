@@ -1,0 +1,62 @@
+{
+  "id": "081",
+  "url": "https://www.k-array.com/en/product/mugello-kh5l",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH5L",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KH5L", "Mugello", "line array", "speaker"],
+    "technical": ["neodymium woofers", "horn loaded compression drivers", "Class-D amplifier", "DSP", "Slim Array Technology", "Electronic Beam Steering"],
+    "applications": ["large-scale concerts", "live events"],
+    "unique_identifiers": ["kh5l"]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH5 I is a revolutionary compact line array element for large-scale concerts and live events. This self-powered speaker is comprised of two 15” neodymium woofers and four horn loaded compression drivers with 2.5” voice coil in a shallow box frame. The four-channel Class-D amplifier module with DSP delivers 1500W @ 4Ω per channel providing unique power and control for sound aiming and fine tuning. The Slim Array Technology of the Mugello-KH5 I allows for a better impulse response and guarantees unique cardioid polar pattern over its entire frequency range. Along with the mechanical steering, K-array's Electronic Beam Steering technology gives the Mugello-KH5 I the ability to digitally adjust the dispersion of the sound beams to ensure the perfect aiming of the sound field. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Large Format Line Array with Digital Steering (Source: "Mugello-KH5 I: Large Format Line Array with Digital Steering")",
+      "Status": "DISCONTINUED (Source: "Mugello-KH5 I (DISCONTINUED)")",
+      "Woofers": "two 15” neodymium woofers (Source: "comprised of two 15” neodymium woofers")",
+      "Drivers": "four horn loaded compression drivers with 2.5” voice coil (Source: "four horn loaded compression drivers with 2.5” voice coil")",
+      "Amplifier": "four-channel Class-D amplifier module with DSP (Source: "The four-channel Class-D amplifier module with DSP")",
+      "Power Output": "1500W @ 4Ω per channel (Source: "delivers 1500W @ 4Ω per channel")",
+      "Technology": "Slim Array Technology, Electronic Beam Steering (Source: "The Slim Array Technology of the Mugello-KH5 I allows for a better impulse response and guarantees unique cardioid polar pattern over its entire frequency range. Along with the mechanical steering, K-array's Electronic Beam Steering technology gives the Mugello-KH5 I the ability to digitally adjust the dispersion of the sound beams to ensure the perfect aiming of the sound field.")"
+    },
+    "integrations": {
+      "Control4": "Integrating K-array's latest electronics with any Control4 system has become easy. (Source: "Integrating K-array's latest electronics with any Control4 system has become easy.")",
+      "Q-SYS": "To easily integrate K-array's latest electronics with any Q-SYS configuration. (Source: "To easily integrate K-array's latest electronics with any Q-SYS configuration.")",
+      "Crestron Home": "Make K-array ultra-sleek and unique products get along with your Crestron Home Control System. (Source: "Make K-array ultra-sleek and unique products get along with your Crestron Home Control System.")",
+      "Crestron": "The plug-in that gives your Crestron Electronics full control on K-array amps is finally out there! (Source: "The plug-in that gives your Crestron Electronics full control on K-array amps is finally out there!")",
+      "AMX by Harman": "K-array's latest electronics can be easily controlled by AMX modules as well now. (Source: "K-array's latest electronics can be easily controlled by AMX modules as well now.")",
+      "Dante Ready": "K-array's Dante Ready, a licensing program by Audinate. (Source: "K-array's Dante Ready, a licensing program by Audinate.")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH5 I is a DISCONTINUED compact line array element for large-scale concerts and live events. Self-powered speaker with two 15” neodymium woofers and four horn loaded compression drivers with 2.5” voice coil. Four-channel Class-D amplifier module with DSP delivers 1500W @ 4Ω per channel. Features Slim Array Technology for better impulse response and cardioid polar pattern. Electronic Beam Steering technology allows digital adjustment of sound beam dispersion. Integrates with Control4, Q-SYS, Crestron Home, Crestron, AMX by Harman, and is Dante Ready.",
+    "semantic_chunks": [
+      "Mugello-KH5 I: DISCONTINUED compact line array for large concerts/live events.",
+      "Components: Self-powered, two 15” neodymium woofers, four 2.5” voice coil horn loaded compression drivers.",
+      "Amplification: Four-channel Class-D amplifier with DSP, 1500W @ 4Ω per channel.",
+      "Technologies: Slim Array Technology (better impulse response, cardioid polar pattern), Electronic Beam Steering (digital sound beam dispersion adjustment).",
+      "Integrations: Control4, Q-SYS, Crestron Home, Crestron, AMX by Harman, Dante Ready."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Mugello-KH5 I?", "answer": "Large Format Line Array with Digital Steering."},
+      {"question": "What is the status of the Mugello-KH5 I?", "answer": "DISCONTINUED."},
+      {"question": "What kind of woofers does the Mugello-KH5 I have?", "answer": "Two 15” neodymium woofers."},
+      {"question": "What kind of drivers does the Mugello-KH5 I have?", "answer": "Four horn loaded compression drivers with 2.5” voice coil."},
+      {"question": "What is the power output of the Mugello-KH5 I amplifier?", "answer": "1500W @ 4Ω per channel."},
+      {"question": "What technologies are featured in the Mugello-KH5 I?", "answer": "Slim Array Technology and Electronic Beam Steering."},
+      {"question": "What control systems can the Mugello-KH5 I integrate with?", "answer": "Control4, Q-SYS, Crestron Home, Crestron, AMX by Harman, and Dante Ready."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Mugello-KH5 I: Large Format Line Array with Digital Steering - K-array (https://www.k-array.com/en/product/mugello-kh5l)"}
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "192",
+  "url": "https://www.k-array.com/en/application/concerts-and-live-events",
+  "timestamp": "2025-07-12T13:45:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "CONCERTS_AND_LIVE_EVENTS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "concerts",
+      "live events",
+      "zealous fans",
+      "demanding performers",
+      "inadequate venues"
+    ],
+    "technical": [
+      "compact line arrays",
+      "slim design",
+      "hyper-cardioid",
+      "sound dispersion",
+      "minimal back emission"
+    ],
+    "challenges": [
+      "setup takedown time",
+      "sound pollution",
+      "transportation costs",
+      "production nightmares"
+    ],
+    "products": [
+      "Mugello-KH2",
+      "Thunder-KS5",
+      "Mastiff-KM312",
+      "Dragon-KX12",
+      "Firenze-KH7P",
+      "Kayman-KY102",
+      "Thunder-KS4P"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "market_description": "Live performance audio solutions",
+      "key_challenges": [
+        "Zealous fans, demanding performers, inadequate venues",
+        "Setup and takedown time constraints"
+      ],
+      "solution_highlights": [
+        "Compact line arrays",
+        "Slim design allowing sound to exit instantaneously without resonance",
+        "Hyper-cardioid sound dispersion",
+        "Minimal sound back emission"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Mugello-KH2",
+        "status": "Discontinued",
+        "use_case": "Live event audio systems"
+      },
+      {
+        "product": "Mugello-KH3",
+        "status": "Discontinued",
+        "use_case": "Live event audio systems"
+      },
+      {
+        "product": "Thunder-KS5",
+        "use_case": "Live event subwoofer applications"
+      },
+      {
+        "product": "Mastiff-KM312",
+        "status": "Discontinued",
+        "use_case": "Stage monitoring systems"
+      },
+      {
+        "product": "Mastiff-KM112",
+        "status": "Discontinued",
+        "use_case": "Stage monitoring systems"
+      },
+      {
+        "product": "Dragon-KX12",
+        "use_case": "Live event line array systems"
+      },
+      {
+        "product": "Thunder-KMT12",
+        "status": "Discontinued",
+        "use_case": "Live event subwoofers"
+      },
+      {
+        "product": "Firenze-KH7",
+        "status": "Discontinued",
+        "use_case": "Live event audio systems"
+      },
+      {
+        "product": "Firenze-KH7P",
+        "use_case": "Live event powered systems"
+      },
+      {
+        "product": "Kayman-KY102",
+        "use_case": "Live event monitoring"
+      },
+      {
+        "product": "Thunder-KS4P",
+        "use_case": "Live event powered subwoofers"
+      }
+    ],
+    "installation_scenarios": {
+      "design_considerations": [
+        "Producing a sound dispersion in a hyper-cardioid figure",
+        "Maintaining directivity",
+        "Minimizing stage sound pollution"
+      ],
+      "benefits": [
+        "Lightweight solutions",
+        "Reduced transportation costs",
+        "Space-saving design"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Beijing Exhibition Center Theater"
+      },
+      {
+        "name": "SUARA Music Festival",
+        "location": "Bali"
+      },
+      {
+        "name": "No Borders Music Festival",
+        "location": "Italy"
+      }
+    ],
+    "performance_claims": [
+      "High performing live sound guaranteed a loyal fan base",
+      "Maximum clarity and definition",
+      "Keeps performers happy by managing sound pollution"
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "concerts live events zealous fans demanding performers inadequate venues compact line arrays slim design hyper-cardioid sound dispersion minimal back emission setup takedown time sound pollution transportation costs production nightmares Mugello-KH2 Thunder-KS5 Mastiff-KM312 Dragon-KX12 Firenze-KH7P Kayman-KY102 Thunder-KS4P Beijing Exhibition Center Theater SUARA Music Festival Bali No Borders Music Festival Italy maximum clarity definition loyal fan base",
+    "semantic_chunks": [
+      "Concerts and live events face challenges with zealous fans, demanding performers, inadequate venues, and setup/takedown time constraints",
+      "K-Array provides compact line arrays with slim design allowing sound to exit instantaneously without resonance and hyper-cardioid dispersion",
+      "Solutions minimize stage sound pollution, reduce transportation costs, and provide lightweight space-saving designs for touring",
+      "Product portfolio includes Mugello, Thunder subwoofers, Mastiff monitors, Dragon line arrays, Firenze systems, and Kayman monitors",
+      "Case studies include Beijing Exhibition Center Theater, SUARA Music Festival (Bali), and No Borders Music Festival (Italy)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What are the key challenges in live event audio?",
+        "a": "Zealous fans, demanding performers, inadequate venues, and setup and takedown time constraints"
+      },
+      {
+        "q": "What solutions does K-Array provide for live events?",
+        "a": "Compact line arrays with slim design allowing sound to exit instantaneously without resonance and hyper-cardioid sound dispersion"
+      },
+      {
+        "q": "What are the benefits of K-Array live event systems?",
+        "a": "Lightweight solutions, reduced transportation costs, space-saving design, and minimal stage sound pollution"
+      },
+      {
+        "q": "What K-Array products are recommended for concerts?",
+        "a": "Mugello-KH2/KH3, Thunder-KS5/KS4P, Mastiff-KM312/KM112, Dragon-KX12, Firenze-KH7/KH7P, and Kayman-KY102"
+      },
+      {
+        "q": "What are examples of K-Array live event installations?",
+        "a": "Beijing Exhibition Center Theater, SUARA Music Festival (Bali), and No Borders Music Festival (Italy)"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Zealous fans, demanding performers, inadequate venues",
+      "source": "Direct quote from key challenges description"
+    },
+    {
+      "claim": "Sound to exit instantaneously without resonance",
+      "source": "Direct quote from slim design benefits"
+    },
+    {
+      "claim": "Producing a sound dispersion in a hyper-cardioid figure",
+      "source": "Direct quote from design considerations"
+    },
+    {
+      "claim": "K-array has designed incredibly compact line arrays to combat... potential production nightmares",
+      "source": "Direct quote from unique selling proposition"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

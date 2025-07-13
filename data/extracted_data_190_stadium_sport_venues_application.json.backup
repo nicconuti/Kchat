@@ -1,0 +1,189 @@
+{
+  "id": "190",
+  "url": "https://www.k-array.com/en/application/stadium-and-sport-venues",
+  "timestamp": "2025-07-12T13:35:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "STADIUM_AND_SPORT_VENUES",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "stadium",
+      "sport venues",
+      "high-intensity match",
+      "victory high",
+      "despairing defeat",
+      "entertaining experience"
+    ],
+    "technical": [
+      "powerful sound",
+      "powerful emotions",
+      "compact large-scale line arrays",
+      "maximum clarity",
+      "continuous even coverage"
+    ],
+    "venues": [
+      "stadiums",
+      "arenas",
+      "hippodromes",
+      "tracks",
+      "recreational sports facilities"
+    ],
+    "products": [
+      "Python-KP102 I",
+      "Kobra-KK102 I",
+      "Vyper-KV102R II",
+      "Rumble-KU212",
+      "Kommander-KA68",
+      "Anakonda-KAN200+",
+      "Dragon-KX12"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "description": "A high-intensity match, a victory high and a despairing defeat are all part of the entertaining experience at a sporting event",
+      "venue_types": [
+        "Stadiums",
+        "Arenas",
+        "Hippodromes",
+        "Tracks",
+        "Recreational sports facilities"
+      ],
+      "key_solution": "Powerful sound to match the powerful emotions with compact large-scale line arrays",
+      "key_benefits": [
+        "Maximum clarity and definition",
+        "Continuous, even coverage",
+        "Reaches the last bleacher in the stands"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product_category": "Speakers",
+        "products": [
+          "Python-KP102 I",
+          "Kobra-KK102 I",
+          "Vyper-KV102R II"
+        ],
+        "use_case": "Main stadium audio systems"
+      },
+      {
+        "product_category": "Subwoofers",
+        "products": [
+          "Rumble-KU212",
+          "Rumble-KU26"
+        ],
+        "use_case": "Stadium low-frequency enhancement"
+      },
+      {
+        "product_category": "Amplifiers",
+        "products": [
+          "Kommander-KA68",
+          "Kommander-KA208"
+        ],
+        "use_case": "Stadium amplification systems"
+      },
+      {
+        "product_category": "Specialized Models",
+        "products": [
+          "Anakonda-KAN200+",
+          "Dragon-KX12"
+        ],
+        "use_case": "Large venue installations"
+      }
+    ],
+    "installation_scenarios": {
+      "coverage_requirement": "Reaches the last bleacher in the stands",
+      "audio_characteristics": [
+        "Maximum clarity and definition",
+        "Continuous, even coverage",
+        "Powerful sound to match powerful emotions"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Fiorentina Viola Park Sports Centre"
+      },
+      {
+        "name": "Stal Tops Equestrian Center"
+      },
+      {
+        "name": "2018 Olympic Games Gangneung Ice Arena"
+      },
+      {
+        "name": "Lincoln Financial Field Stadium",
+        "description": "NFL Philadelphia Eagles"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "stadium sport venues high-intensity match victory high despairing defeat entertaining experience sporting event powerful sound powerful emotions compact large-scale line arrays maximum clarity definition continuous even coverage last bleacher stands stadiums arenas hippodromes tracks recreational sports facilities Python-KP102 I Kobra-KK102 I Vyper-KV102R II Rumble-KU212 Rumble-KU26 Kommander-KA68 Kommander-KA208 Anakonda-KAN200+ Dragon-KX12 Fiorentina Viola Park Stal Tops Equestrian Olympic Games Gangneung Ice Arena Lincoln Financial Field Philadelphia Eagles",
+    "semantic_chunks": [
+      "Stadium and sport venues create entertaining experiences with high-intensity matches, victory highs, and despairing defeats requiring powerful sound systems",
+      "Solutions provide powerful sound to match powerful emotions using compact large-scale line arrays with maximum clarity and definition",
+      "Coverage requirements include continuous, even coverage that reaches the last bleacher in the stands across stadiums, arenas, and sports facilities",
+      "Recommended products include Python-KP102 I, Kobra-KK102 I, Vyper-KV102R II, Rumble subwoofers, Kommander amplifiers, and specialized models",
+      "Case studies include Fiorentina Viola Park, Stal Tops Equestrian Center, 2018 Olympic Games Gangneung Ice Arena, and Lincoln Financial Field (Philadelphia Eagles)"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to stadium audio?",
+        "a": "Powerful sound to match the powerful emotions of sporting events with compact large-scale line arrays"
+      },
+      {
+        "q": "What are the key benefits of K-Array stadium systems?",
+        "a": "Maximum clarity and definition, continuous even coverage, and reaches the last bleacher in the stands"
+      },
+      {
+        "q": "What venue types does K-Array serve in sports?",
+        "a": "Stadiums, arenas, hippodromes, tracks, and recreational sports facilities"
+      },
+      {
+        "q": "What K-Array products are recommended for stadiums?",
+        "a": "Python-KP102 I, Kobra-KK102 I, Vyper-KV102R II, Rumble-KU212/KU26, Kommander-KA68/KA208, Anakonda-KAN200+, and Dragon-KX12"
+      },
+      {
+        "q": "What are examples of K-Array stadium installations?",
+        "a": "Fiorentina Viola Park Sports Centre, Stal Tops Equestrian Center, 2018 Olympic Games Gangneung Ice Arena, and Lincoln Financial Field (Philadelphia Eagles)"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "A high-intensity match, a victory high and a despairing defeat are all part of the entertaining experience at a sporting event",
+      "source": "Direct quote from stadium application description"
+    },
+    {
+      "claim": "Powerful sound to match the powerful emotions",
+      "source": "Direct quote from key solution description"
+    },
+    {
+      "claim": "Reaches the last bleacher in the stands",
+      "source": "Direct quote from coverage benefits"
+    },
+    {
+      "claim": "Fan expectations of AV quality are high and venues have to enhance the in-stadium experience",
+      "source": "Direct quote from market observation"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "089",
+  "url": "https://www.k-array.com/en/product/mugello-kh2",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH2",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KH2", "Mugello", "line array", "speaker"],
+    "technical": ["neodymium magnet woofers", "compression drivers", "SPL"],
+    "applications": ["intimate concert halls", "theaters", "clubs"],
+    "unique_identifiers": ["kh2"]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH2 I is the smallest mid-high line array element offered in our flagship line. The self-powered speaker is comprised of two 8” neodymium magnet woofers each with a 2.5” voice coil and two 1.4” compression drivers with a 2.5” voice coil each. However small in size, the Mugello-KH2 delivers a really large sound, ensuring exceptionally high performance with a peak SPL of 136 dB. Measuring at 735 x 285 x 200 mm (net dimensions), this compact speaker is a perfect solution for applications in intimate concert halls, theaters and clubs. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Small-format line array with digital steering (Source: "Mugello-KH2: Small-format line array with digital steering")",
+      "Status": "DISCONTINUED (Source: "Mugello-KH2 (DISCONTINUED)")",
+      "Woofers": "two 8” neodymium magnet woofers each with a 2.5” voice coil (Source: "comprised of two 8” neodymium magnet woofers each with a 2.5” voice coil")",
+      "Drivers": "two 1.4” compression drivers with a 2.5” voice coil each (Source: "and two 1.4” compression drivers with a 2.5” voice coil each")",
+      "Peak SPL": "136 dB (Source: "peak SPL of 136 dB")",
+      "Dimensions": "735 x 285 x 200 mm (net dimensions) (Source: "Measuring at 735 x 285 x 200 mm (net dimensions)")"
+    },
+    "accessories": {
+      "Discontinued": [
+        "K-HCFLY2: Fly bar for KH2 (Source: "K-HCFLY2 (DISCONTINUED) Fly bar for KH2")",
+        "K-HCDOLLY2: Dolly for up 10 KH2 (Source: "K-HCDOLLY2 (DISCONTINUED) Dolly for up 10 KH2")",
+        "K-DANTE: Dante is an uncompressed, multi-channel networking technology (Source: "K-DANTE (DISCONTINUED) Dante is an uncompressed, multi-channel networking technolog...")"
+      ],
+      "Available": [
+        "K-AMPCOVER: Rain protection cover for Thunder and Mugello (Source: "K-AMPCOVER Rain protection cover for Thunder and Mugello")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH2 is a DISCONTINUED small-format line array element. Self-powered speaker with two 8” neodymium magnet woofers (2.5” voice coil) and two 1.4” compression drivers (2.5” voice coil). Peak SPL of 136 dB. Dimensions: 735 x 285 x 200 mm. Suitable for intimate concert halls, theaters, and clubs. Discontinued accessories: K-HCFLY2, K-HCDOLLY2, K-DANTE. Available accessory: K-AMPCOVER.",
+    "semantic_chunks": [
+      "Mugello-KH2: DISCONTINUED small-format line array speaker.",
+      "Components: Self-powered, two 8” neodymium woofers (2.5” voice coil), two 1.4” compression drivers (2.5” voice coil). Peak SPL: 136 dB.",
+      "Physical: 735x285x200 mm. Applications: intimate concert halls, theaters, clubs.",
+      "Accessories: Discontinued (K-HCFLY2, K-HCDOLLY2, K-DANTE), Available (K-AMPCOVER)."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Mugello-KH2?", "answer": "Small-format line array with digital steering."},
+      {"question": "What is the status of the Mugello-KH2?", "answer": "DISCONTINUED."},
+      {"question": "What kind of woofers does the Mugello-KH2 have?", "answer": "Two 8” neodymium magnet woofers each with a 2.5” voice coil."},
+      {"question": "What kind of drivers does the Mugello-KH2 have?", "answer": "Two 1.4” compression drivers with a 2.5” voice coil each."},
+      {"question": "What is the peak SPL of the Mugello-KH2?", "answer": "136 dB."},
+      {"question": "What are the dimensions of the Mugello-KH2?", "answer": "735 x 285 x 200 mm (net dimensions)."},
+      {"question": "What are some applications for the Mugello-KH2?", "answer": "Intimate concert halls, theaters, and clubs."},
+      {"question": "What are some discontinued accessories for the Mugello-KH2?", "answer": "K-HCFLY2, K-HCDOLLY2, K-DANTE."},
+      {"question": "What is an available accessory for the Mugello-KH2?", "answer": "K-AMPCOVER."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Mugello-KH2: Small-format line array with digital steering - K-array (https://www.k-array.com/en/product/mugello-kh2)"}
+  ]
+}

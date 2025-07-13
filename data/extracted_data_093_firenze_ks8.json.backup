@@ -1,0 +1,92 @@
+{
+  "id": "093",
+  "url": "https://www.k-array.com/en/product/firenze-ks8",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "FIRENZE_SERIES",
+    "product_line": "Firenze",
+    "model": "KS8",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KS8", "Firenze", "subwoofer", "self-powered"],
+    "technical": ["IPAL® technology", "amplifier module", "differential pressure sensor", "DSP", "transducers", "frequency response", "max SPL", "impedance", "IP45", "IP65"],
+    "applications": [],
+    "unique_identifiers": ["ks8"]
+  },
+  "content_sections": {
+    "description": "The Firenze-KS8 is a compact, self-powered, weather resistant subwoofer providing an exceptional peak output of 148 dB SPL. The KS8 features IPAL® technology, including a powerful amplifier module, a differential pressure sensor, a “zero latency” DSP and two 21” specifically designed high-efficiency transducers. The Firenze-KS8 is also integrated in the simulation software EASE Focus to give endless possibilities of configurations like cardioid, virtual arc, and/or whatever the venue will require.",
+    "specifications": {
+      "Type": "Active subwoofer (Source: "Type: Active subwoofer")",
+      "Transducers": "2x 21\" Neodymium magnet woofer with 5.31\" voice coil (Source: "Transducers: 2x 21\" Neodymium magnet woofer with 5.31\" voice coil")",
+      "Frequency Response": "25 Hz - 120 Hz (-6 dB) (Source: "Frequency Response: 25 Hz - 120 Hz (-6 dB)")",
+      "Max SPL": "148 dB peak (Source: "Max SPL: 148 dB peak")",
+      "Coverage": "Omni (Source: "Coverage: Omni")",
+      "Remote Control": "Remote control with dedicated PC software via Ethernet (Source: "Remote Control: Remote control with dedicated PC software via Ethernet")",
+      "Connectors": "Analog, AES3 and Remote control: Easy-grip metal locking LK25 connector (MIL C 5015 and VG95234 spec.) (Source: "Connectors: Analog, AES3 and Remote control: Easy-grip metal locking LK25 connector (MIL C 5015 and VG95234 spec.)")",
+      "Built-in DSP": "Input gain, delay up to 2 s, Full parametric IIR filters (Peaking, Shelving, Hi/Lo pass, Hi/Lo Butterworth), Level and Temperature remote monitoring (Source: "Built-in DSP: Input gain, delay up to 2 s, Full parametric IIR filters (Peaking, Shelving, Hi/Lo pass, Hi/Lo Butterworth), Level and Temperature remote monitoring")",
+      "Dimensions (W x H x D)": "1420 x 600 x 775 mm (55.90 x 23.6 x 30.5 in) (Source: "Dimensions (W x H x D): 1420 x 600 x 775 mm (55.90 x 23.6 x 30.5 in)")",
+      "Weight": "148 kg (326.3 lb) (Source: "Weight: 148 kg (326.3 lb)")",
+      "Material": "Wood (Source: "Material: Wood")",
+      "Colors": "Black, Custom RAL (Source: "Colors: Black, Custom RAL")",
+      "IP Rating": "Speaker Box: IP45 / Electronics: IP65 (Source: "IP Rating: Speaker Box: IP45 / Electronics: IP65")",
+      "Amplifier Module": "Switching-mode, class D with IPAL® technology (Source: "Amp Module: Switching-mode, class D with IPAL® technology")",
+      "Output Power": "8500 W @ 1 Ω (Source: "Output Power: 8500 W @ 1 Ω")",
+      "Power Consumption": "400 VA (Source: "Power Consumption: 400 VA")",
+      "Protections": "Over Temp. (Power Limiting - Thermal Shutdown), Short Circuit/Overload Output Protection, Excursion limiter, Current & Power limiter, Current clamp, Clip limiter, Brownout limiter. (Source: "Protections: Over Temp. (Power Limiting - Thermal Shutdown), Short Circuit/Overload Output Protection, Excursion limiter, Current & Power limiter, Current clamp, Clip limiter, Brownout limiter.")",
+      "Operating Range": "100-240V AC, 50-60 Hz with PFC (Source: "Operating Range: 100-240V AC, 50-60 Hz with PFC")",
+      "Mains Connector": "powerCON True (Source: "Mains Connector: powerCON True")"
+    },
+    "accessories": {
+      "Related": [
+        "KS8-PWBOX3: Multi-cable power splitter up to 3 KS8 (Source: "KS8-PWBOX3 Multi-cable power splitter up to 3 KS8")",
+        "K8-PWCABLE1-5: PowerconTrue Male-Female 1.5mt cable (Source: "K8-PWCABLE1-5 PowerconTrue Male-Female 1.5mt cable")",
+        "K8-PWCABLE0-6: PowerconTrue Male-Female 0.6mt cable (Source: "K8-PWCABLE0-6 PowerconTrue Male-Female 0.6mt cable")",
+        "K8-PW25: Multi-cable power 25 mt (Source: "K8-PW25 Multi-cable power 25 mt")",
+        "KS8-DOLLY: Dolly for 3 KS8 (Source: "KS8-DOLLY Dolly for 3 KS8")",
+        "K8-SIG25: Multi cable signal + control 25 mt (Source: "K8-SIG25 Multi cable signal + control 25 mt")",
+        "K8-SIG2: Multi cable signal + control 2 mt (Source: "K8-SIG2 Multi cable signal + control 2 mt")",
+        "K8-PW10: Multi-cable power 10 mt (Source: "K8-PW10 Multi-cable power 10 mt")",
+        "K-COVERS5: Soft protective cover for KS5 I subwoofers. (Source: "K-COVERS5 Soft protective cover for KS5 I subwoofers.")",
+        "K8-CASE1: Flycase for KH8 and KS8 cables + K8-BOX (Source: "K8-CASE1 Flycase for KH8 and KS8 cables + K8-BOX")",
+        "K8-PWCABLE5: PowerconTrue Male-Female 5mt cable (Source: "K8-PWCABLE5 PowerconTrue Male-Female 5mt cable")",
+        "K8-SIG10: Multi cable signal + control 10 mt (Source: "K8-SIG10 Multi cable signal + control 10 mt")",
+        "K8-SIGOUT: 2mt with out LK25 and in XRL+RJ45 (Source: "K8-SIGOUT 2mt with out LK25 and in XRL+RJ45")",
+        "K8-SIGIN: 2mt with in LK25 and out XRL+RJ45 (Source: "K8-SIGIN 2mt with in LK25 and out XRL+RJ45")",
+        "K8-BOX: Power, signals and control box up to 12 KH8/KS8 (Source: "K8-BOX Power, signals and control box up to 12 KH8/KS8")",
+        "K-COVERS8S: Cover for a single KS8 unit (Source: "K-COVERS8S Cover for a single KS8 unit")",
+        "K-COVERS8: Semi-rigid cover for KS8-DOLLY (Source: "K-COVERS8 Semi-rigid cover for KS8-DOLLY")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Firenze-KS8 is a compact, self-powered, weather resistant subwoofer with 148 dB SPL peak output. Features IPAL® technology, powerful amplifier module, differential pressure sensor, zero latency DSP, and two 21” high-efficiency transducers. Integrated with EASE Focus for configurations like cardioid, virtual arc. Specifications: Type: Active subwoofer. Transducers: 2x 21\" Neodymium magnet woofer with 5.31\" voice coil. Frequency Response: 25 Hz - 120 Hz (-6 dB). Max SPL: 148 dB peak. Coverage: Omni. Remote Control: PC software via Ethernet. Connectors: Analog, AES3, LK25. Built-in DSP. Dimensions: 1420 x 600 x 775 mm. Weight: 148 kg. Material: Wood. Colors: Black, Custom RAL. IP Rating: Speaker Box: IP45 / Electronics: IP65. Amplifier Module: Switching-mode, class D with IPAL® technology. Output Power: 8500 W @ 1 Ω. Power Consumption: 400 VA. Protections: Over Temp., Short Circuit/Overload, Excursion limiter, Current & Power limiter, Current clamp, Clip limiter, Brownout limiter. Operating Range: 100-240V AC, 50-60 Hz with PFC. Mains Connector: powerCON True. Related accessories: KS8-PWBOX3, K8-PWCABLE1-5, K8-PWCABLE0-6, K8-PW25, KS8-DOLLY, K8-SIG25, K8-SIG2, K8-PW10, K-COVERS5, K8-CASE1, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K8-SIGIN, K8-BOX, K-COVERS8S, K-COVERS8.",
+    "semantic_chunks": [
+      "Firenze-KS8: compact, self-powered, weather-resistant subwoofer with 148 dB SPL peak output.",
+      "Technology: IPAL® (amplifier, sensor, DSP), two 21” high-efficiency transducers. Integrated with EASE Focus for cardioid/virtual arc configurations.",
+      "Specifications: Active subwoofer. Transducers: 2x 21\" Neodymium woofer (5.31\" VC). Freq. Response: 25-120 Hz (-6 dB). Max SPL: 148 dB peak. Coverage: Omni. IP45/IP65. Amp: 8500W @ 1Ω Class D.",
+      "Physical: 1420x600x775 mm, 148 kg. Material: Wood. Colors: Black, Custom RAL.",
+      "Connectivity: Analog, AES3, LK25 connectors. Remote control via Ethernet.",
+      "Accessories: KS8-PWBOX3, K8-PWCABLE1-5, K8-PWCABLE0-6, K8-PW25, KS8-DOLLY, K8-SIG25, K8-SIG2, K8-PW10, K-COVERS5, K8-CASE1, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K8-SIGIN, K8-BOX, K-COVERS8S, K-COVERS8."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Firenze-KS8?", "answer": "Active subwoofer."},
+      {"question": "What is the peak SPL of the Firenze-KS8?", "answer": "148 dB SPL."},
+      {"question": "What technology does the Firenze-KS8 feature?", "answer": "IPAL® technology."},
+      {"question": "What transducers does the Firenze-KS8 have?", "answer": "Two 21” high-efficiency transducers."},
+      {"question": "What is the frequency response of the Firenze-KS8?", "answer": "25 Hz - 120 Hz (-6 dB)."},
+      {"question": "What is the output power of the Firenze-KS8 amplifier?", "answer": "8500 W @ 1 Ω."},
+      {"question": "What are the IP ratings for the Firenze-KS8?", "answer": "Speaker Box: IP45 / Electronics: IP65."},
+      {"question": "What are the dimensions of the Firenze-KS8?", "answer": "1420 x 600 x 775 mm (55.90 x 23.6 x 30.5 in)."},
+      {"question": "What is the weight of the Firenze-KS8?", "answer": "148 kg (326.3 lb)."},
+      {"question": "What material is the Firenze-KS8 made of?", "answer": "Wood."},
+      {"question": "What colors are available for the Firenze-KS8?", "answer": "Black, Custom RAL."},
+      {"question": "What are some related accessories for the Firenze-KS8?", "answer": "KS8-PWBOX3, K8-PWCABLE1-5, K8-PWCABLE0-6, K8-PW25, KS8-DOLLY, K8-SIG25, K8-SIG2, K8-PW10, K-COVERS5, K8-CASE1, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K8-SIGIN, K8-BOX, K-COVERS8S, K-COVERS8."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Firenze-KS8: Self-Powered Line Array 2 x 21\" Subwoofer - K-array (https://www.k-array.com/en/product/firenze-ks8)"}
+  ]
+}

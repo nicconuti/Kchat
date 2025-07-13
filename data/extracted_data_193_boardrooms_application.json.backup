@@ -1,0 +1,153 @@
+{
+  "id": "193",
+  "url": "https://www.k-array.com/en/application/boardrooms",
+  "timestamp": "2025-07-12T13:50:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "BOARDROOMS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "boardrooms",
+      "conference rooms",
+      "progressing the conversation",
+      "academic",
+      "senate settings"
+    ],
+    "technical": [
+      "high speech intelligibility",
+      "clear spoken word",
+      "uniform sound coverage",
+      "minimize feedback"
+    ],
+    "challenges": [
+      "effective speech",
+      "large areas",
+      "multiple microphones",
+      "technical audio complications"
+    ],
+    "products": [
+      "Azimut-KAMUT2L14 II",
+      "Python-KP52 I",
+      "Lyzard-KZ14 I",
+      "Kobra-KK102 I"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "purpose": "Progressing the conversation in academic, conference, and senate settings",
+      "key_challenge": "Achieving high speech intelligibility across large areas",
+      "critical_requirements": [
+        "Clear spoken word delivery",
+        "Uniform sound coverage",
+        "Minimize feedback issues"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Azimut-KAMUT2L14 II",
+        "use_case": "Boardroom main audio systems"
+      },
+      {
+        "product": "Python-KP52 I",
+        "use_case": "Conference room line array systems"
+      },
+      {
+        "product": "Lyzard-KZ14 I",
+        "use_case": "Compact boardroom installations"
+      },
+      {
+        "product": "Kobra-KK102 I",
+        "use_case": "Boardroom column speaker systems"
+      }
+    ],
+    "installation_scenarios": {
+      "suitable_for": [
+        "Platforms with multiple microphones",
+        "Flexible system arrangement capabilities",
+        "Environments requiring precise audio communication"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "AV Group Headquarters"
+      },
+      {
+        "name": "ByteDance Headquarters"
+      },
+      {
+        "name": "Nevada Supreme Courthouse"
+      },
+      {
+        "name": "Bleisure Hub"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "boardrooms conference rooms progressing conversation academic senate settings high speech intelligibility clear spoken word uniform sound coverage minimize feedback effective speech large areas multiple microphones technical audio complications Azimut-KAMUT2L14 II Python-KP52 I Lyzard-KZ14 I Kobra-KK102 I AV Group Headquarters ByteDance Headquarters Nevada Supreme Courthouse Bleisure Hub",
+    "semantic_chunks": [
+      "Boardrooms and conference rooms focus on progressing the conversation in academic, conference, and senate settings",
+      "Key challenge is achieving high speech intelligibility across large areas with clear spoken word delivery and uniform coverage",
+      "Solutions minimize feedback issues and technical audio complications while supporting platforms with multiple microphones",
+      "Recommended products include Azimut-KAMUT2L14 II, Python-KP52 I, Lyzard-KZ14 I, and Kobra-KK102 I",
+      "Case studies include AV Group Headquarters, ByteDance Headquarters, Nevada Supreme Courthouse, and Bleisure Hub"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to boardroom audio?",
+        "a": "Progressing the conversation in academic, conference, and senate settings"
+      },
+      {
+        "q": "What is the key challenge in boardroom audio?",
+        "a": "Achieving high speech intelligibility across large areas"
+      },
+      {
+        "q": "What are the critical requirements for boardroom systems?",
+        "a": "Clear spoken word delivery, uniform sound coverage, and minimize feedback issues"
+      },
+      {
+        "q": "What K-Array products are recommended for boardrooms?",
+        "a": "Azimut-KAMUT2L14 II, Python-KP52 I, Lyzard-KZ14 I, and Kobra-KK102 I"
+      },
+      {
+        "q": "What are examples of K-Array boardroom installations?",
+        "a": "AV Group Headquarters, ByteDance Headquarters, Nevada Supreme Courthouse, and Bleisure Hub"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Progressing the conversation",
+      "source": "Direct quote from boardrooms application purpose"
+    },
+    {
+      "claim": "Without high intelligibility, an effective speech can become impotent",
+      "source": "Direct quote from Boardrooms and Conference Rooms section"
+    },
+    {
+      "claim": "Achieving high speech intelligibility across large areas",
+      "source": "Direct description of key challenge"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

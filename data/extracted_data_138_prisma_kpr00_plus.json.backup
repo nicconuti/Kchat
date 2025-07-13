@@ -1,0 +1,65 @@
+{
+  "id": "138",
+  "url": "https://www.k-array.com/en/product/Prisma-KPR00+",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PRISMA_SERIES",
+    "product_line": "Prisma",
+    "model": "KPR00+",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KPR00+", "Prisma", "Matrix Processing Platform"],
+    "technical": ["Integrated Electronic Brain-Pro", "IEB-Pro", "Dante-Ready", "Dante channels", "analog channels", "DSP", "Input EQ", "Output EQ", "Noise Gate", "Audio Priority/fail over", "Signal routing", "Output Channel delay"],
+    "applications": [],
+    "unique_identifiers": ["kpr00plus"]
+  },
+  "content_sections": {
+    "description": "Maximize versatility with the PRISMA-KPR00+ Matrix Processing Platform: equipped with the new Integrated Electronic Brain-Pro (IEB-Pro). This versatile and powerful Matrix Processing Platform is equipped with Dante-Ready ™ for activation of Dante ™ license and supporting of up to 8x8 Dante channels. Whether you choose an all-analog, analog+Dante, or Dante-only configuration, Prisma delivers up to 16x16 high-quality audio channels (analog + Dante) with precision audio processing through K-array's Integrated Electronic Brain (IEB-Pro) and OsKar OS platform. Prisma-KPR00+ can be expanded with the K-PRIN4 and K-PROUT4 accessory boards, each offering an additional 4 channels, allowing a total of up to 8x analog inputs and 8x outputs. This platform provides 9x distinct configuration setups, catering to a wide range of audio applications. For easy connectivity and control, the PRISMA-KPR00+ can be accessed through our complete bundle of dedicated apps: via the Web-App, the K-connect, and the K-control, providing total control over DSP functions and configurations.",
+    "specifications": {
+      "Type": "Matrix Processing Platform with IEB-Pro and osKar custom operating system (Source: "Type: Matrix Processing Platform with IEB-Pro and osKar custom operating system")",
+      "Built-in DSP": "Input EQ: 15 bands fully parametric equalizer; Output EQ: 15 bands fully parametric selectable filters: Peaking, Shelving, High-Pass, Low-Pass, HP-Butterworth, LP-Butterworth; Noise Gate on Analog signals; Audio Priority/fail over on router inputs 1 to 4; Signal routing: freely assignable input-to-output signal path with crosspoint level adjustment; Output Channel delay up to 50 ms (Source: "Built-in DSP: Input EQ: 15 bands fully parametric equalizer; Output EQ: 15 bands fully parametric selectable filters: Peaking, Shelving, Hi/Lo pass, Hi/Lo Butterworth), Noise Gate on Analog signals; Audio Priority/fail over on router inputs 1 to 4 Signal routing: freely assignable input-to-output signal path with crosspoint level adjustment; Output Channel delay up to 50 ms")",
+      "Connectivity": "Dante-Ready ™ for activation of Dante ™ license and supporting up to 16 Dante channels (Source: "Equipped with Dante-Ready ™ for activation of Dante ™ license and supporting up to 16 Dante channels.")",
+      "Dimensions (W x H x D)": "1U rack-compatible - 480 x 43 x 221mm (Source: "Dimensions (W x H x D): 1U rack-compatible - 480 x 43 x 221mm")",
+      "Colors": "Black (Source: "Colors: Black")",
+      "Material": "Stainless Steel (Source: "Material: Stainless Steel")",
+      "IP Rating": "IP20 (Source: "IP Rating: IP20")"
+    },
+    "integrations": {
+      "AMX by Harman": "K-array's latest electronics can be easily controlled by AMX modules as well now. (Source: "AMX by Harman AMX by Harman K-array's latest electronics can be easily controlled by AMX modules as well now.")",
+      "Q-SYS": "To easily integrate K-array's latest electronics with any Q-SYS configuration. (Source: "Q-SYS Q-SYS To easily integrate K-array's latest electronics with any Q-SYS configuration.")",
+      "CONTROL 4": "Integrating K-array's latest electronics with any Control4 system has become easy. (Source: "CONTROL 4 CONTROL 4 Integrating K-array's latest electronics with any Control4 system has become easy.")",
+      "Crestron": "The plug-in that gives your Crestron Electronics full control on K-array amps is finally out there! (Source: "Crestron Crestron The plug-in that gives your Crestron Electronics full control on K-array amps is finally out there!")"
+    },
+    "expansion": {
+      "K-PRIN4": "Input/Preamp Expansion Card for Prisma matrices with 4 balanced inputs (Source: "Prisma-KPRIN4 Input/Preamp Expansion Card for Prisma matrices with 4 balan...")",
+      "K-PROUT4": "Output Expansion Card for Prisma matrices with 4 balanced analog outputs (Source: "Prisma-KPROUT4 Output Expansion Card for Prisma matrices with 4 balanced an...")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Prisma-KPR00+ is a Matrix Processing Platform with Integrated Electronic Brain-Pro (IEB-Pro) and osKar custom operating system. Dante-Ready for up to 8x8 Dante channels, expandable to 16x16 high-quality audio channels (analog + Dante). Precision audio processing through IEB-Pro and OsKar OS. Expandable with K-PRIN4 and K-PROUT4 accessory boards (additional 4 channels each, total 8x analog inputs/outputs). Provides 9x distinct configuration setups. Accessible via Web-App, K-connect, K-control for DSP functions and configurations. REST API for third-party integration. Specifications: Type: Matrix Processing Platform. Built-in DSP: Input EQ, Output EQ, Noise Gate, Audio Priority/fail over, Signal routing, Output Channel delay. Connectivity: Dante-Ready (up to 16 Dante channels). Dimensions: 1U rack-compatible - 480 x 43 x 221mm. Colors: Black. Material: Stainless Steel. IP Rating: IP20. Integrates with AMX by Harman, Q-SYS, CONTROL 4, Crestron, Crestron Home.",
+    "semantic_chunks": [
+      "Prisma-KPR00+: Matrix Processing Platform with IEB-Pro and osKar OS. Dante-Ready (up to 8x8 Dante channels), expandable to 16x16 analog+Dante channels.",
+      "Features: Precision audio processing via IEB-Pro and OsKar OS. Expandable with K-PRIN4 (input) and K-PROUT4 (output) for 8x analog I/O. 9x configuration setups.",
+      "Control: Web-App, K-connect, K-control for DSP functions. REST API for third-party integration.",
+      "Specifications: Type: Matrix Processing Platform. Built-in DSP. Connectivity: Dante-Ready. Dimensions: 1U rack-compatible 480x43x221mm. Colors: Black. Material: Stainless Steel. IP Rating: IP20.",
+      "Integrations: AMX by Harman, Q-SYS, CONTROL 4, Crestron, Crestron Home."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Prisma-KPR00+?", "answer": "Matrix Processing Platform with IEB-Pro and osKar custom operating system."},
+      {"question": "What is the maximum number of Dante channels supported by Prisma-KPR00+?", "answer": "Up to 8x8 Dante channels."},
+      {"question": "How many high-quality audio channels (analog + Dante) can Prisma-KPR00+ deliver?", "answer": "Up to 16x16."},
+      {"question": "What accessory boards can expand the Prisma-KPR00+?", "answer": "K-PRIN4 (input) and K-PROUT4 (output) accessory boards."},
+      {"question": "How many distinct configuration setups does Prisma-KPR00+ provide?", "answer": "9x."},
+      {"question": "What are the dimensions of the Prisma-KPR00+?", "answer": "1U rack-compatible - 480 x 43 x 221mm."},
+      {"question": "What material is the Prisma-KPR00+ made of?", "answer": "Stainless Steel."},
+      {"question": "What is the IP rating of the Prisma-KPR00+?", "answer": "IP20."},
+      {"question": "What control systems can the Prisma-KPR00+ integrate with?", "answer": "AMX by Harman, Q-SYS, CONTROL 4, Crestron, Crestron Home."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Prisma-KPR00+ - K-array (https://www.k-array.com/en/product/Prisma-KPR00+)"}
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "131",
+  "url": "https://www.k-array.com/en/product/pinnacle-kr802",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PINNACLE_SERIES",
+    "product_line": "Pinnacle",
+    "model": "KR802",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": [
+      "KR802",
+      "Pinnacle",
+      "portable system",
+      "high-tech",
+      "large-format"
+    ],
+    "technical": [
+      "Kayman mid-high line array elements",
+      "neodymium magnet transducers",
+      "Thunder-KMT218 subwoofer",
+      "power"
+    ],
+    "applications": [
+      "theaters",
+      "auditoriums",
+      "concerts",
+      "live events"
+    ],
+    "unique_identifiers": [
+      "kr802"
+    ]
+  },
+  "content_sections": {
+    "description": "The Pinnacle-KR802 is our most advanced self-powered, portable amplification system ever. The stereo system features a pair of the Kayman mid-high line array elements with 8 x 4\" neodymium magnet transducers matched with a dual 18” powered Thunder-KMT218 subwoofer with 2 channels of 2400W per side. It is an all-in-one innovation that replaces conventional monitors, mixers and PA systems. The Pinnacle-KR802 can provide a large sound in theaters and auditoriums and for concerts and live events. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "High-Tech, Large-Format Portable System (Source: \"Pinnacle-KR802 I: High-Tech, Large-Format Portable System - K-array\")",
+      "Status": "DISCONTINUED (Source: \"Pinnacle-KR802 (DISCONTINUED)\")",
+      "Components": "a pair of the Kayman mid-high line array elements with 8 x 4\" neodymium magnet transducers matched with a dual 18” powered Thunder-KMT218 subwoofer with 2 channels of 2400W per side (Source: \"The stereo system features a pair of the Kayman mid-high line array elements with 8 x 4\" neodymium magnet transducers matched with a dual 18” powered Thunder-KMT218 subwoofer with 2 channels of 2400W per side.\")"
+    },
+    "accessories": {
+      "Discontinued": [
+        "K-USB: USB-RS485 Interface for K-array systems (Source: \"K-USB (DISCONTINUED) USB-RS485 Interface for K-array systems including 1 K-XM45 a...\")",
+        "K-WHEEL: Set of 4 wheels for Thunder subwoofers (Source: \"K-WHEEL (DISCONTINUED) Set of 4 wheels for Thunder subwoofers.\")",
+        "K-DANTE: Dante is an uncompressed, multi-channel networking technology (Source: \"K-DANTE (DISCONTINUED) Dante is an uncompressed, multi-channel networking technolog...\")",
+        "K-WHEELB: Set of 4 wheels with brake for KMT subwoofers (Source: \"K-WHEELB (DISCONTINUED) Set of 4 wheels with brake for KMT subwoofers.\")"
+      ],
+      "Available": [
+        "K-IP65KITB: Weatherproof rubber protection for NL4 connectors (Source: \"K-IP65KITB Weatherproof rubber protection for NL4 connectors (10pcs).\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Pinnacle-KR802 is a DISCONTINUED high-tech, large-format portable amplification system. Stereo system with Kayman mid-high line array elements (8x 4\" neodymium transducers) and dual 18” powered Thunder-KMT218 subwoofer (2x 2400W per side). All-in-one innovation replacing conventional monitors, mixers, PA systems. For theaters, auditoriums, concerts, live events. Discontinued accessories: K-USB, K-WHEEL, K-DANTE, K-WHEELB. Available accessory: K-IP65KITB.",
+    "semantic_chunks": [
+      "Pinnacle-KR802: DISCONTINUED high-tech, large-format portable amplification system.",
+      "Components: Stereo system with Kayman mid-high line array (8x 4\" neodymium transducers) and dual 18” powered Thunder-KMT218 subwoofer (2x 2400W/side).",
+      "Functionality: All-in-one, replaces monitors, mixers, PA systems. For theaters, auditoriums, concerts, live events.",
+      "Accessories: Discontinued (K-USB, K-WHEEL, K-DANTE, K-WHEELB). Available (K-IP65KITB)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Pinnacle-KR802?",
+        "answer": "High-Tech, Large-Format Portable System."
+      },
+      {
+        "question": "What is the status of the Pinnacle-KR802?",
+        "answer": "DISCONTINUED."
+      },
+      {
+        "question": "What components make up the Pinnacle-KR802 system?",
+        "answer": "A pair of Kayman mid-high line array elements with 8 x 4\" neodymium magnet transducers and a dual 18” powered Thunder-KMT218 subwoofer with 2 channels of 2400W per side."
+      },
+      {
+        "question": "What are the applications for the Pinnacle-KR802?",
+        "answer": "Theaters, auditoriums, concerts, and live events."
+      },
+      {
+        "question": "What are some discontinued accessories for the Pinnacle-KR802?",
+        "answer": "K-USB, K-WHEEL, K-DANTE, K-WHEELB."
+      },
+      {
+        "question": "What is an available accessory for the Pinnacle-KR802?",
+        "answer": "K-IP65KITB."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Pinnacle-KR802 I: High-Tech, Large-Format Portable System - K-array (https://www.k-array.com/en/product/pinnacle-kr802)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

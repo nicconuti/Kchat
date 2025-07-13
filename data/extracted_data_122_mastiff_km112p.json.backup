@@ -1,0 +1,137 @@
+{
+  "id": "122",
+  "url": "https://www.k-array.com/en/product/mastiff-km112p",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MASTIFF_SERIES",
+    "product_line": "Mastiff",
+    "model": "KM112P",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KM112P",
+      "Mastiff",
+      "stage monitor",
+      "passive"
+    ],
+    "technical": [
+      "coaxial woofer",
+      "compression driver",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP20"
+    ],
+    "applications": [
+      "monitoring",
+      "drum fill"
+    ],
+    "unique_identifiers": [
+      "km112p"
+    ]
+  },
+  "content_sections": {
+    "description": "The Mastiff-KM112P is passive compact monitor featuring a coaxial 12” woofer and reaches a maximum SPL of 133 dB (peak). It has a max power of 1200 W and can be driven by the self-powered Mastiff-KM112 for monitoring and drum fill solutions.",
+    "specifications": {
+      "Type": "Passive compact monitor (Source: \"Mastiff-KM112P - K-array\")",
+      "Transducers": "Coaxial 12\" woofer + 2.4\" compression driver (Source: \"Transducers: Coaxial 12\" woofer + 2.4\" compression driver\")",
+      "Frequency Response": "70 Hz - 19 kHz (-6 dB) (Source: \"Frequency Response: 70 Hz - 19 kHz (-6 dB)\")",
+      "Max SPL": "133 dB (peak) (Source: \"Max SPL: 133 dB (peak)\")",
+      "Rated Power": "1200 W (Source: \"Rated Power: 1200 W\")",
+      "Coverage": "Selectable: V/H - 30°/100° | 100°/30° (Source: \"Coverage: Selectable: V/H - 30°/100° | 100°/30°\")",
+      "Connectors": "SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+      "Nominal Impedance": "8 Ω (Source: \"Nominal Impedance: 8 Ω\")",
+      "Dimensions (W x H x D)": "450 x 351 x 530 mm (17.7 x 13.8 x 20.9 in) (Source: \"Dimensions (W x H x D): 450 x 351 x 530 mm (17.7 x 13.8 x 20.9 in)\")",
+      "Weight": "21,2 kg (46.74 lb) (Source: \"Weight: 21,2 kg (46.74 lb)\")",
+      "Material": "Wood/Stainless Steel (Source: \"Material: Wood/Stainless Steel\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "IP Rating": "IP20 (Source: \"IP Rating: IP20\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mastiff-KM112P is a passive compact monitor. Features a coaxial 12” woofer and reaches a maximum SPL of 133 dB (peak). Max power of 1200 W. Can be driven by self-powered Mastiff-KM112 for monitoring and drum fill solutions. Specifications: Type: Passive compact monitor. Transducers: Coaxial 12\" woofer + 2.4\" compression driver. Frequency Response: 70 Hz - 19 kHz (-6 dB). Max SPL: 133 dB (peak). Rated Power: 1200 W. Coverage: Selectable: V/H - 30°/100° | 100°/30°. Connectors: SpeakOn NL4. Nominal Impedance: 8 Ω. Dimensions: 450 x 351 x 530 mm. Weight: 21,2 kg. Material: Wood/Stainless Steel. Colors: Black, White, Custom RAL. IP Rating: IP20.",
+    "semantic_chunks": [
+      "Mastiff-KM112P: passive compact monitor.",
+      "Features: Coaxial 12” woofer. Max SPL 133 dB (peak). Max power 1200 W. Can be driven by self-powered Mastiff-KM112 for monitoring/drum fill.",
+      "Specifications: Type: Passive monitor. Transducers: Coaxial 12\" woofer + 2.4\" compression driver. Freq. Response: 70-19 kHz (-6 dB). Max SPL: 133 dB. Rated Power: 1200 W. Coverage: V/H - 30°/100° | 100°/30°. Connectors: SpeakOn NL4. Impedance: 8 Ω. Dimensions: 450x351x530 mm. Weight: 21.2 kg. Material: Wood/Stainless Steel. Colors: Black, White, Custom RAL. IP Rating: IP20."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Mastiff-KM112P?",
+        "answer": "Passive compact monitor."
+      },
+      {
+        "question": "What transducers does the Mastiff-KM112P have?",
+        "answer": "Coaxial 12\" woofer + 2.4\" compression driver."
+      },
+      {
+        "question": "What is the maximum SPL of the Mastiff-KM112P?",
+        "answer": "133 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Mastiff-KM112P?",
+        "answer": "1200 W."
+      },
+      {
+        "question": "What is the frequency response of the Mastiff-KM112P?",
+        "answer": "70 Hz - 19 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the coverage of the Mastiff-KM112P?",
+        "answer": "Selectable: V/H - 30°/100° | 100°/30°."
+      },
+      {
+        "question": "What is the nominal impedance of the Mastiff-KM112P?",
+        "answer": "8 Ω."
+      },
+      {
+        "question": "What are the dimensions of the Mastiff-KM112P?",
+        "answer": "450 x 351 x 530 mm (17.7 x 13.8 x 20.9 in)."
+      },
+      {
+        "question": "What is the weight of the Mastiff-KM112P?",
+        "answer": "21,2 kg (46.74 lb)."
+      },
+      {
+        "question": "What material is the Mastiff-KM112P made of?",
+        "answer": "Wood/Stainless Steel."
+      },
+      {
+        "question": "What colors are available for the Mastiff-KM112P?",
+        "answer": "Black, White, Custom RAL."
+      },
+      {
+        "question": "What is the IP rating of the Mastiff-KM112P?",
+        "answer": "IP20."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Mastiff-KM112P - K-array (https://www.k-array.com/en/product/mastiff-km112p)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

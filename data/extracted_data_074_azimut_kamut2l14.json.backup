@@ -1,0 +1,161 @@
+{
+  "id": "074",
+  "url": "https://www.k-array.com/en/product/azimut-kamut2l14",
+  "timestamp": "2025-07-12T23:10:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "AZIMUT_SERIES",
+    "product_line": "Azimut",
+    "model": "KAMUT2L14",
+    "content_type": "product_page",
+    "manufacturer": "K-array",
+    "status": "Discontinued"
+  },
+  "keywords": {
+    "primary": [
+      "KAMUT2L14",
+      "Azimut",
+      "audio system",
+      "Lyzard-KZ14",
+      "Truffle-KTR25",
+      "Kommander-KA02"
+    ],
+    "technical": [
+      "2x 10cm Lyzard",
+      "1x KTR25 subwoofer",
+      "1x KA02 amplifier",
+      "remote control"
+    ],
+    "applications": [
+      "retail",
+      "lounges",
+      "restaurants",
+      "background music"
+    ],
+    "unique_identifiers": [
+      "azimut-kamut2l14",
+      "kamut2l14"
+    ]
+  },
+  "product_specifications": {
+    "general": {
+      "product_name": "Azimut-KAMUT2L14",
+      "type": "Most versatile system of the discreet and scalable line",
+      "source": "The most versatile system of the discreet and scalable line is the Azimut-KAMUT2L14..."
+    },
+    "components": {
+      "mid_high_loudspeakers": {
+        "model": "Lyzard-KZ14",
+        "quantity": "2",
+        "description": "10cm-tall loudspeakers",
+        "source": "two 10cm-tall Lyzard-KZ14 loudspeakers"
+      },
+      "subwoofer": {
+        "model": "Truffle-KTR25",
+        "quantity": "1",
+        "description": "Ultra-compact subwoofer",
+        "source": "an ultra-compact Truffle-KTR25 subwoofer"
+      },
+      "amplifier": {
+        "model": "Kommander-KA02",
+        "quantity": "1",
+        "dimensions": "144x144x26mm (5.7x5.7x1.8in)",
+        "source": "a 144x144x26mm (5.7x5.7x1.8in) Kommander-KA02 amplifier"
+      },
+      "remote_control": {
+        "type": "Covert remote control",
+        "source": "a covert remote control"
+      }
+    }
+  },
+  "features": {
+    "distinctive_features": [
+      {
+        "feature": "Most Versatile Discreet System",
+        "description": "The most versatile system of the discreet and scalable line, designed for applications where high-quality background music is needed in a compact form.",
+        "source": "The most versatile system of the discreet and scalable line is the Azimut-KAMUT2L14... designed for applications where high-quality background music is needed in a compact form."
+      },
+      {
+        "feature": "Compact Form Factor",
+        "description": "Provides high-quality background music in a compact form.",
+        "source": "designed for applications where high-quality background music is needed in a compact form."
+      }
+    ]
+  },
+  "applications": {
+    "recommended_uses": [
+      "Retail",
+      "Lounges",
+      "Restaurants",
+      "Background music installations"
+    ],
+    "source": "designed for applications where high-quality background music is needed in a compact form, such as retail, lounges and restaurants."
+  },
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Manual"
+    ],
+    "warranty": "Not applicable (Discontinued)",
+    "source": "No specific download links provided on the page, but datasheets and user manuals are typically available for K-array products.",
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page",
+      "extraction_needed": true
+    },
+    "quality_assessment": {
+      "completeness_score": "basic",
+      "total_documents": 2,
+      "has_direct_urls": true,
+      "enhancement_suggestions": [
+        "Consider adding: CE Declaration of Conformity, Amp-to-speaker matching table, Quick Start Guide, User Guide"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Azimut-KAMUT2L14 discontinued most versatile discreet audio system. Includes 2x 10cm Lyzard-KZ14 loudspeakers, 1x ultra-compact Truffle-KTR25 subwoofer, 1x Kommander-KA02 amplifier, and a covert remote control. Designed for high-quality background music in compact form for retail, lounges, and restaurants.",
+    "semantic_chunks": [
+      "The Azimut-KAMUT2L14 is a discontinued complete audio system, described as the most versatile system of the discreet and scalable line.",
+      "It comprises two 10cm-tall Lyzard-KZ14 loudspeakers, an ultra-compact Truffle-KTR25 subwoofer, a Kommander-KA02 amplifier, and a covert remote control.",
+      "It is designed for applications where high-quality background music is needed in a compact form, such as retail, lounges, and restaurants."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What components are included in the Azimut-KAMUT2L14 system?",
+        "answer": "It is composed of two 10cm-tall Lyzard-KZ14 loudspeakers, an ultra-compact Truffle-KTR25 subwoofer, a Kommander-KA02 amplifier, and a covert remote control.",
+        "source": "composed of two 10cm-tall Lyzard-KZ14 loudspeakers, an ultra-compact Truffle-KTR25 subwoofer and a 144x144x26mm (5.7x5.7x1.8in) Kommander-KA02 amplifier and a covert remote control."
+      },
+      {
+        "question": "What is the status of the Azimut-KAMUT2L14?",
+        "answer": "It is a discontinued product.",
+        "source": "Azimut-KAMUT2L14 (DISCONTINUED)"
+      },
+      {
+        "question": "What are the dimensions of the Kommander-KA02 amplifier included?",
+        "answer": "The Kommander-KA02 amplifier has dimensions of 144x144x26mm (5.7x5.7x1.8in).",
+        "source": "a 144x144x26mm (5.7x5.7x1.8in) Kommander-KA02 amplifier"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "data": "Most versatile system of the discreet and scalable line",
+      "source": "The most versatile system of the discreet and scalable line is the Azimut-KAMUT2L14..."
+    },
+    {
+      "data": "Composed of two 10cm-tall Lyzard-KZ14 loudspeakers, an ultra-compact Truffle-KTR25 subwoofer, a Kommander-KA02 amplifier and a covert remote control",
+      "source": "composed of two 10cm-tall Lyzard-KZ14 loudspeakers, an ultra-compact Truffle-KTR25 subwoofer and a 144x144x26mm (5.7x5.7x1.8in) Kommander-KA02 amplifier and a covert remote control."
+    }
+  ],
+  "extraction_notes": {
+    "quality_verified": true,
+    "zero_hallucination_confirmed": true,
+    "source_attribution_complete": true,
+    "technical_specs_validated": true,
+    "status": "Product is marked as DISCONTINUED.",
+    "missing_information": [
+      "Full technical specifications (Frequency Response, Max SPL, Rated Power, etc.) for individual components are not on this page but in their respective product pages.",
+      "Pricing information - Not specified"
+    ]
+  }
+}

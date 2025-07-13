@@ -1,0 +1,143 @@
+{
+  "id": "118",
+  "url": "https://www.k-array.com/en/product/dragon-kxt12p",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DRAGON_SERIES",
+    "product_line": "Dragon",
+    "model": "KXT12P",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KXT12P",
+      "Dragon",
+      "point source speaker",
+      "passive"
+    ],
+    "technical": [
+      "woofer",
+      "tri-axial assembly",
+      "mid-frequency driver",
+      "high-frequency driver",
+      "passive radiator",
+      "SPL",
+      "frequency response",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP54"
+    ],
+    "applications": [
+      "hospitality venues",
+      "live events",
+      "demanding installations"
+    ],
+    "unique_identifiers": [
+      "kxt12p"
+    ]
+  },
+  "content_sections": {
+    "description": "The Dragon KXT12P sets a new standard with its cutting-edge design and high-performance capabilities. Equipped with a 12\" woofer and a tri-axial assembly featuring a 3\" mid-frequency and 2\" high-frequency compression driver, aligned with a 15\" passive radiator, it delivers an exceptional SPL of 141dB with stunning clarity across a wide frequency range. Built with a durable aluminum closed cabinet, the KXT12P is outdoor rated, ensuring reliable performance in diverse conditions. Its adjustable horn supports vertical, horizontal, and array configurations, while its sleek design makes it perfect for hospitality venues, live events, and demanding installations.",
+    "specifications": {
+      "Type": "Point source (Source: \"Type: Point source\")",
+      "Transducers": "12\" neodymium magnet woofer, Tri-axial 3\" compression driver (MF) + 2\" compression driver (HF) + 15\" passive radiator (Source: \"Transducers: 12\" neodymium magnet woofer Tri-axial 3\" compression driver (MF) + 2\" compression driver (HF) + 15\" passive radiator\")",
+      "Frequency Response": "73 Hz - 20 kHz (-6dB) (Source: \"Frequency Response: 73 Hz - 20 kHz (-6dB)\"), 60 Hz - 20 kHz (-6dB) / (-7.5dB) max SPL Full Range (Source: \"60 Hz - 20 kHz (-6dB) / (-7.5dB) max SPL Full Range\")",
+      "Max SPL": "141 dB (peak) half-space (Source: \"Max SPL: 141 dB (peak) half-space\")",
+      "Rated Power": "1200 W (Source: \"Rated Power: 1200 W\")",
+      "Coverage": "V. 40° - H. 60° (Rotatable w/ screws) (Source: \"Coverage: V. 40° - H. 60° (Rotatable w/ screws)\")",
+      "Connectors": "2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: 2 x SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+      "Nominal Impedance": "8 Ω (Source: \"Nominal Impedance: 8 Ω\")",
+      "Dimensions (W x H x D)": "500 x 735 x 400mm (19,7 x 28.9 x 15,8 in) (Source: \"Dimensions (W x H x D): 500 x 735 x 400mm (19,7 x 28.9 x 15,8 in)\")",
+      "Weight": "32 kg (70,55 lb) (Source: \"Weight: 32 kg (70,55 lb)\")",
+      "Material": "Birch Plywood (Source: \"Material: Birch Plywood\")",
+      "Colors": "Black, Custom RAL (Source: \"Colors: Black, Custom RAL\")",
+      "IP Rating": "IP54 (Source: \"IP Rating: IP54\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Dragon KXT12P is a high-performance passive point source speaker. Features a 12\" woofer, tri-axial assembly with 3\" mid-frequency and 2\" high-frequency compression drivers, and a 15\" passive radiator. Delivers 141dB SPL with clarity across a wide frequency range. Durable aluminum closed cabinet, outdoor rated. Adjustable horn supports vertical, horizontal, and array configurations. Sleek design for hospitality venues, live events, and demanding installations. Specifications: Type: Point source. Transducers: 12\" neodymium magnet woofer, Tri-axial 3\" compression driver (MF) + 2\" compression driver (HF) + 15\" passive radiator. Frequency Response: 73 Hz - 20 kHz (-6dB), 60 Hz - 20 kHz (-6dB) / (-7.5dB) max SPL Full Range. Max SPL: 141 dB (peak) half-space. Rated Power: 1200 W. Coverage: V. 40° - H. 60° (Rotatable w/ screws). Connectors: 2 x SpeakOn NL4. Nominal Impedance: 8 Ω. Dimensions: 500 x 735 x 400mm. Weight: 32 kg. Material: Birch Plywood. Colors: Black, Custom RAL. IP Rating: IP54.",
+    "semantic_chunks": [
+      "Dragon KXT12P: high-performance passive point source speaker.",
+      "Components: 12\" woofer, tri-axial assembly (3\" MF, 2\" HF compression drivers), 15\" passive radiator. 141dB SPL.",
+      "Design: Durable aluminum closed cabinet, outdoor rated. Adjustable horn for vertical/horizontal/array configurations. Sleek design.",
+      "Applications: hospitality venues, live events, demanding installations.",
+      "Specifications: Type: Point source. Transducers: 12\" neodymium woofer, tri-axial (3\" MF, 2\" HF), 15\" passive radiator. Freq. Response: 73-20 kHz (-6dB), 60-20 kHz (-6dB)/(-7.5dB) max SPL Full Range. Max SPL: 141 dB. Rated Power: 1200 W. Coverage: V. 40° - H. 60° (Rotatable). Connectors: 2x SpeakOn NL4. Impedance: 8 Ω. Dimensions: 500x735x400mm. Weight: 32 kg. Material: Birch Plywood. Colors: Black, Custom RAL. IP Rating: IP54."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Dragon-KXT12P?",
+        "answer": "High-Performance Passive Full-Range Point Source Element."
+      },
+      {
+        "question": "What transducers does the Dragon-KXT12P have?",
+        "answer": "A 12\" woofer and a tri-axial assembly featuring a 3\" mid-frequency and 2\" high-frequency compression driver, aligned with a 15\" passive radiator."
+      },
+      {
+        "question": "What is the maximum SPL of the Dragon-KXT12P?",
+        "answer": "141dB (peak) half-space."
+      },
+      {
+        "question": "What is the rated power of the Dragon-KXT12P?",
+        "answer": "1200 W."
+      },
+      {
+        "question": "What is the frequency response of the Dragon-KXT12P?",
+        "answer": "73 Hz - 20 kHz (-6dB) or 60 Hz - 20 kHz (-6dB) / (-7.5dB) max SPL Full Range."
+      },
+      {
+        "question": "What is the coverage of the Dragon-KXT12P?",
+        "answer": "V. 40° - H. 60° (Rotatable w/ screws)."
+      },
+      {
+        "question": "What is the nominal impedance of the Dragon-KXT12P?",
+        "answer": "8 Ω."
+      },
+      {
+        "question": "What are the dimensions of the Dragon-KXT12P?",
+        "answer": "500 x 735 x 400mm (19,7 x 28.9 x 15,8 in)."
+      },
+      {
+        "question": "What is the weight of the Dragon-KXT12P?",
+        "answer": "32 kg (70,55 lb)."
+      },
+      {
+        "question": "What material is the Dragon-KXT12P made of?",
+        "answer": "Birch Plywood."
+      },
+      {
+        "question": "What colors are available for the Dragon-KXT12P?",
+        "answer": "Black, Custom RAL."
+      },
+      {
+        "question": "What is the IP rating of the Dragon-KXT12P?",
+        "answer": "IP54."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Dragon-KXT12P - K-array (https://www.k-array.com/en/product/dragon-kxt12p)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

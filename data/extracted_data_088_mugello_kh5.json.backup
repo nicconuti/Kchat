@@ -1,0 +1,122 @@
+{
+  "id": "088",
+  "url": "https://www.k-array.com/en/product/mugello-kh5",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH5",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": [
+      "KH5",
+      "Mugello",
+      "line array",
+      "speaker"
+    ],
+    "technical": [
+      "neodymium woofers",
+      "compression drivers",
+      "SPL"
+    ],
+    "applications": [
+      "large-scale concerts",
+      "live events"
+    ],
+    "unique_identifiers": [
+      "kh5"
+    ]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH5 is a self-powered, large-format line array speaker. It is the largest speaker in the Mugello line and is designed for large-scale concerts and live events. The speaker features two 15” neodymium woofers and four compression drivers with 2.5\" voice coils, capable of delivering up to 139 dB SPL. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Large Format Line Array with Digital Steering (Source: \"Mugello-KH5: Large Format Line Array with Digital Steering\")",
+      "Status": "DISCONTINUED (Source: \"The product is marked as \"DISCONTINUED\".\")",
+      "Woofers": "two 15” neodymium woofers (Source: \"features two 15” neodymium woofers\")",
+      "Drivers": "four compression drivers with 2.5\" voice coils (Source: \"and four compression drivers with 2.5\" voice coils\")",
+      "Max SPL": "139 dB SPL (Source: \"capable of delivering up to 139 dB SPL\")"
+    },
+    "accessories": {
+      "Discontinued": [
+        "K-HCFLY: Fly bar for KH3 and KH5 (Source: \"K-HCFLY: Fly bar for KH3 and KH5\")",
+        "K-DANTE: Dante is an uncompressed, multi-channel networking technology (Source: \"K-DANTE: Dante is an uncompressed, multi-channel networking technology\")",
+        "K-HCDOLLY35: Dolly for 6 KH5 or 6 KH3 (Source: \"K-HCDOLLY35: Dolly for 6 KH5 or 6 KH3\")"
+      ],
+      "Available": [
+        "K-AMPCOVER: Rain protection cover for Thunder and Mugello (Source: \"A currently available accessory is the K-AMPCOVER, a rain protection cover for Thunder and Mugello.\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH5 is a DISCONTINUED self-powered, large-format line array speaker. Largest in Mugello line, designed for large-scale concerts and live events. Features two 15” neodymium woofers and four compression drivers with 2.5\" voice coils. Max SPL: 139 dB. Discontinued accessories: K-HCFLY, K-DANTE, K-HCDOLLY35. Available accessory: K-AMPCOVER.",
+    "semantic_chunks": [
+      "Mugello-KH5: DISCONTINUED large-format line array speaker for concerts/live events.",
+      "Components: Self-powered, two 15” neodymium woofers, four 2.5\" voice coil compression drivers. Max SPL: 139 dB.",
+      "Accessories: Discontinued (K-HCFLY, K-DANTE, K-HCDOLLY35), Available (K-AMPCOVER)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Mugello-KH5?",
+        "answer": "Large Format Line Array with Digital Steering."
+      },
+      {
+        "question": "What is the status of the Mugello-KH5?",
+        "answer": "DISCONTINUED."
+      },
+      {
+        "question": "What kind of woofers does the Mugello-KH5 have?",
+        "answer": "Two 15” neodymium woofers."
+      },
+      {
+        "question": "What kind of drivers does the Mugello-KH5 have?",
+        "answer": "Four compression drivers with 2.5\" voice coils."
+      },
+      {
+        "question": "What is the maximum SPL of the Mugello-KH5?",
+        "answer": "139 dB SPL."
+      },
+      {
+        "question": "What are the applications for the Mugello-KH5?",
+        "answer": "Large-scale concerts and live events."
+      },
+      {
+        "question": "What are some discontinued accessories for the Mugello-KH5?",
+        "answer": "K-HCFLY, K-DANTE, K-HCDOLLY35."
+      },
+      {
+        "question": "What is an available accessory for the Mugello-KH5?",
+        "answer": "K-AMPCOVER."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Mugello-KH5: Large Format Line Array with Digital Steering - K-array (https://www.k-array.com/en/product/mugello-kh5)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE & EASE Focus Data",
+      "Preset",
+      "DWG 3D",
+      "DXF 2D",
+      "3DS 3D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity",
+      "BIM files"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

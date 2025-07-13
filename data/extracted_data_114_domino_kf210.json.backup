@@ -1,0 +1,152 @@
+{
+  "id": "114",
+  "url": "https://www.k-array.com/en/product/domino-kf210",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DOMINO_SERIES",
+    "product_line": "Domino",
+    "model": "KF210",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KF210",
+      "Domino",
+      "full-range speaker"
+    ],
+    "technical": [
+      "neodymium magnet woofer",
+      "passive radiator",
+      "frequency response",
+      "sensitivity",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "kf210"
+    ]
+  },
+  "content_sections": {
+    "description": "The Domino-KF210 is the mid-sized option of the Domino line that has a 10” and a 3” neodymium magnet woofer coaxially mounted in addition to a 10” passive radiator. Wall brackets are included, while other useful tools are available for purchase, like the flush mount recessing frame, K-WF210, used for wall insets to further hide the speakers. The main product models and codes are: KF210 black model KF210W white model KF210X customizable color and finish (box + grill) new! KF210M, KF210MW, KF210MX (only RAL colors) = MARINE TREATMENT (on request). All Domino-KF210 components are designed by the K-array R&D department and are custom-made under the K-array quality control system in Italy.",
+    "specifications": {
+      "Type": "Point source (Source: \"Type: Point source\")",
+      "Transducers": "10\" neodymium magnet woofer, 3\" neodymium magnet woofer, 10\" passive radiator (Source: \"Transducers: 10\" neodymium magnet woofer 3\" neodymium magnet woofer 10\" passive radiator\")",
+      "Frequency Response": "40 Hz - 19 kHz (-6 dB) (Source: \"Frequency Response: 40 Hz - 19 kHz (-6 dB)\")",
+      "Sensitivity (1W/1m)": "95 dB (Source: \"Sensitivity (1W/1m): 95 dB\")",
+      "Max SPL": "123 dB (peak) (Source: \"Max SPL: 123 dB (peak)\")",
+      "Rated Power": "320 W (Source: \"Rated Power: 320 W\")",
+      "Coverage": "V. 90° | H. 90° (Source: \"Coverage: V. 90° | H. 90°\")",
+      "Connectors": "4PIN euroblock connector (included) (Source: \"Connectors: 4PIN euroblock connector (included)\")",
+      "Nominal Impedance": "4 Ω / 16 Ω selectable (Source: \"Nominal Impedance: 4 Ω / 16 Ω selectable\")",
+      "Dimensions (W x H x D)": "282 x 500 x 151 mm (11.1 x 19.7 x 5.9 in) (Source: \"Dimensions (W x H x D): 282 x 500 x 151 mm (11.1 x 19.7 x 5.9 in)\")",
+      "Weight": "12 kg (26.5 lb) (Source: \"Weight: 12 kg (26.5 lb)\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+      "Finishes": "24K Gold, Polished, Brushed (Source: \"Finishes: 24K Gold, Polished, Brushed\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\")"
+    },
+    "models": {
+      "Standard": [
+        "KF210 black model (Source: \"KF210 black model\")",
+        "KF210W white model (Source: \"KF210W white model\")",
+        "KF210X customizable color and finish (box + grill) (Source: \"KF210X customizable color and finish (box + grill)\")"
+      ],
+      "Marine Treated (on request)": [
+        "KF210M (Source: \"KF210M\")",
+        "KF210MW (Source: \"KF210MW\")",
+        "KF210MX (Source: \"KF210MX\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Domino-KF210 is the mid-sized option of the Domino line. Features a 10” and a 3” neodymium magnet woofer coaxially mounted, plus a 10” passive radiator. Wall brackets included. Can be hidden with K-WF210 flush mount recessing frame. All components custom-made in Italy. Specifications: Type: Point source. Transducers: 10\" neodymium magnet woofer, 3\" neodymium magnet woofer, 10\" passive radiator. Frequency Response: 40 Hz - 19 kHz (-6 dB). Sensitivity: 95 dB. Max SPL: 123 dB (peak). Rated Power: 320 W. Coverage: V. 90° | H. 90°. Connectors: 4PIN euroblock. Nominal Impedance: 4 Ω / 16 Ω selectable. Dimensions: 282 x 500 x 151 mm. Weight: 12 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64. Models: KF210 black, KF210W white, KF210X customizable. Marine Treated: KF210M, KF210MW, KF210MX.",
+    "semantic_chunks": [
+      "Domino-KF210: mid-sized Domino line speaker. 10” and 3” neodymium woofers (coaxial), 10” passive radiator. Wall brackets included. Can be hidden with K-WF210.",
+      "Specifications: Type: Point source. Transducers: 10\" neodymium woofer, 3\" neodymium woofer, 10\" passive radiator. Freq. Response: 40-19 kHz (-6 dB). Sensitivity: 95 dB. Max SPL: 123 dB. Rated Power: 320 W. Coverage: V. 90° | H. 90°. Connectors: 4PIN euroblock. Impedance: 4Ω/16Ω selectable. Dimensions: 282x500x151 mm. Weight: 12 kg. Material: Stainless Steel. Colors: Black, White, Custom RAL. Finishes: 24K Gold, Polished, Brushed. IP Rating: IP64.",
+      "Models: KF210 (black), KF210W (white), KF210X (custom). Marine Treated: KF210M, KF210MW, KF210MX."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Domino-KF210?",
+        "answer": "Full-range Speaker / Point source."
+      },
+      {
+        "question": "What transducers does the Domino-KF210 have?",
+        "answer": "A 10” and a 3” neodymium magnet woofer coaxially mounted, plus a 10” passive radiator."
+      },
+      {
+        "question": "What is the frequency response of the Domino-KF210?",
+        "answer": "40 Hz - 19 kHz (-6 dB)."
+      },
+      {
+        "question": "What is the sensitivity of the Domino-KF210?",
+        "answer": "95 dB."
+      },
+      {
+        "question": "What is the maximum SPL of the Domino-KF210?",
+        "answer": "123 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Domino-KF210?",
+        "answer": "320 W."
+      },
+      {
+        "question": "What is the coverage of the Domino-KF210?",
+        "answer": "Vertical 90° | Horizontal 90°."
+      },
+      {
+        "question": "What is the nominal impedance of the Domino-KF210?",
+        "answer": "4 Ω / 16 Ω selectable."
+      },
+      {
+        "question": "What are the dimensions of the Domino-KF210?",
+        "answer": "282 x 500 x 151 mm (11.1 x 19.7 x 5.9 in)."
+      },
+      {
+        "question": "What is the weight of the Domino-KF210?",
+        "answer": "12 kg (26.5 lb)."
+      },
+      {
+        "question": "What material is the Domino-KF210 made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What colors and finishes are available for the Domino-KF210?",
+        "answer": "Black, White, Custom RAL colors, with 24K Gold, Polished, or Brushed finishes."
+      },
+      {
+        "question": "What is the IP rating of the Domino-KF210?",
+        "answer": "IP64."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Domino-KF210: Full-range Speakers with 2 x 10\" drivers - K-array (https://www.k-array.com/en/product/domino-kf210)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

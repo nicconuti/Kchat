@@ -1,0 +1,180 @@
+{
+  "id": "129",
+  "url": "https://www.k-array.com/en/product/Pinnacle-KR202-II",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PINNACLE_SERIES",
+    "product_line": "Pinnacle",
+    "model": "KR202 II",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KR202 II",
+      "Pinnacle",
+      "portable system",
+      "high-tech",
+      "lightweight"
+    ],
+    "technical": [
+      "Thunder-KS2 I subwoofer",
+      "Thunder-KS2P I subwoofer",
+      "Kobra-KK102 I column loudspeakers",
+      "neodymium magnet woofer",
+      "Class D amplifier",
+      "DSP",
+      "frequency response",
+      "max SPL",
+      "power",
+      "impedance",
+      "IP53",
+      "IP54",
+      "IP64"
+    ],
+    "applications": [
+      "lounge parties",
+      "private events",
+      "restaurants & cafes",
+      "yachts",
+      "houses of worship"
+    ],
+    "unique_identifiers": [
+      "kr202ii"
+    ]
+  },
+  "content_sections": {
+    "description": "The Pinnacle-KR202 II is composed of: 1x Thunder-KS2 I self-powered subwoofer, 1x Thunder-KS2P I passive subwoofer, 4x Kobra-KK102 I pure 2\" line array column, 4x K-JOINT3, 2x K-FOOT3. The self-powered Thunder-KS2 I subwoofers with DSP are designed to be the core devices in the sound reinforcement system: the dedicated K-array Connect mobile app provides a user-friendly interface for the remote control, the DSP parameters and to boost the system performance. K-framework3 is the managing and control software dedicated to professionals and operators looking for a powerful tool for designing and managing a large number of units over a wired LAN in demanding applications. This results in a lightweight, flexible, and elegant portable system, delivering pristine sound in various applications like lounge parties, private events, restaurants & cafes, yachts, and houses of worship.",
+    "components": {
+      "Thunder-KS2 I (Active subwoofer)": {
+        "Type": "Active subwoofer (Source: \"Thunder-KS2 I General Type: Active subwoofer\")",
+        "Transducers": "18\" neodymium magnet woofer (Source: \"Transducers: 18\" neodymium magnet woofer\")",
+        "Frequency Response": "35 Hz - 150/450 Hz (-6 dB) crossover dependant (Source: \"Frequency Response: 35 Hz - 150/450 Hz (-6 dB) crossover dependant\")",
+        "Crossover": "DSP-controlled, Low Pass @ 150 Hz, preset dependant (Source: \"Crossover: DSP-controlled, Low Pass @ 150 Hz, preset dependant\")",
+        "Max SPL": "137 dB (Source: \"Max SPL: 137 dB\")",
+        "Coverage": "Omni (Source: \"Coverage: Omni\")",
+        "Connectors": "Line Input 2x XLR-F analog / AES3, Line Output 2x XLR-M Link analog / AES3, Speaker Output 2x SpeakON NL4, Mains powerCON TRUE1 TOP, Networking and Data 1x RJ45, 4x USB-A (Source: \"Connectors: Line Input 2x XLR-F analog / AES3 Line Output 2x XLR-M Link analog / AES3 Speaker Output 2x SpeakON NL4 Mains powerCON TRUE1 TOP Networking and Data 1x RJ45 4x USB-A\")",
+        "Nominal Impedance": "8ohm subwoofer (Source: \"Nominal Impedance: 8ohm subwoofer\")",
+        "Controllers": "Wi-Fi dedicated Mobile APP K-framework3 via wired Ethernet connection (Source: \"Controllers: Wi-Fi dedicated Mobile APP K-framework3 via wired Ethernet connection\")",
+        "Dimensions (W x H x D)": "650 x 500 x 580 mm (25.6 x 19.7 x 22.8 in) (Source: \"Dimensions: 650 x 500 x 580 mm (25.6 x 19.7 x 22.8 in)\")",
+        "Weight": "37,6 kg (82.9 lb) (Source: \"Weight: 37,6 kg (82.9 lb)\")",
+        "Material": "Polyurea coated birch plywood (Source: \"Material: Polyurea coated birch plywood\")",
+        "Colors": "Black/White/Custom RAL (Source: \"Colors: Black/White/Custom RAL\")",
+        "IP Rating": "IP53 (Source: \"IP Rating: IP53\")",
+        "Amplifier Module": "4-ch Class D (Source: \"Amp Module: 4-ch Class D\")",
+        "Output Power": "4 x 1500W @ 4ohm (Source: \"Output Power: 4 x 1500W @ 4ohm\")",
+        "Power Consumption": "600 W @ 8 Ω load, Pink noise, 1/4 rated power (Source: \"Power Consumption: 600 W @ 8 Ω load, Pink noise, 1/4 rated power\")"
+      },
+      "Thunder-KS2P I (Passive subwoofer)": {
+        "Type": "Passive subwoofer (Source: \"Thunder-KS2P I General Type: Passive subwoofer\")",
+        "Transducers": "18\" neodymium magnet woofer (Source: \"Transducers: 18\" neodymium magnet woofer\")",
+        "Frequency Response": "35 Hz - 150/450 Hz (-6 dB) crossover dependant (Source: \"Frequency Response: 35 Hz - 150/450 Hz (-6 dB) crossover dependant\")",
+        "Crossover": "External DSP-controlled, Low Pass @ 150 Hz up to 450 Hz, preset dependant (Source: \"Crossover: External DSP-controlled, Low Pass @ 150 Hz up to 450 Hz, preset dependant\")",
+        "Max SPL": "137 dB (Source: \"Max SPL: 137 dB\")",
+        "Rated Power": "1400W peak (Source: \"Rated Power: 1400W peak\")",
+        "Coverage": "Omni (Source: \"Coverage: Omni\")",
+        "Connectors": "2x speakON 2+ 2- / 1+ 1- link (Source: \"Connectors: 2x speakON 2+ 2- / 1+ 1- link\")",
+        "Nominal Impedance": "8ohm (Source: \"Nominal Impedance: 8ohm\")",
+        "Dimensions (W x H x D)": "650 x 500 x 580 mm (25.6 x 19.7 x 22.8 in) (Source: \"Dimensions: 650 x 500 x 580 mm (25.6 x 19.7 x 22.8 in)\")",
+        "Weight": "34 kg (75 lb) (Source: \"Weight: 34 kg (75 lb)\")",
+        "Material": "Polyurea coated birch plywood (Source: \"Material: Polyurea coated birch plywood\")",
+        "Colors": "Black/White/Custom RAL (Source: \"Colors: Black/White/Custom RAL\")",
+        "IP Rating": "IP54 (Source: \"IP Rating: IP54\")"
+      },
+      "Kobra-KK102 I (Line array)": {
+        "Type": "Line array (Source: \"Kobra-KK102 I General Type: Line array\")",
+        "Transducers": "16 x 2\" neodymium magnet woofers (Source: \"Transducers: 16 x 2\" neodymium magnet woofers\")",
+        "Frequency Response": "150 Hz - 18 kHz (-6 dB) (Source: \"Frequency Response: 150 Hz - 18 kHz (-6 dB)\")",
+        "Max SPL": "126 dB (peak) (Source: \"Max SPL: 126 dB (peak)\")",
+        "Rated Power": "400 W (Source: \"Rated Power: 400 W\")",
+        "Coverage": "V. 7° - 35° | H. 120° (Source: \"Coverage: V. 7° - 35° | H. 120°\")",
+        "Connectors": "SpeakOn NL4 1+ 1- (signal); 2+ 2- (through) (Source: \"Connectors: SpeakOn NL4 1+ 1- (signal); 2+ 2- (through)\")",
+        "Nominal Impedance": "8 Ω / 32 Ω selectable (Source: \"Nominal Impedance: 8 Ω / 32 Ω selectable\")",
+        "Dimensions (W x H x D)": "59 x 1000 x 81 mm (2.3 x 39.4 x 3.2 in) (Source: \"Dimensions: 59 x 1000 x 81 mm (2.3 x 39.4 x 3.2 in)\")",
+        "Weight": "4.8 kg (10.6 lb) (Source: \"Weight: 4.8 kg (10.6 lb)\")",
+        "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+        "Colors": "Black, White, Custom RAL (Source: \"Colors: Black, White, Custom RAL\")",
+        "Finishes": "24K Gold, Polished, Brushed (Source: \"Finishes: 24K Gold, Polished, Brushed\")",
+        "IP Rating": "IP64 (Source: \"IP Rating: IP64\"), EN54-24: EN 54-24:2008 compliant (Source: \"EN54-24: EN 54-24:2008 compliant\")"
+      }
+    },
+    "integrations": {
+      "Q-SYS": "To easily integrate K-array's latest electronics with any Q-SYS configuration. (Source: \"Q-SYS Q-SYS To easily integrate K-array's latest electronics with any Q-SYS configuration.\")",
+      "CONTROL 4": "Integrating K-array's latest electronics with any Control4 system has become easy. (Source: \"CONTROL 4 CONTROL 4 Integrating K-array's latest electronics with any Control4 system has become easy.\")",
+      "Crestron Home": "Make K-array ultra-sleek and unique products get along with your Crestron Home Control System. (Source: \"Crestron Home Crestron Home Make K-array ultra-sleek and unique products get along with your Crestron Home Control System.\")",
+      "Crestron": "The plug-in that gives your Crestron Electronics full control on K-array amps is finally out there! (Source: \"Crestron Crestron The plug-in that gives your Crestron Electronics full control on K-array amps is finally out there!\")",
+      "AMX by Harman": "K-array's latest electronics can be easily controlled by AMX modules as well now. (Source: \"AMX by Harman AMX by Harman K-array's latest electronics can be easily controlled by AMX modules as well now.\")",
+      "Dante Ready": "K-array's Dante Ready, a licensing program by Audinate. (Source: \"Dante Ready Dante Ready K-array's Dante Ready, a licensing program by Audinate.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Pinnacle-KR202 II system combines two 12\" subwoofers (Thunder-KS2 I + Thunder-KS2P I) with two Kobra-KK102 I pure 2\" line array column. Self-powered Thunder-KS2 I drives Kobra-KK102 I and passive Thunder-KS2P I. Thunder-KS2 I with DSP, K-array Connect mobile app for remote control, DSP parameters, performance boost. K-framework3 for managing and controlling units over wired LAN. Lightweight, flexible, elegant portable system, delivering pristine sound. Applications: lounge parties, private events, restaurants & cafes, yachts, and houses of worship. Thunder-KS2 I: Active subwoofer, 18\" neodymium woofer, 35-150/450 Hz Freq. Response, 137 dB Max SPL, Omni Coverage, 650x500x580 mm, 37.6 kg, IP53. Thunder-KS2P I: Passive subwoofer, 18\" neodymium woofer, 35-150/450 Hz Freq. Response, 137 dB Max SPL, 1400W peak Rated Power, Omni Coverage, 650x500x580 mm, 34 kg, IP54. Kobra-KK102 I: Line array, 16x 2\" neodymium woofers, 150-18 kHz Freq. Response, 126 dB Max SPL, 400 W Rated Power, V. 7°-35° | H. 120° Coverage, 59x1000x81 mm, 4.8 kg, IP64, EN54-24 compliant. Integrates with Q-SYS, CONTROL 4, Crestron Home, Crestron, AMX by Harman, Dante Ready.",
+    "semantic_chunks": [
+      "Pinnacle-KR202 II: portable system with two 12\" subwoofers (Thunder-KS2 I + Thunder-KS2P I) and two Kobra-KK102 I column loudspeakers.",
+      "Thunder-KS2 I: self-powered, drives Kobra-KK102 I and passive Thunder-KS2P I. DSP, K-array Connect app for remote control. K-framework3 for wired LAN management.",
+      "System benefits: lightweight, flexible, elegant, pristine sound. Applications: lounge parties, private events, restaurants & cafes, yachts, houses of worship.",
+      "Thunder-KS2 I Specs: Active subwoofer, 18\" neodymium woofer, 35-150/450 Hz Freq. Response, 137 dB Max SPL, Omni Coverage, 650x500x580 mm, 37.6 kg, IP53. Amplifier: 4-ch Class D, 4x 1500W @ 4ohm.",
+      "Thunder-KS2P I Specs: Passive subwoofer, 18\" neodymium woofer, 35-150/450 Hz Freq. Response, 137 dB Max SPL, 1400W peak Rated Power, Omni Coverage, 650x500x580 mm, 34 kg, IP54.",
+      "Kobra-KK102 I Specs: Line array, 16x 2\" neodymium woofers, 150-18 kHz Freq. Response, 126 dB Max SPL, 400 W Rated Power, V. 7°-35° | H. 120° Coverage, 59x1000x81 mm, 4.8 kg, IP64, EN54-24 compliant.",
+      "Integrations: Q-SYS, CONTROL 4, Crestron Home, Crestron, AMX by Harman, Dante Ready."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Pinnacle-KR202 II?",
+        "answer": "High-Tech, Lightweight Portable System."
+      },
+      {
+        "question": "What components make up the Pinnacle-KR202 II system?",
+        "answer": "One Thunder-KS2 I self-powered subwoofer, one Thunder-KS2P I passive subwoofer, and four Kobra-KK102 I pure 2\" line array columns."
+      },
+      {
+        "question": "What are the applications for the Pinnacle-KR202 II?",
+        "answer": "Lounge parties, private events, restaurants & cafes, yachts, and houses of worship."
+      },
+      {
+        "question": "What is the Max SPL of the Thunder-KS2 I subwoofer?",
+        "answer": "137 dB."
+      },
+      {
+        "question": "What is the Max SPL of the Kobra-KK102 I?",
+        "answer": "126 dB (peak)."
+      },
+      {
+        "question": "What is the IP rating of the Thunder-KS2 I?",
+        "answer": "IP53."
+      },
+      {
+        "question": "What is the IP rating of the Thunder-KS2P I?",
+        "answer": "IP54."
+      },
+      {
+        "question": "What is the IP rating of the Kobra-KK102 I?",
+        "answer": "IP64."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "K-array's Pinnacle-KR202 II - K-array (https://www.k-array.com/en/product/Pinnacle-KR202-II)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

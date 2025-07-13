@@ -1,0 +1,147 @@
+{
+  "id": "078",
+  "url": "https://www.k-array.com/en/product/rumble-ku212",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "RUMBLE_SERIES",
+    "product_line": "Rumble",
+    "model": "KU212",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KU212",
+      "Rumble",
+      "subwoofer"
+    ],
+    "technical": [
+      "neodymium transducer",
+      "passive transducer",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [
+      "aquatic environments"
+    ],
+    "unique_identifiers": [
+      "ku212"
+    ]
+  },
+  "content_sections": {
+    "description": "The Rumble-KU212 is an ultra-thin, high-power passive subwoofer from K-array. It features a 12” neodymium transducer and a 12” passive transducer, making it resistant to dust, sand, and water. The subwoofer is made entirely of steel, enhancing its durability, even in harsh weather conditions, and is suitable for aquatic environments. A Marine version with higher salt corrosion treatments is available upon request. The KU212's neodymium transducer has a double voice coil, offering two selectable impedance settings (4-16 Ω), allowing up to four units to be combined with a single amplifier channel at 4Ω. K-ARRAY Kommander amplifiers are recommended for optimal performance. All components are designed and custom-made by K-array in Italy.",
+    "specifications": {
+      "Type": "Passive subwoofer (Source: \"Type: Passive subwoofer\")",
+      "Transducers": "12\" neodymium magnet woofer, 12\" passive radiator (Source: \"Transducers: 12\\\" neodymium magnet woofer, 12\\\" passive radiator\")",
+      "Frequency Response": "35 Hz – 150 Hz (-6 dB) (Source: \"Frequency Response: 35 Hz – 150 Hz (-6 dB)\")",
+      "Max SPL": "130 dB (peak) (Source: \"Max SPL: 130 dB (peak)\")",
+      "Rated Power": "700 W (Source: \"Rated Power: 700 W\")",
+      "Coverage": "Omni (Source: \"Coverage: Omni\")",
+      "Connectors": "4PIN euroblock connector (Source: \"Connectors: 4PIN euroblock connector\")",
+      "Nominal Impedance": "4 Ω / 16 Ω selectable (Source: \"Nominal Impedance: 4 Ω / 16 Ω selectable\")",
+      "Material": "Stainless Steel (Source: \"Material: Stainless Steel\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64\")",
+      "Dimensions": "65.0 cm x 33.0 cm x 20.0 cm (25.8” x 13.0” x 7.9”) (Source: \"The dimensions of the KU212 are 65.0 cm x 33.0 cm x 20.0 cm (25.8” x 13.0” x 7.9”)\")",
+      "Weight": "18 kg (Source: \"it weighs 18 kg\")",
+      "Color Options": "black, white, or customizable RAL colors, with optional 24K Gold, Polished, or Brushed finishes (Source: \"It is available in black, white, or customizable RAL colors, with optional 24K Gold, Polished, or Brushed finishes.\")",
+      "Manufacturing": "All components are designed and custom-made by K-array in Italy. (Source: \"All components are designed and custom-made by K-array in Italy.\")"
+    },
+    "additional_resources": "The page also provides links to datasheets, user guides, DXF, DWG, PDF, and 3DS files, layout information, architect specs, EASE data, amp-to-speakers table, BIM files, and CE Declaration of Conformity. Related accessories are also listed."
+  },
+  "embedding_optimized": {
+    "searchable_text": "Rumble-KU212 is an ultra-thin, high-power passive subwoofer from K-array. It features a 12” neodymium transducer and a 12” passive transducer. Resistant to dust, sand, and water. Made entirely of steel for durability, suitable for aquatic environments. Marine version available. Double voice coil, two selectable impedance settings (4-16 Ω). Up to four units can be combined with a single amplifier channel at 4Ω. K-ARRAY Kommander amplifiers recommended. Dimensions: 65.0 cm x 33.0 cm x 20.0 cm (25.8” x 13.0” x 7.9”). Weight: 18 kg. Available in black, white, or customizable RAL colors, with optional 24K Gold, Polished, or Brushed finishes. Designed and custom-made by K-array in Italy. Specifications: Type: Passive subwoofer. Transducers: 12\" neodymium magnet woofer, 12\" passive radiator. Frequency Response: 35 Hz – 150 Hz (-6 dB). Max SPL: 130 dB (peak). Rated Power: 700 W. Coverage: Omni. Connectors: 4PIN euroblock connector. Nominal Impedance: 4 Ω / 16 Ω selectable. Material: Stainless Steel. IP Rating: IP64.",
+    "semantic_chunks": [
+      "Rumble-KU212: ultra-thin, high-power passive subwoofer from K-array.",
+      "Features: 12” neodymium transducer, 12” passive transducer. Resistant to dust, sand, water. Made of steel, suitable for aquatic environments. Marine version available.",
+      "Technical details: Double voice coil, selectable impedance (4-16 Ω). Up to four units per amplifier channel (4Ω). K-ARRAY Kommander amplifiers recommended.",
+      "Physical attributes: Dimensions 65.0 cm x 33.0 cm x 20.0 cm (25.8” x 13.0” x 7.9”). Weight 18 kg. Colors: black, white, customizable RAL, optional 24K Gold, Polished, Brushed finishes.",
+      "Manufacturing: Designed and custom-made by K-array in Italy.",
+      "Specifications: Type: Passive subwoofer. Transducers: 12\" neodymium magnet woofer, 12\" passive radiator. Frequency Response: 35 Hz – 150 Hz (-6 dB). Max SPL: 130 dB (peak). Rated Power: 700 W. Coverage: Omni. Connectors: 4PIN euroblock connector. Nominal Impedance: 4 Ω / 16 Ω selectable. Material: Stainless Steel. IP Rating: IP64."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Rumble-KU212?",
+        "answer": "Passive subwoofer."
+      },
+      {
+        "question": "What transducers does the Rumble-KU212 have?",
+        "answer": "12\" neodymium magnet woofer, 12\" passive radiator."
+      },
+      {
+        "question": "What is the frequency response of the Rumble-KU212?",
+        "answer": "35 Hz – 150 Hz (-6 dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Rumble-KU212?",
+        "answer": "130 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Rumble-KU212?",
+        "answer": "700 W."
+      },
+      {
+        "question": "What is the coverage of the Rumble-KU212?",
+        "answer": "Omni."
+      },
+      {
+        "question": "What connectors does the Rumble-KU212 use?",
+        "answer": "4PIN euroblock connector."
+      },
+      {
+        "question": "What are the nominal impedance options for the Rumble-KU212?",
+        "answer": "4 Ω / 16 Ω selectable."
+      },
+      {
+        "question": "What material is the Rumble-KU212 made of?",
+        "answer": "Stainless Steel."
+      },
+      {
+        "question": "What is the IP rating of the Rumble-KU212?",
+        "answer": "IP64."
+      },
+      {
+        "question": "What are the dimensions of the Rumble-KU212?",
+        "answer": "65.0 cm x 33.0 cm x 20.0 cm (25.8” x 13.0” x 7.9”)."
+      },
+      {
+        "question": "What is the weight of the Rumble-KU212?",
+        "answer": "18 kg."
+      },
+      {
+        "question": "What color options are available for the Rumble-KU212?",
+        "answer": "Black, white, or customizable RAL colors, with optional 24K Gold, Polished, or Brushed finishes."
+      },
+      {
+        "question": "Where are the components of the Rumble-KU212 manufactured?",
+        "answer": "All components are designed and custom-made by K-array in Italy."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Rumble-KU212: Passive Subwoofer with 2 x 12\" Drivers - K-array (https://www.k-array.com/en/product/rumble-ku212)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

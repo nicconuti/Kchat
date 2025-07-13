@@ -1,0 +1,51 @@
+{
+  "id": "151",
+  "url": "https://www.k-array.com/en/product/kk50",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "OTHER",
+    "product_line": "Kobra",
+    "model": "KK50",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KK50", "Kobra", "line array", "speaker"],
+    "technical": ["neodymium transducers", "impedance", "dispersion pattern"],
+    "applications": [],
+    "unique_identifiers": ["kk50"]
+  },
+  "content_sections": {
+    "description": "The KK50 is a compact, line array element comprised of 8 x 2” neodymium transducers in a strong stainless steel chassis. Its wide dispersion pattern can be configured horizontally or vertically. A number of KK50 speakers can also be put together in multiple array configurations. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "50 cm Module Ultra-Slim, High Power (Source: "__50 cm Module Ultra-Slim, High Power__")",
+      "Status": "DISCONTINUED (Source: "KK50 (DISCONTINUED)")",
+      "Transducers": "8 x 2” neodymium transducers (Source: "comprised of 8 x 2” neodymium transducers")",
+      "Material": "strong stainless steel chassis (Source: "in a strong stainless steel chassis")",
+      "Dispersion Pattern": "wide (Source: "Its wide dispersion pattern")",
+      "Configurability": "horizontally or vertically (Source: "can be confi gured horizontally or vertically")",
+      "Impedance": "Selectable 16 Ohm or 64 Ohm (Source: "Selectable 16 Ohm or 64 Ohm impedance")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "KK50 is a DISCONTINUED compact, line array element. Comprised of 8 x 2” neodymium transducers in a strong stainless steel chassis. Wide dispersion pattern, configurable horizontally or vertically. Multiple KK50 speakers can be put together in multiple array configurations. Selectable 16 Ohm or 64 Ohm impedance. Type: 50 cm Module Ultra-Slim, High Power.",
+    "semantic_chunks": [
+      "KK50: DISCONTINUED compact, line array element.",
+      "Components: 8x 2” neodymium transducers in stainless steel chassis.",
+      "Features: Wide dispersion, configurable horizontally/vertically. Multiple array configurations. Selectable 16Ω/64Ω impedance.",
+      "Type: 50 cm Module Ultra-Slim, High Power."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the KK50?", "answer": "50 cm Module Ultra-Slim, High Power / Line array element."},
+      {"question": "What is the status of the KK50?", "answer": "DISCONTINUED."},
+      {"question": "How many transducers does the KK50 have?", "answer": "8 x 2” neodymium transducers."},
+      {"question": "What material is the KK50 chassis made of?", "answer": "Strong stainless steel."},
+      {"question": "What are the impedance options for the KK50?", "answer": "Selectable 16 Ohm or 64 Ohm."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "KK50 - K-array (https://www.k-array.com/en/product/kk50)"}
+  ]
+}

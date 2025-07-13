@@ -1,0 +1,174 @@
+{
+  "id": "182",
+  "url": "https://www.k-array.com/en/application/theme-parks",
+  "timestamp": "2025-07-12T12:55:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "THEME_PARKS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "theme parks",
+      "thrill seekers",
+      "adrenaline junkies",
+      "fun-loving families",
+      "adventurous friends"
+    ],
+    "technical": [
+      "waterproof speakers",
+      "weather resistant",
+      "durable",
+      "outdoor exposure",
+      "premium materials"
+    ],
+    "applications": [
+      "water parks",
+      "roller coaster rides",
+      "outdoor fair environments",
+      "dome ride theatre"
+    ],
+    "products": [
+      "Anakonda-KAN200",
+      "Tornado-KT2",
+      "Kobra-KK52 I",
+      "Kobra-KK102 I",
+      "Thunder-KMT12P"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "target_audience": "From thrill seekers and adrenaline junkies to fun-loving families and adventurous friends",
+      "key_challenge": "Providing durable audio solutions for outdoor environments",
+      "solution": "Waterproof speakers for water parks and durable, weather resistant sound systems"
+    },
+    "recommended_products": [
+      {
+        "product": "Anakonda-KAN200",
+        "use_case": "Outdoor theme park installations requiring high durability"
+      },
+      {
+        "product": "Tornado-KT2",
+        "use_case": "Weather-resistant theme park audio systems"
+      },
+      {
+        "product": "Kobra-KK52 I",
+        "use_case": "Water park and outdoor entertainment audio"
+      },
+      {
+        "product": "Kobra-KK102 I",
+        "use_case": "Durable outdoor theme park applications"
+      },
+      {
+        "product": "Thunder-KMT12P",
+        "use_case": "High-power outdoor theme park audio"
+      }
+    ],
+    "installation_scenarios": {
+      "environmental_requirements": "Withstand wear and tear of outdoor exposure day in and day out",
+      "design_consideration": "Premium materials for reliability",
+      "venue_types": [
+        "Water parks",
+        "Roller coaster rides",
+        "Outdoor fair environments",
+        "Dome ride theatres"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Sea World Abu Dhabi",
+        "venue_type": "World's first 360-degree Dome Ride Theatre",
+        "products_used": [
+          "Anakonda-KAN200",
+          "Tornado-KT2"
+        ]
+      },
+      {
+        "name": "Kristiansand Zoo and Amusement Park",
+        "venue_type": "Exhibition re-enactment",
+        "products_used": [
+          "Anakonda-KAN200",
+          "Kommander-KA24",
+          "Thunder-KMT12P"
+        ]
+      },
+      {
+        "name": "Butlin's Bognor Regis Waterpark",
+        "venue_type": "Family entertainment splash pool",
+        "products_used": [
+          "Multiple Kobra and Thunder series speakers"
+        ]
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "theme parks thrill seekers adrenaline junkies fun-loving families adventurous friends waterproof speakers weather resistant durable outdoor exposure premium materials water parks roller coaster rides dome ride theatre Anakonda-KAN200 Tornado-KT2 Kobra-KK52 I Kobra-KK102 I Thunder-KMT12P Sea World Abu Dhabi Kristiansand Zoo Amusement Park Butlin's Bognor Regis Waterpark",
+    "semantic_chunks": [
+      "Theme parks serve thrill seekers, adrenaline junkies, fun-loving families, and adventurous friends requiring durable outdoor audio solutions",
+      "Key challenge is providing waterproof speakers for water parks and weather-resistant sound systems that withstand outdoor exposure",
+      "Recommended products include Anakonda-KAN200, Tornado-KT2, Kobra-KK52 I, Kobra-KK102 I, and Thunder-KMT12P with premium materials",
+      "Applications include water parks, roller coaster rides, outdoor fair environments, and dome ride theatres",
+      "Case studies include Sea World Abu Dhabi (360-degree Dome Ride Theatre), Kristiansand Zoo, and Butlin's Bognor Regis Waterpark"
+    ],
+    "qa_pairs": [
+      {
+        "q": "Who are the target audiences for theme park audio?",
+        "a": "From thrill seekers and adrenaline junkies to fun-loving families and adventurous friends"
+      },
+      {
+        "q": "What is the key challenge in theme park audio?",
+        "a": "Providing durable audio solutions for outdoor environments that withstand wear and tear day in and day out"
+      },
+      {
+        "q": "What solutions does K-Array provide for theme parks?",
+        "a": "Waterproof speakers for water parks and durable, weather resistant sound systems"
+      },
+      {
+        "q": "What K-Array products are recommended for theme parks?",
+        "a": "Anakonda-KAN200, Tornado-KT2, Kobra-KK52 I, Kobra-KK102 I, and Thunder-KMT12P"
+      },
+      {
+        "q": "What are examples of K-Array theme park installations?",
+        "a": "Sea World Abu Dhabi (360-degree Dome Ride Theatre), Kristiansand Zoo and Amusement Park, and Butlin's Bognor Regis Waterpark"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "From thrill seekers and adrenaline junkies to fun-loving families and adventurous friends",
+      "source": "Direct quote from Theme Parks page target audience description"
+    },
+    {
+      "claim": "Waterproof speakers for water parks and durable, weather resistant sound systems",
+      "source": "Direct quote from Theme Parks page solution description"
+    },
+    {
+      "claim": "Withstand wear and tear of outdoor exposure day in and day out",
+      "source": "Direct quote from environmental requirements section"
+    },
+    {
+      "claim": "K-array [is] one of the most reliable brands on the market",
+      "source": "Direct quote from unique selling proposition"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

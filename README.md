@@ -1,167 +1,327 @@
-# Kchat
+# 🎵 K-Array Expert Chat System
 
-Chatbot agentico per l'assistenza clienti. Il progetto fornisce una serie di agenti modulari che operano completamente in locale sfruttando modelli serviti tramite Ollama. Le funzionalità comprendono gestione ticket, recupero documenti, generazione di preventivi e interazione multilingua.
+Sistema di chat avanzato per informazioni tecniche sui prodotti K-Array con intelligenza artificiale **zero-allucinazioni** e architettura completamente dinamica.
 
-## Intenti supportati
+## 🚀 Quick Start
 
-| **Intent**                    | **Descrizione**                                              | **Esempio utente**                                      |
-| ----------------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
-| `technical_support_request`   | L'utente ha un problema tecnico con un prodotto o servizio esistente | *"Il mio dispositivo non si accende più, potete aiutarmi?"* |
-| `product_information_request` | L'utente chiede informazioni dettagliate su un prodotto o servizio   | *"Questo modello supporta il Bluetooth?"*               |
-| `cost_estimation`               | L'utente vuole un preventivo o informazioni su prezzi                | *"Mi potete fare un preventivo per XXX modello?"*       |
-| `booking_or_schedule`         | Richiesta di fissare un appuntamento o una demo                       | *"Vorrei fissare un incontro con un tecnico"*           |
-| `document_request`            | L'utente chiede un documento o un manuale                             | *"Potrei avere il manuale in PDF?"*                     |
-| `open_ticket`                 | L'utente chiede esplicitamente di aprire un ticket                   | *"Aprite un ticket per favore"*                         |
-| `complaint`                   | L'utente esprime un reclamo formale                                 | *"Il prodotto è arrivato danneggiato"*                  |
-| `generic_smalltalk`           | Input non classificabile (saluti, test, ecc.)                        | *"Ciao, è previsto qualche evento?"*                    |
-
-## Introduzione
-
-Kchat è concepito per funzionare interamente in locale senza dipendenze da servizi cloud. Ogni messaggio utente viene analizzato e gestito da più agenti specializzati che cooperano tramite il contesto condiviso `AgentContext` (`agents/context.py`). I modelli LLM sono serviti da Ollama e permettono l'elaborazione in più lingue.
-
-### Installazione rapida
-
-Per poter eseguire correttamente i test (`pytest`, `ruff .`, `mypy .`) è
-necessario installare prima tutte le dipendenze elencate in
-`requirements.txt` (ad esempio `python-json-logger`, `python-docx`,
-`openpyxl`, `qdrant-client`). L'esecuzione dei test senza questi pacchetti
-fallirà.
+### 1. **Installazione Dipendenze**
 
 ```bash
+# Clone del repository (se necessario)
+cd /path/to/retrival
+
+# Installa le dipendenze Python
 pip install -r requirements.txt
 ```
 
-## Architettura ad Agenti
+### 2. **Configurazione API Keys**
 
-Gli agenti principali sono:
-- **LanguageAgent** – identifica la lingua e il tono del messaggio.
-- **TranslationAgent** – traduce testo e risposte quando necessario.
-- **IntentAgent** – classifica l'intento dell'utente tramite regole e modelli.
-- **DocumentRetrieverAgent** – recupera documenti pertinenti dal database locale.
-- **ResponseAgent** – genera la risposta finale, eventuali azioni e citazioni.
-- **VerificationAgent** – convalida la risposta generata.
-- **ClarificationAgent** – pone domande di chiarimento in caso di dubbio.
-- **OrchestratorAgent** – coordina la sequenza di agenti da eseguire.
+Crea un file `.env` nella root del progetto:
 
-## Workflow
+```bash
+# Copia il template
+cp .env.example .env
 
-Di seguito è riportato il flusso standard orchestrato da `OrchestratorAgent`.
-
-```mermaid
-graph TD
-    A[Utente] -->|messaggio| B[Orchestrator]
-    B --> C[LanguageAgent]
-    C --> D[TranslationAgent]
-    D --> E[IntentAgent]
-    E -->|ok| F[DocumentRetrieverAgent]
-    E -->|nessun intento| G[ClarificationAgent]
-    F --> H[ResponseAgent]
-    G --> H
-    H --> I[VerificationAgent]
-    I --> J[TranslationAgent]
-    J --> K[Risposta]
+# Modifica il file .env con le tue API keys
+nano .env
 ```
 
-Il diagramma mostra la sequenza tipica: il messaggio passa per l'identificazione della lingua, l'eventuale traduzione, la classificazione dell'intento e il recupero documentale. La risposta viene quindi verificata e tradotta nella lingua desiderata.
+Contenuto `.env`:
+```env
+# API Keys (almeno una richiesta)
+GEMINI_API_KEY=your_gemini_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 
-### Schema di memoria condivisa
+# Configurazione LLM
+DEFAULT_LLM_PROVIDER=gemini  # o "openai"
 
-Tutti gli agenti leggono e scrivono dati nel medesimo `AgentContext`:
+# Vector Store (opzionale - usa mock se non configurato)
+CHROMA_PERSIST_DIRECTORY=./data/chroma_db
+```
+
+### 3. **Setup Sistema (Prima Esecuzione)**
+
+```bash
+# Inizializza configurazioni dinamiche
+python3 src/dynamic_config.py
+
+# Setup vector store e verifica configurazione
+python3 setup_chat.py
+```
+
+### 4. **Avvio Sistema Chat**
+
+```bash
+# Lancia il sistema di chat
+python3 k_array_chat.py
+```
+
+🌐 **Il sistema sarà disponibile su**: http://localhost:7860
+
+## 📋 Dipendenze
+
+### **Dipendenze Obbligatorie**
+```
+gradio>=4.0.0
+google-generativeai>=0.3.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+```
+
+### **Dipendenze Opzionali (Performance Avanzate)**
+```bash
+# Per reranking cross-encoder (migliora qualità)
+pip install sentence-transformers
+
+# Per vector store Milvus (performance superiori)
+pip install pymilvus
+
+# Per embedding locali
+pip install transformers torch
+```
+
+## ⚙️ Configurazione Avanzata
+
+### **File di Configurazione**
+
+Il sistema usa configurazioni dinamiche in:
+
+- `config/dynamic_config.json` - Configurazione principale
+- `config/domain_knowledge.json` - Conoscenza prodotti K-Array
+
+### **Esempio dynamic_config.json**
 
 ```json
 {
-  "user_id": "abc123",
-  "session_id": "sess-456",
-  "input": "User message here",
-  "language": "it",
-  "intent": "cost_estimation",
-  "confidence": 0.84,
-  "documents": [...],
-  "response": "Final LLM response",
-  "clarification_attempted": true
+  "retrieval": {
+    "exact_product_weight": 0.25,
+    "qa_pairs_weight": 0.20,
+    "technical_specs_weight": 0.18,
+    "enable_semantic_expansion": true
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 7860,
+    "debug": true
+  },
+  "llm": {
+    "default_temperature": 0.7,
+    "enable_query_intelligence": true
+  }
 }
 ```
 
-## Mappatura dei log
+### **Personalizzazione Prodotti**
 
-Ogni agente scrive log dedicati nella cartella `logs/`:
+Modifica `config/domain_knowledge.json` per aggiungere nuovi prodotti K-Array:
 
-| File di log               | Modulo                             |
-| ------------------------- | ---------------------------------- |
-| `orchestration_trace.log` | `agents/orchestrator_agent.py`     |
-| `lang_log.log`            | `agents/language_agent.py`         |
-| `translation_log.log`     | `agents/translation_agent.py`      |
-| `intent_log.log`          | `agents/intent_agent.py`           |
-| `retrieval_log.log`       | `agents/document_retriever_agent.py` |
-| `chat_log.log`            | `agents/response_agent.py`         |
-| `clarification_log.log`   | `agents/clarification_agent.py`    |
-| `validation_log.log`      | `agents/verification_agent.py`     |
-| `quotation_log.log`       | `agents/quotation_agent.py`        |
-| `ingest_log.log`          | `agents/embedding_ingestor_agent.py` |
-| `action_log.log`          | `agents/action_agent.py`           |
-| `supervisor_log.log`      | `agents/supervisor_agent.py`       |
-| `pipeline_<pid>.log`      | `knowledge_pipeline/logging_config.py` |
-
-Ogni record include campi aggiuntivi come `confidence_score`, `source_reliability`, `clarification_attempted` ed `error_flag` grazie al sistema di logging definito in `utils/logger.py`.
-
-
-## Pipeline di ingestione della conoscenza
-
-Il modulo `knowledge_pipeline` sostituisce il vecchio pacchetto di categorizzazione e permette di scansionare directory o archivi ZIP generando chunk arricchiti pronti per l'indicizzazione.
-
-### Utilizzo da riga di comando
-
-```bash
-python knowledge_pipeline.py percorso_documenti --output risultato.jsonl
-```
-La pipeline riconosce le seguenti categorie principali:
-- `tech_assistance`
-- `software_assistance`
-- `product_price`
-- `product_guide`
-
-Se non viene indicato `--output`, il file predefinito è `knowledge_base_reliable.jsonl`. I documenti vengono classificati tramite LLM, suddivisi in chunk e arricchiti con riassunti e possibili domande. I file problematici o con classificazioni poco affidabili vengono copiati nella cartella `quarantine/` insieme a un file con il motivo della quarantena.
-
-Il log dettagliato dell'esecuzione è scritto in `logs/pipeline_<pid>.log`. Ogni riga dell'output JSON Lines contiene `chunk_id`, `content` e `metadata` (es. `category`, `classification_confidence`, `chunk_summary`).
-## Gestione CSV
-
-Per analizzare file CSV dalla struttura non prevedibile è disponibile il modulo
-`utils/csv_utils.py` che offre due funzioni principali:
-
-- `load_csv(path)`: carica il file tramite Pandas restituendo una lista di
-  dizionari, generando nomi di colonna automatici se mancanti.
-- `summarize_csv(path)`: usa `call_mistral` per produrre una breve descrizione
-  delle colonne presenti.
-
-## Come eseguire il debug
-
-1. **Esecuzione interattiva**: avviare `python main.py` e interagire con il bot dalla console. I log saranno salvati in `logs/`.
-2. **Modalità test**: eseguire `pytest -vv` per lanciare i test unitari. In caso di errore si può aggiungere l'opzione `-s` per vedere l'output dettagliato.
-3. **PDB**: inserire `import pdb; pdb.set_trace()` nel codice da analizzare oppure avviare l'applicazione con `python -m pdb main.py`.
-4. **Analisi dei log**: consultare i file in `logs/` per verificare la sequenza dei passi e individuare errori marcati con `error_flag`.
-
-Per la verifica statica del codice sono disponibili i seguenti comandi:
-
-```bash
-ruff .
-mypy .
-pytest
+```json
+{
+  "product_series": {
+    "kommander": ["ka02i", "ka04", "ka08", "ka102", "ka104"],
+    "lyzard": ["kz1", "kz7", "kz14", "kz26"],
+    "nuova_serie": ["nuovo_prodotto1", "nuovo_prodotto2"]
+  }
+}
 ```
 
-L'esecuzione di tali strumenti aiuta a intercettare errori di stile, problemi di tipizzazione e test falliti.
+## 🧪 Testing
 
-## Requisiti di Sistema
-- Python >= 3.9
-
-## Setup Ambiente Virtuale
+### **Test Completi**
 ```bash
-# Creare ambiente virtuale
-python -m venv venv
+# Test sistema query intelligence
+python3 test_query_intelligence.py
 
-# Attivare ambiente virtuale
-source venv/bin/activate  # Linux/Mac
-.\venv\Scripts\activate   # Windows
+# Test integrazione completa
+python3 test_integration.py
 
-# Installare dipendenze
-pip install -r requirements.txt
+# Test singoli componenti
+python3 test_phase1.py  # Vector store
+python3 test_phase2.py  # Reranking
+python3 test_phase3.py  # Multi-vector
 ```
+
+### **Test Rapido Funzionalità**
+```bash
+# Verifica configurazione
+python3 -c "from src.config import Config; print('✅ Config OK')"
+
+# Test LLM connectivity
+python3 -c "from src.llm_manager import LLMManager; llm = LLMManager(); print('✅ LLM OK')"
+```
+
+## 🏗️ Architettura Sistema
+
+### **Componenti Principali**
+
+```
+📁 K-Array Chat System
+├── 🧠 Query Intelligence Layer (LLM-powered)
+│   ├── Rilevazione linguistica automatica
+│   ├── Analisi intent dinamica
+│   └── Ottimizzazione query
+├── 🔍 Multi-Vector Retrieval (6 strategie)
+│   ├── Exact Product Match
+│   ├── QA Pairs
+│   ├── Technical Specs
+│   ├── Semantic Chunks
+│   ├── Searchable Content
+│   └── Hybrid Search
+├── 🎯 Cross-Encoder Reranking
+├── 💾 Vector Store (Milvus/ChromaDB)
+└── 🤖 Response Engine (Zero-hallucination)
+```
+
+### **Flusso Dati**
+
+```mermaid
+graph LR
+    A[Query Utente] --> B[Query Intelligence]
+    B --> C[Multi-Vector Retrieval]
+    C --> D[Cross-Encoder Reranking]
+    D --> E[Response Generation]
+    E --> F[Risposta Finale]
+```
+
+## 🛠️ Comandi Utili
+
+### **Gestione Sistema**
+```bash
+# Riavvia con configurazioni aggiornate
+python3 k_array_chat.py
+
+# Forza refresh conoscenza dominio
+python3 -c "from src.query_intelligence import QueryIntelligenceEngine; QueryIntelligenceEngine().get_domain_knowledge(force_refresh=True)"
+
+# Aggiorna pesi retrieval
+python3 -c "from src.dynamic_config import dynamic_config; dynamic_config.update_retrieval_weights({'exact_product_weight': 0.3})"
+```
+
+### **Monitoring e Debug**
+```bash
+# Visualizza logs
+tail -f data/chat_system.log
+
+# Verifica statistiche vector store
+python3 -c "from src.enhanced_vector_store import EnhancedVectorStore; print(EnhancedVectorStore().get_stats())"
+```
+
+## 🔧 Troubleshooting
+
+### **Problemi Comuni**
+
+#### ❌ **"API key not found"**
+```bash
+# Verifica file .env
+cat .env | grep API_KEY
+
+# Verifica variabili ambiente
+echo $GEMINI_API_KEY
+```
+
+#### ❌ **"Milvus connection failed"**
+```bash
+# Sistema usa fallback automatico a mock
+# Per Milvus locale:
+docker run -d --name milvus -p 19530:19530 milvusdb/milvus:latest
+```
+
+#### ❌ **"CrossEncoder not available"**
+```bash
+# Installa dipendenze opzionali
+pip install sentence-transformers
+```
+
+#### ❌ **"Configuration file not found"**
+```bash
+# Ricrea configurazioni
+python3 src/dynamic_config.py
+```
+
+### **Performance Tuning**
+
+#### 🚀 **Ottimizzazione Velocità**
+```json
+// config/dynamic_config.json
+{
+  "retrieval": {
+    "enable_semantic_expansion": false,
+    "enable_reranking": false
+  }
+}
+```
+
+#### 🎯 **Ottimizzazione Qualità**
+```json
+{
+  "retrieval": {
+    "exact_product_weight": 0.35,
+    "enable_semantic_expansion": true,
+    "semantic_weight": 0.8
+  }
+}
+```
+
+## 📊 Monitoraggio
+
+### **Metriche Disponibili**
+- Confidence score retrieval
+- Numero strategie attivate
+- Tempo risposta LLM
+- Qualità reranking
+- Cache hit ratio
+
+### **Dashboard Gradio**
+Il sistema include un dashboard integrato con:
+- 📈 Statistiche sistema in tempo reale
+- 🔍 Info retrieval per query
+- ⚙️ Stato configurazioni
+- 🧠 Provider LLM attivo
+
+## 🔒 Sicurezza
+
+### **Best Practices Implementate**
+- ✅ API keys mai esposte nei log
+- ✅ Validazione input robusto
+- ✅ Configurazione sensibile protetta
+- ✅ Fallback sicuri per tutte le dipendenze
+
+### **Configurazione Produzione**
+```json
+{
+  "server": {
+    "host": "0.0.0.0",
+    "debug": false,
+    "share": false
+  }
+}
+```
+
+## 🆘 Supporto
+
+### **Documentazione Avanzata**
+- `CLAUDE.md` - Guida sviluppatore
+- `SYSTEM_VERIFICATION_REPORT.md` - Report tecnico completo
+
+### **Esempi Query**
+- "Quali sono le specifiche del Kommander KA104?"
+- "Prodotti consigliati per installazioni in hotel"
+- "Differenze tra serie Lyzard e Vyper"
+- "Come installare sistemi per teatri?"
+
+### **Contatti**
+Per supporto tecnico o segnalazione bug, consulta la documentazione o crea un issue nel repository.
+
+---
+
+## 🎯 **Sistema Pronto!**
+
+Con questa configurazione hai un sistema K-Array Chat completamente funzionale con:
+- 🧠 **Intelligenza LLM avanzata**
+- 🔍 **Retrieval multi-strategia**
+- ⚙️ **Configurazione dinamica**
+- 🛡️ **Zero-hallucination garantito**
+- 🚀 **Performance ottimizzate**
+
+**Buon utilizzo del sistema K-Array Expert Chat!** 🎵

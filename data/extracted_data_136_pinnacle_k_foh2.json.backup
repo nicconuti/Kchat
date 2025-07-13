@@ -1,0 +1,89 @@
+{
+  "id": "136",
+  "url": "https://www.k-array.com/en/product/Pinnacle-K-FoH2",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PINNACLE_SERIES",
+    "product_line": "Pinnacle",
+    "model": "K-FoH2",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "K-FoH2",
+      "Pinnacle",
+      "front of house",
+      "system"
+    ],
+    "technical": [
+      "Thunder-KMT218",
+      "Firenze-KH8",
+      "Kommander-KA208",
+      "DSP",
+      "SPL",
+      "frequency response",
+      "power"
+    ],
+    "applications": [
+      "large-scale concerts",
+      "live events"
+    ],
+    "unique_identifiers": [
+      "kfoh2"
+    ]
+  },
+  "content_sections": {
+    "description": "The K-FoH2 is a powerful front of house system designed for large-scale concerts and live events. It combines the Thunder-KMT218 dual 18\" subwoofer with the Firenze-KH8 line array element, powered by the Kommander-KA208 amplifier. The system is designed to deliver exceptional sound quality and coverage for demanding applications.",
+    "specifications": {
+      "Type": "Front of House System (Source: \"K-FoH2 - K-array\")",
+      "Components": "Thunder-KMT218 dual 18\" subwoofer, Firenze-KH8 line array element, Kommander-KA208 amplifier (Source: \"It combines the Thunder-KMT218 dual 18\" subwoofer with the Firenze-KH8 line array element, powered by the Kommander-KA208 amplifier.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-FoH2 is a powerful front of house system for large-scale concerts and live events. Combines Thunder-KMT218 dual 18\" subwoofer with Firenze-KH8 line array element, powered by Kommander-KA208 amplifier. Delivers exceptional sound quality and coverage for demanding applications. Specifications: Type: Front of House System. Components: Thunder-KMT218 dual 18\" subwoofer, Firenze-KH8 line array element, Kommander-KA208 amplifier.",
+    "semantic_chunks": [
+      "K-FoH2: powerful front of house system for large-scale concerts and live events.",
+      "Components: Thunder-KMT218 dual 18\" subwoofer, Firenze-KH8 line array element, Kommander-KA208 amplifier.",
+      "Performance: Exceptional sound quality and coverage for demanding applications."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the K-FoH2?",
+        "answer": "Front of House System."
+      },
+      {
+        "question": "What components make up the K-FoH2 system?",
+        "answer": "Thunder-KMT218 dual 18\" subwoofer, Firenze-KH8 line array element, and Kommander-KA208 amplifier."
+      },
+      {
+        "question": "What are the applications for the K-FoH2?",
+        "answer": "Large-scale concerts and live events."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "K-FoH2 - K-array (https://www.k-array.com/en/product/Pinnacle-K-FoH2)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

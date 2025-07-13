@@ -1,0 +1,174 @@
+{
+  "id": "187",
+  "url": "https://www.k-array.com/en/application/broadcast-and-studios",
+  "timestamp": "2025-07-12T13:20:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "BROADCAST_AND_STUDIOS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "broadcast television",
+      "stir up excitement",
+      "TV studios",
+      "filming sets",
+      "live TV productions"
+    ],
+    "technical": [
+      "invisible line arrays",
+      "slim PA system",
+      "meters-long speakers",
+      "hide in plain sight"
+    ],
+    "applications": [
+      "center stage monitors",
+      "front fill",
+      "stage monitors",
+      "TV production environments"
+    ],
+    "products": [
+      "Anakonda-KAN200",
+      "Python-KP102 I",
+      "Azimut-KAMUT2V25 II",
+      "Rumble-KU212",
+      "Truffle-KTR26",
+      "Vyper-KV25 II"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "market_description": "Broadcast television can still stir up more excitement in more ways than any other medium",
+      "key_challenges": "Technical difficulties, high-end audio performance requirements",
+      "venue_types": [
+        "Live TV productions",
+        "TV studios",
+        "Filming sets"
+      ]
+    },
+    "recommended_products": [
+      {
+        "product": "Anakonda-KAN200",
+        "use_case": "Large TV studio installations"
+      },
+      {
+        "product": "Python-KP102 I",
+        "use_case": "TV studio line array systems"
+      },
+      {
+        "product": "Azimut-KAMUT2V25 II",
+        "use_case": "Compact TV studio audio"
+      },
+      {
+        "product": "Rumble-KU212",
+        "use_case": "TV studio subwoofer applications"
+      },
+      {
+        "product": "Truffle-KTR26",
+        "use_case": "Discreet TV studio subwoofers"
+      },
+      {
+        "product": "Vyper-KV25 II",
+        "use_case": "TV studio monitor systems"
+      }
+    ],
+    "product_characteristics": [
+      "Invisible line arrays",
+      "Slim PA system",
+      "Meters-long speakers",
+      "Can be used as center stage monitors, front fill, stage monitors"
+    ],
+    "installation_scenarios": {
+      "design_considerations": [
+        "Ability to hide speakers in plain sight",
+        "Flexible positioning across stage",
+        "Adaptable to different TV production environments"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "Eurovision TV Broadcast"
+      },
+      {
+        "name": "I Am a Singer TV Show",
+        "location": "China"
+      },
+      {
+        "name": "Star TV2 Broadcast"
+      },
+      {
+        "name": "China CCTV Media Center"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "broadcast television stir up excitement TV studios filming sets live TV productions invisible line arrays slim PA system meters-long speakers hide in plain sight center stage monitors front fill stage monitors flexible positioning TV production environments Anakonda-KAN200 Python-KP102 I Azimut-KAMUT2V25 II Rumble-KU212 Truffle-KTR26 Vyper-KV25 II Eurovision TV Broadcast I Am a Singer China Star TV2 CCTV Media Center",
+    "semantic_chunks": [
+      "Broadcast television can still stir up more excitement than any other medium, requiring high-end audio performance for TV studios and filming sets",
+      "K-Array provides invisible line arrays, slim PA systems, and meters-long speakers that can hide in plain sight for TV productions",
+      "Products serve as center stage monitors, front fill, and stage monitors with flexible positioning across different TV production environments",
+      "Recommended products include Anakonda-KAN200, Python-KP102 I, Azimut-KAMUT2V25 II, Rumble-KU212, Truffle-KTR26, and Vyper-KV25 II",
+      "Case studies include Eurovision TV Broadcast, I Am a Singer TV Show (China), Star TV2 Broadcast, and China CCTV Media Center"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's view on broadcast television?",
+        "a": "Broadcast television can still stir up more excitement in more ways than any other medium"
+      },
+      {
+        "q": "What are the key challenges in broadcast audio?",
+        "a": "Technical difficulties and high-end audio performance requirements"
+      },
+      {
+        "q": "What are the characteristics of K-Array broadcast products?",
+        "a": "Invisible line arrays, slim PA system, meters-long speakers that can hide in plain sight"
+      },
+      {
+        "q": "What K-Array products are recommended for broadcast?",
+        "a": "Anakonda-KAN200, Python-KP102 I, Azimut-KAMUT2V25 II, Rumble-KU212, Truffle-KTR26, and Vyper-KV25 II"
+      },
+      {
+        "q": "What are examples of K-Array broadcast installations?",
+        "a": "Eurovision TV Broadcast, I Am a Singer TV Show (China), Star TV2 Broadcast, and China CCTV Media Center"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Broadcast television can still stir up more excitement in more ways than any other medium",
+      "source": "Direct quote from broadcast market description"
+    },
+    {
+      "claim": "Invisible line arrays",
+      "source": "Direct quote from product characteristics"
+    },
+    {
+      "claim": "Hide speakers in plain sight",
+      "source": "Direct quote from design considerations"
+    },
+    {
+      "claim": "K-array has a range of unique solutions TV studios and filming crews alike can rely upon",
+      "source": "Direct quote from application summary"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "097",
+  "url": "https://www.k-array.com/en/product/firenze-kh8",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "FIRENZE_SERIES",
+    "product_line": "Firenze",
+    "model": "KH8",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KH8", "Firenze", "line array", "touring system"],
+    "technical": ["Slim Array Technology", "Electronic Beam Steering", "neodymium magnet woofer", "compression driver", "DSP", "SPL", "IP45", "IP65"],
+    "applications": ["live sound"],
+    "unique_identifiers": ["kh8"]
+  },
+  "content_sections": {
+    "description": "The Firenze-KH8 is a powerful, top-of-the-line touring system featuring Slim Array Technology (SAT) and Electronic Beam Steering (EBS). Self-powered and weather resistant, the KH8 produces an exceptional peak output of 145 dB SPL and is fully controlled by 8 onboard DSPs for maximum operational flexibility offering a unique solution to the live sound market. The state-of-the-art rigging system allows you to pre-cable stacks of 3 units to fly a straight 24-unit cluster in less than 10 minutes. This is possible because it is not necessary to dismount the entire cluster: the speakers are anchored in groups of three within rigid frames that can be connected quickly to create longer clusters. Compared to traditional systems that require wiring and a mechanical connection for each speaker, the KH8 cuts down on time for a cost-sensitive solution. Our Firenze-KH8 is a powered IP45 system with an integrated IP65 electronic enclosure, to resist even heavy rain.",
+    "specifications": {
+      "Type": "Active line array element (Source: "Type: Active line array element")",
+      "Transducers": "8x 8\" Neodymium magnet woofer with 2.5\" voice coil, 8x 4\" Neodymium magnet drivers with 1.5\" voice coil, 4x Neodymium magnet compression driver with 1.5\" voice coil (Source: "Transducers: 8x 8\" Neodymium magnet woofer with 2.5\" voice coil 8x 4\" Neodymium magnet drivers with 1.5\" voice coil 4x Neodymium magnet compression driver with 1.5\" voice coil")",
+      "Frequency Response": "70 Hz - 18 kHz (-3 dB) (Source: "Frequency Response: 70 Hz - 18 kHz (-3 dB)")",
+      "Max SPL": "145 dB peak (Source: "Max SPL: 145 dB peak")",
+      "Coverage": "Horizontal: 120° Vertical: digitally adjustable with Electronic Beam Steering (Source: "Coverage: Horizontal: 120° Vertical: digitally adjustable with Electronic Beam Steering")",
+      "Remote Control": "Remote control with dedicated PC software via Ethernet (Source: "Remote Control: Remote control with dedicated PC software via Ethernet")",
+      "Connectors": "Analog, AES3 and Remote control: Easy-grip metal locking LK25 connector (MIL C 5015 and VG95234 spec.) (Source: "Connectors: Analog, AES3 and Remote control: Easy-grip metal locking LK25 connector (MIL C 5015 and VG95234 spec.)")",
+      "Built-in DSP": "Input gain, delay up to 2 s, Full parametric IIR filters (Peaking, Shelving, Hi/Lo pass, Hi/Lo Butterworth), FIR filter for digital beam steering Level and Temperature remote monitoring (Source: "Built-in DSP: Input gain, delay up to 2 s, Full parametric IIR filters (Peaking, Shelving, Hi/Lo pass, Hi/Lo Butterworth), FIR filter for digital beam steering Level and Temperature remote monitoring")",
+      "Dimensions (W x H x D)": "1170 x 500 x 226 mm (46.1 x 19.7 x 8.89 in) (Source: "Dimensions (W x H x D): 1170 x 500 x 226 mm (46.1 x 19.7 x 8.89 in)")",
+      "Weight": "75,2 kg (159.84 lb) (Source: "Weight: 75,2 kg (159.84 lb)")",
+      "Material": "Stainless Steel (Source: "Material: Stainless Steel")",
+      "Colors": "Black, Custom RAL (Source: "Colors: Black, Custom RAL")",
+      "IP Rating": "Speaker Box: IP45 / Electronics: IP65 (Source: "IP Rating: Speaker Box: IP45 / Electronics: IP65")",
+      "Amplifier Module": "4-ch., switch mode, class D (Source: "Amp Module: 4-ch., switch mode, class D")",
+      "Output Power": "8x 2000 W @ 4 Ω 1% THD+N (Source: "Output Power: 8x 2000 W @ 4 Ω 1% THD+N")",
+      "Power Consumption": "1250 W @ 4 Ω load, Pink noise 1/8 rated power (Source: "Power Consumption: 1250 W @ 4 Ω load, Pink noise 1/8 rated power")",
+      "Protections": "Over Temp. (Power Limiting - Thermal Shutdown), Short Circuit/Overload Output Protection, Power Limiting, Clip Limiter/Permanent Signal Limiter, High Frequency Protection (Source: "Protections: Over Temp. (Power Limiting - Thermal Shutdown), Short Circuit/Overload Output Protection, Power Limiting, Clip Limiter/Permanent Signal Limiter, High Frequency Protection")",
+      "Operating Range": "100-240V AC, 50-60 Hz with PFC (Source: "Operating Range: 100-240V AC, 50-60 Hz with PFC")",
+      "Mains Connector": "powerCON True (Source: "Mains Connector: powerCON True")"
+    },
+    "accessories": {
+      "Related": [
+        "KH8-FRAME3: Pre-wired frame for 3 KH8 (Source: "KH8-FRAME3 Pre-wired frame for 3 KH8")",
+        "KH7-LINKH8: Hardware link to connect KH7 under KH8 (Source: "KH7-LINKH8 Hardware link to connect KH7 under KH8")",
+        "K8-PW25: Multi-cable power 25 mt (Source: "K8-PW25 Multi-cable power 25 mt")",
+        "K8-SIG25: Multi cable signal + control 25 mt (Source: "K8-SIG25 Multi cable signal + control 25 mt")",
+        "K8-SIG2: Multi cable signal + control 2 mt (Source: "K8-SIG2 Multi cable signal + control 2 mt")",
+        "K8-PW10: Multi-cable power 10 mt (Source: "K8-PW10 Multi-cable power 10 mt")",
+        "K8-CASE1: Flycase for KH8 and KS8 cables + K8-BOX (Source: "K8-CASE1 Flycase for KH8 and KS8 cables + K8-BOX")",
+        "K8-PWCABLE5: PowerconTrue Male-Female 5mt cable (Source: "K8-PWCABLE5 PowerconTrue Male-Female 5mt cable")",
+        "K8-SIG10: Multi cable signal + control 10 mt (Source: "K8-SIG10 Multi cable signal + control 10 mt")",
+        "K8-SIGOUT: 2mt with out LK25 and in XRL+RJ45 (Source: "K8-SIGOUT 2mt with out LK25 and in XRL+RJ45")",
+        "K8-SIGIN: 2mt with in LK25 and out XRL+RJ45 (Source: "K8-SIGIN 2mt with in LK25 and out XRL+RJ45")",
+        "K8-BOX: Power, signals and control box up to 12 KH8/KS8 (Source: "K8-BOX Power, signals and control box up to 12 KH8/KS8")",
+        "KH8-DOLLY3: Dolly for 3 KH8 (Source: "KH8-DOLLY3 Dolly for 3 KH8")",
+        "KH8-DOLLY: Dolly for 6 KH8 (Source: "KH8-DOLLY Dolly for 6 KH8")",
+        "K-COVERH8: Semi-rigid cover for KH8-DOLLY (Source: "K-COVERH8 Semi-rigid cover for KH8-DOLLY")",
+        "K-COVERH8S: Cover for 3 KH8 in a frame (Source: "K-COVERH8S Cover for 3 KH8 in a frame")",
+        "K8-FLY24: Bumper for up to 24 KH8 (Source: "K8-FLY24 Bumper for up to 24 KH8")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Firenze-KH8 is a powerful, top-of-the-line touring system with Slim Array Technology (SAT) and Electronic Beam Steering (EBS). Self-powered and weather resistant. Peak output of 145 dB SPL. Controlled by 8 onboard DSPs. State-of-the-art rigging system allows pre-cabling stacks of 3 units to fly a straight 24-unit cluster in less than 10 minutes. IP45 system with integrated IP65 electronic enclosure. Specifications: Type: Active line array element. Transducers: 8x 8\" Neodymium magnet woofer (2.5\" voice coil), 8x 4\" Neodymium magnet drivers (1.5\" voice coil), 4x Neodymium magnet compression driver (1.5\" voice coil). Frequency Response: 70 Hz - 18 kHz (-3 dB). Max SPL: 145 dB peak. Coverage: Horizontal: 120° Vertical: digitally adjustable. Remote Control: PC software via Ethernet. Connectors: Analog, AES3, LK25. Built-in DSP. Dimensions: 1170 x 500 x 226 mm. Weight: 75,2 kg. Material: Stainless Steel. Colors: Black, Custom RAL. IP Rating: Speaker Box: IP45 / Electronics: IP65. Amplifier Module: 4-ch., switch mode, class D. Output Power: 8x 2000 W @ 4 Ω. Power Consumption: 1250 W. Protections. Operating Range: 100-240V AC, 50-60 Hz with PFC. Mains Connector: powerCON True. Related accessories: KH8-FRAME3, KH7-LINKH8, K8-PW25, K8-SIG25, K8-SIG2, K8-PW10, K8-CASE1, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K8-SIGIN, K8-BOX, KH8-DOLLY3, KH8-DOLLY, K-COVERH8, K-COVERH8S, K8-FLY24.",
+    "semantic_chunks": [
+      "Firenze-KH8: powerful, top-of-the-line touring system with SAT and EBS. Self-powered, weather resistant. Peak SPL 145 dB. 8 onboard DSPs.",
+      "Rigging: State-of-the-art, allows pre-cabling stacks of 3 units for quick 24-unit cluster flying. Cost-sensitive solution.",
+      "IP Rating: IP45 system, integrated IP65 electronic enclosure.",
+      "Specifications: Active line array. Transducers: 8x 8\" Neodymium woofer (2.5\" VC), 8x 4\" Neodymium drivers (1.5\" VC), 4x Neodymium compression driver (1.5\" VC). Freq. Response: 70-18 kHz (-3 dB). Max SPL: 145 dB peak. Coverage: H: 120°, V: digitally adjustable. Amp: 8x 2000W @ 4Ω Class D.",
+      "Physical: 1170x500x226 mm, 75.2 kg. Material: Stainless Steel. Colors: Black, Custom RAL.",
+      "Accessories: KH8-FRAME3, KH7-LINKH8, K8-PW25, K8-SIG25, K8-SIG2, K8-PW10, K8-CASE1, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K8-SIGIN, K8-BOX, KH8-DOLLY3, KH8-DOLLY, K-COVERH8, K-COVERH8S, K8-FLY24."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Firenze-KH8?", "answer": "Digitally Steerable, Compact Touring System / Active line array element."},
+      {"question": "What technologies does the Firenze-KH8 feature?", "answer": "Slim Array Technology (SAT) and Electronic Beam Steering (EBS)."},
+      {"question": "What is the peak SPL of the Firenze-KH8?", "answer": "145 dB SPL."},
+      {"question": "How many DSPs are onboard the Firenze-KH8?", "answer": "8 onboard DSPs."},
+      {"question": "What are the IP ratings for the Firenze-KH8?", "answer": "Speaker Box: IP45 / Electronics: IP65."},
+      {"question": "What transducers does the Firenze-KH8 have?", "answer": "8x 8\" Neodymium magnet woofer with 2.5\" voice coil, 8x 4\" Neodymium magnet drivers with 1.5\" voice coil, 4x Neodymium magnet compression driver with 1.5\" voice coil."},
+      {"question": "What is the frequency response of the Firenze-KH8?", "answer": "70 Hz - 18 kHz (-3 dB)."},
+      {"question": "What is the output power of the Firenze-KH8 amplifier?", "answer": "8x 2000 W @ 4 Ω."},
+      {"question": "What are the dimensions of the Firenze-KH8?", "answer": "1170 x 500 x 226 mm (46.1 x 19.7 x 8.89 in)."},
+      {"question": "What is the weight of the Firenze-KH8?", "answer": "75,2 kg (159.84 lb)."},
+      {"question": "What material is the Firenze-KH8 made of?", "answer": "Stainless Steel."},
+      {"question": "What are some related accessories for the Firenze-KH8?", "answer": "KH8-FRAME3, KH7-LINKH8, K8-PW25, K8-SIG25, K8-SIG2, K8-PW10, K8-CASE1, K8-PWCABLE5, K8-SIG10, K8-SIGOUT, K8-SIGIN, K8-BOX, KH8-DOLLY3, KH8-DOLLY, K-COVERH8, K-COVERH8S, K8-FLY24."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Firenze-KH8: Digitally Steerable, Compact Touring System - K-array (https://www.k-array.com/en/product/firenze-kh8)"}
+  ]
+}

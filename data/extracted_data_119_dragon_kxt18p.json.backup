@@ -1,0 +1,129 @@
+{
+  "id": "119",
+  "url": "https://www.k-array.com/en/product/dragon-kxt18p",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DRAGON_SERIES",
+    "product_line": "Dragon",
+    "model": "KXT18P",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KXT18P",
+      "Dragon",
+      "point source speaker",
+      "passive"
+    ],
+    "technical": [
+      "neodymium magnet woofer",
+      "compression driver",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "coverage",
+      "impedance",
+      "IP43"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "kxt18p"
+    ]
+  },
+  "content_sections": {
+    "description": "The Dragon-KXT18P is a high-performance passive full-range point source element. It features an 18\" neodymium magnet woofer, a 4\" compression driver (MF), and a 2.5\" compression driver (HF). It has a frequency response of 48 Hz - 18 kHz (-6dB) and a maximum SPL of 144 dB (peak) half-space. The rated power is 1600W (LF) + 380W (MHF) bi-amplified, with a coverage of V. 40° - H. 60° (Rotatable w/ screws). The dimensions are 650 x 735 x 580 mm (25.6 x 28.9 x 22.8 in) and it weighs 40.8 kg (89.84 lbs). It is made of birch plywood and is available in black or custom RAL colors. It has an IP43 rating.",
+    "specifications": {
+      "Type": "Point source (Source: \"Dragon-KXT18P is a high-performance passive full-range point source element.\")",
+      "Transducers": "18\" neodymium magnet woofer, 4\" compression driver (MF), and a 2.5\" compression driver (HF) (Source: \"It features an 18\" neodymium magnet woofer, a 4\" compression driver (MF), and a 2.5\" compression driver (HF).\")",
+      "Frequency Response": "48 Hz - 18 kHz (-6dB) (Source: \"It has a frequency response of 48 Hz - 18 kHz (-6dB)\")",
+      "Max SPL": "144 dB (peak) half-space (Source: \"and a maximum SPL of 144 dB (peak) half-space.\")",
+      "Rated Power": "1600W (LF) + 380W (MHF) bi-amplified (Source: \"The rated power is 1600W (LF) + 380W (MHF) bi-amplified\")",
+      "Coverage": "V. 40° - H. 60° (Rotatable w/ screws) (Source: \"with a coverage of V. 40° - H. 60° (Rotatable w/ screws).\")",
+      "Dimensions (W x H x D)": "650 x 735 x 580 mm (25.6 x 28.9 x 22.8 in) (Source: \"The dimensions are 650 x 735 x 580 mm (25.6 x 28.9 x 22.8 in)\")",
+      "Weight": "40.8 kg (89.84 lbs) (Source: \"and it weighs 40.8 kg (89.84 lbs).\")",
+      "Material": "Birch Plywood (Source: \"It is made of birch plywood\")",
+      "Colors": "Black, Custom RAL (Source: \"and is available in black or custom RAL colors.\")",
+      "IP Rating": "IP43 (Source: \"It has an IP43 rating.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Dragon-KXT18P is a high-performance passive full-range point source element. Features an 18\" neodymium magnet woofer, a 4\" compression driver (MF), and a 2.5\" compression driver (HF). Frequency response: 48 Hz - 18 kHz (-6dB). Max SPL: 144 dB (peak) half-space. Rated power: 1600W (LF) + 380W (MHF) bi-amplified. Coverage: V. 40° - H. 60° (Rotatable w/ screws). Dimensions: 650 x 735 x 580 mm. Weight: 40.8 kg. Material: Birch Plywood. Colors: Black, Custom RAL. IP43 rating.",
+    "semantic_chunks": [
+      "Dragon-KXT18P: high-performance passive full-range point source element.",
+      "Transducers: 18\" neodymium woofer, 4\" MF compression driver, 2.5\" HF compression driver.",
+      "Performance: Freq. Response: 48-18 kHz (-6dB). Max SPL: 144 dB (peak) half-space. Rated Power: 1600W (LF) + 380W (MHF) bi-amplified. Coverage: V. 40° - H. 60° (Rotatable).",
+      "Physical: Dimensions: 650x735x580 mm. Weight: 40.8 kg. Material: Birch Plywood. Colors: Black, Custom RAL. IP43."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Dragon-KXT18P?",
+        "answer": "High-performance passive full-range point source element."
+      },
+      {
+        "question": "What transducers does the Dragon-KXT18P have?",
+        "answer": "An 18\" neodymium magnet woofer, a 4\" compression driver (MF), and a 2.5\" compression driver (HF)."
+      },
+      {
+        "question": "What is the frequency response of the Dragon-KXT18P?",
+        "answer": "48 Hz - 18 kHz (-6dB)."
+      },
+      {
+        "question": "What is the maximum SPL of the Dragon-KXT18P?",
+        "answer": "144 dB (peak) half-space."
+      },
+      {
+        "question": "What is the rated power of the Dragon-KXT18P?",
+        "answer": "1600W (LF) + 380W (MHF) bi-amplified."
+      },
+      {
+        "question": "What is the coverage of the Dragon-KXT18P?",
+        "answer": "V. 40° - H. 60° (Rotatable w/ screws)."
+      },
+      {
+        "question": "What are the dimensions of the Dragon-KXT18P?",
+        "answer": "650 x 735 x 580 mm (25.6 x 28.9 x 22.8 in)."
+      },
+      {
+        "question": "What is the weight of the Dragon-KXT18P?",
+        "answer": "40.8 kg (89.84 lbs)."
+      },
+      {
+        "question": "What material is the Dragon-KXT18P made of?",
+        "answer": "Birch Plywood."
+      },
+      {
+        "question": "What colors are available for the Dragon-KXT18P?",
+        "answer": "Black, Custom RAL."
+      },
+      {
+        "question": "What is the IP rating of the Dragon-KXT18P?",
+        "answer": "IP43."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Dragon-KXT18P - K-array (https://www.k-array.com/en/product/dragon-kxt18p)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

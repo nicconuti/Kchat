@@ -1,0 +1,43 @@
+{
+  "id": "094",
+  "url": "https://www.k-array.com/en/product/firenze-kh7p",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "FIRENZE_SERIES",
+    "product_line": "Firenze",
+    "model": "KH7P",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KH7P", "Firenze", "line array", "loudspeaker", "passive"],
+    "technical": ["digitally steerable", "neodymium magnet woofers", "horn", "vertical cluster", "horizontal cluster"],
+    "applications": [],
+    "unique_identifiers": ["kh7p"]
+  },
+  "content_sections": {
+    "description": "The K-array Firenze-KH7P I is a digitally steerable slim line array loudspeaker. It is described as an extremely compact loudspeaker with a high-power density. This passive line array element features four 12” coaxial neodymium magnet woofers. The Firenze-KH7P I has an adjustable 100° by 30° horn for selecting wide or narrow sound emission and supports various joining and hanging accessories for vertical and horizontal cluster arrays.",
+    "specifications": {
+      "Type": "Digitally Steerable Slim Line Array Loudspeaker (Source: "K-array Firenze-KH7P I : Digitally Steerable Slim Line Array")",
+      "Woofers": "four 12” coaxial neodymium magnet woofers (Source: "features four 12” coaxial neodymium magnet woofers")",
+      "Horn": "adjustable 100° by 30° horn for selecting wide or narrow sound emission (Source: "The Firenze-KH7P I has an adjustable 100° by 30° horn for selecting wide or narrow sound emission")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-array Firenze-KH7P I is a digitally steerable slim line array loudspeaker. Compact with high-power density. Passive line array element with four 12” coaxial neodymium magnet woofers. Adjustable 100° by 30° horn. Supports various joining and hanging accessories for vertical and horizontal cluster arrays.",
+    "semantic_chunks": [
+      "Firenze-KH7P I: digitally steerable slim line array loudspeaker.",
+      "Features: Compact, high-power density, passive. Four 12” coaxial neodymium woofers.",
+      "Design: Adjustable 100°x30° horn. Supports vertical/horizontal cluster arrays."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Firenze-KH7P I?", "answer": "Digitally Steerable Slim Line Array Loudspeaker."},
+      {"question": "What kind of woofers does the Firenze-KH7P I have?", "answer": "Four 12” coaxial neodymium magnet woofers."},
+      {"question": "What is the adjustability of the horn on the Firenze-KH7P I?", "answer": "Adjustable 100° by 30° horn for selecting wide or narrow sound emission."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "K-array Firenze-KH7P I : Digitally Steerable Slim Line Array - K-array (https://www.k-array.com/en/product/firenze-kh7p)"}
+  ]
+}

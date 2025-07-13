@@ -1,0 +1,98 @@
+{
+  "id": "084",
+  "url": "https://www.k-array.com/en/product/mugello-kh2pl",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH2PL",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": [
+      "KH2PL",
+      "Mugello",
+      "line array",
+      "speaker"
+    ],
+    "technical": [
+      "neodymium magnet woofers",
+      "compression drivers",
+      "Slim Array Technology",
+      "Electronic Beam Steering"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "kh2pl"
+    ]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH2P I is a small-format line array with digital steering. It is a passive element designed to be driven by an active Mugello-KH2 I. It features two 8” neodymium magnet woofers and two compression drivers. It utilizes Slim Array Technology for improved impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, which, along with mechanical steering, enables digital adjustment of sound beam dispersion for precise sound field aiming. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Small-format line array with digital steering (Source: \"Mugello-KH2P I: Small-format line array with digital steering\")",
+      "Status": "DISCONTINUED (Source: \"The product is listed as \"DISCONTINUED\".\")",
+      "Woofers": "two 8” neodymium magnet woofers (Source: \"It features two 8” neodymium magnet woofers\")",
+      "Drivers": "two compression drivers (Source: \"and two compression drivers\")",
+      "Technology": "Slim Array Technology, Electronic Beam Steering (Source: \"The speaker utilizes Slim Array Technology for improved impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, which, along with mechanical steering, enables digital adjustment of sound beam dispersion for precise sound field aiming.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH2P I is a DISCONTINUED small-format line array with digital steering. Passive element designed to be driven by an active Mugello-KH2 I. Features two 8” neodymium magnet woofers and two compression drivers. Utilizes Slim Array Technology for improved impulse response and unique cardioid polar pattern. Incorporates K-array's Electronic Beam Steering technology for digital adjustment of sound beam dispersion.",
+    "semantic_chunks": [
+      "Mugello-KH2P I: DISCONTINUED small-format line array with digital steering.",
+      "Components: Passive element, driven by active Mugello-KH2 I. Two 8” neodymium magnet woofers, two compression drivers.",
+      "Technologies: Slim Array Technology (improved impulse response, cardioid polar pattern). Electronic Beam Steering (digital sound beam dispersion adjustment)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Mugello-KH2P I?",
+        "answer": "Small-format line array with digital steering."
+      },
+      {
+        "question": "What is the status of the Mugello-KH2P I?",
+        "answer": "DISCONTINUED."
+      },
+      {
+        "question": "What kind of woofers does the Mugello-KH2P I have?",
+        "answer": "Two 8” neodymium magnet woofers."
+      },
+      {
+        "question": "What kind of drivers does the Mugello-KH2P I have?",
+        "answer": "Two compression drivers."
+      },
+      {
+        "question": "What technologies are featured in the Mugello-KH2P I?",
+        "answer": "Slim Array Technology and Electronic Beam Steering."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Mugello-KH2P I: Small-format line array with digital steering - K-array (https://www.k-array.com/en/product/mugello-kh2pl)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE & EASE Focus Data",
+      "Preset",
+      "DWG 3D",
+      "DXF 2D",
+      "3DS 3D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity",
+      "BIM files"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

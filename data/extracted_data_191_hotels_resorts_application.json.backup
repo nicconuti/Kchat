@@ -1,0 +1,197 @@
+{
+  "id": "191",
+  "url": "https://www.k-array.com/en/application/hotels-and-resorts",
+  "timestamp": "2025-07-12T13:40:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "APPLICATIONS",
+    "subcategory": "HOTELS_AND_RESORTS",
+    "application_type": "market_vertical",
+    "content_type": "application_overview"
+  },
+  "keywords": {
+    "primary": [
+      "hotels",
+      "resorts",
+      "home away from home",
+      "guests feel happy",
+      "calm comfortable"
+    ],
+    "technical": [
+      "high intelligibility",
+      "maximum results",
+      "sleek design",
+      "premium materials",
+      "customizable finishes"
+    ],
+    "applications": [
+      "relaxing music",
+      "lobby",
+      "lively beats",
+      "hotel lounge",
+      "discreet systems",
+      "interior design"
+    ],
+    "products": [
+      "Vyper KV52 II",
+      "Vyper KV25 II",
+      "Rumble KU210",
+      "Lyzard KZ14 I",
+      "Kobra KK102 I",
+      "Dragon KX12",
+      "Kommander KA208"
+    ]
+  },
+  "content_sections": {
+    "application_overview": {
+      "description": "A home away from home, hotels have the difficult task of making guests feel as happy, calm and comfortable like they are in their own house",
+      "key_solution": "Providing relaxing music flowing softly through the lobby or lively beats pumping in the hotel lounge",
+      "unique_value_proposition": "High intelligibility for maximum results and sleek design with premium materials and customizable finishes"
+    },
+    "recommended_products": [
+      {
+        "product_line": "Vyper Series",
+        "models": [
+          "KV52 II",
+          "KV25 II"
+        ],
+        "use_case": "Hotel main audio systems"
+      },
+      {
+        "product_line": "Rumble Series",
+        "models": [
+          "KU210",
+          "KU44",
+          "KU26",
+          "KU212"
+        ],
+        "use_case": "Hotel subwoofer applications"
+      },
+      {
+        "product_line": "Lyzard",
+        "models": [
+          "KZ14 I"
+        ],
+        "use_case": "Compact hotel installations"
+      },
+      {
+        "product_line": "Kobra",
+        "models": [
+          "KK102 I",
+          "KK52 I"
+        ],
+        "use_case": "Hotel column speaker systems"
+      },
+      {
+        "product_line": "Dragon",
+        "models": [
+          "KX12"
+        ],
+        "use_case": "Hotel venue audio systems"
+      },
+      {
+        "product_line": "Kommander Amplifiers",
+        "models": [
+          "KA18",
+          "KA28",
+          "KA14 I",
+          "KA34",
+          "KA68",
+          "KA104",
+          "KA208"
+        ],
+        "use_case": "Hotel amplification systems"
+      }
+    ],
+    "installation_scenarios": {
+      "design_philosophy": "Discreet systems that provide desired comfort and a credible hospitality experience",
+      "integration_goal": "Speakers that integrate easily into the interior design",
+      "audio_environments": [
+        "Relaxing music flowing softly through the lobby",
+        "Lively beats pumping in the hotel lounge"
+      ]
+    },
+    "case_studies": [
+      {
+        "name": "W Hotel Edinburgh"
+      },
+      {
+        "name": "Portrait Hotel Milano"
+      },
+      {
+        "name": "Mercure Hotel Miri"
+      },
+      {
+        "name": "Sommerro Hotel Oslo"
+      }
+    ]
+  },
+  "embedding_optimized": {
+    "searchable_text": "hotels resorts home away from home guests feel happy calm comfortable relaxing music lobby lively beats hotel lounge high intelligibility maximum results sleek design premium materials customizable finishes discreet systems interior design Vyper KV52 II KV25 II Rumble KU210 KU44 KU26 KU212 Lyzard KZ14 I Kobra KK102 I KK52 I Dragon KX12 Kommander KA18 KA28 KA14 I KA34 KA68 KA104 KA208 W Hotel Edinburgh Portrait Hotel Milano Mercure Hotel Miri Sommerro Hotel Oslo",
+    "semantic_chunks": [
+      "Hotels and resorts create a home away from home, making guests feel as happy, calm and comfortable as in their own house",
+      "Solutions provide relaxing music flowing softly through lobbies or lively beats pumping in hotel lounges with high intelligibility",
+      "Design features sleek aesthetics with premium materials and customizable finishes that integrate easily into interior design",
+      "Product portfolio includes Vyper series, Rumble subwoofers, Lyzard, Kobra speakers, Dragon systems, and Kommander amplifiers",
+      "Case studies include W Hotel Edinburgh, Portrait Hotel Milano, Mercure Hotel Miri, and Sommerro Hotel Oslo"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is K-Array's approach to hotel audio?",
+        "a": "A home away from home, making guests feel as happy, calm and comfortable like they are in their own house"
+      },
+      {
+        "q": "What audio environments does K-Array create in hotels?",
+        "a": "Relaxing music flowing softly through the lobby or lively beats pumping in the hotel lounge"
+      },
+      {
+        "q": "What are the design characteristics of K-Array hotel products?",
+        "a": "High intelligibility for maximum results and sleek design with premium materials and customizable finishes"
+      },
+      {
+        "q": "What K-Array products are recommended for hotels?",
+        "a": "Vyper series (KV52 II, KV25 II), Rumble subwoofers, Lyzard KZ14 I, Kobra speakers, Dragon KX12, and Kommander amplifiers"
+      },
+      {
+        "q": "What are examples of K-Array hotel installations?",
+        "a": "W Hotel Edinburgh, Portrait Hotel Milano, Mercure Hotel Miri, and Sommerro Hotel Oslo"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "A home away from home, hotels have the difficult task of making guests feel as happy, calm and comfortable like they are in their own house",
+      "source": "Direct quote from Hotels and Resorts page"
+    },
+    {
+      "claim": "Relaxing music flowing softly through the lobby or lively beats pumping in the hotel lounge",
+      "source": "Direct quote from Hotels and Resorts page"
+    },
+    {
+      "claim": "High intelligibility for maximum results and sleek design with premium materials and customizable finishes",
+      "source": "Direct quote from Hotels and Resorts page"
+    },
+    {
+      "claim": "Discreet systems that provide desired comfort and a credible hospitality experience",
+      "source": "Direct quote from Page Title"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

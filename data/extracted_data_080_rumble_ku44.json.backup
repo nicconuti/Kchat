@@ -1,0 +1,139 @@
+{
+  "id": "080",
+  "url": "https://www.k-array.com/en/product/Rumble-KU44",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "RUMBLE_SERIES",
+    "product_line": "Rumble",
+    "model": "KU44",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KU44",
+      "Rumble",
+      "subwoofer"
+    ],
+    "technical": [
+      "neodymium transducer",
+      "passive radiator",
+      "frequency response",
+      "max SPL",
+      "rated power",
+      "impedance",
+      "IP64"
+    ],
+    "applications": [
+      "aquatic environments"
+    ],
+    "unique_identifiers": [
+      "ku44"
+    ]
+  },
+  "content_sections": {
+    "description": "The K-array Rumble-KU44 I is an extremely compact, arrayable passive subwoofer. It is designed to combine with mid-high speakers to provide a full-range frequency response with high output in a virtually invisible profile. It is entirely made of steel, making it resistant to tough weather conditions, ideal for aquatic environments. A MARINE version with higher salt corrosion treatments is available on request. K-ARRAY Kommander amplifiers are recommended for optimal performance with Rumble subwoofers.",
+    "specifications": {
+      "Drivers": "Two 4\" neodymium transducers and two 4\" passive radiators (Source: \"Drivers: Two 4\" neodymium transducers and two 4\" passive radiators.\")",
+      "Frequency Response": "50 Hz to 150 Hz (subwoofer section) (Source: \"Frequency Response: 50 Hz to 150 Hz (subwoofer section).\")",
+      "General Frequency Response": "45 Hz - 150 / 500 Hz (-6 dB) (Source: \"The general specifications list 45 Hz - 150 / 500 Hz (-6 dB).\")",
+      "Impedance": "Selectable between 8 Ω and 32 Ω (Source: \"Impedance: Selectable between 8 Ω and 32 Ω.\")",
+      "Material": "Steel (Source: \"Entirely made of steel\")",
+      "Dimensions": "500 x 116 x 100 mm (19.7 x 4.6 x 4.0 in) (Source: \"Dimensions: 500 x 116 x 100 mm (19.7 x 4.6 x 4.0 in).\")",
+      "Weight": "5.9 kg (13.0 lb) (Source: \"Weight: 5.9 kg (13.0 lb).\")",
+      "Max SPL": "116 dB (peak) (Source: \"Max SPL: 116 dB (peak).\")",
+      "Rated Power": "120 W (Source: \"Rated Power: 120 W.\")",
+      "IP Rating": "IP64 (Source: \"IP Rating: IP64.\")",
+      "Color Options": "black, white, and customizable colors/finishes (Source: \"The product is available in black, white, and customizable colors/finishes.\")",
+      "Versions": "new 2Ω versions and MARINE versions with 2Ω options (Source: \"There are also new 2Ω versions and MARINE versions with 2Ω options.\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-array Rumble-KU44 I is an extremely compact, arrayable passive subwoofer. Designed to combine with mid-high speakers for full-range frequency response and high output in a virtually invisible profile. Features two 4\" neodymium transducers and two 4\" passive radiators. Frequency Response: 50 Hz to 150 Hz (subwoofer section), general 45 Hz - 150 / 500 Hz (-6 dB). Selectable impedance: 8 Ω and 32 Ω. Made entirely of steel, resistant to tough weather conditions, ideal for aquatic environments. MARINE version available. Dimensions: 500 x 116 x 100 mm (19.7 x 4.6 x 4.0 in). Weight: 5.9 kg (13.0 lb). Max SPL: 116 dB (peak). Rated Power: 120 W. IP Rating: IP64. Available in black, white, and customizable colors/finishes. New 2Ω versions and MARINE versions with 2Ω options. K-ARRAY Kommander amplifiers recommended.",
+    "semantic_chunks": [
+      "Rumble-KU44 I: compact, arrayable passive subwoofer. Designed for full-range frequency response with mid-high speakers.",
+      "Drivers: Two 4\" neodymium transducers, two 4\" passive radiators. Frequency Response: 50-150 Hz (subwoofer), 45-150/500 Hz (-6 dB). Impedance: 8Ω/32Ω selectable.",
+      "Construction: Steel, weather-resistant, suitable for aquatic environments. MARINE version available.",
+      "Physical: 500x116x100 mm (19.7x4.6x4.0 in), 5.9 kg (13.0 lb). Max SPL: 116 dB (peak). Rated Power: 120 W. IP64.",
+      "Options: Black, white, custom colors/finishes. New 2Ω and MARINE 2Ω versions. K-ARRAY Kommander amplifiers recommended."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Rumble-KU44 I?",
+        "answer": "Extremely compact, arrayable passive subwoofer."
+      },
+      {
+        "question": "What drivers does the Rumble-KU44 I have?",
+        "answer": "Two 4\" neodymium transducers and two 4\" passive radiators."
+      },
+      {
+        "question": "What is the frequency response of the Rumble-KU44 I?",
+        "answer": "50 Hz to 150 Hz (subwoofer section), general 45 Hz - 150 / 500 Hz (-6 dB)."
+      },
+      {
+        "question": "What are the impedance options for the Rumble-KU44 I?",
+        "answer": "Selectable between 8 Ω and 32 Ω."
+      },
+      {
+        "question": "What material is the Rumble-KU44 I made of?",
+        "answer": "Steel."
+      },
+      {
+        "question": "What are the dimensions of the Rumble-KU44 I?",
+        "answer": "500 x 116 x 100 mm (19.7 x 4.6 x 4.0 in)."
+      },
+      {
+        "question": "What is the weight of the Rumble-KU44 I?",
+        "answer": "5.9 kg (13.0 lb)."
+      },
+      {
+        "question": "What is the maximum SPL of the Rumble-KU44 I?",
+        "answer": "116 dB (peak)."
+      },
+      {
+        "question": "What is the rated power of the Rumble-KU44 I?",
+        "answer": "120 W."
+      },
+      {
+        "question": "What is the IP rating of the Rumble-KU44 I?",
+        "answer": "IP64."
+      },
+      {
+        "question": "What color options are available for the Rumble-KU44 I?",
+        "answer": "Black, white, and customizable colors/finishes."
+      },
+      {
+        "question": "Are there other versions of the Rumble-KU44 I?",
+        "answer": "Yes, new 2Ω versions and MARINE versions with 2Ω options."
+      },
+      {
+        "question": "What amplifiers are recommended for the Rumble-KU44 I?",
+        "answer": "K-ARRAY Kommander amplifiers."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "K-array Rumble-KU44 I: passive Subwoofer with 4x 4\" drivers - K-array (https://www.k-array.com/en/product/Rumble-KU44)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

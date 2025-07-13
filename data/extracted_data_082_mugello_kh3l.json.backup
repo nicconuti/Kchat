@@ -1,0 +1,61 @@
+{
+  "id": "082",
+  "url": "https://www.k-array.com/en/product/mugello-kh3l",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH3L",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KH3L", "Mugello", "line array", "speaker"],
+    "technical": ["neodymium magnet woofers", "compression drivers", "Class-D amplifier", "DSP", "Slim Array Technology", "Electronic Beam Steering"],
+    "applications": ["event productions"],
+    "unique_identifiers": ["kh3l"]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH3 I is a medium-format line array with digital steering, which is now discontinued. It is an incredibly flat and lightweight self-powered speaker, part of the K-array Mugello Series. It features two 12” neodymium magnet woofers and two compression drivers. A single active Mugello-KH3 I can drive up to three passive Mugello-KH3P I elements due to its powerful four-channel Class-D 1500W @ 4Ω amplifier module with DSP. The Mugello-KH3 I utilizes Slim Array Technology for better impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, allowing digital adjustment of sound beam dispersion for precise sound field aiming.",
+    "specifications": {
+      "Type": "Medium-format line array with digital steering (Source: "Mugello-KH3 I: Medium-format line array with digital steering")",
+      "Status": "DISCONTINUED (Source: "Mugello-KH3 I (DISCONTINUED)")",
+      "Woofers": "two 12” neodymium magnet woofers (Source: "It features two 12” neodymium magnet woofers")",
+      "Drivers": "two compression drivers (Source: "and two compression drivers")",
+      "Amplifier": "four-channel Class-D 1500W @ 4Ω amplifier module with DSP (Source: "powerful four-channel Class-D 1500W @ 4Ω amplifier module with DSP")",
+      "Technology": "Slim Array Technology, Electronic Beam Steering (Source: "The Mugello-KH3 I utilizes Slim Array Technology for better impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, allowing digital adjustment of sound beam dispersion for precise sound field aiming.")"
+    },
+    "integrations": {
+      "Control4": "(Source: "integrations with CONTROL4")",
+      "Q-SYS": "(Source: "Q-SYS")",
+      "Crestron Home": "(Source: "Crestron Home")",
+      "Crestron": "(Source: "Crestron")",
+      "AMX by Harman": "(Source: "AMX by Harman")",
+      "Dante Ready": "(Source: "Dante Ready")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH3 I is a DISCONTINUED medium-format line array with digital steering. Incredibly flat and lightweight self-powered speaker. Features two 12” neodymium magnet woofers and two compression drivers. Single active unit can drive up to three passive Mugello-KH3P I elements. Powerful four-channel Class-D 1500W @ 4Ω amplifier module with DSP. Utilizes Slim Array Technology for better impulse response and unique cardioid polar pattern. Incorporates K-array's Electronic Beam Steering technology for digital adjustment of sound beam dispersion. Integrates with CONTROL4, Q-SYS, Crestron Home, Crestron, AMX by Harman, and Dante Ready.",
+    "semantic_chunks": [
+      "Mugello-KH3 I: DISCONTINUED medium-format line array with digital steering.",
+      "Components: Flat, lightweight, self-powered speaker. Two 12” neodymium magnet woofers, two compression drivers.",
+      "Amplification: Single active unit drives up to three passive Mugello-KH3P I elements. Four-channel Class-D 1500W @ 4Ω amplifier with DSP.",
+      "Technologies: Slim Array Technology (better impulse response, cardioid polar pattern). Electronic Beam Steering (digital sound beam dispersion adjustment).",
+      "Integrations: CONTROL4, Q-SYS, Crestron Home, Crestron, AMX by Harman, Dante Ready."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Mugello-KH3 I?", "answer": "Medium-format line array with digital steering."},
+      {"question": "What is the status of the Mugello-KH3 I?", "answer": "DISCONTINUED."},
+      {"question": "What kind of woofers does the Mugello-KH3 I have?", "answer": "Two 12” neodymium magnet woofers."},
+      {"question": "What kind of drivers does the Mugello-KH3 I have?", "answer": "Two compression drivers."},
+      {"question": "What is the power output of the Mugello-KH3 I amplifier?", "answer": "1500W @ 4Ω per channel."},
+      {"question": "What technologies are featured in the Mugello-KH3 I?", "answer": "Slim Array Technology and Electronic Beam Steering."},
+      {"question": "What control systems can the Mugello-KH3 I integrate with?", "answer": "CONTROL4, Q-SYS, Crestron Home, Crestron, AMX by Harman, and Dante Ready."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Mugello-KH3 I: Medium-format line array with digital steering - K-array (https://www.k-array.com/en/product/mugello-kh3l)"}
+  ]
+}

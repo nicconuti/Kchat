@@ -1,0 +1,197 @@
+{
+  "id": "174",
+  "url": "https://www.k-array.com/en/products/line/Prisma",
+  "timestamp": "2025-07-12T12:15:00Z",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCT_LINES",
+    "subcategory": "PRISMA_SERIES",
+    "product_line": "Prisma",
+    "content_type": "product_line_overview"
+  },
+  "keywords": {
+    "primary": [
+      "Prisma",
+      "Matrix Processing Platform",
+      "powered matrix",
+      "analog channels",
+      "Dante channels"
+    ],
+    "technical": [
+      "IEB Pro",
+      "8x8 configuration",
+      "600W",
+      "750W",
+      "50W",
+      "150W",
+      "2Ω",
+      "4Ω"
+    ],
+    "applications": [
+      "residential",
+      "corporate",
+      "education",
+      "hospitality",
+      "retail",
+      "museums"
+    ],
+    "unique_identifiers": [
+      "KPR00+",
+      "KPRA14+",
+      "KPRA34+",
+      "KPRA02+",
+      "KPRA04+"
+    ]
+  },
+  "content_sections": {
+    "series_overview": {
+      "description": "Matrix Processing Platform with various input/output configurations",
+      "key_features": [
+        "Available in multiple configurations",
+        "Up to 8x8 Analog Channels",
+        "Up to 8x8 Dante Channels",
+        "Powered versions with different output power ranges"
+      ]
+    },
+    "product_models": [
+      {
+        "model": "KPR00+",
+        "type": "Matrix Processing Platform",
+        "features": [
+          "IEB Pro (8x8 Dante Channels, optional activation)",
+          "0-8 analog inputs",
+          "0-8 analog outputs",
+          "9 distinct configuration setups"
+        ]
+      },
+      {
+        "model": "KPRA14+",
+        "type": "Powered matrix with 4 powered outputs",
+        "power": "4x600W @ 2Ω",
+        "features": [
+          "IEB Pro with 8x8 Dante Channels"
+        ]
+      },
+      {
+        "model": "KPRA34+",
+        "type": "Powered matrix with 4 powered outputs",
+        "power": "4x750W @ 4Ω",
+        "features": [
+          "IEB Pro with 8x8 Dante Channels"
+        ]
+      },
+      {
+        "model": "KPRA02+",
+        "inputs": "4 analog inputs",
+        "outputs": "4 powered outputs",
+        "power": "4x50W @ 4Ω"
+      },
+      {
+        "model": "KPRA04+",
+        "inputs": "4 analog inputs",
+        "outputs": "4 powered outputs",
+        "power": "4x150W @ 4Ω"
+      }
+    ],
+    "technical_details": {
+      "connectivity": "Analog and Dante channel options",
+      "configuration": "Flexible input/output configurations",
+      "optional_features": "Optional IEB Pro activation",
+      "power_ranges": [
+        "4x50W @ 4Ω",
+        "4x150W @ 4Ω",
+        "4x600W @ 2Ω",
+        "4x750W @ 4Ω"
+      ]
+    },
+    "applications": {
+      "primary_markets": [
+        "Residential",
+        "Corporate",
+        "Education",
+        "Government",
+        "Restaurants and Cafes",
+        "Retail",
+        "Hospitality",
+        "Fitness and Wellness",
+        "Museums and Exhibitions",
+        "Transportation Facilities",
+        "Hotels and Resorts"
+      ],
+      "use_cases": [
+        "Commercial audio installations",
+        "Residential audio systems",
+        "Educational facilities",
+        "Corporate environments"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Prisma Matrix Processing Platform various input output configurations 8x8 analog channels 8x8 Dante channels powered versions KPR00+ KPRA14+ KPRA34+ KPRA02+ KPRA04+ IEB Pro 600W 750W 50W 150W 2 ohm 4 ohm residential corporate education government restaurants retail hospitality fitness museums transportation hotels flexible configuration",
+    "semantic_chunks": [
+      "Prisma is a Matrix Processing Platform with various input/output configurations and multiple model options",
+      "Key models include KPR00+ (processing platform), KPRA14+ (4x600W @ 2Ω), KPRA34+ (4x750W @ 4Ω), KPRA02+ (4x50W @ 4Ω), and KPRA04+ (4x150W @ 4Ω)",
+      "Features up to 8x8 analog channels, up to 8x8 Dante channels, and optional IEB Pro activation",
+      "Applications span residential, corporate, education, government, restaurants, retail, hospitality, fitness, museums, and hotels",
+      "Offers flexible input/output configurations with both analog and Dante connectivity options"
+    ],
+    "qa_pairs": [
+      {
+        "q": "What is the K-Array Prisma series?",
+        "a": "Matrix Processing Platform with various input/output configurations"
+      },
+      {
+        "q": "What are the main Prisma models?",
+        "a": "KPR00+, KPRA14+, KPRA34+, KPRA02+, and KPRA04+"
+      },
+      {
+        "q": "What power options does Prisma offer?",
+        "a": "4x50W @ 4Ω, 4x150W @ 4Ω, 4x600W @ 2Ω, and 4x750W @ 4Ω"
+      },
+      {
+        "q": "What connectivity does Prisma support?",
+        "a": "Up to 8x8 analog channels and up to 8x8 Dante channels with optional IEB Pro"
+      },
+      {
+        "q": "What applications is Prisma designed for?",
+        "a": "Residential, corporate, education, government, restaurants, retail, hospitality, fitness, museums, and hotels"
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "claim": "Matrix Processing Platform with various input/output configurations",
+      "source": "Direct quote from Prisma series overview"
+    },
+    {
+      "claim": "4x600W @ 2Ω",
+      "source": "Direct specification from KPRA14+ model details"
+    },
+    {
+      "claim": "4x750W @ 4Ω",
+      "source": "Direct specification from KPRA34+ model details"
+    },
+    {
+      "claim": "IEB Pro (8x8 Dante Channels, optional activation)",
+      "source": "Direct specification from KPR00+ features"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

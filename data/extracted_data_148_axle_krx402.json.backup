@@ -1,0 +1,108 @@
+{
+  "id": "148",
+  "url": "https://www.k-array.com/en/product/axle-krx402",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "AXLE_SERIES",
+    "product_line": "Axle",
+    "model": "KRX402",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": [
+      "KRX402",
+      "Axle",
+      "portable system",
+      "medium-format",
+      "high-pressure"
+    ],
+    "technical": [
+      "Dragon-KX12 coaxial loudspeakers",
+      "Thunder-KMT21 subwoofer"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "krx402"
+    ]
+  },
+  "content_sections": {
+    "description": "The K-array Axle-KRX402 is a medium-format, high-pressure portable system. It consists of an array of two Dragon-KX12 12\" coaxial loudspeakers and one 21” Thunder-KMT21 subwoofer per side in a stereo configuration. This product is now discontinued.",
+    "specifications": {
+      "Type": "Medium-Format, High Pressure Portable System (Source: \"Axle-KRX402: Medium-Format, High Pressure Portable ... - K-array\")",
+      "Status": "DISCONTINUED (Source: \"This product is now discontinued.\")",
+      "Components": "an array of two Dragon-KX12 12\" coaxial loudspeakers and one 21” Thunder-KMT21 subwoofer per side in a stereo configuration (Source: \"It consists of an array of two Dragon-KX12 12\" coaxial loudspeakers and one 21” Thunder-KMT21 subwoofer per side in a stereo configuration.\")"
+    },
+    "accessories": {
+      "Discontinued": [
+        "K-WHEEL: Set of 4 wheels for Thunder subwoofers. (Source: \"K-WHEEL (DISCONTINUED): Set of 4 wheels for Thunder subwoofers.\")",
+        "K-DANTE: Dante uncompressed, multi-channel networking technology. (Source: \"K-DANTE (DISCONTINUED): Dante uncompressed, multi-channel networking technology.\")",
+        "K-WHEELB: Set of 4 wheels with brake for KMT subwoofers. (Source: \"K-WHEELB (DISCONTINUED): Set of 4 wheels with brake for KMT subwoofers.\")"
+      ],
+      "Related": [
+        "K-IP65KITB: Weatherproof rubber protection for NL4 connectors. (Source: \"K-IP65KITB: Weatherproof rubber protection for NL4 connectors.\")",
+        "K-FLY2B: Steel fly bar for suspending Dragons, Axle systems, KF212 or KU2... (Source: \"K-FLY2B: Steel fly bar for suspending Dragons, Axle systems, KF212 or KU2...\")",
+        "K-KCLAMP/S: Adapter for fastening Kobra/Python/Kayman/Vyper/Drag. (Source: \"K-KCLAMP/S: Adapter for fastening Kobra/Python/Kayman/Vyper/Drag.\")",
+        "K-KCLAMP: Clamp adapter for truss mount of Vypers, Kobras, Pythons, Ka... (Source: \"K-KCLAMP: Clamp adapter for truss mount of Vypers, Kobras, Pythons, Ka...\")",
+        "K-SPK235: Speakon connecting cables for Kobras, Pythons, Kaymans, Drag... (Source: \"K-SPK235: Speakon connecting cables for Kobras, Pythons, Kaymans, Drag...\")",
+        "K-WALL2: Wall mount brace. (Source: \"K-WALL2: Wall mount brace.\")",
+        "K-SPKCABLE075: 75cm-long speakon cable (4 wire) for Pinnacle and Axle. (Source: \"K-SPKCABLE075: 75cm-long speakon cable (4 wire) for Pinnacle and Axle.\")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-array Axle-KRX402 is a DISCONTINUED medium-format, high-pressure portable system. Consists of two Dragon-KX12 12\" coaxial loudspeakers and one 21” Thunder-KMT21 subwoofer per side in a stereo configuration. Discontinued accessories: K-WHEEL, K-DANTE, K-WHEELB. Related accessories: K-IP65KITB, K-FLY2B, K-KCLAMP/S, K-KCLAMP, K-SPK235, K-WALL2, K-SPKCABLE075.",
+    "semantic_chunks": [
+      "Axle-KRX402: DISCONTINUED medium-format, high-pressure portable system.",
+      "Components: Two Dragon-KX12 12\" coaxial loudspeakers and one 21” Thunder-KMT21 subwoofer per side (stereo).",
+      "Accessories: Discontinued (K-WHEEL, K-DANTE, K-WHEELB). Related (K-IP65KITB, K-FLY2B, K-KCLAMP/S, K-KCLAMP, K-SPK235, K-WALL2, K-SPKCABLE075)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Axle-KRX402?",
+        "answer": "Medium-Format, High Pressure Portable System."
+      },
+      {
+        "question": "What is the status of the Axle-KRX402?",
+        "answer": "DISCONTINUED."
+      },
+      {
+        "question": "What components make up the Axle-KRX402 system?",
+        "answer": "An array of two Dragon-KX12 12\" coaxial loudspeakers and one 21” Thunder-KMT21 subwoofer per side in a stereo configuration."
+      },
+      {
+        "question": "What are some discontinued accessories for the Axle-KRX402?",
+        "answer": "K-WHEEL, K-DANTE, K-WHEELB."
+      },
+      {
+        "question": "What are some related accessories for the Axle-KRX402?",
+        "answer": "K-IP65KITB, K-FLY2B, K-KCLAMP/S, K-KCLAMP, K-SPK235, K-WALL2, K-SPKCABLE075."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Axle-KRX402: Medium-Format, High Pressure Portable ... - K-array (https://www.k-array.com/en/product/axle-krx402)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "083",
+  "url": "https://www.k-array.com/en/product/mugello-kh2l",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH2L",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KH2L", "Mugello", "line array", "speaker"],
+    "technical": ["neodymium magnet woofers", "compression drivers", "Class-D amplifier", "Slim Array Technology", "Electronic Beam Steering"],
+    "applications": [],
+    "unique_identifiers": ["kh2l"]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH2 I is an incredibly flat and lightweight, self-powered speaker, part of K-array's Mugello Series. It features two 8” neodymium magnet woofers and two compression drivers, powered by a four-channel Class-D amplifier module delivering 1500W per channel. This allows it to drive up to three Mugello-KH2P I passive line array elements. The speaker utilizes Slim Array Technology for improved impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, which, along with mechanical steering, enables digital adjustment of sound beam dispersion for precise sound field aiming. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Small-format line array with digital steering (Source: "Mugello-KH2 I: Small-format line array with digital steering")",
+      "Status": "DISCONTINUED (Source: "The product is listed as \"DISCONTINUED\".")",
+      "Woofers": "two 8” neodymium magnet woofers (Source: "It features two 8” neodymium magnet woofers")",
+      "Drivers": "two compression drivers (Source: "and two compression drivers")",
+      "Amplifier": "four-channel Class-D amplifier module (Source: "powered by a four-channel Class-D amplifier module")",
+      "Power Output": "1500W per channel (Source: "delivering 1500W per channel")",
+      "Passive Elements Drive Capability": "up to three Mugello-KH2P I passive line array elements (Source: "This allows it to drive up to three Mugello-KH2P I passive line array elements.")",
+      "Technology": "Slim Array Technology, Electronic Beam Steering (Source: "The speaker utilizes Slim Array Technology for improved impulse response and a unique cardioid polar pattern across its frequency range. It also incorporates K-array's Electronic Beam Steering technology, which, along with mechanical steering, enables digital adjustment of sound beam dispersion for precise sound field aiming.")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH2 I is a DISCONTINUED incredibly flat and lightweight, self-powered speaker. Features two 8” neodymium magnet woofers and two compression drivers. Powered by a four-channel Class-D amplifier module delivering 1500W per channel. Can drive up to three Mugello-KH2P I passive line array elements. Utilizes Slim Array Technology for improved impulse response and unique cardioid polar pattern. Incorporates K-array's Electronic Beam Steering technology for digital adjustment of sound beam dispersion.",
+    "semantic_chunks": [
+      "Mugello-KH2 I: DISCONTINUED small-format line array with digital steering.",
+      "Components: Flat, lightweight, self-powered speaker. Two 8” neodymium magnet woofers, two compression drivers.",
+      "Amplification: Four-channel Class-D amplifier, 1500W per channel. Can drive up to three passive Mugello-KH2P I elements.",
+      "Technologies: Slim Array Technology (improved impulse response, cardioid polar pattern). Electronic Beam Steering (digital sound beam dispersion adjustment)."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Mugello-KH2 I?", "answer": "Small-format line array with digital steering."},
+      {"question": "What is the status of the Mugello-KH2 I?", "answer": "DISCONTINUED."},
+      {"question": "What kind of woofers does the Mugello-KH2 I have?", "answer": "Two 8” neodymium magnet woofers."},
+      {"question": "What kind of drivers does the Mugello-KH2 I have?", "answer": "Two compression drivers."},
+      {"question": "What is the power output of the Mugello-KH2 I amplifier?", "answer": "1500W per channel."},
+      {"question": "How many passive elements can the Mugello-KH2 I drive?", "answer": "Up to three Mugello-KH2P I passive line array elements."},
+      {"question": "What technologies are featured in the Mugello-KH2 I?", "answer": "Slim Array Technology and Electronic Beam Steering."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Mugello-KH2 I: Small-format line array with digital steering - K-array (https://www.k-array.com/en/product/mugello-kh2l)"}
+  ]
+}

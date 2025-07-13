@@ -1,0 +1,68 @@
+{
+  "id": "091",
+  "url": "https://www.k-array.com/en/product/firenze-kh7",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "FIRENZE_SERIES",
+    "product_line": "Firenze",
+    "model": "KH7",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KH7", "Firenze", "line array", "loudspeaker"],
+    "technical": ["digitally steerable", "neodymium magnet woofers", "Class D amplifier", "SPL", "horn", "vertical cluster", "horizontal cluster"],
+    "applications": [],
+    "unique_identifiers": ["kh7"]
+  },
+  "content_sections": {
+    "description": "The K-array Firenze-KH7 is a digitally steerable slim line array loudspeaker. It is described as an extremely compact loudspeaker with a high-power density. This self-powered line array element features four 12” coaxial neodymium magnet woofers and can produce a peak output of 141 dB SPL. It includes an integrated Class D amplifier that delivers 4 x 2000 W at 4Ω. The Firenze-KH7 has an adjustable 100° by 30° horn for selecting wide or narrow sound emission and supports various joining and hanging accessories for vertical and horizontal cluster arrays. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Digitally Steerable Slim Line Array Loudspeaker (Source: \"K-array Firenze-KH7: Digitally Steerable Slim Line Array\")",
+      "Status": "DISCONTINUED (Source: \"Firenze-KH7 (DISCONTINUED)\")",
+      "Woofers": "four 12\" coaxial neodymium magnet woofers (Source: \"features four 12\" coaxial neodymium magnet woofers\")",
+      "Peak SPL": "141 dB SPL (Source: \"can produce a peak output of 141 dB SPL\")",
+      "Amplifier": "integrated Class D amplifier (Source: \"It includes an integrated Class D amplifier\")",
+      "Amplifier Output": "4 x 2000 W at 4Ω (Source: \"delivers 4 x 2000 W at 4Ω\")",
+      "Horn": "adjustable 100° by 30° horn for selecting wide or narrow sound emission (Source: \"The Firenze-KH7 has an adjustable 100° by 30° horn for selecting wide or narrow sound emission\")"
+    },
+    "accessories": {
+      "Related": [
+        "KH7-LINKH8: Hardware link to connect KH7 under KH8 (Source: "KH7-LINKH8: Hardware link to connect KH7 under KH8")",
+        "KH7-SIGIN: 1 mt cable with in RJ45 and out 1 x RJ45 and 2 x XLR (Source: "KH7-SIGIN: 1 mt cable with in RJ45 and out 1 x RJ45 and 2 x XLR")",
+        "KH7-FLYV: Bumper for up to 7 KH7 in Vertical cluster (Source: "KH7-FLYV: Bumper for up to 7 KH7 in Vertical cluster")",
+        "KH7-BASE: Base for up to 2 KH7 in Vertical or 3 KH7 in Horizontal (Source: "KH7-BASE: Base for up to 2 KH7 in Vertical or 3 KH7 in Horizontal")",
+        "KH7-FLYH: Bumper for up to 12 KH7 in Horizontal cluster (Source: "KH7-FLYH: Bumper for up to 12 KH7 in Horizontal cluster")",
+        "K8-BOX: Power, signals and control box up to 12 KH8/KS8 (Source: "K8-BOX: Power, signals and control box up to 12 KH8/KS8")",
+        "KH7-DOLLY4: Dolly for 4 KH7 (Source: "KH7-DOLLY4: Dolly for 4 KH7")",
+        "K-STEPKX1225: Fixed 25° Angle Joining Hardware to Connect KX12F I to KH7 i... (Source: "K-STEPKX1225: Fixed 25° Angle Joining Hardware to Connect KX12F I to KH7 i...")",
+        "K-STEPKX1245: Fixed 45° Angle Joining Hardware to Connect KX12F I to KH7 i... (Source: "K-STEPKX1245: Fixed 45° Angle Joining Hardware to Connect KX12F I to KH7 i...")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "K-array Firenze-KH7 is a DISCONTINUED digitally steerable slim line array loudspeaker. Compact with high-power density. Self-powered, features four 12” coaxial neodymium magnet woofers. Peak output of 141 dB SPL. Integrated Class D amplifier delivers 4 x 2000 W at 4Ω. Adjustable 100° by 30° horn. Supports various joining and hanging accessories for vertical and horizontal cluster arrays. Related accessories include KH7-LINKH8, KH7-SIGIN, KH7-FLYV, KH7-BASE, KH7-FLYH, K8-BOX, KH7-DOLLY4, K-STEPKX1225, K-STEPKX1245.",
+    "semantic_chunks": [
+      "Firenze-KH7: DISCONTINUED digitally steerable slim line array loudspeaker.",
+      "Features: Compact, high-power density, self-powered. Four 12” coaxial neodymium woofers. Peak SPL: 141 dB.",
+      "Amplification: Integrated Class D amplifier, 4 x 2000 W at 4Ω.",
+      "Design: Adjustable 100°x30° horn. Supports vertical/horizontal cluster arrays.",
+      "Accessories: KH7-LINKH8, KH7-SIGIN, KH7-FLYV, KH7-BASE, KH7-FLYH, K8-BOX, KH7-DOLLY4, K-STEPKX1225, K-STEPKX1245."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Firenze-KH7?", "answer": "Digitally Steerable Slim Line Array Loudspeaker."},
+      {"question": "What is the status of the Firenze-KH7?", "answer": "DISCONTINUED."},
+      {"question": "What kind of woofers does the Firenze-KH7 have?", "answer": "Four 12” coaxial neodymium magnet woofers."},
+      {"question": "What is the peak SPL of the Firenze-KH7?", "answer": "141 dB SPL."},
+      {"question": "What type of amplifier is in the Firenze-KH7?", "answer": "Integrated Class D amplifier."},
+      {"question": "What is the amplifier output of the Firenze-KH7?", "answer": "4 x 2000 W at 4Ω."},
+      {"question": "What is the adjustability of the horn on the Firenze-KH7?", "answer": "Adjustable 100° by 30° horn for selecting wide or narrow sound emission."},
+      {"question": "What are some related accessories for the Firenze-KH7?", "answer": "KH7-LINKH8, KH7-SIGIN, KH7-FLYV, KH7-BASE, KH7-FLYH, K8-BOX, KH7-DOLLY4, K-STEPKX1225, K-STEPKX1245."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "K-array Firenze-KH7: Digitally Steerable Slim Line Array - K-array (https://www.k-array.com/en/product/firenze-kh7)"}
+  ]
+}

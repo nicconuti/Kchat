@@ -1,0 +1,51 @@
+{
+  "id": "145",
+  "url": "https://www.k-array.com/en/product/duetto-kd6t",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "DUETTO_SERIES",
+    "product_line": "Duetto",
+    "model": "KD6T",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": ["KD6T", "Duetto", "earbuds", "ultra-mini"],
+    "technical": ["transducer", "frequency response", "sensitivity", "impedance"],
+    "applications": [],
+    "unique_identifiers": ["kd6t"]
+  },
+  "content_sections": {
+    "description": "The Duetto-KD6T is a set of ultra-mini, high-quality aluminum alloy earbuds with a Kevlar-reinforced cable. Each earbud is equipped with a full-range 6 mm transducer, capable of reproducing frequencies from 5 Hz to 23 kHz at -12 dB. The earbuds come with three sizes of ear tips (silicon and memory foam) and accessories including a two-prong plane adapter, a 2-in-1 3.5 mm jack, and a genuine leather carrying case.",
+    "specifications": {
+      "Type": "Ultra-Mini Earbuds (Source: "Duetto-KD6T: K-array's Ultra-Mini Earbuds - K-array")",
+      "Transducers": "6 mm neodymium magnet (Source: "Transducers: 6 mm neodymium magnet")",
+      "Frequency Response": "5 Hz - 23 kHz (Source: "Frequency Response: 5 Hz - 23 kHz")",
+      "Sensitivity (1W/1m)": "105 ± 3 dB @ 1 kHz (Source: "Sensitivity (1W/1m): 105 ± 3 dB @ 1 kHz")",
+      "Impedance": "16Ω ±15% (Source: "Impedance: 16Ω ±15%")",
+      "Finishes": "24K Gold, Titanium-anodized Oxidation (Source: "Finishes: 24K Gold, Titanium-anodized Oxidation")",
+      "Material": "Aluminium Alloy (Source: "Material: Aluminium Alloy")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Duetto-KD6T is a set of ultra-mini, high-quality aluminum alloy earbuds with a Kevlar-reinforced cable. Each earbud has a full-range 6 mm transducer, reproducing frequencies from 5 Hz to 23 kHz at -12 dB. Comes with three sizes of ear tips (silicon and memory foam), a two-prong plane adapter, a 2-in-1 3.5 mm jack, and a genuine leather carrying case. Specifications: Type: Ultra-Mini Earbuds. Transducers: 6 mm neodymium magnet. Frequency Response: 5 Hz - 23 kHz. Sensitivity: 105 ± 3 dB @ 1 kHz. Impedance: 16Ω ±15%. Finishes: 24K Gold, Titanium-anodized Oxidation. Material: Aluminium Alloy.",
+    "semantic_chunks": [
+      "Duetto-KD6T: ultra-mini, high-quality aluminum alloy earbuds with Kevlar-reinforced cable.",
+      "Features: Full-range 6 mm transducer, 5-23 kHz freq. response (-12 dB). Three ear tip sizes, plane adapter, 3.5 mm jack, leather carrying case.",
+      "Specifications: Type: Earbuds. Transducers: 6mm neodymium. Freq. Response: 5-23 kHz. Sensitivity: 105 ± 3 dB @ 1 kHz. Impedance: 16Ω ±15%. Finishes: 24K Gold, Titanium-anodized. Material: Aluminium Alloy."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Duetto-KD6T?", "answer": "Ultra-Mini Earbuds."},
+      {"question": "What kind of transducer does the Duetto-KD6T have?", "answer": "A full-range 6 mm transducer."},
+      {"question": "What is the frequency response of the Duetto-KD6T?", "answer": "5 Hz - 23 kHz."},
+      {"question": "What is the sensitivity of the Duetto-KD6T?", "answer": "105 ± 3 dB @ 1 kHz."},
+      {"question": "What is the impedance of the Duetto-KD6T?", "answer": "16Ω ±15%."},
+      {"question": "What finishes are available for the Duetto-KD6T?", "answer": "24K Gold, Titanium-anodized Oxidation."},
+      {"question": "What material is the Duetto-KD6T made of?", "answer": "Aluminum Alloy."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Duetto-KD6T: K-array's Ultra-Mini Earbuds - K-array (https://www.k-array.com/en/product/duetto-kd6t)"}
+  ]
+}

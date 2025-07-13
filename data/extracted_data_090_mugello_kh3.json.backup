@@ -1,0 +1,62 @@
+{
+  "id": "090",
+  "url": "https://www.k-array.com/en/product/mugello-kh3",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "MUGELLO_SERIES",
+    "product_line": "Mugello",
+    "model": "KH3",
+    "content_type": "product_page",
+    "status": "DISCONTINUED"
+  },
+  "keywords": {
+    "primary": ["KH3", "Mugello", "line array", "speaker"],
+    "technical": ["neodymium magnet woofers", "compression drivers", "SPL"],
+    "applications": ["medium scale applications"],
+    "unique_identifiers": ["kh3"]
+  },
+  "content_sections": {
+    "description": "The Mugello-KH3 is the medium format mid-high line array element offered in our Concert Series. The self-powered speaker is comprised of two 12” neodymium magnet woofers with a 2.5” voice coil each and two compression drivers with a 2.5” voice coil each. Boasting the most versatile size of the Mugello line, the Mugello-KH3 has the ability to drive sound further, ensuring exceptionally high performance with a peak SPL of 138 dB perfect for a variety of applications of medium scale. This product is DISCONTINUED.",
+    "specifications": {
+      "Type": "Medium-format line array with digital steering (Source: \"Mugello-KH3: Medium-format line array with digital steering\")",
+      "Status": "DISCONTINUED (Source: \"Mugello-KH3 (DISCONTINUED)\")",
+      "Woofers": "two 12\" neodymium magnet woofers with a 2.5\" voice coil each (Source: \"comprised of two 12\" neodymium magnet woofers with a 2.5\" voice coil each\")",
+      "Drivers": "two compression drivers with a 2.5\" voice coil each (Source: \"and two compression drivers with a 2.5\" voice coil each\")",
+      "Peak SPL": "138 dB (Source: \"peak SPL of 138 dB\")"
+    },
+    "accessories": {
+      "Discontinued": [
+        "K-HCFLY: Fly bar for KH3 and KH5 (Source: "K-HCFLY (DISCONTINUED) Fly bar for KH3 and KH5")",
+        "K-DANTE: Dante is an uncompressed, multi-channel networking technology (Source: "K-DANTE (DISCONTINUED) Dante is an uncompressed, multi-channel networking technolog...")",
+        "K-HCDOLLY35: Dolly for 6 KH5 or 6 KH3 (Source: "K-HCDOLLY35 (DISCONTINUED) Dolly for 6 KH5 or 6 KH3")"
+      ],
+      "Available": [
+        "K-AMPCOVER: Rain protection cover for Thunder and Mugello (Source: "K-AMPCOVER Rain protection cover for Thunder and Mugello")"
+      ]
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Mugello-KH3 is a DISCONTINUED medium format mid-high line array element. Self-powered speaker with two 12” neodymium magnet woofers (2.5” voice coil) and two compression drivers (2.5” voice coil). Peak SPL of 138 dB. Suitable for medium scale applications. Discontinued accessories: K-HCFLY, K-DANTE, K-HCDOLLY35. Available accessory: K-AMPCOVER.",
+    "semantic_chunks": [
+      "Mugello-KH3: DISCONTINUED medium-format line array speaker.",
+      "Components: Self-powered, two 12” neodymium woofers (2.5” voice coil), two compression drivers (2.5” voice coil). Peak SPL: 138 dB.",
+      "Applications: medium scale applications.",
+      "Accessories: Discontinued (K-HCFLY, K-DANTE, K-HCDOLLY35), Available (K-AMPCOVER)."
+    ],
+    "qa_pairs": [
+      {"question": "What type of product is the Mugello-KH3?", "answer": "Medium-format line array with digital steering."},
+      {"question": "What is the status of the Mugello-KH3?", "answer": "DISCONTINUED."},
+      {"question": "What kind of woofers does the Mugello-KH3 have?", "answer": "Two 12” neodymium magnet woofers with a 2.5” voice coil each."},
+      {"question": "What kind of drivers does the Mugello-KH3 have?", "answer": "Two compression drivers with a 2.5” voice coil each."},
+      {"question": "What is the peak SPL of the Mugello-KH3?", "answer": "138 dB."},
+      {"question": "What are some applications for the Mugello-KH3?", "answer": "Medium scale applications."},
+      {"question": "What are some discontinued accessories for the Mugello-KH3?", "answer": "K-HCFLY, K-DANTE, K-HCDOLLY35."},
+      {"question": "What is an available accessory for the Mugello-KH3?", "answer": "K-AMPCOVER."}
+    ]
+  },
+  "source_attributions": [
+    {"source": "Mugello-KH3: Medium-format line array with digital steering - K-array (https://www.k-array.com/en/product/mugello-kh3)"}
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "124",
+  "url": "https://www.k-array.com/en/product/pinnacle-kr102-i",
+  "timestamp": "2025-07-12T...",
+  "extraction_quality": "verified",
+  "metadata": {
+    "category": "PRODUCTS",
+    "subcategory": "PINNACLE_SERIES",
+    "product_line": "Pinnacle",
+    "model": "KR102-I",
+    "content_type": "product_page"
+  },
+  "keywords": {
+    "primary": [
+      "KR102-I",
+      "Pinnacle",
+      "portable system",
+      "high-tech",
+      "small-format"
+    ],
+    "technical": [
+      "KMT18P subwoofer",
+      "KP52 I satellite",
+      "Class D amplifier",
+      "DSP",
+      "frequency response",
+      "max SPL",
+      "power"
+    ],
+    "applications": [],
+    "unique_identifiers": [
+      "kr102i"
+    ]
+  },
+  "content_sections": {
+    "description": "The Pinnacle-KR102 is a high-tech, small-format portable system. It is comprised of a KMT18P subwoofer and two KP52 I satellites. The KMT18P features a 18\" neodymium transducer and a 2-channel Class D amplifier with DSP, capable of driving the subwoofer and the two satellites. The system delivers a maximum SPL of 128 dB (peak) and has a frequency response of 30 Hz - 20 kHz (-6 dB).",
+    "specifications": {
+      "Type": "High-Tech, Small-Format Portable System (Source: \"Pinnacle-KR102: High-Tech, Small-Format Portable System - K-array\")",
+      "Components": "KMT18P subwoofer and two KP52 I satellites (Source: \"It is comprised of a KMT18P subwoofer and two KP52 I satellites.\")",
+      "Subwoofer Transducer": "18\" neodymium transducer (Source: \"The KMT18P features a 18\" neodymium transducer\")",
+      "Amplifier": "2-channel Class D amplifier with DSP (Source: \"and a 2-channel Class D amplifier with DSP\")",
+      "Max SPL": "128 dB (peak) (Source: \"The system delivers a maximum SPL of 128 dB (peak)\")",
+      "Frequency Response": "30 Hz - 20 kHz (-6 dB) (Source: \"and has a frequency response of 30 Hz - 20 kHz (-6 dB).\")"
+    }
+  },
+  "embedding_optimized": {
+    "searchable_text": "Pinnacle-KR102 is a high-tech, small-format portable system. Comprised of a KMT18P subwoofer and two KP52 I satellites. KMT18P features an 18\" neodymium transducer and a 2-channel Class D amplifier with DSP. System delivers max SPL of 128 dB (peak) and frequency response of 30 Hz - 20 kHz (-6 dB).",
+    "semantic_chunks": [
+      "Pinnacle-KR102: high-tech, small-format portable system.",
+      "Components: KMT18P subwoofer, two KP52 I satellites.",
+      "Subwoofer: 18\" neodymium transducer, 2-channel Class D amplifier with DSP.",
+      "Performance: Max SPL 128 dB (peak). Freq. Response: 30 Hz - 20 kHz (-6 dB)."
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of product is the Pinnacle-KR102?",
+        "answer": "High-Tech, Small-Format Portable System."
+      },
+      {
+        "question": "What components make up the Pinnacle-KR102 system?",
+        "answer": "A KMT18P subwoofer and two KP52 I satellites."
+      },
+      {
+        "question": "What kind of transducer does the KMT18P subwoofer have?",
+        "answer": "An 18\" neodymium transducer."
+      },
+      {
+        "question": "What type of amplifier is in the KMT18P subwoofer?",
+        "answer": "A 2-channel Class D amplifier with DSP."
+      },
+      {
+        "question": "What is the maximum SPL of the Pinnacle-KR102 system?",
+        "answer": "128 dB (peak)."
+      },
+      {
+        "question": "What is the frequency response of the Pinnacle-KR102 system?",
+        "answer": "30 Hz - 20 kHz (-6 dB)."
+      }
+    ]
+  },
+  "source_attributions": [
+    {
+      "source": "Pinnacle-KR102: High-Tech, Small-Format Portable System - K-array (https://www.k-array.com/en/product/pinnacle-kr102-i)"
+    }
+  ],
+  "documentation": {
+    "available_documents": [
+      "Datasheet",
+      "User Guide",
+      "EASE Data",
+      "DWG 3D",
+      "DXF 2D",
+      "PDF 3D",
+      "Layout",
+      "Architects Specs",
+      "CE Declaration of Conformity"
+    ],
+    "download_links": {
+      "note": "Direct PDF URLs need to be extracted from product page"
+    },
+    "warranty": "Available (details not specified)",
+    "source": "Standard documentation template applied based on product type."
+  }
+}
